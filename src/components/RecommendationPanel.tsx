@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import type { Recommendation } from "../types";
 
 interface Props {
@@ -22,6 +22,35 @@ export default function RecommendationPanel({ recommendations, onSelect, selecte
   const [pos, setPos] = useState({ x: 8, y: 8 });
   const [dragging, setDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0, px: 0, py: 0 });
+  const [size, setSize] = useState({ w: 360, h: 500 });
+  const [resizing, setResizing] = useState(false);
+  const resizeStart = useRef({ x: 0, y: 0, pw: 0, ph: 0 });
+
+  const handleResizeDown = useCallback((e: React.MouseEvent) => {
+    e.stopPropagation();
+    setResizing(true);
+    resizeStart.current = { x: e.clientX, y: e.clientY, pw: size.w, ph: size.h };
+  }, [size]);
+
+  const handleResizeMove = useCallback((e: MouseEvent) => {
+    if (!resizing) return;
+    const dx = e.clientX - resizeStart.current.x;
+    const dy = e.clientY - resizeStart.current.y;
+    setSize({ w: Math.max(260, resizeStart.current.pw + dx), h: Math.max(200, resizeStart.current.ph + dy) });
+  }, [resizing]);
+
+  const handleResizeUp = useCallback(() => { setResizing(false); }, []);
+
+  useEffect(() => {
+    if (resizing) {
+      window.addEventListener("mousemove", handleResizeMove);
+      window.addEventListener("mouseup", handleResizeUp);
+      return () => {
+        window.removeEventListener("mousemove", handleResizeMove);
+        window.removeEventListener("mouseup", handleResizeUp);
+      };
+    }
+  }, [resizing, handleResizeMove, handleResizeUp]);
 
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
     setDragging(true);
@@ -52,17 +81,17 @@ export default function RecommendationPanel({ recommendations, onSelect, selecte
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
       className="fixed z-50"
-      style={{
+      style={{ position: "relative",
         left: pos.x + "px",
         top: pos.y + "px",
-        width: "340px",
-        maxHeight: "calc(100vh - 32px)",
+        width: size.w + "px",
+        maxHeight: Math.min(size.h, window.innerHeight) + "px",
       }}
     >
       <div
         className="bg-white rounded-xl shadow-xl overflow-hidden flex flex-col"
-        style={{
-          maxHeight: "calc(100vh - 32px)",
+        style={{ position: "relative",
+          maxHeight: Math.min(size.h, window.innerHeight) + "px",
           cursor: dragging ? "grabbing" : "default",
         }}
       >
@@ -148,6 +177,15 @@ export default function RecommendationPanel({ recommendations, onSelect, selecte
             </div>
           ))}
         </div>
+      </div>
+      {/* Resize handle */}
+      <div
+        onMouseDown={handleResizeDown}
+        className="absolute right-0 bottom-0 w-5 h-5 cursor-se-resize z-10"
+      >
+        <svg className="absolute right-0.5 bottom-0.5 text-gray-400" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+          <path d="M12 0v3L9 0h3zM12 5v3L7 5h5zM12 10v2H10l2-2zM7 12l5-5v5H7z"/>
+        </svg>
       </div>
     </div>
   );
