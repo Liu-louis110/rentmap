@@ -57,17 +57,20 @@ function App() {
             city: "上海",
             policy: 0,
           });
-          transfer.search([
-            fromLng, fromLat
-          ], [
-            toLng, toLat
-          ], (status: string, result: any) => {
+          transfer.search(
+            new AMap.LngLat(fromLng, fromLat),
+            new AMap.LngLat(toLng, toLat),
+            (status: string, result: any) => {
             if (status === "complete" && result.info === "ok" && result.plans && result.plans.length > 0) {
               const plan = result.plans[0];
               const segments: string[] = [];
               let totalWalking = 0;
               (plan.segments || []).forEach((seg: any) => {
-                if (seg.instruction) {
+                if (seg.bus && seg.bus.buslines && seg.bus.buslines.length > 0) {
+                  const bl = seg.bus.buslines[0];
+                  const type = bl.type === "地铁线路" ? "地铁" : "公交";
+                  segments.push(type + bl.name + "(" + bl.departure_stop.name + "-" + bl.arrival_stop.name + ")");
+                } else if (seg.instruction) {
                   segments.push(seg.instruction);
                 }
                 if (seg.walking && seg.walking.distance) {
@@ -100,7 +103,7 @@ function App() {
         strategy: "0",
         extensions: "all",
       });
-      const url = "/amap/v3/direction/transit/integrated?" + params.toString();
+      const url = "https://restapi.amap.com/v3/direction/transit/integrated?" + params.toString();
       const resp = await fetch(url);
       const data = await resp.json();
       if (data && data.status === "1" && data.route && data.route.transits && data.route.transits.length > 0) {

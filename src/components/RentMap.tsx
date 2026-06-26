@@ -119,6 +119,10 @@ export default function RentMap({
   useEffect(() => {
     let map: any;
     let AMapInstance: any;
+    // 高德地图安全配置
+    window._AMapSecurityConfig = {
+      securityJsCode: "e5770854d498ff0c08e37b639d2356bd",
+    };
     AMapLoader.load({
       key: "f5c468f7fe09be907559b3f62fa9259a",
       version: "2.0",
