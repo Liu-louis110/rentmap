@@ -81,17 +81,14 @@ export default function RecommendationPanel({ recommendations, onSelect, selecte
       onMouseUp={handleMouseUp}
       onMouseLeave={handleMouseUp}
       className="fixed z-50"
-      style={{ position: "relative",
-        left: pos.x + "px",
+      style={{ left: pos.x + "px",
         top: pos.y + "px",
-        width: size.w + "px",
-        maxHeight: Math.min(size.h, window.innerHeight) + "px",
+        width: size.w + "px"
       }}
     >
       <div
         className="bg-white rounded-xl shadow-xl overflow-hidden flex flex-col"
-        style={{ position: "relative",
-          maxHeight: Math.min(size.h, window.innerHeight) + "px",
+        style={{   maxHeight: Math.min(size.h, window.innerHeight) + "px",
           cursor: dragging ? "grabbing" : "default",
         }}
       >
