@@ -53,7 +53,7 @@ function App() {
       try {
       const amap = (window as any).AMap;
       if (amap && amap.Transfer) {
-        return new Promise<CommuteRoute | null>((resolve) => {
+        const routeResult = await new Promise<CommuteRoute | null>((resolve) => {
           const transfer = new amap.Transfer({
             city: "上海",
             policy: 0,
@@ -62,7 +62,7 @@ function App() {
             new amap.LngLat(fromLng, fromLat),
             new amap.LngLat(toLng, toLat),
             (status: string, result: any) => {
-            if (status === "complete" && result.info === "ok" && result.plans && result.plans.length > 0) {
+            if (status === "complete" && result.info?.toLowerCase() === "ok" && result.plans && result.plans.length > 0) {
               const plan = result.plans[0];
               const routeSegments: string[] = [];
               let totalWalking = 0;
@@ -89,6 +89,7 @@ function App() {
             }
           });
         });
+        if (routeResult) return routeResult;
         break;
       }
     } catch (e) {
@@ -108,7 +109,7 @@ function App() {
         strategy: "0",
         extensions: "all",
       });
-      const url = "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://restapi.amap.com/v3/direction/transit/integrated?" + params.toString());
+      const url = "https://restapi.amap.com/v3/direction/transit/integrated?" + params.toString();
       const resp = await fetch(url);
       const data = await resp.json();
       if (data && data.status === "1" && data.route && data.route.transits && data.route.transits.length > 0) {
