@@ -108,7 +108,7 @@ function App() {
         strategy: "0",
         extensions: "all",
       });
-      const url = "https://restapi.amap.com/v3/direction/transit/integrated?" + params.toString();
+      const url = "https://api.allorigins.win/raw?url=" + encodeURIComponent("https://restapi.amap.com/v3/direction/transit/integrated?" + params.toString());
       const resp = await fetch(url);
       const data = await resp.json();
       if (data && data.status === "1" && data.route && data.route.transits && data.route.transits.length > 0) {
