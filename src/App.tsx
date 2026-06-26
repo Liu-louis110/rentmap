@@ -48,30 +48,31 @@ function App() {
 
   // Fetch transit route via AMap Web API
   const fetchRoute = async (fromLng: number, fromLat: number, toLng: number, toLat: number, destName: string): Promise<CommuteRoute | null> => {
-    // Try AMap Transfer plugin first (works on GitHub Pages, no CORS issues)
-    try {
-      const AMap = (window as any).AMap;
-      if (AMap && AMap.Transfer) {
-        return new Promise((resolve) => {
-          const transfer = new AMap.Transfer({
+    // Retry loop: wait for AMap Transfer plugin to be ready (up to 4.5s)
+    for (let retry = 0; retry < 15; retry++) {
+      try {
+      const amap = (window as any).AMap;
+      if (amap && amap.Transfer) {
+        return new Promise<CommuteRoute | null>((resolve) => {
+          const transfer = new amap.Transfer({
             city: "上海",
             policy: 0,
           });
           transfer.search(
-            new AMap.LngLat(fromLng, fromLat),
-            new AMap.LngLat(toLng, toLat),
+            new amap.LngLat(fromLng, fromLat),
+            new amap.LngLat(toLng, toLat),
             (status: string, result: any) => {
             if (status === "complete" && result.info === "ok" && result.plans && result.plans.length > 0) {
               const plan = result.plans[0];
-              const segments: string[] = [];
+              const routeSegments: string[] = [];
               let totalWalking = 0;
               (plan.segments || []).forEach((seg: any) => {
                 if (seg.bus && seg.bus.buslines && seg.bus.buslines.length > 0) {
                   const bl = seg.bus.buslines[0];
                   const type = bl.type === "地铁线路" ? "地铁" : "公交";
-                  segments.push(type + bl.name + "(" + bl.departure_stop.name + "-" + bl.arrival_stop.name + ")");
+                  routeSegments.push(type + bl.name + "(" + bl.departure_stop.name + "-" + bl.arrival_stop.name + ")");
                 } else if (seg.instruction) {
-                  segments.push(seg.instruction);
+                  routeSegments.push(seg.instruction);
                 }
                 if (seg.walking && seg.walking.distance) {
                   totalWalking += seg.walking.distance;
@@ -79,19 +80,23 @@ function App() {
               });
               resolve({
                 duration: Math.round(plan.duration / 60),
-                walking: Math.round(totalWalking / (60 * 1000)),
-                transit: segments.join(" > ") || "直接步行",
-                segments,
+                walking: Math.round(totalWalking / 60),
+                transit: routeSegments.join(" > ") || "直接步行",
+                segments: routeSegments,
               });
             } else {
               resolve(null);
             }
           });
         });
+        break;
       }
     } catch (e) {
-      console.warn("AMap Transfer failed, trying REST API", e);
+      break;
     }
+    await new Promise((r) => setTimeout(r, 300));
+    }
+    console.warn("AMap Transfer unavailable, trying REST API");
     // Fallback: REST API via proxy (local dev)
     try {
       const params = new URLSearchParams({
@@ -302,3 +307,4 @@ const communities = useMemo(() => {
 }
 
 export default App;
+
