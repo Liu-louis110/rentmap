@@ -19,6 +19,7 @@ function App() {
   const [showRecommendations, setShowRecommendations] = useState(true);
   const [routeDetails, setRouteDetails] = useState<Record<string, CommuteRoute>>({});
   const AMAP_KEY = import.meta.env.VITE_AMAP_KEY || "f5c468f7fe09be907559b3f62fa9259a";
+const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
 
   // Calculate commute using Haversine formula
   const calcCommute = (loc: CompanyLocation) => {
@@ -101,7 +102,7 @@ function App() {
     // Fallback: REST API via proxy (local dev)
     try {
       const params = new URLSearchParams({
-        key: AMAP_KEY,
+        key: WEB_AMAP_KEY,
         origin: fromLng + "," + fromLat,
         destination: toLng + "," + toLat,
         city: "上海",
