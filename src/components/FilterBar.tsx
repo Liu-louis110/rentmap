@@ -1,6 +1,8 @@
-﻿import type { RoomType, RentType } from "../types";
+﻿import type { RoomType, RentType, City, CITIES } from "../types";
 
 interface Props {
+  city: City;
+  onCityChange: (c: City) => void;
   roomType: RoomType;
   rentType: RentType;
   onRoomTypeChange: (v: RoomType) => void;
@@ -20,9 +22,22 @@ const rentOptions: { value: RentType; label: string }[] = [
   { value: "合租", label: "合租" },
 ];
 
-export default function FilterBar({ roomType, rentType, onRoomTypeChange, onRentTypeChange }: Props) {
+export default function FilterBar({ city, onCityChange, roomType, rentType, onRoomTypeChange, onRentTypeChange }: Props) {
   return (
     <div className="flex flex-wrap items-center gap-3 px-4 py-3 bg-white border-b border-gray-200">
+      <div className="flex gap-1">
+        {CITIES.map((ct) => (
+          <button
+            key={ct.key}
+            onClick={() => onCityChange(ct.key)}
+            className={"px-3 py-1.5 text-sm rounded-md transition-colors cursor-pointer " + (city === ct.key ? "bg-blue-600 text-white" : "bg-gray-100 text-gray-600 hover:bg-gray-200")}
+          >
+            {ct.label}
+          </button>
+        ))}
+      </div>
+
+      <div className="w-px h-6 bg-gray-200" />
       <span className="text-sm font-medium text-gray-600">租房方式</span>
       <div className="flex gap-1">
         {rentOptions.map((o) => (
@@ -66,3 +81,5 @@ export default function FilterBar({ roomType, rentType, onRoomTypeChange, onRent
     </div>
   );
 }
+
+

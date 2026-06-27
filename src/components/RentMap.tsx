@@ -11,6 +11,8 @@ interface Props {
   company: CompanyLocation | null;
   recommendedIds: string[];
   onMapDblClick?: (lng: number, lat: number) => void;
+  mapCenter?: [number, number];
+  mapZoom?: number;
 }
 
 function getFilteredAvg(c: Community, roomType: RoomType, rentType: RentType): number {
@@ -107,7 +109,7 @@ function clusterCommunities(
 }
 
 export default function RentMap({
-  communities, roomType, rentType, onSelect, selectedId, company, recommendedIds, onMapDblClick
+  communities, roomType, rentType, onSelect, selectedId, company, recommendedIds, onMapDblClick, mapCenter, mapZoom
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<any>(null);
@@ -163,6 +165,13 @@ export default function RentMap({
     return () => { map?.destroy(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Re-center map when city changes
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !mapCenter) return;
+    map.setZoomCenter(mapZoom || 11, mapCenter);
+  }, [mapCenter, mapZoom]);
 
   useEffect(() => {
     const AMap = (window as any).AMap;

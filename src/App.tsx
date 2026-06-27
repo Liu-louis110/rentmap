@@ -4,14 +4,16 @@ import FilterBar from "./components/FilterBar";
 import DetailPanel from "./components/DetailPanel";
 import CompanySearch from "./components/CompanySearch";
 import RecommendationPanel from "./components/RecommendationPanel";
-import { mockCommunities } from "./data/mockData";
-import type { Community, RoomType, RentType, CompanyLocation, Recommendation, CommuteRoute } from "./types";
+import { getCommunitiesByCity } from "./data/index";
+import type { Community, RoomType, RentType, CompanyLocation, Recommendation, CommuteRoute, City } from "./types";
+import { CITIES } from "./types";
 import "./App.css";
 
 function App() {
   const [roomType, setRoomType] = useState<RoomType>("all");
   const [rentType, setRentType] = useState<RentType>("all");
   const [selected, setSelected] = useState<Community | null>(null);
+  const [city, setCity] = useState<City>("shanghai");
   const [company, setCompany] = useState<CompanyLocation | null>(null);
   const [commuteMap, setCommuteMap] = useState<Record<string, number>>({});
   const [loadingCommute, setLoadingCommute] = useState(false);
@@ -29,7 +31,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
     const results: Record<string, number> = {};
     const lat1 = (loc.lat * Math.PI) / 180;
     const lng1 = (loc.lng * Math.PI) / 180;
-    mockCommunities.forEach((c) => {
+    getCommunitiesByCity(city).forEach((c) => {
       const lat2 = (c.lat * Math.PI) / 180;
       const lng2 = (c.lng * Math.PI) / 180;
       const dlat = lat2 - lat1;
@@ -48,7 +50,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
   };
 
   // Fetch transit route via AMap Web API
-  const fetchRoute = async (fromLng: number, fromLat: number, toLng: number, toLat: number, destName: string): Promise<CommuteRoute | null> => {
+  const fetchRoute = async (fromLng: number, fromLat: number, toLng: number, toLat: number, destName: string, amapCity?: string): Promise<CommuteRoute | null> => {
     // Retry loop: wait for AMap Transfer plugin to be ready (up to 4.5s)
     for (let retry = 0; retry < 15; retry++) {
       try {
@@ -56,7 +58,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
       if (amap && amap.Transfer) {
         const routeResult = await new Promise<CommuteRoute | null>((resolve) => {
           const transfer = new amap.Transfer({
-            city: "上海",
+            city: amapCity || "上海",
             policy: 0,
           });
           transfer.search(
@@ -105,8 +107,8 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
         key: WEB_AMAP_KEY,
         origin: fromLng + "," + fromLat,
         destination: toLng + "," + toLat,
-        city: "上海",
-        cityd: "上海",
+        city: amapCity || "上海",
+        cityd: amapCity || "上海",
         strategy: "0",
         extensions: "all",
       });
@@ -142,7 +144,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
   };
 
 const communities = useMemo(() => {
-    return mockCommunities.map((c) => {
+    return getCommunitiesByCity(city).map((c) => {
       let filtered = c.listings;
       if (rentType !== "all") {
         filtered = filtered.filter((l) =>
@@ -160,7 +162,7 @@ const communities = useMemo(() => {
         avgRent: filtered.length > 0 ? Math.round(filtered.reduce((s, l) => s + l.rent, 0) / filtered.length) : 0,
       };
     });
-  }, [roomType, rentType]);
+  }, [city, roomType, rentType]);
 
   const recommendations = useMemo((): Recommendation[] => {
     if (!company || Object.keys(commuteMap).length === 0) {
@@ -203,7 +205,8 @@ const communities = useMemo(() => {
     if (!company || recommendations.length === 0) return;
     recommendations.forEach((r) => {
       if (!routeDetails[r.community.id]) {
-        fetchRoute(company.lng, company.lat, r.community.lng, r.community.lat, r.community.name).then((route) => {
+        const amapCity = CITIES.find(c => c.key === city)?.amapCity || "上海";
+        fetchRoute(company.lng, company.lat, r.community.lng, r.community.lat, r.community.name, amapCity).then((route) => {
           if (route) {
             setRouteDetails((prev) => ({ ...prev, [r.community.id]: route }));
           }
@@ -211,6 +214,15 @@ const communities = useMemo(() => {
       }
     });
   }, [recommendations, company]);
+
+  const handleCityChange = (newCity: City) => {
+    setCity(newCity);
+    setCompany(null);
+    setCommuteMap({});
+    setRouteDetails({});
+    setSelected(null);
+    setShowRecommendations(true);
+  };
 
   const handleCompanySelect = (loc: CompanyLocation) => {
     setShowRecommendations(true);
@@ -243,9 +255,9 @@ const communities = useMemo(() => {
         <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white text-sm font-bold shrink-0">
           租
         </div>
-        <h1 className="text-base font-bold text-gray-900 shrink-0">上海租房地图</h1>
+        <h1 className="text-base font-bold text-gray-900 shrink-0">{CITIES.find(c => c.key === city)?.label || "上海"}租房地图</h1>
         <div className="flex-1" />
-        <CompanySearch onCompanySelect={handleCompanySelect} company={company} onClear={handleCompanyClear} />
+        <CompanySearch onCompanySelect={handleCompanySelect} company={company} onClear={handleCompanyClear} city={city} />
 
         {loadingCommute && (
           <div className="flex items-center gap-2 text-xs text-blue-500">
@@ -268,6 +280,8 @@ const communities = useMemo(() => {
       </header>
 
       <FilterBar
+        city={city}
+        onCityChange={handleCityChange}
         roomType={roomType}
         rentType={rentType}
         onRoomTypeChange={setRoomType}
@@ -284,6 +298,8 @@ const communities = useMemo(() => {
           company={company}
           recommendedIds={recommendedIds}
           onMapDblClick={handleMapDblClick}
+          mapCenter={CITIES.find(c => c.key === city)?.center}
+          mapZoom={CITIES.find(c => c.key === city)?.zoom}
         />
         {showRecommendations && recommendations.length > 0 && (
           <RecommendationPanel

@@ -1,10 +1,11 @@
 ﻿import { useState, useRef, useEffect } from "react";
-import type { CompanyLocation } from "../types";
+import type { CompanyLocation, City, CITIES } from "../types";
 
 interface Props {
   onCompanySelect: (loc: CompanyLocation) => void;
   company: CompanyLocation | null;
   onClear: () => void;
+  city: City;
 }
 
 const AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
@@ -45,9 +46,24 @@ const LOCAL_PLACES = [
   { n: "陆家嘴", lng: 121.5050, lat: 31.2420 },
   { n: "复兴公园", lng: 121.4570, lat: 31.2100 },
   { n: "太古里", lng: 121.4600, lat: 31.2250 },
+  { n: "\u65b0\u8857\u53e3", lng: 118.785, lat: 32.041 },
+  { n: "\u9f13\u697c", lng: 118.780, lat: 32.058 },
+  { n: "\u592b\u5b50\u5e99", lng: 118.788, lat: 32.020 },
+  { n: "\u5965\u4f53\u4e2d\u5fc3", lng: 118.727, lat: 32.014 },
+  { n: "\u7384\u6b66\u6e56", lng: 118.800, lat: 32.065 },
+  { n: "\u4ed9\u6797\u5927\u5b66\u57ce", lng: 118.910, lat: 32.112 },
+  { n: "\u767e\u5bb6\u6e56", lng: 118.828, lat: 31.938 },
+  { n: "\u5357\u4eac\u5357\u7ad9", lng: 118.798, lat: 31.970 },
+  { n: "\u6cb3\u897fCBD", lng: 118.738, lat: 32.020 },
+  { n: "\u5343\u4f5b\u5c71", lng: 118.706, lat: 32.039 },
+  { n: "\u7ebd\u7ea6\u65b0\u8857\uff08\u5357\u4eac\uff09", lng: 118.717, lat: 32.012 },
+  { n: "\u82cf\u5fb7\u5185\u53e4\u90bb", lng: 118.718, lat: 32.008 },
+  { n: "\u5c71\u897f\u8def", lng: 118.775, lat: 32.055 },
+  { n: "\u682a\u5f15\u8def", lng: 118.795, lat: 32.050 },
+  { n: "\u5929\u5b50\u5e99", lng: 118.781, lat: 32.015 },
 ];
 
-export default function CompanySearch({ onCompanySelect, company, onClear }: Props) {
+export default function CompanySearch({ onCompanySelect, company, onClear, city }: Props) {
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState<{ n: string; addr: string; lng: number; lat: number }[]>([]);
   const [showDropdown, setShowDropdown] = useState(false);

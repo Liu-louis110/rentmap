@@ -2,6 +2,7 @@
   id: string;
   name: string;
   district: string;
+  city: string;
   lat: number;
   lng: number;
   avgRent: number;
@@ -56,3 +57,20 @@ export interface Recommendation {
   score: number;
   route?: CommuteRoute;
 }
+
+
+
+export type City = "shanghai" | "nanjing";
+
+export interface CityConfig {
+  key: City;
+  label: string;
+  center: [number, number];
+  zoom: number;
+  amapCity: string;
+}
+
+export const CITIES: CityConfig[] = [
+  { key: "shanghai", label: "上海", center: [121.4737, 31.2304], zoom: 11, amapCity: "上海" },
+  { key: "nanjing", label: "南京", center: [118.7969, 32.0603], zoom: 11, amapCity: "南京" },
+];
