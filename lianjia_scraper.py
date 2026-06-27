@@ -125,7 +125,7 @@ def generate_ts(communities_dict):
 def main():
     all_items = []
     for pg in range(1, MAX_PAGES + 1):
-        url = f"https://sh.lianjia.com/zufang/pg{pg}/"
+        url = f"https://sh.lianjia.com/zufang/" if pg == 1 else f"https://sh.lianjia.com/zufang/pg{pg}/"
         data = fetch(url)
         if not data:
             print(f"Page {pg}: fetch failed"); continue
@@ -164,6 +164,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
