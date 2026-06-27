@@ -23,16 +23,21 @@ jobs:
       - name: Install dependencies
         run: pip install lxml
 
-      - name: Run scraper
+      - name: Scrape Shanghai data
         env:
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
-        run: python lianjia_scraper.py
+        run: python lianjia_scraper.py shanghai
+
+      - name: Scrape Nanjing data
+        env:
+          AMAP_KEY: ${{secrets.AMAP_KEY}}
+        run: python lianjia_scraper.py nanjing
 
       - name: Commit and push updated data
         run: |
           git config user.name "rentmap-bot"
           git config user.email "bot@rentmap.app"
-          git add src/data/mockData.ts
+          git add src/data/mockData.ts src/data/mockDataNanjing.ts
           git diff --cached --quiet && echo "No changes" || (
             git commit -m "chore: auto-update rental data $(date +'%Y-%m-%d')"
             git push
