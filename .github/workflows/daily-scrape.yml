@@ -5,24 +5,35 @@ on:
     - cron: "0 6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependencies
         run: pip install lxml
+
       - name: Run scraper
         env:
           AMAP_KEY: ${{ secrets.AMAP_KEY }}
         run: python lianjia_scraper.py
-      - name: Commit updated data
+
+      - name: Commit and push updated data
         run: |
           git config user.name "rentmap-bot"
           git config user.email "bot@rentmap.app"
           git add src/data/mockData.ts
-          git diff --cached --quiet || git commit -m "chore: auto-update rental data $(date +'%Y-%m-%d')"
-          git push
+          git diff --cached --quiet && echo "No changes" || (
+            git commit -m "chore: auto-update rental data $(date +'%Y-%m-%d')"
+            git push
+          )
