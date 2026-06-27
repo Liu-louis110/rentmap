@@ -13,7 +13,7 @@ const COLORS = ["#3b82f6", "#8b5cf6", "#ec4899", "#f59e0b", "#10b981", "#6366f1"
 function RoomImage({ src, seed, rooms, rent }: { src: string; seed: number; rooms: string; rent: number }) {
   const [failed, setFailed] = useState(false);
   if (src.startsWith("http") && !failed) {
-    return <img src={src} alt={rooms} className="w-full h-full object-cover" onError={() => setFailed(true)} />;
+    return <img src={src} alt={rooms} className="w-full h-full object-cover" referrerPolicy="no-referrer" onError={() => setFailed(true)} />;
   }
   return <RoomSvg seed={seed} rooms={rooms} rent={rent} />;
 }
