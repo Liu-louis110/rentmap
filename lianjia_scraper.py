@@ -6,6 +6,22 @@ ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
+def load_cookies():
+    path = os.path.join(os.path.dirname(__file__), "cookies.txt")
+    if not os.path.exists(path):
+        return ""
+    with open(path, "r", encoding="utf-8") as f:
+        parts = [l.strip() for l in f if "=" in l.strip() and not l.strip().startswith("#")]
+        return "; ".join(parts)
+
+
+def extract_comm_name(name):
+    import re
+    x = re.sub(r" \d+室\d+厅.*", "", name)
+    x = re.sub(r" (?:开间|跃层|整租).*", "", x)
+    return x.strip()
+
+
 BROWSER_HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -13,7 +29,7 @@ BROWSER_HEADERS = {
     "Connection": "keep-alive",
     "Referer": "https://www.lianjia.com/",
 }
-MAX_PAGES = 30
+MAX_PAGES = 50
 LANDLORDS = ["张伟","李强","王芳","刘洋","陈静","杨磊","赵娜","黄明","周杰","吴敏"]
 DECORS = ["精装","中装","豪装","简装"]
 TAGS_POOL = ["近地铁","精装修","拎包入住","采光好","安静宜居","南北通透","独立厨卫","随时看房"]
@@ -25,10 +41,13 @@ CITY_CONFIGS = {
         "districts": ["鼓楼","玄武","秦淮","建邺","栖霞","雨花","江宁","浦口","六合","溧水","高淳"]},
 }
 
-def fetch(url):
+def fetch(url, cookie=""):
     for attempt in range(5):
         try:
-            req = urllib.request.Request(url, headers=BROWSER_HEADERS)
+            headers = dict(BROWSER_HEADERS)
+            if cookie:
+                headers["Cookie"] = cookie
+            req = urllib.request.Request(url, headers=headers)
             r = urllib.request.urlopen(req, timeout=20, context=ctx)
             data = r.read()
             if len(data) > 2000:
@@ -110,11 +129,14 @@ def main():
     cfg = CITY_CONFIGS[city_key]
     amap_city = cfg["amap_city"]
     print("Scraping {} for {}...".format(cfg["domain"], amap_city))
+    cookie_str = load_cookies()
+    if cookie_str:
+        print("Using cookies from cookies.txt")
     all_items = []
     for pg in range(1, MAX_PAGES + 1):
         url = "https://{}/zufang/".format(cfg["domain"]) if pg == 1 else "https://{}/zufang/pg{}/".format(cfg["domain"], pg)
         print("  Page {}: {}".format(pg, url))
-        data = fetch(url)
+        data = fetch(url, cookie_str)
         if not data or len(data) < 2000:
             print("  Page {}: fetch failed, stopping".format(pg))
             break
@@ -198,3 +220,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
