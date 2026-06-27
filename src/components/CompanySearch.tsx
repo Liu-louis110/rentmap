@@ -89,15 +89,36 @@ export default function CompanySearch({ onCompanySelect, company, onClear }: Pro
     if (keyword.trim().length < 1) return;
     setLoading(true);
     setError("");
+    // Try AMap PlaceSearch plugin first (works on production, no CORS)
     try {
-      const url =
-        "/amap/v3/place/text?key=" +
-        AMAP_KEY +
-        "&keywords=" +
-        encodeURIComponent(keyword) +
-        "&city=" +
-        encodeURIComponent("上海") +
-        "&offset=10&extensions=base";
+      const AMap = (window as any).AMap;
+      if (AMap && AMap.PlaceSearch) {
+        return new Promise<void>((resolve) => {
+          const ps = new AMap.PlaceSearch({ city: "上海", pageSize: 10 });
+          ps.search(keyword, (status: string, result: any) => {
+            setLoading(false);
+            if (status === "complete" && result.poiList && result.poiList.pois.length > 0) {
+              const s = result.poiList.pois.slice(0, 10).map((p: any) => {
+                const lng = typeof p.location === "object" ? p.location.lng : parseFloat(String(p.location).split(",")[0]);
+                const lat = typeof p.location === "object" ? p.location.lat : parseFloat(String(p.location).split(",")[1]);
+                return { n: p.name, addr: [p.pname, p.cityname, p.adname, p.address].filter(Boolean).join(" "), lng, lat };
+              });
+              setSuggestions(s);
+              setShowDropdown(true);
+            } else {
+              const local = searchLocal(keyword);
+              if (local.length === 0) setError("未找到匹配的地点");
+            }
+            resolve();
+          });
+        });
+      }
+    } catch (e) {
+      console.warn("AMap PlaceSearch error:", e);
+    }
+    // Fallback: REST API via proxy (local dev)
+    try {
+      const url = "/amap/v3/place/text?key=" + AMAP_KEY + "&keywords=" + encodeURIComponent(keyword) + "&city=" + encodeURIComponent("上海") + "&offset=10&extensions=base";
       const resp = await fetch(url);
       const data = await resp.json();
       setLoading(false);
@@ -116,7 +137,6 @@ export default function CompanySearch({ onCompanySelect, company, onClear }: Pro
       console.warn("AMap API error:", e);
     }
     setLoading(false);
-    // Fallback to local
     const local = searchLocal(keyword);
     if (local.length === 0) {
       setError("未找到匹配的地点，请尝试其他关键词");
