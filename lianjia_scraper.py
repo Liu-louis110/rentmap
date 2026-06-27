@@ -61,8 +61,10 @@ def parse_listings(html_bytes):
             fm = re.search(r"([低中高]+层)/共(\d+)层", desc)
             if fm:
                 floor = f"{fm.group(1)}/{fm.group(2)}层"
+            img_els = card.xpath(".//img/@data-src")
+            image = img_els[0] if img_els else ""
             rent_type = "整租" if "整租" in title else "合租"
-            items.append({"community": comm, "title": title[:40], "rent": rent, "area": area,
+            items.append({"community": comm, "title": title[:40], "rent": rent, "area": area, "image": image,
                           "rooms": rooms, "direction": direction, "floor": floor,
                           "rent_type": rent_type, "desc": desc[:100]})
         except:
@@ -112,7 +114,7 @@ def generate_ts(communities_dict):
             elev = str(random.random() > 0.4).lower()
             dec = random.choice(decors)
             lines.append(f'    {{ id: "{lid}", title: "{l["title"]}", rent: {l["rent"]}, area: {l["area"]}, rooms: "{l["rooms"]}", floor: "{l["floor"]}", direction: "{l["direction"]}", community: "{name}",')
-            lines.append(f'      images: ["img://room/{sn}","img://room/{sn+1}","img://room/{sn+2}"],')
+            lines.append(f'      images: [l["image"], "img://room/{sn+1}", "img://room/{sn+2}"],')
             lines.append(f'      landlordName: "{ll}", landlordPhone: "{ph}",')
             lines.append(f'      description: "房源位于{name}，{l["direction"] or "朝向好"}，{l["floor"] or "楼层适中"}。交通便利，生活配套齐全。{l["rooms"]}户型，{l["area"] if l["area"] else "面积适中"}平米。",')
             lines.append(f'      tags: [{tags_s}], listedDate: "{dt}", isElevator: {elev}, decoration: "{dec}" }},')

@@ -10,6 +10,14 @@ interface Props {
 const COLORS = ["#3b82f6", "#8b5cf6", "#ec4899", "#f59e0b", "#10b981", "#6366f1", "#14b8a6", "#f97316"];
 
 /** Generates a unique inline SVG for a room based on seed number */
+function RoomImage({ src, seed, rooms, rent }: { src: string; seed: number; rooms: string; rent: number }) {
+  const [failed, setFailed] = useState(false);
+  if (src.startsWith("http") && !failed) {
+    return <img src={src} alt={rooms} className="w-full h-full object-cover" onError={() => setFailed(true)} />;
+  }
+  return <RoomSvg seed={seed} rooms={rooms} rent={rent} />;
+}
+
 function RoomSvg({ seed, rooms, rent }: { seed: number; rooms: string; rent: number }) {
   const color = COLORS[seed % COLORS.length];
   const subColor = COLORS[(seed + 3) % COLORS.length];
@@ -66,7 +74,7 @@ export default function ListingDetailModal({ listing, communityName, onClose }: 
       >
         {/* Image Carousel - uses inline SVG only, no external network requests */}
         <div className="relative rounded-t-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
-          <RoomSvg seed={seed} rooms={listing.rooms} rent={listing.rent} />
+          <RoomImage src={listing.images[imgIndex]} seed={seed} rooms={listing.rooms} rent={listing.rent} />
           {numImages > 1 && (
             <>
               <button onClick={prevImg} className="absolute left-2 top-1/2 -translate-y-1/2 w-8 h-8 bg-white/80 hover:bg-white rounded-full flex items-center justify-center text-gray-700 text-lg shadow cursor-pointer z-10">&lsaquo;</button>
