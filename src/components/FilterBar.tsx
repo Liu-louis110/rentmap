@@ -1,4 +1,5 @@
-﻿import type { RoomType, RentType, City, CITIES } from "../types";
+﻿import type { RoomType, RentType, City } from "../types";
+import { CITIES } from "../types";
 
 interface Props {
   city: City;

@@ -1,5 +1,6 @@
 ﻿import { useState, useRef, useEffect } from "react";
-import type { CompanyLocation, City, CITIES } from "../types";
+import type { CompanyLocation, City } from "../types";
+import { CITIES } from "../types";
 
 interface Props {
   onCompanySelect: (loc: CompanyLocation) => void;
