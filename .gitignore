@@ -3,6 +3,7 @@
 dist/
 vite.log
 *.zip
+__pycache__/
 fix_*.py
 test_*.py
 explore*.py
