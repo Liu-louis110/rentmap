@@ -170,7 +170,7 @@ export default function RentMap({
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !mapCenter) return;
-    map.setZoomCenter(mapZoom || 11, mapCenter);
+    map.setZoomAndCenter(mapZoom || 11, mapCenter);
   }, [mapCenter, mapZoom]);
 
   useEffect(() => {
@@ -251,7 +251,7 @@ export default function RentMap({
       marker.on("click", () => {
         if (isCluster) {
           // Zoom in to expand cluster
-          map.setZoomCenter(currentZoom + 2, [c.lng, c.lat]);
+          map.setZoomAndCenter(currentZoom + 2, [c.lng, c.lat]);
         } else {
           onSelect(c);
           infoRef.current?.close();
