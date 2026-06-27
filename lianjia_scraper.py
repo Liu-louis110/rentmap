@@ -3,7 +3,7 @@
 import urllib.request, urllib.parse, ssl, re, json, random, time, os, sys
 from lxml import html
 
-AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89"
+AMAP_KEY = os.environ.get("AMAP_KEY") or "5fc1d82d6d5a2138787e6814da0fcc89"
 MAX_PAGES = 30
 OUTPUT = "src/data/mockData.ts"
 
@@ -164,5 +164,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
