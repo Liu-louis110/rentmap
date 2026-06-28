@@ -1,4 +1,4 @@
-﻿import urllib.request, urllib.parse, ssl, re, json, random, time, os, sys
+import urllib.request, urllib.parse, ssl, re, json, random, time, os, sys
 from lxml import html
 
 AMAP_KEY = os.environ.get("AMAP_KEY") or "5fc1d82d6d5a2138787e6814da0fcc89"
@@ -29,10 +29,14 @@ BROWSER_HEADERS = {
     "Connection": "keep-alive",
     "Referer": "https://www.lianjia.com/",
 }
-MAX_PAGES = 50
+MAX_PAGES = 100
 LANDLORDS = ["张伟","李强","王芳","刘洋","陈静","杨磊","赵娜","黄明","周杰","吴敏"]
 DECORS = ["精装","中装","豪装","简装"]
 TAGS_POOL = ["近地铁","精装修","拎包入住","采光好","安静宜居","南北通透","独立厨卫","随时看房"]
+
+DISTRICT_SLUGS = {
+    "nanjing": ["gulou","xuanwu","qinhuai","jianye","qixia","yuhuatai","jiangning","pukou","liuhe","lishui"],
+}
 
 CITY_CONFIGS = {
     "shanghai": {"domain": "sh.lianjia.com", "amap_city": "上海", "output": "src/data/mockData.ts", "center": (121.47,31.23),
@@ -148,6 +152,33 @@ def main():
         time.sleep(1.5 + random.random())
     total = len(all_items)
     print("\nTotal: {} listings".format(total))
+
+    # Try multiple facets (districts, price ranges, room types)
+    if total < 2000 and city_key in DISTRICT_SLUGS:
+        seen = set(i["title"] + i["community"] for i in all_items)
+        facets = list(DISTRICT_SLUGS[city_key])
+        facets += ["rp{}".format(i) for i in range(1, 11)]
+        facets += ["l1", "l2", "l3", "l4"]
+        for facet in facets:
+            if total >= 2000:
+                break
+            for pg in range(1, MAX_PAGES + 1):
+                url = "https://{}/zufang/{}/".format(cfg["domain"], facet) if pg == 1 else "https://{}/zufang/{}/pg{}/".format(cfg["domain"], facet, pg)
+                data = fetch(url, cookie_str)
+                if not data or len(data) < 2000:
+                    break
+                items = parse_listings(data)
+                if not items:
+                    break
+                for item in items:
+                    key = item["title"] + item["community"]
+                    if key not in seen:
+                        seen.add(key)
+                        all_items.append(item)
+                time.sleep(1.5 + random.random())
+            print("  Facet {}: {} total".format(facet, len(all_items)))
+        total = len(all_items)
+        print("\nTotal after facet scrape: {} listings".format(total))
     if total < 15:
         print("Too few listings ({})".format(total), file=sys.stderr)
         sys.exit(1)

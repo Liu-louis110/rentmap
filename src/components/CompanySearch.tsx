@@ -91,7 +91,7 @@ export default function CompanySearch({ onCompanySelect, company, onClear, city 
     if (results.length > 0) {
       const s = results.slice(0, 10).map((p) => ({
         n: p.n,
-        addr: "上海市",
+        addr: (CITIES.find(c => c.key === city)?.amapCity || "上海") + "市",
         lng: p.lng,
         lat: p.lat,
       }));
@@ -265,3 +265,4 @@ export default function CompanySearch({ onCompanySelect, company, onClear, city 
     </div>
   );
 }
+

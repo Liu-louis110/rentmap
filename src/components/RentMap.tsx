@@ -116,6 +116,8 @@ export default function RentMap({
   const markersRef = useRef<any[]>([]);
   const infoRef = useRef<any>(null);
   const companyMarkerRef = useRef<any>(null);
+  const onMapDblClickRef = useRef(onMapDblClick);
+  onMapDblClickRef.current = onMapDblClick;
   const [zoom, setZoom] = useState(11);
 
   useEffect(() => {
@@ -152,8 +154,8 @@ export default function RentMap({
           const lng = e.lnglat.getLng();
           const lat = e.lnglat.getLat();
           console.log("[租房地图] Map double-click at:", lng, lat);
-          if (onMapDblClick) {
-            onMapDblClick(lng, lat);
+          if (onMapDblClickRef.current) {
+            onMapDblClickRef.current(lng, lat);
           }
         });
 
