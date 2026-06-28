@@ -183,7 +183,8 @@ const communities = useMemo(() => {
     const scored = valid.map((c) => {
       const normRent = (c.avgRent - minRent) / rentRange;
       const normTime = (commuteMap[c.id] - minTime) / timeRange;
-      const score = 100 - (normRent * 50 + normTime * 50);
+      const commutePenalty = commuteMap[c.id] > 45 ? (commuteMap[c.id] - 45) * 0.5 : 0;
+      const score = 100 - (normRent * 50 + normTime * 50) - commutePenalty;
       return {
         community: c,
         avgRent: c.avgRent,
@@ -195,6 +196,7 @@ const communities = useMemo(() => {
 
     scored.sort((a, b) => b.score - a.score);
     const top5 = scored.slice(0, 5);
+    console.log("【租房地图】 top:", top5.map(r => r.community.name + " " + r.commuteMinutes + "min"));
     return top5;
   }, [company, communities, commuteMap, routeDetails]);
 
@@ -226,7 +228,7 @@ const communities = useMemo(() => {
 
   const handleCompanySelect = (loc: CompanyLocation) => {
     setShowRecommendations(true);
-    console.log("【租房地图】 handleCompanySelect called:", loc.name);
+    console.log("【租房地图】 company:", loc.name, loc.lat, loc.lng);
     setCompany(loc);
     setCommuteMap({});
     setTimeout(() => {

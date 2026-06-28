@@ -62,7 +62,38 @@ const LOCAL_PLACES = [
   { n: "\u5c71\u897f\u8def", lng: 118.775, lat: 32.055 },
   { n: "\u682a\u5f15\u8def", lng: 118.795, lat: 32.050 },
   { n: "\u5929\u5b50\u5e99", lng: 118.781, lat: 32.015 },
-];
+  { n: "南京大学", lng: 118.768, lat: 32.059 },
+  { n: "东南大学", lng: 118.796, lat: 32.052 },
+  { n: "河海大学", lng: 118.733, lat: 32.060 },
+  { n: "南京师范大学", lng: 118.771, lat: 32.067 },
+  { n: "南京理工大学", lng: 118.851, lat: 32.030 },
+  { n: "南京航空航天大学", lng: 118.817, lat: 32.022 },
+  { n: "南京鼓楼医院", lng: 118.780, lat: 32.054 },
+  { n: "江苏省人民医院", lng: 118.748, lat: 32.042 },
+  { n: "德基广场", lng: 118.782, lat: 32.043 },
+  { n: "虹悦城", lng: 118.769, lat: 32.010 },
+  { n: "中山陵", lng: 118.848, lat: 32.060 },
+  { n: "总统府", lng: 118.793, lat: 32.041 },
+  { n: "大行宫", lng: 118.790, lat: 32.041 },
+  { n: "三山街", lng: 118.781, lat: 32.018 },
+  { n: "迈皋桥", lng: 118.813, lat: 32.108 },
+  { n: "中央门", lng: 118.780, lat: 32.085 },
+  { n: "江宁开发区", lng: 118.852, lat: 31.917 },
+  { n: "江北新区", lng: 118.710, lat: 32.090 },
+  { n: "元通", lng: 118.727, lat: 32.003 },
+  { n: "中胜", lng: 118.742, lat: 32.000 },
+  { n: "马群", lng: 118.878, lat: 32.046 },
+  { n: "孝陵卫", lng: 118.854, lat: 32.031 },
+  { n: "下马坊", lng: 118.845, lat: 32.038 },
+  { n: "新模范马路", lng: 118.772, lat: 32.083 },
+  { n: "热河南路", lng: 118.745, lat: 32.080 },
+  { n: "清凉山", lng: 118.756, lat: 32.041 },
+  { n: "珠江路", lng: 118.789, lat: 32.048 },
+  { n: "上海路", lng: 118.769, lat: 32.045 },
+  { n: "西安门", lng: 118.803, lat: 32.038 },
+  { n: "常府街", lng: 118.797, lat: 32.031 },
+  { n: "九龙湖", lng: 118.822, lat: 31.905 },
+  { n: "竹山路", lng: 118.850, lat: 31.937 },];
 
 export default function CompanySearch({ onCompanySelect, company, onClear, city }: Props) {
   const [query, setQuery] = useState("");
@@ -106,12 +137,13 @@ export default function CompanySearch({ onCompanySelect, company, onClear, city 
     if (keyword.trim().length < 1) return;
     setLoading(true);
     setError("");
+    const cityName = CITIES.find(c => c.key === city)?.amapCity || "上海";
     // Try AMap PlaceSearch plugin first (works on production, no CORS)
     try {
       const AMap = (window as any).AMap;
       if (AMap && AMap.PlaceSearch) {
         return new Promise<void>((resolve) => {
-          const ps = new AMap.PlaceSearch({ city: "上海", pageSize: 10 });
+          const ps = new AMap.PlaceSearch({ city: cityName, pageSize: 10 });
           ps.search(keyword, (status: string, result: any) => {
             setLoading(false);
             if (status === "complete" && result.poiList && result.poiList.pois.length > 0) {
@@ -135,7 +167,7 @@ export default function CompanySearch({ onCompanySelect, company, onClear, city 
     }
     // Fallback: REST API via proxy (local dev)
     try {
-      const url = "/amap/v3/place/text?key=" + AMAP_KEY + "&keywords=" + encodeURIComponent(keyword) + "&city=" + encodeURIComponent("上海") + "&offset=10&extensions=base";
+      const url = "/amap/v3/place/text?key=" + AMAP_KEY + "&keywords=" + encodeURIComponent(keyword) + "&city=" + encodeURIComponent(cityName) + "&offset=10&extensions=base";
       const resp = await fetch(url);
       const data = await resp.json();
       setLoading(false);
@@ -265,4 +297,7 @@ export default function CompanySearch({ onCompanySelect, company, onClear, city 
     </div>
   );
 }
+
+
+
 
