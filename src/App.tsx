@@ -25,7 +25,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
 
   // Calculate commute using Haversine formula
   const calcCommute = (loc: CompanyLocation) => {
-    console.log("【\u6613\u79df】 calcCommute called with:", loc.name);
+    console.log("【易租】 calcCommute called with:", loc.name);
     setLoadingCommute(true);
     setCommuteProgress(0);
     const results: Record<string, number> = {};
@@ -43,7 +43,7 @@ const WEB_AMAP_KEY = "5fc1d82d6d5a2138787e6814da0fcc89";
       const totalMinutes = Math.round(walkTime + transitTime + 8);
       results[c.id] = Math.max(5, totalMinutes);
     });
-    console.log("【\u6613\u79df】 commuteMap set:", Object.keys(results).length, "communities");
+    console.log("【易租】 commuteMap set:", Object.keys(results).length, "communities");
     setCommuteMap({ ...results });
     setLoadingCommute(false);
     setCommuteProgress(100);
@@ -196,7 +196,7 @@ const communities = useMemo(() => {
 
     scored.sort((a, b) => b.score - a.score);
     const top5 = scored.slice(0, 5);
-    console.log("【\u6613\u79df】 top:", top5.map(r => r.community.name + " " + r.commuteMinutes + "min"));
+    console.log("【易租】 top:", top5.map(r => r.community.name + " " + r.commuteMinutes + "min"));
     return top5;
   }, [company, communities, commuteMap, routeDetails]);
 
@@ -228,7 +228,7 @@ const communities = useMemo(() => {
 
   const handleCompanySelect = (loc: CompanyLocation) => {
     setShowRecommendations(true);
-    console.log("【\u6613\u79df】 company:", loc.name, loc.lat, loc.lng);
+    console.log("【易租】 company:", loc.name, loc.lat, loc.lng);
     setCompany(loc);
     setCommuteMap({});
     setTimeout(() => {
@@ -257,7 +257,7 @@ const communities = useMemo(() => {
         <div className="w-7 h-7 bg-blue-600 rounded-lg flex items-center justify-center text-white text-sm font-bold shrink-0">
           租
         </div>
-        <h1 className="text-base font-bold text-gray-900 shrink-0">{CITIES.find(c => c.key === city)?.label || "上海"}\u6613\u79df</h1>
+        <h1 className="text-base font-bold text-gray-900 shrink-0">{CITIES.find(c => c.key === city)?.label || "上海"}易租</h1>
         <div className="flex-1" />
         <CompanySearch onCompanySelect={handleCompanySelect} company={company} onClear={handleCompanyClear} city={city} />
 
