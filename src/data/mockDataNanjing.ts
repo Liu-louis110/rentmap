@@ -1,7 +1,7 @@
 import type { Community } from "../types";
 
 export const nanjingCommunities: Community[] = [
-  { id: "n1", name: "远拓橡树城 2室2厅 南", district: "其他", city: "nanjing", lat: 31.680802, lng: 119.039697, avgRent: 0, listings: [
+  { id: "n1", name: "远拓橡树城", district: "其他区", city: "nanjing", lat: 31.680802, lng: 119.039697, avgRent: 0, listings: [
     { id: "n1", title: "整租·远拓橡树城 2室2厅 南", rent: 1150, area: 86, rooms: "2室2厅", floor: "楼层适中", direction: "北", community: "远拓橡树城 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_SqJsGTRyH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/21", "img://room/22"],
       landlordName: "王芳", landlordPhone: "15893130958", landlordWechat: "王芳1",
@@ -18,7 +18,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于远拓橡树城 2室2厅 南，北，楼层适中。2室2厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "近地铁", "采光好"], listedDate: "2026-05-25", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n2", name: "荣盛文承苑 2室2厅 南", district: "其他", city: "nanjing", lat: 32.238448, lng: 118.74117, avgRent: 0, listings: [
+  { id: "n2", name: "荣盛文承苑", district: "其他区", city: "nanjing", lat: 32.238448, lng: 118.74117, avgRent: 0, listings: [
     { id: "n4", title: "整租·荣盛文承苑 2室2厅 南", rent: 2000, area: 89, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "荣盛文承苑 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Xd6eWAOaR.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/42", "img://room/43"],
       landlordName: "黄明", landlordPhone: "13830126395", landlordWechat: "黄明4",
@@ -30,7 +30,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于荣盛文承苑 2室2厅 南，南，楼层适中。2室2厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-06-13", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n3", name: "广成东方名城 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.6401, lng: 119.035632, avgRent: 0, listings: [
+  { id: "n3", name: "广成东方名城", district: "其他区", city: "nanjing", lat: 31.6401, lng: 119.035632, avgRent: 0, listings: [
     { id: "n6", title: "整租·广成东方名城 3室2厅 南/北", rent: 1300, area: 115, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "广成东方名城 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_9a2Kktw0G.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/56", "img://room/57"],
       landlordName: "刘洋", landlordPhone: "13951624184", landlordWechat: "刘洋6",
@@ -42,7 +42,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于广成东方名城 3室2厅 南/北，南，楼层适中。3室2厅户型，115平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "南北通透", "近地铁"], listedDate: "2026-06-15", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n4", name: "中粮祥云悦广场 1室1厅 南", district: "其他", city: "nanjing", lat: 31.914427, lng: 118.895381, avgRent: 0, listings: [
+  { id: "n4", name: "中粮祥云悦广场", district: "其他区", city: "nanjing", lat: 31.914427, lng: 118.895381, avgRent: 0, listings: [
     { id: "n8", title: "整租·中粮祥云悦广场 1室1厅 南", rent: 1800, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "中粮祥云悦广场 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Wg9lsaDwM.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/70", "img://room/71"],
       landlordName: "张伟", landlordPhone: "18868328038", landlordWechat: "张伟8",
@@ -54,7 +54,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于中粮祥云悦广场 1室1厅 南，南，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-03-24", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n5", name: "朝阳西苑 2室2厅 南", district: "其他", city: "nanjing", lat: 31.918292, lng: 118.651293, avgRent: 0, listings: [
+  { id: "n5", name: "朝阳西苑", district: "其他区", city: "nanjing", lat: 31.918292, lng: 118.651293, avgRent: 0, listings: [
     { id: "n10", title: "整租·朝阳西苑 2室2厅 南", rent: 1300, area: 81, rooms: "2室2厅", floor: "楼层适中", direction: "西", community: "朝阳西苑 2室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/1b889125584ba4a7779908475415c159.jpeg.250x182.jpg", "img://room/84", "img://room/85"],
       landlordName: "黄明", landlordPhone: "15046560767",
@@ -66,7 +66,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于朝阳西苑 2室2厅 南，西，楼层适中。2室2厅户型，81平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "独立厨卫"], listedDate: "2026-04-06", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n6", name: "朗诗未来街区一期 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.186431, lng: 118.710102, avgRent: 0, listings: [
+  { id: "n6", name: "朗诗未来街区一期", district: "其他区", city: "nanjing", lat: 32.186431, lng: 118.710102, avgRent: 0, listings: [
     { id: "n12", title: "整租·朗诗未来街区一期 3室2厅 南/北", rent: 1500, area: 79, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "朗诗未来街区一期 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/2a45a8799fc9337d6cabcd1f4b8fcf9f.jpeg.250x182.jpg", "img://room/98", "img://room/99"],
       landlordName: "王芳", landlordPhone: "15810265618",
@@ -78,7 +78,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于朗诗未来街区一期 3室2厅 南/北，南，楼层适中。3室2厅户型，79平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "精装修", "南北通透"], listedDate: "2026-04-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n7", name: "东南青年汇 同心店 可月租 24小时安保 可押一付一 1室1厅", district: "其他", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
+  { id: "n7", name: "东南青年汇 同心店 可月租 24小时安保 可押一付一", district: "其他区", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
     { id: "n14", title: "独栋·东南青年汇 同心店 可月租 24小时安保 可押一付一 1室1厅", rent: 1600, area: 48, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 同心店 可月租 24小时安保 可押一付一 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1757487376792/f1a2670a0e4695a1a763f9566cc9ff7f.jpg.250x182.jpg", "img://room/112", "img://room/113"],
       landlordName: "周杰", landlordPhone: "15836797017",
@@ -90,7 +90,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于东南青年汇 同心店 可月租 24小时安保 可押一付一 1室1厅，朝向好，楼层适中。1室1厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "拎包入住", "随时看房"], listedDate: "2026-05-28", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n8", name: "时代艺境 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.0835770549887, lng: 118.77510490262388, avgRent: 0, listings: [
+  { id: "n8", name: "时代艺境", district: "其他区", city: "nanjing", lat: 32.0835770549887, lng: 118.77510490262388, avgRent: 0, listings: [
     { id: "n16", title: "整租·时代艺境 3室1厅 南/北", rent: 1700, area: 89, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "时代艺境 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_XaOavBd6t.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/126", "img://room/127"],
       landlordName: "王芳", landlordPhone: "13894263014",
@@ -102,7 +102,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于时代艺境 3室1厅 南/北，南，楼层适中。3室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "采光好"], listedDate: "2026-06-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n9", name: "宝隆时代广场 2室2厅 西/北", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n9", name: "宝隆时代广场", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n18", title: "整租·宝隆时代广场 2室2厅 西/北", rent: 1900, area: 53, rooms: "2室2厅", floor: "楼层适中", direction: "西", community: "宝隆时代广场 2室2厅 西/北",
       images: ["https://image1.ljcdn.com/lease-image/house/ec7d44a8a987375824977bd9a14dc5d0.jpeg.250x182.jpg", "img://room/140", "img://room/141"],
       landlordName: "张伟", landlordPhone: "18829830663", landlordWechat: "张伟18",
@@ -114,7 +114,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于宝隆时代广场 2室2厅 西/北，西，楼层适中。2室2厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "安静宜居", "随时看房"], listedDate: "2026-05-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n10", name: "定淮门 2室1厅 南", district: "其他", city: "nanjing", lat: 32.069256, lng: 118.749044, avgRent: 0, listings: [
+  { id: "n10", name: "定淮门", district: "其他区", city: "nanjing", lat: 32.069256, lng: 118.749044, avgRent: 0, listings: [
     { id: "n20", title: "整租·定淮门 2室1厅 南", rent: 2600, area: 68, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "定淮门 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8X2K3jG6n.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/154", "img://room/155"],
       landlordName: "陈静", landlordPhone: "13928438252", landlordWechat: "陈静20",
@@ -126,7 +126,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于定淮门 2室1厅 南，南，楼层适中。2室1厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "近地铁", "精装修"], listedDate: "2026-05-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n11", name: "建宁路 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
+  { id: "n11", name: "建宁路", district: "其他区", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
     { id: "n22", title: "整租·建宁路 2室1厅 南/北", rent: 2300, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "建宁路 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NQodUNv2e.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/168", "img://room/169"],
       landlordName: "李强", landlordPhone: "15885342197", landlordWechat: "李强22",
@@ -138,7 +138,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于建宁路 2室1厅 南/北，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "独立厨卫", "拎包入住"], listedDate: "2026-03-14", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n12", name: "保利阅云台 3室2厅 南", district: "其他", city: "nanjing", lat: 32.07325106834683, lng: 118.76778802592715, avgRent: 0, listings: [
+  { id: "n12", name: "保利阅云台", district: "其他区", city: "nanjing", lat: 32.07325106834683, lng: 118.76778802592715, avgRent: 0, listings: [
     { id: "n24", title: "整租·保利阅云台 3室2厅 南", rent: 2940, area: 108, rooms: "3室2厅", floor: "楼层适中", direction: "北", community: "保利阅云台 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_K9Y4SzsqX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/182", "img://room/183"],
       landlordName: "黄明", landlordPhone: "15030735575", landlordWechat: "黄明24",
@@ -150,7 +150,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于保利阅云台 3室2厅 南，北，楼层适中。3室2厅户型，108平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "采光好", "近地铁"], listedDate: "2026-03-03", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n13", name: "复地新都荟 1室1厅 南", district: "其他", city: "nanjing", lat: 32.100198, lng: 118.798262, avgRent: 0, listings: [
+  { id: "n13", name: "复地新都荟", district: "其他区", city: "nanjing", lat: 32.100198, lng: 118.798262, avgRent: 0, listings: [
     { id: "n26", title: "整租·复地新都荟 1室1厅 南", rent: 2500, area: 54, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "复地新都荟 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_2nKGY0nY9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/196", "img://room/197"],
       landlordName: "杨磊", landlordPhone: "18696367781", landlordWechat: "杨磊26",
@@ -162,7 +162,7 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于复地新都荟 1室1厅 南，南，楼层适中。1室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透", "随时看房", "采光好"], listedDate: "2026-06-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n14", name: "河滨公寓 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.059846064153014, lng: 118.77017062555935, avgRent: 0, listings: [
+  { id: "n14", name: "河滨公寓", district: "其他区", city: "nanjing", lat: 32.059846064153014, lng: 118.77017062555935, avgRent: 0, listings: [
     { id: "n28", title: "整租·河滨公寓 3室1厅 南/北", rent: 1000, area: 130, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "河滨公寓 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ySJKKQ12H_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/210", "img://room/211"],
       landlordName: "周杰", landlordPhone: "13977888890",
@@ -174,1526 +174,1526 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于河滨公寓 3室1厅 南/北，南，楼层适中。3室1厅户型，130平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "近地铁", "采光好"], listedDate: "2026-04-24", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n15", name: "万达茂 1室0厅 东", district: "其他", city: "nanjing", lat: 32.122494, lng: 118.987641, avgRent: 0, listings: [
+  { id: "n15", name: "万达茂", district: "其他区", city: "nanjing", lat: 32.122494, lng: 118.987641, avgRent: 0, listings: [
     { id: "n30", title: "整租·万达茂 1室0厅 东", rent: 900, area: 30, rooms: "1室0厅", floor: "楼层适中", direction: "东", community: "万达茂 1室0厅 东",
       images: ["https://image1.ljcdn.com/lease-image/house/a8bd229aad4537a0817a1c2b08c1318a.jpeg.250x182.jpg", "img://room/224", "img://room/225"],
       landlordName: "赵娜", landlordPhone: "15059106622", landlordWechat: "赵娜30",
       description: "房源位于万达茂 1室0厅 东，东，楼层适中。1室0厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁", "拎包入住"], listedDate: "2026-06-17", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n16", name: "贝壳新青年公寓 浦口文化中心店 公寓直租/弘阳广场/地铁/可月付/可短租 1室1厅", district: "浦口区", city: "nanjing", lat: 32.137874, lng: 118.711988, avgRent: 0, listings: [
+  { id: "n16", name: "贝壳新青年公寓 浦口文化中心店 公寓直租/弘阳广场/地铁/可月付/可短租", district: "浦口区", city: "nanjing", lat: 32.137874, lng: 118.711988, avgRent: 0, listings: [
     { id: "n31", title: "独栋·贝壳新青年公寓 浦口文化中心店 公寓直租/弘阳广场/地铁/可月付/可短租 ", rent: 2332, area: 38, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "贝壳新青年公寓 浦口文化中心店 公寓直租/弘阳广场/地铁/可月付/可短租 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/e584069639e3307a2317c4fdec4c21d1-1723012268601/53517afac657ce6a70cc947bde91f0cf.jpg.250x182.jpg", "img://room/231", "img://room/232"],
       landlordName: "陈静", landlordPhone: "13960386261", landlordWechat: "陈静31",
       description: "房源位于贝壳新青年公寓 浦口文化中心店 公寓直租/弘阳广场/地铁/可月付/可短租 1室1厅，朝向好，楼层适中。1室1厅户型，38平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "独立厨卫", "南北通透"], listedDate: "2026-04-19", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n17", name: "保利堂悦 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.980554, lng: 118.807194, avgRent: 0, listings: [
+  { id: "n17", name: "保利堂悦", district: "其他区", city: "nanjing", lat: 31.980554, lng: 118.807194, avgRent: 0, listings: [
     { id: "n32", title: "整租·保利堂悦 3室2厅 南/北", rent: 3900, area: 91, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "保利堂悦 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/6600a74477328359ae8ffc553f73fc18.jpeg.250x182.jpg", "img://room/238", "img://room/239"],
       landlordName: "刘洋", landlordPhone: "13890136022",
       description: "房源位于保利堂悦 3室2厅 南/北，南，楼层适中。3室2厅户型，91平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "安静宜居", "近地铁"], listedDate: "2026-06-19", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n18", name: "贝壳新青年公寓 浦口文化中心店 可做饭/单人居住/自带阳台/近地铁/停车方便 1室1厅", district: "浦口区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n18", name: "贝壳新青年公寓 浦口文化中心店 可做饭/单人居住/自带阳台/近地铁/停车方便", district: "浦口区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n33", title: "独栋·贝壳新青年公寓 浦口文化中心店 可做饭/单人居住/自带阳台/近地铁/停车方", rent: 2385, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "贝壳新青年公寓 浦口文化中心店 可做饭/单人居住/自带阳台/近地铁/停车方便 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/e584069639e3307a2317c4fdec4c21d1-1722680245102/d4fb45ffa6482fc129012ddc1ba905a7.jpg.250x182.jpg", "img://room/245", "img://room/246"],
       landlordName: "黄明", landlordPhone: "13944822674", landlordWechat: "黄明33",
       description: "房源位于贝壳新青年公寓 浦口文化中心店 可做饭/单人居住/自带阳台/近地铁/停车方便 1室1厅，朝向好，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-04-23", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n19", name: "东方万汇尊邸 2室1厅 东南", district: "其他", city: "nanjing", lat: 32.064888, lng: 118.657386, avgRent: 0, listings: [
+  { id: "n19", name: "东方万汇尊邸", district: "其他区", city: "nanjing", lat: 32.064888, lng: 118.657386, avgRent: 0, listings: [
     { id: "n34", title: "整租·东方万汇尊邸 2室1厅 东南", rent: 2300, area: 74, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "东方万汇尊邸 2室1厅 东南",
       images: ["https://image1.ljcdn.com/lease-image/house/d159946c4b06711fbb568869bb0c1a08.jpeg.250x182.jpg", "img://room/252", "img://room/253"],
       landlordName: "赵娜", landlordPhone: "18663875784", landlordWechat: "赵娜34",
       description: "房源位于东方万汇尊邸 2室1厅 东南，北，楼层适中。2室1厅户型，74平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "拎包入住"], listedDate: "2026-04-04", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n20", name: "恒大金碧天下天鸿苑 3室2厅 南", district: "其他", city: "nanjing", lat: 31.702016, lng: 119.065276, avgRent: 0, listings: [
+  { id: "n20", name: "恒大金碧天下天鸿苑", district: "其他区", city: "nanjing", lat: 31.702016, lng: 119.065276, avgRent: 0, listings: [
     { id: "n35", title: "整租·恒大金碧天下天鸿苑 3室2厅 南", rent: 1200, area: 135, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "恒大金碧天下天鸿苑 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_OT2cqob8p.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/259", "img://room/260"],
       landlordName: "李强", landlordPhone: "13972795819", landlordWechat: "李强35",
       description: "房源位于恒大金碧天下天鸿苑 3室2厅 南，南，楼层适中。3室2厅户型，135平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "近地铁", "拎包入住"], listedDate: "2026-05-21", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n21", name: "贝壳新青年公寓 体育中心店 【毕业特惠】长租特惠  江北新区 地铁直达 1室1厅", district: "其他", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n21", name: "贝壳新青年公寓 体育中心店 【毕业特惠】长租特惠  江北新区 地铁直达", district: "其他区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n36", title: "独栋·贝壳新青年公寓 体育中心店 【毕业特惠】长租特惠  江北新区 地铁直达 1", rent: 2332, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "贝壳新青年公寓 体育中心店 【毕业特惠】长租特惠  江北新区 地铁直达 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/e584069639e3307a2317c4fdec4c21d1-1746798030449/4fd45f6cbf67bbb38b73da035c7bb2f0.jpg.250x182.jpg", "img://room/266", "img://room/267"],
       landlordName: "王芳", landlordPhone: "18674143064",
       description: "房源位于贝壳新青年公寓 体育中心店 【毕业特惠】长租特惠  江北新区 地铁直达 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-05-07", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n22", name: "凤来南园 2室1厅 南", district: "其他", city: "nanjing", lat: 32.043188, lng: 118.908871, avgRent: 0, listings: [
+  { id: "n22", name: "凤来南园", district: "其他区", city: "nanjing", lat: 32.043188, lng: 118.908871, avgRent: 0, listings: [
     { id: "n37", title: "整租·凤来南园 2室1厅 南", rent: 2600, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "凤来南园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_CysnfxTt3.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/273", "img://room/274"],
       landlordName: "陈静", landlordPhone: "15898884147",
       description: "房源位于凤来南园 2室1厅 南，南，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "近地铁"], listedDate: "2026-06-19", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n23", name: "东南青年汇 银龙店 可申请住房补贴/国企背景品质保证 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n23", name: "东南青年汇 银龙店 可申请住房补贴/国企背景品质保证", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n38", title: "独栋·东南青年汇 银龙店 可申请住房补贴/国企背景品质保证 1室1厅", rent: 1600, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 可申请住房补贴/国企背景品质保证 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/d6d654b0-5849-40f1-b4e6-45fab39d8d9f.250x182.jpg", "img://room/280", "img://room/281"],
       landlordName: "周杰", landlordPhone: "13963341754", landlordWechat: "周杰38",
       description: "房源位于东南青年汇 银龙店 可申请住房补贴/国企背景品质保证 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-04-23", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n24", name: "荣耀府 3室2厅 南", district: "其他", city: "nanjing", lat: 32.419063, lng: 118.929193, avgRent: 0, listings: [
+  { id: "n24", name: "荣耀府", district: "其他区", city: "nanjing", lat: 32.419063, lng: 118.929193, avgRent: 0, listings: [
     { id: "n39", title: "整租·荣耀府 3室2厅 南", rent: 1000, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "荣耀府 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_FbQ7AGCVP.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/287", "img://room/288"],
       landlordName: "周杰", landlordPhone: "18664002699", landlordWechat: "周杰39",
       description: "房源位于荣耀府 3室2厅 南，南，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "精装修"], listedDate: "2026-04-21", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n25", name: "东南青年汇 银龙店 长租一年大幅优惠拎包入住家电齐全 1室1厅", district: "其他", city: "nanjing", lat: 32.072505, lng: 118.655801, avgRent: 0, listings: [
+  { id: "n25", name: "东南青年汇 银龙店 长租一年大幅优惠拎包入住家电齐全", district: "其他区", city: "nanjing", lat: 32.072505, lng: 118.655801, avgRent: 0, listings: [
     { id: "n40", title: "独栋·东南青年汇 银龙店 长租一年大幅优惠拎包入住家电齐全 1室1厅", rent: 1600, area: 31, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 长租一年大幅优惠拎包入住家电齐全 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/d1827e47-766b-4bbf-9be7-adeb8c04aebd.250x182.jpg", "img://room/294", "img://room/295"],
       landlordName: "吴敏", landlordPhone: "18662001836",
       description: "房源位于东南青年汇 银龙店 长租一年大幅优惠拎包入住家电齐全 1室1厅，朝向好，楼层适中。1室1厅户型，31平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透"], listedDate: "2026-06-07", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n26", name: "秋湖嘉苑一期 2室2厅 南", district: "其他", city: "nanjing", lat: 31.606014, lng: 119.071292, avgRent: 0, listings: [
+  { id: "n26", name: "秋湖嘉苑一期", district: "其他区", city: "nanjing", lat: 31.606014, lng: 119.071292, avgRent: 0, listings: [
     { id: "n41", title: "整租·秋湖嘉苑一期 2室2厅 南", rent: 900, area: 94, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "秋湖嘉苑一期 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_m1dVOgq2r.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/301", "img://room/302"],
       landlordName: "张伟", landlordPhone: "18631150899", landlordWechat: "张伟41",
       description: "房源位于秋湖嘉苑一期 2室2厅 南，南，楼层适中。2室2厅户型，94平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "随时看房", "南北通透"], listedDate: "2026-03-04", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n27", name: "徐庄东南青年汇 徐庄青年广场二社区 高层，落地大阳台，干湿分离 开间", district: "其他", city: "nanjing", lat: 31.931975, lng: 118.838987, avgRent: 0, listings: [
+  { id: "n27", name: "徐庄东南青年汇 徐庄青年广场二社区 高层，落地大阳台，干湿分离", district: "其他区", city: "nanjing", lat: 31.931975, lng: 118.838987, avgRent: 0, listings: [
     { id: "n42", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 高层，落地大阳台，干湿分离 开间", rent: 1580, area: 42, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 高层，落地大阳台，干湿分离 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763539069510/760e2058214800a02456bc2f2d24046e.jpg.250x182.jpg", "img://room/308", "img://room/309"],
       landlordName: "王芳", landlordPhone: "18898792383",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 高层，落地大阳台，干湿分离 开间，朝向好，楼层适中。1室0厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "随时看房", "采光好"], listedDate: "2026-04-12", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n28", name: "红山山庄 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.097736, lng: 118.803149, avgRent: 0, listings: [
+  { id: "n28", name: "红山山庄", district: "其他区", city: "nanjing", lat: 32.097736, lng: 118.803149, avgRent: 0, listings: [
     { id: "n43", title: "整租·红山山庄 3室2厅 南/北", rent: 5200, area: 124, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "红山山庄 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_08bXYQ1rr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/315", "img://room/316"],
       landlordName: "李强", landlordPhone: "15845517960",
       description: "房源位于红山山庄 3室2厅 南/北，南，楼层适中。3室2厅户型，124平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "近地铁", "拎包入住"], listedDate: "2026-03-12", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n29", name: "屏溪佳苑 3室2厅 南", district: "其他", city: "nanjing", lat: 31.671019, lng: 119.096808, avgRent: 0, listings: [
+  { id: "n29", name: "屏溪佳苑", district: "其他区", city: "nanjing", lat: 31.671019, lng: 119.096808, avgRent: 0, listings: [
     { id: "n44", title: "整租·屏溪佳苑 3室2厅 南", rent: 1000, area: 125, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "屏溪佳苑 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_gqHzT6wjG_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/322", "img://room/323"],
       landlordName: "吴敏", landlordPhone: "13851131529", landlordWechat: "吴敏44",
       description: "房源位于屏溪佳苑 3室2厅 南，南，楼层适中。3室2厅户型，125平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修"], listedDate: "2026-06-22", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n30", name: "朗诗寓 临江青奥站社区 精装修一线品牌 智能门锁 收费透明 随时可看房 拎包入住 1室1厅", district: "其他", city: "nanjing", lat: 32.109268, lng: 118.832534, avgRent: 0, listings: [
+  { id: "n30", name: "朗诗寓 临江青奥站社区 精装修一线品牌 智能门锁 收费透明 随时可看房 拎包入住", district: "其他区", city: "nanjing", lat: 32.109268, lng: 118.832534, avgRent: 0, listings: [
     { id: "n45", title: "独栋·朗诗寓 临江青奥站社区 精装修一线品牌 智能门锁 收费透明 随时可看房 拎", rent: 1772, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "朗诗寓 临江青奥站社区 精装修一线品牌 智能门锁 收费透明 随时可看房 拎包入住 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/a04dedf7a2dfbd1f54aff055f91c3cf7-1747899357288/f3ccdd27d2000e3f9255a7e3e2c48800.jpg.250x182.jpg", "img://room/329", "img://room/330"],
       landlordName: "赵娜", landlordPhone: "15820427367",
       description: "房源位于朗诗寓 临江青奥站社区 精装修一线品牌 智能门锁 收费透明 随时可看房 拎包入住 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "随时看房"], listedDate: "2026-04-05", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n31", name: "扬子江公寓 数字基地6号店 国企精装单室，无中介费，可月付，可办租房补贴！毕业生免押 1室1厅", district: "其他", city: "nanjing", lat: 32.098347, lng: 118.741547, avgRent: 0, listings: [
+  { id: "n31", name: "扬子江公寓 数字基地6号店 国企精装单室，无中介费，可月付，可办租房补贴！毕业生免押", district: "其他区", city: "nanjing", lat: 32.098347, lng: 118.741547, avgRent: 0, listings: [
     { id: "n46", title: "独栋·扬子江公寓 数字基地6号店 国企精装单室，无中介费，可月付，可办租房补贴！", rent: 1178, area: 20, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "扬子江公寓 数字基地6号店 国企精装单室，无中介费，可月付，可办租房补贴！毕业生免押 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/d108c357598a2cdabacd9b0639bebc02-1747877680254/0370a68a6280d7383f8a544f0da0bc4e.jpg.250x182.jpg", "img://room/336", "img://room/337"],
       landlordName: "陈静", landlordPhone: "18838743019",
       description: "房源位于扬子江公寓 数字基地6号店 国企精装单室，无中介费，可月付，可办租房补贴！毕业生免押 1室1厅，朝向好，楼层适中。1室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-04-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n32", name: "扬子江公寓 数字基地6号店 国企品牌千元起租拎包入住无中介费近澳林广场可月付可短租毕业生免押 开间", district: "其他", city: "nanjing", lat: 31.932657, lng: 118.88879, avgRent: 0, listings: [
+  { id: "n32", name: "扬子江公寓 数字基地6号店 国企品牌千元起租拎包入住无中介费近澳林广场可月付可短租毕业生免押", district: "其他区", city: "nanjing", lat: 31.932657, lng: 118.88879, avgRent: 0, listings: [
     { id: "n47", title: "独栋·扬子江公寓 数字基地6号店 国企品牌千元起租拎包入住无中介费近澳林广场可月", rent: 1138, area: 26, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "扬子江公寓 数字基地6号店 国企品牌千元起租拎包入住无中介费近澳林广场可月付可短租毕业生免押 开间",
       images: ["https://image1.ljcdn.com/wanjia/d108c357598a2cdabacd9b0639bebc02-1750670126051/f305da39bc3124909c545aabe3d8371a.jpg.250x182.jpg", "img://room/343", "img://room/344"],
       landlordName: "张伟", landlordPhone: "13811766279", landlordWechat: "张伟47",
       description: "房源位于扬子江公寓 数字基地6号店 国企品牌千元起租拎包入住无中介费近澳林广场可月付可短租毕业生免押 开间，朝向好，楼层适中。1室0厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "南北通透", "拎包入住"], listedDate: "2026-06-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n33", name: "龙湖冠寓 南京河西大街店 毕业季抢特惠 I国金中心旁 I 租期灵活月付无压力 I 宠物友好宜居 I 实体墙独卫套房 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n33", name: "龙湖冠寓 南京河西大街店 毕业季抢特惠 I国金中心旁 I 租期灵活月付无压力 I 宠物友好宜居 I 实体墙独卫套房", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n48", title: "独栋·龙湖冠寓 南京河西大街店 毕业季抢特惠 I国金中心旁 I 租期灵活月付无压", rent: 2349, area: 33, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京河西大街店 毕业季抢特惠 I国金中心旁 I 租期灵活月付无压力 I 宠物友好宜居 I 实体墙独卫套房 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1776325523330/722baaeba32d49979a8d2bfeb8ef3eb4.png.250x182.jpg", "img://room/350", "img://room/351"],
       landlordName: "吴敏", landlordPhone: "15098877179",
       description: "房源位于龙湖冠寓 南京河西大街店 毕业季抢特惠 I国金中心旁 I 租期灵活月付无压力 I 宠物友好宜居 I 实体墙独卫套房 1室1厅，朝向好，楼层适中。1室1厅户型，33平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-04-10", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n34", name: "ARK-安可公寓 金马路店 【8个月起签，0中介费】优享毕业季、限时一周特惠房！ 1室1厅", district: "其他", city: "nanjing", lat: 29.652644, lng: 106.593759, avgRent: 0, listings: [
+  { id: "n34", name: "ARK-安可公寓 金马路店 【8个月起签，0中介费】优享毕业季、限时一周特惠房！", district: "其他区", city: "nanjing", lat: 29.652644, lng: 106.593759, avgRent: 0, listings: [
     { id: "n49", title: "独栋·ARK-安可公寓 金马路店 【8个月起签，0中介费】优享毕业季、限时一周特", rent: 1849, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "ARK-安可公寓 金马路店 【8个月起签，0中介费】优享毕业季、限时一周特惠房！ 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/0bd8c50e8cf52be36eb27cc407ba03fc-1747965861888/b6cf0a30690f8b0dd85a3a3c127bbb7e.jpg.250x182.jpg", "img://room/357", "img://room/358"],
       landlordName: "王芳", landlordPhone: "18621905142", landlordWechat: "王芳49",
       description: "房源位于ARK-安可公寓 金马路店 【8个月起签，0中介费】优享毕业季、限时一周特惠房！ 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好"], listedDate: "2026-06-16", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n35", name: "新城花漾紫郡 2室2厅 南", district: "其他", city: "nanjing", lat: 32.183696, lng: 118.713909, avgRent: 0, listings: [
+  { id: "n35", name: "新城花漾紫郡", district: "其他区", city: "nanjing", lat: 32.183696, lng: 118.713909, avgRent: 0, listings: [
     { id: "n50", title: "整租·新城花漾紫郡 2室2厅 南", rent: 1650, area: 68, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "新城花漾紫郡 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_1TUxjzqWK.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/364", "img://room/365"],
       landlordName: "杨磊", landlordPhone: "18873287794",
       description: "房源位于新城花漾紫郡 2室2厅 南，南，楼层适中。2室2厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "独立厨卫"], listedDate: "2026-05-12", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n36", name: "龙湖冠寓 麒麟科创园店 毕业季特惠 秦淮区设计产业园 启迪 麒麟科创园 可短租 开间", district: "秦淮区", city: "nanjing", lat: 31.961106, lng: 118.822382, avgRent: 0, listings: [
+  { id: "n36", name: "龙湖冠寓 麒麟科创园店 毕业季特惠 秦淮区设计产业园 启迪 麒麟科创园 可短租", district: "秦淮区", city: "nanjing", lat: 31.961106, lng: 118.822382, avgRent: 0, listings: [
     { id: "n51", title: "独栋·龙湖冠寓 麒麟科创园店 毕业季特惠 秦淮区设计产业园 启迪 麒麟科创园 可", rent: 1482, area: 30, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 麒麟科创园店 毕业季特惠 秦淮区设计产业园 启迪 麒麟科创园 可短租 开间",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1780388965170/790dfd6be28468d37fed543b012b159e.JPG.250x182.jpg", "img://room/371", "img://room/372"],
       landlordName: "李强", landlordPhone: "18615583919",
       description: "房源位于龙湖冠寓 麒麟科创园店 毕业季特惠 秦淮区设计产业园 启迪 麒麟科创园 可短租 开间，朝向好，楼层适中。1室0厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "精装修", "随时看房"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n37", name: "迎江园 2室1厅 南", district: "其他", city: "nanjing", lat: 32.071646, lng: 118.733203, avgRent: 0, listings: [
+  { id: "n37", name: "迎江园", district: "其他区", city: "nanjing", lat: 32.071646, lng: 118.733203, avgRent: 0, listings: [
     { id: "n52", title: "整租·迎江园 2室1厅 南", rent: 2000, area: 53, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "迎江园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_D1SaRQanX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/378", "img://room/379"],
       landlordName: "吴敏", landlordPhone: "15828558756",
       description: "房源位于迎江园 2室1厅 南，南，楼层适中。2室1厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "随时看房"], listedDate: "2026-06-11", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n38", name: "泊寓 滨江大道店 【学生租房优惠】免费停车丨无中介管理费丨押一付一丨优选LOFT 1室1厅", district: "其他", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
+  { id: "n38", name: "泊寓 滨江大道店 【学生租房优惠】免费停车丨无中介管理费丨押一付一丨优选LOFT", district: "其他区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
     { id: "n53", title: "独栋·泊寓 滨江大道店 【学生租房优惠】免费停车丨无中介管理费丨押一付一丨优选L", rent: 1440, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 滨江大道店 【学生租房优惠】免费停车丨无中介管理费丨押一付一丨优选LOFT 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1721015571337/30cebdf1f42b800871f40e816765a8d2.jpg.250x182.jpg", "img://room/385", "img://room/386"],
       landlordName: "赵娜", landlordPhone: "15831620931",
       description: "房源位于泊寓 滨江大道店 【学生租房优惠】免费停车丨无中介管理费丨押一付一丨优选LOFT 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "拎包入住", "精装修"], listedDate: "2026-04-25", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n39", name: "泊寓 滨江大道店 免费看房丨免费停车丨押一付一丨可开票丨 1室1厅", district: "其他", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
+  { id: "n39", name: "泊寓 滨江大道店 免费看房丨免费停车丨押一付一丨可开票丨", district: "其他区", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
     { id: "n54", title: "独栋·泊寓 滨江大道店 免费看房丨免费停车丨押一付一丨可开票丨 1室1厅", rent: 1440, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 滨江大道店 免费看房丨免费停车丨押一付一丨可开票丨 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1750750314354/c1c111341f21661f787f300697eb608b.jpg.250x182.jpg", "img://room/392", "img://room/393"],
       landlordName: "赵娜", landlordPhone: "15829663792", landlordWechat: "赵娜54",
       description: "房源位于泊寓 滨江大道店 免费看房丨免费停车丨押一付一丨可开票丨 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "南北通透"], listedDate: "2026-03-15", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n40", name: "东南青年汇 奥体店 【押一付一】建邺品质公寓 智能门锁 独立宽带 1室1厅", district: "建邺区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n40", name: "东南青年汇 奥体店 【押一付一】建邺品质公寓 智能门锁 独立宽带", district: "建邺区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n55", title: "独栋·东南青年汇 奥体店 【押一付一】建邺品质公寓 智能门锁 独立宽带 1室1厅", rent: 2600, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 奥体店 【押一付一】建邺品质公寓 智能门锁 独立宽带 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1763191259940/4241e75ad728df05fdd8ccce1194add4.jpg.250x182.jpg", "img://room/399", "img://room/400"],
       landlordName: "杨磊", landlordPhone: "13855972569",
       description: "房源位于东南青年汇 奥体店 【押一付一】建邺品质公寓 智能门锁 独立宽带 1室1厅，朝向好，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "近地铁", "精装修"], listedDate: "2026-03-22", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n41", name: "鑫庭雅苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.209967, lng: 118.730727, avgRent: 0, listings: [
+  { id: "n41", name: "鑫庭雅苑", district: "其他区", city: "nanjing", lat: 32.209967, lng: 118.730727, avgRent: 0, listings: [
     { id: "n56", title: "整租·鑫庭雅苑 2室1厅 南", rent: 1350, area: 72, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "鑫庭雅苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_2OKpvuik1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/406", "img://room/407"],
       landlordName: "吴敏", landlordPhone: "13822773892", landlordWechat: "吴敏56",
       description: "房源位于鑫庭雅苑 2室1厅 南，南，楼层适中。2室1厅户型，72平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "随时看房"], listedDate: "2026-04-13", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n42", name: "东南青年汇 金才店（梦都大街） 【可短租】没有中间商赚差价/免费健身咨询/麻将搭子 1室1厅", district: "其他", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
+  { id: "n42", name: "东南青年汇 金才店（梦都大街） 【可短租】没有中间商赚差价/免费健身咨询/麻将搭子", district: "其他区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
     { id: "n57", title: "独栋·东南青年汇 金才店（梦都大街） 【可短租】没有中间商赚差价/免费健身咨询/", rent: 2900, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 金才店（梦都大街） 【可短租】没有中间商赚差价/免费健身咨询/麻将搭子 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1715933842986/d80ad4d66812abc440688b6c119352bf.jpg.250x182.jpg", "img://room/413", "img://room/414"],
       landlordName: "杨磊", landlordPhone: "18839798674", landlordWechat: "杨磊57",
       description: "房源位于东南青年汇 金才店（梦都大街） 【可短租】没有中间商赚差价/免费健身咨询/麻将搭子 1室1厅，朝向好，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "采光好", "随时看房"], listedDate: "2026-06-27", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n43", name: "南化九村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.233549, lng: 118.761255, avgRent: 0, listings: [
+  { id: "n43", name: "南化九村", district: "其他区", city: "nanjing", lat: 32.233549, lng: 118.761255, avgRent: 0, listings: [
     { id: "n58", title: "整租·南化九村 2室1厅 南", rent: 900, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "南化九村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_O3pkrCB1x.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/420", "img://room/421"],
       landlordName: "陈静", landlordPhone: "13890794403", landlordWechat: "陈静58",
       description: "房源位于南化九村 2室1厅 南，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "近地铁", "安静宜居"], listedDate: "2026-04-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n44", name: "东南青年汇 奥体店 C2超大露台观景房 1室1厅", district: "其他", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
+  { id: "n44", name: "东南青年汇 奥体店 C2超大露台观景房", district: "其他区", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
     { id: "n59", title: "独栋·东南青年汇 奥体店 C2超大露台观景房 1室1厅", rent: 3200, area: 43, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 奥体店 C2超大露台观景房 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1708162723477/785a1eae6da2ebd15419d682df63250c.jpg.250x182.jpg", "img://room/427", "img://room/428"],
       landlordName: "张伟", landlordPhone: "18813772044",
       description: "房源位于东南青年汇 奥体店 C2超大露台观景房 1室1厅，朝向好，楼层适中。1室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-04-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n45", name: "葛关路 3室2厅 南", district: "其他", city: "nanjing", lat: 32.224768, lng: 118.76648, avgRent: 0, listings: [
+  { id: "n45", name: "葛关路", district: "其他区", city: "nanjing", lat: 32.224768, lng: 118.76648, avgRent: 0, listings: [
     { id: "n60", title: "整租·葛关路 3室2厅 南", rent: 1000, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "葛关路 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_5yP24GGm9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/434", "img://room/435"],
       landlordName: "王芳", landlordPhone: "18613907827",
       description: "房源位于葛关路 3室2厅 南，南，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "采光好"], listedDate: "2026-03-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n46", name: "东南青年汇 奥体店 C2女神专属/露台大开间/卷烟厂旁/停车方便/临近地铁站 1室1厅", district: "其他", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
+  { id: "n46", name: "东南青年汇 奥体店 C2女神专属/露台大开间/卷烟厂旁/停车方便/临近地铁站", district: "其他区", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
     { id: "n61", title: "独栋·东南青年汇 奥体店 C2女神专属/露台大开间/卷烟厂旁/停车方便/临近地铁", rent: 2600, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 奥体店 C2女神专属/露台大开间/卷烟厂旁/停车方便/临近地铁站 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1708335776994/bb43fcb532c0ff07f0ab649f486454af.jpg.250x182.jpg", "img://room/441", "img://room/442"],
       landlordName: "陈静", landlordPhone: "18890548034", landlordWechat: "陈静61",
       description: "房源位于东南青年汇 奥体店 C2女神专属/露台大开间/卷烟厂旁/停车方便/临近地铁站 1室1厅，朝向好，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "近地铁", "精装修"], listedDate: "2026-05-01", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n47", name: "南化九村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.233549, lng: 118.761255, avgRent: 0, listings: [
+  { id: "n47", name: "南化九村", district: "其他区", city: "nanjing", lat: 32.233549, lng: 118.761255, avgRent: 0, listings: [
     { id: "n62", title: "整租·南化九村 2室1厅 南/北", rent: 1400, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "南化九村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_hY7e6S36k.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/448", "img://room/449"],
       landlordName: "李强", landlordPhone: "13827989118",
       description: "房源位于南化九村 2室1厅 南/北，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "随时看房", "精装修"], listedDate: "2026-05-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n48", name: "如意里 1室0厅 南", district: "其他", city: "nanjing", lat: 32.047154, lng: 118.793375, avgRent: 0, listings: [
+  { id: "n48", name: "如意里", district: "其他区", city: "nanjing", lat: 32.047154, lng: 118.793375, avgRent: 0, listings: [
     { id: "n63", title: "整租·如意里 1室0厅 南", rent: 1800, area: 28, rooms: "1室0厅", floor: "楼层适中", direction: "南", community: "如意里 1室0厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MzjWGqgS7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/455", "img://room/456"],
       landlordName: "黄明", landlordPhone: "13876744995", landlordWechat: "黄明63",
       description: "房源位于如意里 1室0厅 南，南，楼层适中。1室0厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透"], listedDate: "2026-06-12", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n49", name: "东南青年汇 奥体店 住房补贴/无中介/两个月起租/企业合作优惠多多 1室1厅", district: "其他", city: "nanjing", lat: 32.092459, lng: 118.966495, avgRent: 0, listings: [
+  { id: "n49", name: "东南青年汇 奥体店 住房补贴/无中介/两个月起租/企业合作优惠多多", district: "其他区", city: "nanjing", lat: 32.092459, lng: 118.966495, avgRent: 0, listings: [
     { id: "n64", title: "独栋·东南青年汇 奥体店 住房补贴/无中介/两个月起租/企业合作优惠多多 1室1", rent: 2700, area: 43, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 奥体店 住房补贴/无中介/两个月起租/企业合作优惠多多 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1708162845840/fc88d4741c67fad7d4ef677fb9b929e5.jpg.250x182.jpg", "img://room/462", "img://room/463"],
       landlordName: "黄明", landlordPhone: "18845546191", landlordWechat: "黄明64",
       description: "房源位于东南青年汇 奥体店 住房补贴/无中介/两个月起租/企业合作优惠多多 1室1厅，朝向好，楼层适中。1室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "近地铁", "安静宜居"], listedDate: "2026-05-15", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n50", name: "弘阳旭日上城三区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.141179, lng: 118.725499, avgRent: 0, listings: [
+  { id: "n50", name: "弘阳旭日上城三区", district: "其他区", city: "nanjing", lat: 32.141179, lng: 118.725499, avgRent: 0, listings: [
     { id: "n65", title: "整租·弘阳旭日上城三区 1室1厅 南", rent: 1900, area: 61, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "弘阳旭日上城三区 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_tRmMV3Lc8.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/469", "img://room/470"],
       landlordName: "刘洋", landlordPhone: "18667688596",
       description: "房源位于弘阳旭日上城三区 1室1厅 南，南，楼层适中。1室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居", "近地铁"], listedDate: "2026-04-11", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n51", name: "东南青年汇 金才店（梦都大街） 精致客卧分离/超大L型露台/不可短租/可月付/奥体附近 1室1厅", district: "其他", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
+  { id: "n51", name: "东南青年汇 金才店（梦都大街） 精致客卧分离/超大L型露台/不可短租/可月付/奥体附近", district: "其他区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
     { id: "n66", title: "独栋·东南青年汇 金才店（梦都大街） 精致客卧分离/超大L型露台/不可短租/可月", rent: 3600, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 金才店（梦都大街） 精致客卧分离/超大L型露台/不可短租/可月付/奥体附近 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1699598700681/1c6c45435df241e1530e3def2b771121.jpg.250x182.jpg", "img://room/476", "img://room/477"],
       landlordName: "陈静", landlordPhone: "13824971445", landlordWechat: "陈静66",
       description: "房源位于东南青年汇 金才店（梦都大街） 精致客卧分离/超大L型露台/不可短租/可月付/奥体附近 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "独立厨卫", "随时看房"], listedDate: "2026-05-16", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n52", name: "东南青年汇 银龙店 国企运营品质保证/租期灵活可月付 1室1厅", district: "其他", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
+  { id: "n52", name: "东南青年汇 银龙店 国企运营品质保证/租期灵活可月付", district: "其他区", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
     { id: "n67", title: "独栋·东南青年汇 银龙店 国企运营品质保证/租期灵活可月付 1室1厅", rent: 1600, area: 32, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 国企运营品质保证/租期灵活可月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1769393737733/8db7d653b23ebeeb3307c77cd4adeef6.png.250x182.jpg", "img://room/483", "img://room/484"],
       landlordName: "黄明", landlordPhone: "13948711540", landlordWechat: "黄明67",
       description: "房源位于东南青年汇 银龙店 国企运营品质保证/租期灵活可月付 1室1厅，朝向好，楼层适中。1室1厅户型，32平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "安静宜居"], listedDate: "2026-04-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n53", name: "东南青年汇 银龙店 独立卫浴/拎包入住/押一付一 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n53", name: "东南青年汇 银龙店 独立卫浴/拎包入住/押一付一", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n68", title: "独栋·东南青年汇 银龙店 独立卫浴/拎包入住/押一付一 1室1厅", rent: 1750, area: 32, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 独立卫浴/拎包入住/押一付一 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/0aaa8ca1-e7d4-48c9-b9ad-5808ea98fc0f.250x182.jpg", "img://room/490", "img://room/491"],
       landlordName: "吴敏", landlordPhone: "18879518329",
       description: "房源位于东南青年汇 银龙店 独立卫浴/拎包入住/押一付一 1室1厅，朝向好，楼层适中。1室1厅户型，32平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "精装修", "拎包入住"], listedDate: "2026-05-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n54", name: "东南青年汇 银龙店 50平阳台房/长租八折优惠 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n54", name: "东南青年汇 银龙店 50平阳台房/长租八折优惠", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n69", title: "独栋·东南青年汇 银龙店 50平阳台房/长租八折优惠 1室1厅", rent: 2000, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 50平阳台房/长租八折优惠 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/ffb82362-ef6c-444b-9267-031bbada6a19.250x182.jpg", "img://room/497", "img://room/498"],
       landlordName: "吴敏", landlordPhone: "15886899954", landlordWechat: "吴敏69",
       description: "房源位于东南青年汇 银龙店 50平阳台房/长租八折优惠 1室1厅，朝向好，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "南北通透", "近地铁"], listedDate: "2026-03-11", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n55", name: "泊寓 龙眠大道店 【学生推荐】押一付一丨距南医大一站丨拎包入住丨可办住房补贴 开间", district: "其他", city: "nanjing", lat: 32.029105, lng: 118.741197, avgRent: 0, listings: [
+  { id: "n55", name: "泊寓 龙眠大道店 【学生推荐】押一付一丨距南医大一站丨拎包入住丨可办住房补贴", district: "其他区", city: "nanjing", lat: 32.029105, lng: 118.741197, avgRent: 0, listings: [
     { id: "n70", title: "独栋·泊寓 龙眠大道店 【学生推荐】押一付一丨距南医大一站丨拎包入住丨可办住房补", rent: 1850, area: 27, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 龙眠大道店 【学生推荐】押一付一丨距南医大一站丨拎包入住丨可办住房补贴 开间",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1777089920750/e5795a73c22d5050a8c3f2c1139f9f22.jpg.250x182.jpg", "img://room/504", "img://room/505"],
       landlordName: "刘洋", landlordPhone: "15826099616",
       description: "房源位于泊寓 龙眠大道店 【学生推荐】押一付一丨距南医大一站丨拎包入住丨可办住房补贴 开间，朝向好，楼层适中。1室0厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "安静宜居", "南北通透"], listedDate: "2026-06-09", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n56", name: "泊寓 龙眠大道店 【学生推荐】押一付一丨义乌小商品城600米丨超绝采光 开间", district: "其他", city: "nanjing", lat: 31.961711, lng: 118.73563, avgRent: 0, listings: [
+  { id: "n56", name: "泊寓 龙眠大道店 【学生推荐】押一付一丨义乌小商品城600米丨超绝采光", district: "其他区", city: "nanjing", lat: 31.961711, lng: 118.73563, avgRent: 0, listings: [
     { id: "n71", title: "独栋·泊寓 龙眠大道店 【学生推荐】押一付一丨义乌小商品城600米丨超绝采光 开", rent: 1800, area: 27, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 龙眠大道店 【学生推荐】押一付一丨义乌小商品城600米丨超绝采光 开间",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1778055409646/b73a40fcb772ef29318537362175ab1d.jpg.250x182.jpg", "img://room/511", "img://room/512"],
       landlordName: "吴敏", landlordPhone: "18661176423", landlordWechat: "吴敏71",
       description: "房源位于泊寓 龙眠大道店 【学生推荐】押一付一丨义乌小商品城600米丨超绝采光 开间，朝向好，楼层适中。1室0厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "南北通透", "近地铁"], listedDate: "2026-05-23", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n57", name: "泊寓 龙眠大道店 【超长钜惠】南医大一站地铁丨交通便利丨天韵产业园500米内 开间", district: "其他", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
+  { id: "n57", name: "泊寓 龙眠大道店 【超长钜惠】南医大一站地铁丨交通便利丨天韵产业园500米内", district: "其他区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
     { id: "n72", title: "独栋·泊寓 龙眠大道店 【超长钜惠】南医大一站地铁丨交通便利丨天韵产业园500米", rent: 2550, area: 48, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 龙眠大道店 【超长钜惠】南医大一站地铁丨交通便利丨天韵产业园500米内 开间",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1777534800168/da6b34f6fa3ff3b18a0d29f20f088e7c.jpg.250x182.jpg", "img://room/518", "img://room/519"],
       landlordName: "赵娜", landlordPhone: "13861040074", landlordWechat: "赵娜72",
       description: "房源位于泊寓 龙眠大道店 【超长钜惠】南医大一站地铁丨交通便利丨天韵产业园500米内 开间，朝向好，楼层适中。1室0厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "拎包入住", "安静宜居"], listedDate: "2026-06-23", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n58", name: "蓝光公园1号 4室1厅 东南", district: "其他", city: "nanjing", lat: 31.919731, lng: 118.666826, avgRent: 0, listings: [
+  { id: "n58", name: "蓝光公园1号", district: "其他区", city: "nanjing", lat: 31.919731, lng: 118.666826, avgRent: 0, listings: [
     { id: "n73", title: "整租·蓝光公园1号 4室1厅 东南", rent: 2800, area: 125, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "蓝光公园1号 4室1厅 东南",
       images: ["https://image1.ljcdn.com/lease-image/house/305c180c6dbe72051d39c1608835dab3.jpeg.250x182.jpg", "img://room/525", "img://room/526"],
       landlordName: "赵娜", landlordPhone: "18814727339",
       description: "房源位于蓝光公园1号 4室1厅 东南，东，楼层适中。4室1厅户型，125平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "拎包入住", "精装修"], listedDate: "2026-06-10", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n59", name: "拎包入住 1室1厅", district: "其他", city: "nanjing", lat: 32.083519, lng: 118.750934, avgRent: 0, listings: [
+  { id: "n59", name: "拎包入住", district: "其他区", city: "nanjing", lat: 32.083519, lng: 118.750934, avgRent: 0, listings: [
     { id: "n74", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 毕业优惠·可月付·24h物业·拎包入住", rent: 1430, area: 26, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "拎包入住 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1775716038546/86e5442e32518e72dfa7e50038095d2a.jpg.250x182.jpg", "img://room/532", "img://room/533"],
       landlordName: "刘洋", landlordPhone: "13915135439", landlordWechat: "刘洋74",
       description: "房源位于拎包入住 1室1厅，朝向好，楼层适中。1室1厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "安静宜居"], listedDate: "2026-03-23", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n60", name: "扬子江公寓 数字基地3号店 精装LOFT两室两卫！南北通透，可月付24H安保服务免费维修可养宠物主播优选！毕业生免押 2室1厅", district: "其他", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
+  { id: "n60", name: "扬子江公寓 数字基地3号店 精装LOFT两室两卫！南北通透，可月付24H安保服务免费维修可养宠物主播优选！毕业生免押", district: "其他区", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
     { id: "n75", title: "独栋·扬子江公寓 数字基地3号店 精装LOFT两室两卫！南北通透，可月付24H安", rent: 2389, area: 90, rooms: "2室1厅", floor: "楼层适中", direction: "朝向好", community: "扬子江公寓 数字基地3号店 精装LOFT两室两卫！南北通透，可月付24H安保服务免费维修可养宠物主播优选！毕业生免押 2室1厅",
       images: ["https://image1.ljcdn.com/wanjia/d108c357598a2cdabacd9b0639bebc02-1774512777248/e061db9313d06e2cc7dcfc16d4ef6580.jpg.250x182.jpg", "img://room/539", "img://room/540"],
       landlordName: "周杰", landlordPhone: "13871394145",
       description: "房源位于扬子江公寓 数字基地3号店 精装LOFT两室两卫！南北通透，可月付24H安保服务免费维修可养宠物主播优选！毕业生免押 2室1厅，朝向好，楼层适中。2室1厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-04-28", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n61", name: "广成东方名城 3室2厅 南", district: "其他", city: "nanjing", lat: 31.6401, lng: 119.035632, avgRent: 0, listings: [
+  { id: "n61", name: "广成东方名城", district: "其他区", city: "nanjing", lat: 31.6401, lng: 119.035632, avgRent: 0, listings: [
     { id: "n76", title: "整租·广成东方名城 3室2厅 南", rent: 1300, area: 125, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "广成东方名城 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_AMZniomiL_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/546", "img://room/547"],
       landlordName: "杨磊", landlordPhone: "15077701962",
       description: "房源位于广成东方名城 3室2厅 南，南，楼层适中。3室2厅户型，125平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "精装修"], listedDate: "2026-06-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n62", name: "扬子江公寓 数字基地6号店 国企品牌单室精装拎包入住无中介费可月付可养宠物毕业生免押 开间", district: "其他", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
+  { id: "n62", name: "扬子江公寓 数字基地6号店 国企品牌单室精装拎包入住无中介费可月付可养宠物毕业生免押", district: "其他区", city: "nanjing", lat: 32.044211, lng: 118.617426, avgRent: 0, listings: [
     { id: "n77", title: "独栋·扬子江公寓 数字基地6号店 国企品牌单室精装拎包入住无中介费可月付可养宠物", rent: 1137, area: 22, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "扬子江公寓 数字基地6号店 国企品牌单室精装拎包入住无中介费可月付可养宠物毕业生免押 开间",
       images: ["https://image1.ljcdn.com/wanjia/d108c357598a2cdabacd9b0639bebc02-1741919937054/21b447a00555ae83d2a988301d07765a.jpg.250x182.jpg", "img://room/553", "img://room/554"],
       landlordName: "陈静", landlordPhone: "15075514389", landlordWechat: "陈静77",
       description: "房源位于扬子江公寓 数字基地6号店 国企品牌单室精装拎包入住无中介费可月付可养宠物毕业生免押 开间，朝向好，楼层适中。1室0厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "独立厨卫"], listedDate: "2026-06-05", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n63", name: "龙海新加坡花园城北区 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.349666, lng: 118.858341, avgRent: 0, listings: [
+  { id: "n63", name: "龙海新加坡花园城北区", district: "其他区", city: "nanjing", lat: 32.349666, lng: 118.858341, avgRent: 0, listings: [
     { id: "n78", title: "整租·龙海新加坡花园城北区 3室1厅 南/北", rent: 1300, area: 118, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "龙海新加坡花园城北区 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/e5e8f319-f5f0-44d9-8ebd-8c4012a37174.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/560", "img://room/561"],
       landlordName: "杨磊", landlordPhone: "15024649350",
       description: "房源位于龙海新加坡花园城北区 3室1厅 南/北，北，楼层适中。3室1厅户型，118平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "随时看房", "安静宜居"], listedDate: "2026-06-21", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n64", name: "扬子江公寓 数字基地3号店 两室两卫 采光充足 交通便利 随时入住毕业生免押 2室2厅", district: "其他", city: "nanjing", lat: 31.896741, lng: 118.912606, avgRent: 0, listings: [
+  { id: "n64", name: "扬子江公寓 数字基地3号店 两室两卫 采光充足 交通便利 随时入住毕业生免押", district: "其他区", city: "nanjing", lat: 31.896741, lng: 118.912606, avgRent: 0, listings: [
     { id: "n79", title: "独栋·扬子江公寓 数字基地3号店 两室两卫 采光充足 交通便利 随时入住毕业生免", rent: 2389, area: 90, rooms: "2室2厅", floor: "楼层适中", direction: "朝向好", community: "扬子江公寓 数字基地3号店 两室两卫 采光充足 交通便利 随时入住毕业生免押 2室2厅",
       images: ["https://image1.ljcdn.com/wanjia/d108c357598a2cdabacd9b0639bebc02-1775720743798/0c92fa0570916bdd1f043f0d1dc93fa8.jpg.250x182.jpg", "img://room/567", "img://room/568"],
       landlordName: "陈静", landlordPhone: "18628711344",
       description: "房源位于扬子江公寓 数字基地3号店 两室两卫 采光充足 交通便利 随时入住毕业生免押 2室2厅，朝向好，楼层适中。2室2厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "近地铁", "南北通透"], listedDate: "2026-05-22", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n65", name: "恒大金碧天下天鸿苑 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.702016, lng: 119.065276, avgRent: 0, listings: [
+  { id: "n65", name: "恒大金碧天下天鸿苑", district: "其他区", city: "nanjing", lat: 31.702016, lng: 119.065276, avgRent: 0, listings: [
     { id: "n80", title: "整租·恒大金碧天下天鸿苑 3室2厅 南/北", rent: 1200, area: 113, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "恒大金碧天下天鸿苑 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/c7191570dcf938b93f4cc2ae47dff70a-072.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/574", "img://room/575"],
       landlordName: "陈静", landlordPhone: "15096659136", landlordWechat: "陈静80",
       description: "房源位于恒大金碧天下天鸿苑 3室2厅 南/北，南，楼层适中。3室2厅户型，113平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "南北通透", "拎包入住"], listedDate: "2026-06-11", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n66", name: "景河苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.249683, lng: 118.737086, avgRent: 0, listings: [
+  { id: "n66", name: "景河苑", district: "其他区", city: "nanjing", lat: 32.249683, lng: 118.737086, avgRent: 0, listings: [
     { id: "n81", title: "整租·景河苑 2室1厅 南", rent: 1300, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "景河苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_4kprk7pIu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/581", "img://room/582"],
       landlordName: "陈静", landlordPhone: "18866228946",
       description: "房源位于景河苑 2室1厅 南，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "拎包入住", "安静宜居"], listedDate: "2026-03-27", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n67", name: "柚米 南京天马路一号柚米社区 限量活动先到先得，无服务费！公寓直租无中介费！民水民电 1室1厅", district: "其他", city: "nanjing", lat: 32.068061, lng: 118.902833, avgRent: 0, listings: [
+  { id: "n67", name: "柚米 南京天马路一号柚米社区 限量活动先到先得，无服务费！公寓直租无中介费！民水民电", district: "其他区", city: "nanjing", lat: 32.068061, lng: 118.902833, avgRent: 0, listings: [
     { id: "n82", title: "独栋·柚米 南京天马路一号柚米社区 限量活动先到先得，无服务费！公寓直租无中介费", rent: 1436, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京天马路一号柚米社区 限量活动先到先得，无服务费！公寓直租无中介费！民水民电 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1688636551190/6226b53b6d1a8c801e7b0137e6309619.JPG.250x182.jpg", "img://room/588", "img://room/589"],
       landlordName: "赵娜", landlordPhone: "15082935100", landlordWechat: "赵娜82",
       description: "房源位于柚米 南京天马路一号柚米社区 限量活动先到先得，无服务费！公寓直租无中介费！民水民电 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透"], listedDate: "2026-04-25", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n68", name: "深业揽江府 3室2厅 南", district: "其他", city: "nanjing", lat: 32.098361, lng: 118.739798, avgRent: 0, listings: [
+  { id: "n68", name: "深业揽江府", district: "其他区", city: "nanjing", lat: 32.098361, lng: 118.739798, avgRent: 0, listings: [
     { id: "n83", title: "整租·深业揽江府 3室2厅 南", rent: 8600, area: 133, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "深业揽江府 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_zzVOxioqo.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/595", "img://room/596"],
       landlordName: "王芳", landlordPhone: "15059580355", landlordWechat: "王芳83",
       description: "房源位于深业揽江府 3室2厅 南，南，楼层适中。3室2厅户型，133平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "采光好"], listedDate: "2026-05-26", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n69", name: "杨庄新村西苑 3室1厅 南", district: "其他", city: "nanjing", lat: 32.212895, lng: 118.734304, avgRent: 0, listings: [
+  { id: "n69", name: "杨庄新村西苑", district: "其他区", city: "nanjing", lat: 32.212895, lng: 118.734304, avgRent: 0, listings: [
     { id: "n84", title: "整租·杨庄新村西苑 3室1厅 南", rent: 1200, area: 85, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "杨庄新村西苑 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_U6MDRoiJX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/602", "img://room/603"],
       landlordName: "陈静", landlordPhone: "18634859180", landlordWechat: "陈静84",
       description: "房源位于杨庄新村西苑 3室1厅 南，西，楼层适中。3室1厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "安静宜居"], listedDate: "2026-04-08", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n70", name: "秦淮花苑福园 2室1厅 南", district: "秦淮区", city: "nanjing", lat: 31.673503, lng: 119.051885, avgRent: 0, listings: [
+  { id: "n70", name: "秦淮花苑福园", district: "秦淮区", city: "nanjing", lat: 31.673503, lng: 119.051885, avgRent: 0, listings: [
     { id: "n85", title: "整租·秦淮花苑福园 2室1厅 南", rent: 850, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "秦淮花苑福园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0xQD6SeFF.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/609", "img://room/610"],
       landlordName: "吴敏", landlordPhone: "13891722975",
       description: "房源位于秦淮花苑福园 2室1厅 南，北，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-05-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n71", name: "贝壳新青年公寓 浦口文化中心店 超温馨舒适小窝 桥北商圈正中 品牌公寓直租 开间", district: "浦口区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
+  { id: "n71", name: "贝壳新青年公寓 浦口文化中心店 超温馨舒适小窝 桥北商圈正中 品牌公寓直租", district: "浦口区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
     { id: "n86", title: "独栋·贝壳新青年公寓 浦口文化中心店 超温馨舒适小窝 桥北商圈正中 品牌公寓直租", rent: 1475, area: 26, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "贝壳新青年公寓 浦口文化中心店 超温馨舒适小窝 桥北商圈正中 品牌公寓直租 开间",
       images: ["https://image1.ljcdn.com/wanjia/e584069639e3307a2317c4fdec4c21d1-1729305673591/292e3500ded79a9ab24e1cba1bf877fb.jpg.250x182.jpg", "img://room/616", "img://room/617"],
       landlordName: "刘洋", landlordPhone: "18622874292",
       description: "房源位于贝壳新青年公寓 浦口文化中心店 超温馨舒适小窝 桥北商圈正中 品牌公寓直租 开间，朝向好，楼层适中。1室0厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "南北通透"], listedDate: "2026-03-05", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n72", name: "文馨花苑 3室1厅 南", district: "其他", city: "nanjing", lat: 32.333625, lng: 118.826339, avgRent: 0, listings: [
+  { id: "n72", name: "文馨花苑", district: "其他区", city: "nanjing", lat: 32.333625, lng: 118.826339, avgRent: 0, listings: [
     { id: "n87", title: "整租·文馨花苑 3室1厅 南", rent: 1600, area: 90, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "文馨花苑 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xjWWZCZBr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/623", "img://room/624"],
       landlordName: "陈静", landlordPhone: "13983924587", landlordWechat: "陈静87",
       description: "房源位于文馨花苑 3室1厅 南，南，楼层适中。3室1厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "南北通透"], listedDate: "2026-03-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n73", name: "泊寓 龙眠大道店 【新店开业】超绝采光丨押一付一丨近义乌、1号线地铁、天韵科创 开间", district: "其他", city: "nanjing", lat: 31.917357, lng: 118.837965, avgRent: 0, listings: [
+  { id: "n73", name: "泊寓 龙眠大道店 【新店开业】超绝采光丨押一付一丨近义乌、1号线地铁、天韵科创", district: "其他区", city: "nanjing", lat: 31.917357, lng: 118.837965, avgRent: 0, listings: [
     { id: "n88", title: "独栋·泊寓 龙眠大道店 【新店开业】超绝采光丨押一付一丨近义乌、1号线地铁、天韵", rent: 2550, area: 48, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 龙眠大道店 【新店开业】超绝采光丨押一付一丨近义乌、1号线地铁、天韵科创 开间",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1777537483329/13bbf65cc7a0894bac77b72fd727528d.jpg.250x182.jpg", "img://room/630", "img://room/631"],
       landlordName: "陈静", landlordPhone: "13839233083", landlordWechat: "陈静88",
       description: "房源位于泊寓 龙眠大道店 【新店开业】超绝采光丨押一付一丨近义乌、1号线地铁、天韵科创 开间，朝向好，楼层适中。1室0厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居"], listedDate: "2026-05-11", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n74", name: "荣城熙苑 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
+  { id: "n74", name: "荣城熙苑", district: "其他区", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
     { id: "n89", title: "整租·荣城熙苑 2室1厅 南/北", rent: 1500, area: 75, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "荣城熙苑 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_9UNvQjFgS.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/637", "img://room/638"],
       landlordName: "吴敏", landlordPhone: "13849238879",
       description: "房源位于荣城熙苑 2室1厅 南/北，南，楼层适中。2室1厅户型，75平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "拎包入住"], listedDate: "2026-04-23", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n75", name: "泊寓 新门西旗舰社区 【学生优惠】长租首月再减400元 近三山街 万象天地  押一付一 1室1厅", district: "其他", city: "nanjing", lat: 31.87856, lng: 118.892508, avgRent: 0, listings: [
+  { id: "n75", name: "泊寓 新门西旗舰社区 【学生优惠】长租首月再减400元 近三山街 万象天地  押一付一", district: "其他区", city: "nanjing", lat: 31.87856, lng: 118.892508, avgRent: 0, listings: [
     { id: "n90", title: "独栋·泊寓 新门西旗舰社区 【学生优惠】长租首月再减400元 近三山街 万象天地", rent: 2900, area: 25, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 新门西旗舰社区 【学生优惠】长租首月再减400元 近三山街 万象天地  押一付一 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1773817629130/9f1a0587825ca5fafa27bf6a0fb3b62f.jpg.250x182.jpg", "img://room/644", "img://room/645"],
       landlordName: "李强", landlordPhone: "15067979961", landlordWechat: "李强90",
       description: "房源位于泊寓 新门西旗舰社区 【学生优惠】长租首月再减400元 近三山街 万象天地  押一付一 1室1厅，朝向好，楼层适中。1室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "独立厨卫", "南北通透"], listedDate: "2026-04-10", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n76", name: "东南青年汇 仙林店 长租优惠 全景阳光房仙林学则路 1室1厅", district: "其他", city: "nanjing", lat: 32.180632, lng: 118.713331, avgRent: 0, listings: [
+  { id: "n76", name: "东南青年汇 仙林店 长租优惠 全景阳光房仙林学则路", district: "其他区", city: "nanjing", lat: 32.180632, lng: 118.713331, avgRent: 0, listings: [
     { id: "n91", title: "独栋·东南青年汇 仙林店 长租优惠 全景阳光房仙林学则路 1室1厅", rent: 2580, area: 26, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 仙林店 长租优惠 全景阳光房仙林学则路 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/7f79739e-8043-43fd-8441-f7aef73451b1.250x182.jpg", "img://room/651", "img://room/652"],
       landlordName: "李强", landlordPhone: "18624138667", landlordWechat: "李强91",
       description: "房源位于东南青年汇 仙林店 长租优惠 全景阳光房仙林学则路 1室1厅，朝向好，楼层适中。1室1厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "精装修", "近地铁"], listedDate: "2026-06-19", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n77", name: "东南青年汇 仙林店 仙林大学城考研考证教师学生公寓 咨询长租有优惠 1室1厅", district: "其他", city: "nanjing", lat: 31.931975, lng: 118.838987, avgRent: 0, listings: [
+  { id: "n77", name: "东南青年汇 仙林店 仙林大学城考研考证教师学生公寓 咨询长租有优惠", district: "其他区", city: "nanjing", lat: 31.931975, lng: 118.838987, avgRent: 0, listings: [
     { id: "n92", title: "独栋·东南青年汇 仙林店 仙林大学城考研考证教师学生公寓 咨询长租有优惠 1室1", rent: 2550, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 仙林店 仙林大学城考研考证教师学生公寓 咨询长租有优惠 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/50d8c59c-12a6-4cc0-9eea-207d169d973b.250x182.jpg", "img://room/658", "img://room/659"],
       landlordName: "张伟", landlordPhone: "15838788881", landlordWechat: "张伟92",
       description: "房源位于东南青年汇 仙林店 仙林大学城考研考证教师学生公寓 咨询长租有优惠 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "南北通透", "随时看房"], listedDate: "2026-03-19", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n78", name: "东南青年汇 仙林店 仙林人才公寓长租优惠 1室1厅", district: "其他", city: "nanjing", lat: 32.005528, lng: 118.767649, avgRent: 0, listings: [
+  { id: "n78", name: "东南青年汇 仙林店 仙林人才公寓长租优惠", district: "其他区", city: "nanjing", lat: 32.005528, lng: 118.767649, avgRent: 0, listings: [
     { id: "n93", title: "独栋·东南青年汇 仙林店 仙林人才公寓长租优惠 1室1厅", rent: 2950, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 仙林店 仙林人才公寓长租优惠 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/f091a54b-d642-462a-841e-0dc9d06b3ff3.250x182.jpg", "img://room/665", "img://room/666"],
       landlordName: "张伟", landlordPhone: "18850158634", landlordWechat: "张伟93",
       description: "房源位于东南青年汇 仙林店 仙林人才公寓长租优惠 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "采光好"], listedDate: "2026-03-27", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n79", name: "东南青年汇 仙林店 长租优惠 仙林精装家电齐全 1室1厅", district: "其他", city: "nanjing", lat: 31.946725, lng: 118.866789, avgRent: 0, listings: [
+  { id: "n79", name: "东南青年汇 仙林店 长租优惠 仙林精装家电齐全", district: "其他区", city: "nanjing", lat: 31.946725, lng: 118.866789, avgRent: 0, listings: [
     { id: "n94", title: "独栋·东南青年汇 仙林店 长租优惠 仙林精装家电齐全 1室1厅", rent: 2800, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 仙林店 长租优惠 仙林精装家电齐全 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/94d17a36-dbf5-4b0e-88e3-d34e7722e1b6.250x182.jpg", "img://room/672", "img://room/673"],
       landlordName: "王芳", landlordPhone: "13850742048", landlordWechat: "王芳94",
       description: "房源位于东南青年汇 仙林店 长租优惠 仙林精装家电齐全 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "南北通透"], listedDate: "2026-04-25", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n80", name: "东南青年汇 景祥店 押一付一/无中介费/近江宁万达 1室1厅", district: "江宁区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n80", name: "东南青年汇 景祥店 押一付一/无中介费/近江宁万达", district: "江宁区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n95", title: "独栋·东南青年汇 景祥店 押一付一/无中介费/近江宁万达 1室1厅", rent: 1625, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 景祥店 押一付一/无中介费/近江宁万达 1室1厅",
       images: ["https://image1.ljcdn.com/rent-user-avatar/d95e82aa-299e-4f91-97d1-95b443ed7bec.250x182.jpg", "img://room/679", "img://room/680"],
       landlordName: "张伟", landlordPhone: "15887880531",
       description: "房源位于东南青年汇 景祥店 押一付一/无中介费/近江宁万达 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住"], listedDate: "2026-05-06", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n81", name: "龙湖冠寓 南京河西大街店 新城科技园专享特惠 I 实习折上折优惠 I 可办住房补贴 I 近邻河西 CBD 开间", district: "其他", city: "nanjing", lat: 32.015492, lng: 118.738283, avgRent: 0, listings: [
+  { id: "n81", name: "龙湖冠寓 南京河西大街店 新城科技园专享特惠 I 实习折上折优惠 I 可办住房补贴 I 近邻河西 CBD", district: "其他区", city: "nanjing", lat: 32.015492, lng: 118.738283, avgRent: 0, listings: [
     { id: "n96", title: "独栋·龙湖冠寓 南京河西大街店 新城科技园专享特惠 I 实习折上折优惠 I 可办", rent: 2371, area: 27, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京河西大街店 新城科技园专享特惠 I 实习折上折优惠 I 可办住房补贴 I 近邻河西 CBD 开间",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1776326829543/5951fa146d0ca3753e9459d81bea37e3.png.250x182.jpg", "img://room/686", "img://room/687"],
       landlordName: "周杰", landlordPhone: "18873578250", landlordWechat: "周杰96",
       description: "房源位于龙湖冠寓 南京河西大街店 新城科技园专享特惠 I 实习折上折优惠 I 可办住房补贴 I 近邻河西 CBD 开间，朝向好，楼层适中。1室0厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-04-19", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n82", name: "景桥茗苑北区 3室1厅 南", district: "其他", city: "nanjing", lat: 31.3163, lng: 118.882281, avgRent: 0, listings: [
+  { id: "n82", name: "景桥茗苑北区", district: "其他区", city: "nanjing", lat: 31.3163, lng: 118.882281, avgRent: 0, listings: [
     { id: "n97", title: "整租·景桥茗苑北区 3室1厅 南", rent: 1150, area: 98, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "景桥茗苑北区 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kv7gd0Ges.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/693", "img://room/694"],
       landlordName: "赵娜", landlordPhone: "15072508732", landlordWechat: "赵娜97",
       description: "房源位于景桥茗苑北区 3室1厅 南，北，楼层适中。3室1厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "拎包入住"], listedDate: "2026-06-03", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n83", name: "平安里小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.07126, lng: 118.775267, avgRent: 0, listings: [
+  { id: "n83", name: "平安里小区", district: "其他区", city: "nanjing", lat: 32.07126, lng: 118.775267, avgRent: 0, listings: [
     { id: "n98", title: "整租·平安里小区 2室1厅 南", rent: 2500, area: 58, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "平安里小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_XpMz628Os.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/700", "img://room/701"],
       landlordName: "杨磊", landlordPhone: "15074551471", landlordWechat: "杨磊98",
       description: "房源位于平安里小区 2室1厅 南，南，楼层适中。2室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "近地铁"], listedDate: "2026-04-16", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n84", name: "天堂街小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.039628, lng: 118.778642, avgRent: 0, listings: [
+  { id: "n84", name: "天堂街小区", district: "其他区", city: "nanjing", lat: 32.039628, lng: 118.778642, avgRent: 0, listings: [
     { id: "n99", title: "整租·天堂街小区 2室1厅 南", rent: 3500, area: 41, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "天堂街小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_WlK7DMWJ9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/707", "img://room/708"],
       landlordName: "王芳", landlordPhone: "18661985771", landlordWechat: "王芳99",
       description: "房源位于天堂街小区 2室1厅 南，南，楼层适中。2室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "南北通透"], listedDate: "2026-06-06", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n85", name: "天印大道929号 2室1厅 南", district: "其他", city: "nanjing", lat: 31.939739, lng: 118.863843, avgRent: 0, listings: [
+  { id: "n85", name: "天印大道929号", district: "其他区", city: "nanjing", lat: 31.939739, lng: 118.863843, avgRent: 0, listings: [
     { id: "n100", title: "整租·天印大道929号 2室1厅 南", rent: 2000, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "天印大道929号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_CZuitzHVL.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/714", "img://room/715"],
       landlordName: "吴敏", landlordPhone: "18619692653", landlordWechat: "吴敏100",
       description: "房源位于天印大道929号 2室1厅 南，东，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "安静宜居", "采光好"], listedDate: "2026-04-09", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n86", name: "柚米 南京天马路一号柚米社区 免费健身房，24小时管家安保，社区直租无中介费 可办租房补贴 1室1厅", district: "其他", city: "nanjing", lat: 32.068061, lng: 118.902833, avgRent: 0, listings: [
+  { id: "n86", name: "柚米 南京天马路一号柚米社区 免费健身房，24小时管家安保，社区直租无中介费 可办租房补贴", district: "其他区", city: "nanjing", lat: 32.068061, lng: 118.902833, avgRent: 0, listings: [
     { id: "n101", title: "独栋·柚米 南京天马路一号柚米社区 免费健身房，24小时管家安保，社区直租无中介", rent: 1367, area: 28, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京天马路一号柚米社区 免费健身房，24小时管家安保，社区直租无中介费 可办租房补贴 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1768799280824/f3ccdd27d2000e3f9255a7e3e2c48800.jpg.250x182.jpg", "img://room/721", "img://room/722"],
       landlordName: "李强", landlordPhone: "15877882353",
       description: "房源位于柚米 南京天马路一号柚米社区 免费健身房，24小时管家安保，社区直租无中介费 可办租房补贴 1室1厅，朝向好，楼层适中。1室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-06-13", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n87", name: "双拜巷教师公寓 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.033514, lng: 118.864797, avgRent: 0, listings: [
+  { id: "n87", name: "双拜巷教师公寓", district: "其他区", city: "nanjing", lat: 32.033514, lng: 118.864797, avgRent: 0, listings: [
     { id: "n102", title: "整租·双拜巷教师公寓 2室1厅 南/北", rent: 3000, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "双拜巷教师公寓 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_oKwcdWf4q_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/728", "img://room/729"],
       landlordName: "刘洋", landlordPhone: "13975671659",
       description: "房源位于双拜巷教师公寓 2室1厅 南/北，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "拎包入住", "采光好"], listedDate: "2026-03-06", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n88", name: "五所村小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.09141, lng: 118.760934, avgRent: 0, listings: [
+  { id: "n88", name: "五所村小区", district: "其他区", city: "nanjing", lat: 32.09141, lng: 118.760934, avgRent: 0, listings: [
     { id: "n103", title: "整租·五所村小区 2室1厅 南/北", rent: 2500, area: 52, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "五所村小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_QbiPZsvu8.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/735", "img://room/736"],
       landlordName: "周杰", landlordPhone: "15840507204", landlordWechat: "周杰103",
       description: "房源位于五所村小区 2室1厅 南/北，南，楼层适中。2室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-03-01", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n89", name: "贝壳新青年公寓 浦口文化中心店 南向房源 奶油风 年底优惠 储物空间大 交通便利 1室1厅", district: "浦口区", city: "nanjing", lat: 32.032259, lng: 118.745299, avgRent: 0, listings: [
+  { id: "n89", name: "贝壳新青年公寓 浦口文化中心店 南向房源 奶油风 年底优惠 储物空间大 交通便利", district: "浦口区", city: "nanjing", lat: 32.032259, lng: 118.745299, avgRent: 0, listings: [
     { id: "n104", title: "独栋·贝壳新青年公寓 浦口文化中心店 南向房源 奶油风 年底优惠 储物空间大 交", rent: 2385, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "贝壳新青年公寓 浦口文化中心店 南向房源 奶油风 年底优惠 储物空间大 交通便利 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/e584069639e3307a2317c4fdec4c21d1-1735545300214/53072cc91fa6e146769cb5b04eb67d77.jpg.250x182.jpg", "img://room/742", "img://room/743"],
       landlordName: "刘洋", landlordPhone: "13852384800", landlordWechat: "刘洋104",
       description: "房源位于贝壳新青年公寓 浦口文化中心店 南向房源 奶油风 年底优惠 储物空间大 交通便利 1室1厅，朝向好，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-04-24", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n90", name: "峨嵋路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.061665, lng: 118.792355, avgRent: 0, listings: [
+  { id: "n90", name: "峨嵋路", district: "其他区", city: "nanjing", lat: 32.061665, lng: 118.792355, avgRent: 0, listings: [
     { id: "n105", title: "整租·峨嵋路 2室1厅 南", rent: 3500, area: 51, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "峨嵋路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xnXbdABxQ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/749", "img://room/750"],
       landlordName: "张伟", landlordPhone: "13823874479", landlordWechat: "张伟105",
       description: "房源位于峨嵋路 2室1厅 南，南，楼层适中。2室1厅户型，51平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "拎包入住"], listedDate: "2026-06-28", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n91", name: "富丽山庄 4居室 南卧", district: "其他", city: "nanjing", lat: 32.026612, lng: 118.835658, avgRent: 0, listings: [
+  { id: "n91", name: "富丽山庄 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.026612, lng: 118.835658, avgRent: 0, listings: [
     { id: "n106", title: "合租·富丽山庄 4居室 南卧", rent: 1330, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "富丽山庄 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1766660601098/bb4df0060af0796015b6305690d7c4d7.jpg.250x182.jpg", "img://room/756", "img://room/757"],
       landlordName: "黄明", landlordPhone: "13948734171",
       description: "房源位于富丽山庄 4居室 南卧，南，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好"], listedDate: "2026-05-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n92", name: "亚东国际公寓 5居室 北卧", district: "其他", city: "nanjing", lat: 32.005528, lng: 118.767649, avgRent: 0, listings: [
+  { id: "n92", name: "亚东国际公寓 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.005528, lng: 118.767649, avgRent: 0, listings: [
     { id: "n107", title: "合租·亚东国际公寓 5居室 北卧", rent: 860, area: 6, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "亚东国际公寓 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1776673496648/213994122c7fee58184591964f27190a.jpg.250x182.jpg", "img://room/763", "img://room/764"],
       landlordName: "黄明", landlordPhone: "18656689398",
       description: "房源位于亚东国际公寓 5居室 北卧，东，楼层适中。5室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "近地铁"], listedDate: "2026-06-27", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n93", name: "香山美墅 5居室 南卧", district: "其他", city: "nanjing", lat: 31.943982, lng: 118.776502, avgRent: 0, listings: [
+  { id: "n93", name: "香山美墅 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.943982, lng: 118.776502, avgRent: 0, listings: [
     { id: "n108", title: "合租·香山美墅 5居室 南卧", rent: 1200, area: 25, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "香山美墅 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1bfc8fcf0d29e51ad66f325979d4fe09-1731656529849/fff0626fce7dbccbd0fd6cfc8d09bca4.jpg.250x182.jpg", "img://room/770", "img://room/771"],
       landlordName: "刘洋", landlordPhone: "15046105544", landlordWechat: "刘洋108",
       description: "房源位于香山美墅 5居室 南卧，南，楼层适中。5室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-05-28", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n94", name: "德安花园 3居室 南卧", district: "其他", city: "nanjing", lat: 31.993543, lng: 118.760787, avgRent: 0, listings: [
+  { id: "n94", name: "德安花园 3居室 南卧", district: "其他区", city: "nanjing", lat: 31.993543, lng: 118.760787, avgRent: 0, listings: [
     { id: "n109", title: "合租·德安花园 3居室 南卧", rent: 1780, area: 35, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "德安花园 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/6df4d79637227e1a262fdaf93044e5ff-1782383696265/eab5617b8178cd436e4a4448520187ee.jpg.250x182.jpg", "img://room/777", "img://room/778"],
       landlordName: "张伟", landlordPhone: "18849320277",
       description: "房源位于德安花园 3居室 南卧，南，楼层适中。3室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修", "拎包入住", "随时看房"], listedDate: "2026-03-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n95", name: "南方花园A组团 4居室 南卧", district: "其他", city: "nanjing", lat: 31.959074, lng: 118.820881, avgRent: 0, listings: [
+  { id: "n95", name: "南方花园A组团 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.959074, lng: 118.820881, avgRent: 0, listings: [
     { id: "n110", title: "合租·南方花园A组团 4居室 南卧", rent: 1550, area: 28, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "南方花园A组团 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/e0a9ed09c2acd8e7180fb14c6712cc6b-1744260712766/244fa805ad83a385511caa66b2234c3b.jpg.250x182.jpg", "img://room/784", "img://room/785"],
       landlordName: "王芳", landlordPhone: "13977773968",
       description: "房源位于南方花园A组团 4居室 南卧，南，楼层适中。4室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房"], listedDate: "2026-06-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n96", name: "天景山公寓如意苑 4居室 南卧", district: "其他", city: "nanjing", lat: 31.944614, lng: 118.884076, avgRent: 0, listings: [
+  { id: "n96", name: "天景山公寓如意苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.944614, lng: 118.884076, avgRent: 0, listings: [
     { id: "n111", title: "合租·天景山公寓如意苑 4居室 南卧", rent: 1300, area: 25, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "天景山公寓如意苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/e0a9ed09c2acd8e7180fb14c6712cc6b-1759132929324/94dae6b1cebe756ab955071500a0605c.jpg.250x182.jpg", "img://room/791", "img://room/792"],
       landlordName: "张伟", landlordPhone: "15832404935", landlordWechat: "张伟111",
       description: "房源位于天景山公寓如意苑 4居室 南卧，东，楼层适中。4室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "精装修", "安静宜居"], listedDate: "2026-06-24", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n97", name: "福润雅居樟香园 5居室 南卧", district: "其他", city: "nanjing", lat: 31.953812, lng: 118.732715, avgRent: 0, listings: [
+  { id: "n97", name: "福润雅居樟香园 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.953812, lng: 118.732715, avgRent: 0, listings: [
     { id: "n112", title: "合租·福润雅居樟香园 5居室 南卧", rent: 1850, area: 40, rooms: "5室0厅", floor: "楼层适中", direction: "南", community: "福润雅居樟香园 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d953c6376e55dc97ba98e3b293a523d-1779960657152/edee3421c23829ad3fbab332cc79a3ef.jpg.250x182.jpg", "img://room/798", "img://room/799"],
       landlordName: "王芳", landlordPhone: "15869447470",
       description: "房源位于福润雅居樟香园 5居室 南卧，南，楼层适中。5室0厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-05-12", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n98", name: "时光澔韵 3居室 南卧", district: "其他", city: "nanjing", lat: 31.985735, lng: 118.752855, avgRent: 0, listings: [
+  { id: "n98", name: "时光澔韵 3居室 南卧", district: "其他区", city: "nanjing", lat: 31.985735, lng: 118.752855, avgRent: 0, listings: [
     { id: "n113", title: "合租·时光澔韵 3居室 南卧", rent: 1850, area: 25, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "时光澔韵 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/6df4d79637227e1a262fdaf93044e5ff-1782367065966/0c8591d2d551ad7d17978f6c03b07d6c.jpg.250x182.jpg", "img://room/805", "img://room/806"],
       landlordName: "李强", landlordPhone: "15834642595",
       description: "房源位于时光澔韵 3居室 南卧，南，楼层适中。3室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房"], listedDate: "2026-06-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n99", name: "金马郦城西区 1室1厅 东", district: "其他", city: "nanjing", lat: 32.007471, lng: 118.714369, avgRent: 0, listings: [
+  { id: "n99", name: "金马郦城西区", district: "其他区", city: "nanjing", lat: 32.007471, lng: 118.714369, avgRent: 0, listings: [
     { id: "n114", title: "整租·金马郦城西区 1室1厅 东", rent: 2000, area: 33, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "金马郦城西区 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_Jp92HXmqD.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/812", "img://room/813"],
       landlordName: "赵娜", landlordPhone: "18898149740",
       description: "房源位于金马郦城西区 1室1厅 东，西，楼层适中。1室1厅户型，33平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "南北通透"], listedDate: "2026-03-27", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n100", name: "龙湖新壹城 2居室 北卧", district: "其他", city: "nanjing", lat: 30.485546, lng: 114.509226, avgRent: 0, listings: [
+  { id: "n100", name: "龙湖新壹城 2居室 北卧", district: "其他区", city: "nanjing", lat: 30.485546, lng: 114.509226, avgRent: 0, listings: [
     { id: "n115", title: "合租·龙湖新壹城 2居室 北卧", rent: 1260, area: 9, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "龙湖新壹城 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1772508096241/f0d1ad5ac67913e319822986bf70acc2.jpg.250x182.jpg", "img://room/819", "img://room/820"],
       landlordName: "黄明", landlordPhone: "15858590796",
       description: "房源位于龙湖新壹城 2居室 北卧，南，楼层适中。2室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "随时看房"], listedDate: "2026-04-15", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n101", name: "能仁里1号 3居室 北卧", district: "其他", city: "nanjing", lat: 32.001355, lng: 118.772776, avgRent: 0, listings: [
+  { id: "n101", name: "能仁里1号 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.001355, lng: 118.772776, avgRent: 0, listings: [
     { id: "n116", title: "合租·能仁里1号 3居室 北卧", rent: 890, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "能仁里1号 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780381725754/fd4418d1ca226499b40123ce1b267db0.jpg.250x182.jpg", "img://room/826", "img://room/827"],
       landlordName: "赵娜", landlordPhone: "18622034815",
       description: "房源位于能仁里1号 3居室 北卧，北，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "精装修", "南北通透"], listedDate: "2026-04-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n102", name: "龙湖冠寓 南京水晶郦城店 毕业季特惠 I 近S2号地铁口 I 学生/企业特惠I 无中介 1室1厅", district: "其他", city: "nanjing", lat: 31.961711, lng: 118.73563, avgRent: 0, listings: [
+  { id: "n102", name: "龙湖冠寓 南京水晶郦城店 毕业季特惠 I 近S2号地铁口 I 学生/企业特惠I 无中介", district: "其他区", city: "nanjing", lat: 31.961711, lng: 118.73563, avgRent: 0, listings: [
     { id: "n117", title: "独栋·龙湖冠寓 南京水晶郦城店 毕业季特惠 I 近S2号地铁口 I 学生/企业特", rent: 957, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京水晶郦城店 毕业季特惠 I 近S2号地铁口 I 学生/企业特惠I 无中介 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1754359883705/8923e21c9228185de71b3af40ba15e69.png.250x182.jpg", "img://room/833", "img://room/834"],
       landlordName: "陈静", landlordPhone: "13965478863", landlordWechat: "陈静117",
       description: "房源位于龙湖冠寓 南京水晶郦城店 毕业季特惠 I 近S2号地铁口 I 学生/企业特惠I 无中介 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修"], listedDate: "2026-05-05", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n103", name: "鸿信清新家园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.020867, lng: 118.860589, avgRent: 0, listings: [
+  { id: "n103", name: "鸿信清新家园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.020867, lng: 118.860589, avgRent: 0, listings: [
     { id: "n118", title: "合租·鸿信清新家园 5居室 南卧", rent: 990, area: 9, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "鸿信清新家园 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781947169602/a3ecd18294595605cd67ba3d6900cb00.jpg.250x182.jpg", "img://room/840", "img://room/841"],
       landlordName: "吴敏", landlordPhone: "18650745416",
       description: "房源位于鸿信清新家园 5居室 南卧，南，楼层适中。5室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "近地铁", "安静宜居"], listedDate: "2026-03-07", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n104", name: "红森公寓 3室1厅 跃层 南", district: "其他", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
+  { id: "n104", name: "红森公寓", district: "其他区", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
     { id: "n119", title: "整租·红森公寓 3室1厅 跃层 南", rent: 3200, area: 113, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "红森公寓 3室1厅 跃层 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ib6Yw1Zac.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/847", "img://room/848"],
       landlordName: "刘洋", landlordPhone: "13841161041", landlordWechat: "刘洋119",
       description: "房源位于红森公寓 3室1厅 跃层 南，南，楼层适中。3室1厅户型，113平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "采光好", "南北通透"], listedDate: "2026-06-27", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n105", name: "武夷商城 5居室 南/北卧", district: "其他", city: "nanjing", lat: 31.965469, lng: 118.81918, avgRent: 0, listings: [
+  { id: "n105", name: "武夷商城 5居室 南/北卧", district: "其他区", city: "nanjing", lat: 31.965469, lng: 118.81918, avgRent: 0, listings: [
     { id: "n120", title: "合租·武夷商城 5居室 南/北卧", rent: 750, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "武夷商城 5居室 南/北卧",
       images: ["https://image1.ljcdn.com/wanjia/e0a9ed09c2acd8e7180fb14c6712cc6b-1772429348743/863568bd57aaaf93c3244ae1deb2ad54.jpg.250x182.jpg", "img://room/854", "img://room/855"],
       landlordName: "周杰", landlordPhone: "18667247142",
       description: "房源位于武夷商城 5居室 南/北卧，南，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房"], listedDate: "2026-06-08", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n106", name: "威尼斯水城第三街区 2室2厅 南", district: "其他", city: "nanjing", lat: 32.137405, lng: 118.754079, avgRent: 0, listings: [
+  { id: "n106", name: "威尼斯水城第三街区", district: "其他区", city: "nanjing", lat: 32.137405, lng: 118.754079, avgRent: 0, listings: [
     { id: "n121", title: "整租·威尼斯水城第三街区 2室2厅 南", rent: 2400, area: 111, rooms: "2室2厅", floor: "楼层适中", direction: "东", community: "威尼斯水城第三街区 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_XaMRVFGXg.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/861", "img://room/862"],
       landlordName: "黄明", landlordPhone: "18642092486",
       description: "房源位于威尼斯水城第三街区 2室2厅 南，东，楼层适中。2室2厅户型，111平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-03-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n107", name: "康润园 4居室 南卧", district: "其他", city: "nanjing", lat: 31.990602, lng: 118.754922, avgRent: 0, listings: [
+  { id: "n107", name: "康润园 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.990602, lng: 118.754922, avgRent: 0, listings: [
     { id: "n122", title: "合租·康润园 4居室 南卧", rent: 850, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "康润园 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/6df4d79637227e1a262fdaf93044e5ff-1782103308562/726d0e1335be8cbe5640d9ea1c7b5aab.jpg.250x182.jpg", "img://room/868", "img://room/869"],
       landlordName: "周杰", landlordPhone: "15030731445", landlordWechat: "周杰122",
       description: "房源位于康润园 4居室 南卧，南，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透"], listedDate: "2026-05-27", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n108", name: "文苑居 3室1厅 南", district: "其他", city: "nanjing", lat: 32.04544293222142, lng: 118.8403038182547, avgRent: 0, listings: [
+  { id: "n108", name: "文苑居", district: "其他区", city: "nanjing", lat: 32.04544293222142, lng: 118.8403038182547, avgRent: 0, listings: [
     { id: "n123", title: "整租·文苑居 3室1厅 南", rent: 1600, area: 86, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "文苑居 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_qZm7DGrnu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/875", "img://room/876"],
       landlordName: "王芳", landlordPhone: "18893204055", landlordWechat: "王芳123",
       description: "房源位于文苑居 3室1厅 南，南，楼层适中。3室1厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "南北通透"], listedDate: "2026-06-04", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n109", name: "天景山公寓春秀苑 4居室 南卧", district: "其他", city: "nanjing", lat: 31.953349, lng: 118.876279, avgRent: 0, listings: [
+  { id: "n109", name: "天景山公寓春秀苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.953349, lng: 118.876279, avgRent: 0, listings: [
     { id: "n124", title: "合租·天景山公寓春秀苑 4居室 南卧", rent: 990, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "天景山公寓春秀苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775704668474/c6fb3e77eba2c087cba4ea99dae8aa02.jpg.250x182.jpg", "img://room/882", "img://room/883"],
       landlordName: "陈静", landlordPhone: "13942201312",
       description: "房源位于天景山公寓春秀苑 4居室 南卧，东，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "拎包入住", "随时看房"], listedDate: "2026-06-13", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n110", name: "紫金铭苑 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.114512, lng: 118.808773, avgRent: 0, listings: [
+  { id: "n110", name: "紫金铭苑", district: "其他区", city: "nanjing", lat: 32.114512, lng: 118.808773, avgRent: 0, listings: [
     { id: "n125", title: "整租·紫金铭苑 3室1厅 南/北", rent: 3600, area: 87, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "紫金铭苑 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/f6c003747b7f65bc86ae410263f2c739-010.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/889", "img://room/890"],
       landlordName: "吴敏", landlordPhone: "15065210340", landlordWechat: "吴敏125",
       description: "房源位于紫金铭苑 3室1厅 南/北，南，楼层适中。3室1厅户型，87平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "近地铁", "独立厨卫"], listedDate: "2026-06-06", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n111", name: "明月港湾旭日湾 4居室 南卧", district: "其他", city: "nanjing", lat: 32.05447617164686, lng: 118.87137711478313, avgRent: 0, listings: [
+  { id: "n111", name: "明月港湾旭日湾 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.05447617164686, lng: 118.87137711478313, avgRent: 0, listings: [
     { id: "n126", title: "合租·明月港湾旭日湾 4居室 南卧", rent: 1090, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "明月港湾旭日湾 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781165209041/33945b6923117c0fe8bcc6ab29492190.jpg.250x182.jpg", "img://room/896", "img://room/897"],
       landlordName: "陈静", landlordPhone: "15852498687",
       description: "房源位于明月港湾旭日湾 4居室 南卧，南，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "独立厨卫", "随时看房"], listedDate: "2026-04-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n112", name: "富贵山小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.052278, lng: 118.818491, avgRent: 0, listings: [
+  { id: "n112", name: "富贵山小区", district: "其他区", city: "nanjing", lat: 32.052278, lng: 118.818491, avgRent: 0, listings: [
     { id: "n127", title: "整租·富贵山小区 2室1厅 南", rent: 2500, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "富贵山小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_CQX69ajif.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/903", "img://room/904"],
       landlordName: "王芳", landlordPhone: "15096312707",
       description: "房源位于富贵山小区 2室1厅 南，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "安静宜居"], listedDate: "2026-06-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n113", name: "威尼斯水城第五街区 4居室 南卧", district: "其他", city: "nanjing", lat: 32.142128, lng: 118.751793, avgRent: 0, listings: [
+  { id: "n113", name: "威尼斯水城第五街区 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.142128, lng: 118.751793, avgRent: 0, listings: [
     { id: "n128", title: "合租·威尼斯水城第五街区 4居室 南卧", rent: 1000, area: 25, rooms: "4室2厅", floor: "楼层适中", direction: "东", community: "威尼斯水城第五街区 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/d5bf33d8babbea5ed09676b9f078a2dc-1782002928044/5043dc6df95ad2ecf36ee2f34208daec.jpg.250x182.jpg", "img://room/910", "img://room/911"],
       landlordName: "刘洋", landlordPhone: "18858058422",
       description: "房源位于威尼斯水城第五街区 4居室 南卧，东，楼层适中。4室2厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-05-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n114", name: "锦绣时代 3居室 南卧", district: "其他", city: "nanjing", lat: 32.073083756713515, lng: 118.77792104500548, avgRent: 0, listings: [
+  { id: "n114", name: "锦绣时代 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.073083756713515, lng: 118.77792104500548, avgRent: 0, listings: [
     { id: "n129", title: "合租·锦绣时代 3居室 南卧", rent: 1000, area: 28, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "锦绣时代 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/d5bf33d8babbea5ed09676b9f078a2dc-1782463504388/d7957b1ef01a73f0639dd44ca9e92c24.jpg.250x182.jpg", "img://room/917", "img://room/918"],
       landlordName: "吴敏", landlordPhone: "15076246021",
       description: "房源位于锦绣时代 3居室 南卧，南，楼层适中。3室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "独立厨卫"], listedDate: "2026-06-03", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n115", name: "凤翔新城一期 3居室 西南卧", district: "其他", city: "nanjing", lat: 31.969595, lng: 118.757462, avgRent: 0, listings: [
+  { id: "n115", name: "凤翔新城一期 3居室 西南卧", district: "其他区", city: "nanjing", lat: 31.969595, lng: 118.757462, avgRent: 0, listings: [
     { id: "n130", title: "合租·凤翔新城一期 3居室 西南卧", rent: 1350, area: 22, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "凤翔新城一期 3居室 西南卧",
       images: ["https://image1.ljcdn.com/wanjia/1e14153c27f20f2f62b47da7c2c81bcc-1779938284150/91f51cc6826c745c3ee268912cd1aef1.jpg.250x182.jpg", "img://room/924", "img://room/925"],
       landlordName: "刘洋", landlordPhone: "18665851639",
       description: "房源位于凤翔新城一期 3居室 西南卧，西，楼层适中。3室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "独立厨卫"], listedDate: "2026-05-12", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n116", name: "翠岭银河 4居室 北卧", district: "其他", city: "nanjing", lat: 31.952375, lng: 118.757562, avgRent: 0, listings: [
+  { id: "n116", name: "翠岭银河 4居室 北卧", district: "其他区", city: "nanjing", lat: 31.952375, lng: 118.757562, avgRent: 0, listings: [
     { id: "n131", title: "合租·翠岭银河 4居室 北卧", rent: 960, area: 7, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "翠岭银河 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782309177104/a4f867c994aa96dcc3e686fc72e4781b.jpg.250x182.jpg", "img://room/931", "img://room/932"],
       landlordName: "赵娜", landlordPhone: "18667333261", landlordWechat: "赵娜131",
       description: "房源位于翠岭银河 4居室 北卧，北，楼层适中。4室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住"], listedDate: "2026-03-02", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n117", name: "七彩星城 3居室 南卧", district: "其他", city: "nanjing", lat: 31.964933, lng: 118.724554, avgRent: 0, listings: [
+  { id: "n117", name: "七彩星城 3居室 南卧", district: "其他区", city: "nanjing", lat: 31.964933, lng: 118.724554, avgRent: 0, listings: [
     { id: "n132", title: "合租·七彩星城 3居室 南卧", rent: 1460, area: 13, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "七彩星城 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1765728638800/8cdc943a923a8cbf5970ca0cbf2b8c98.jpg.250x182.jpg", "img://room/938", "img://room/939"],
       landlordName: "刘洋", landlordPhone: "13860191577", landlordWechat: "刘洋132",
       description: "房源位于七彩星城 3居室 南卧，南，楼层适中。3室2厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "独立厨卫", "近地铁"], listedDate: "2026-06-15", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n118", name: "南大和园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.105478, lng: 118.960998, avgRent: 0, listings: [
+  { id: "n118", name: "南大和园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.105478, lng: 118.960998, avgRent: 0, listings: [
     { id: "n133", title: "合租·南大和园 4居室 南卧", rent: 1730, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "南大和园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1768611725596/ccf9eea942e36ee70ae906f251e06ceb.jpg.250x182.jpg", "img://room/945", "img://room/946"],
       landlordName: "周杰", landlordPhone: "15896111041",
       description: "房源位于南大和园 4居室 南卧，南，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "安静宜居"], listedDate: "2026-06-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n119", name: "龙福山庄 5居室 南卧", district: "其他", city: "nanjing", lat: 31.996171, lng: 118.759501, avgRent: 0, listings: [
+  { id: "n119", name: "龙福山庄 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.996171, lng: 118.759501, avgRent: 0, listings: [
     { id: "n134", title: "合租·龙福山庄 5居室 南卧", rent: 1560, area: 30, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "龙福山庄 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780566142179/f32a227257ca759311f577a95e127398.jpg.250x182.jpg", "img://room/952", "img://room/953"],
       landlordName: "陈静", landlordPhone: "15015038873", landlordWechat: "陈静134",
       description: "房源位于龙福山庄 5居室 南卧，南，楼层适中。5室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-03-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n120", name: "市政天元城 5居室 南卧", district: "其他", city: "nanjing", lat: 31.93956, lng: 118.852514, avgRent: 0, listings: [
+  { id: "n120", name: "市政天元城 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.93956, lng: 118.852514, avgRent: 0, listings: [
     { id: "n135", title: "合租·市政天元城 5居室 南卧", rent: 1690, area: 13, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "市政天元城 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782445794208/1dfefe64c13fa0286994d6d7078cab91.jpg.250x182.jpg", "img://room/959", "img://room/960"],
       landlordName: "王芳", landlordPhone: "13849650553",
       description: "房源位于市政天元城 5居室 南卧，东，楼层适中。5室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "精装修"], listedDate: "2026-04-16", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n121", name: "仙林新村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.095977, lng: 118.912281, avgRent: 0, listings: [
+  { id: "n121", name: "仙林新村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.095977, lng: 118.912281, avgRent: 0, listings: [
     { id: "n136", title: "合租·仙林新村 4居室 南卧", rent: 1090, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "仙林新村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777873309553/9b1117a68c29f78c9e1baee57d662609.jpg.250x182.jpg", "img://room/966", "img://room/967"],
       landlordName: "刘洋", landlordPhone: "18875635233",
       description: "房源位于仙林新村 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "独立厨卫", "安静宜居"], listedDate: "2026-03-08", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n122", name: "瑞福城凤仪园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.114318, lng: 118.848511, avgRent: 0, listings: [
+  { id: "n122", name: "瑞福城凤仪园", district: "其他区", city: "nanjing", lat: 32.114318, lng: 118.848511, avgRent: 0, listings: [
     { id: "n137", title: "整租·瑞福城凤仪园 3室1厅 南", rent: 2400, area: 88, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "瑞福城凤仪园 3室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/0547332c81e87baca16401150b90566f.jpeg.250x182.jpg", "img://room/973", "img://room/974"],
       landlordName: "杨磊", landlordPhone: "13846419313",
       description: "房源位于瑞福城凤仪园 3室1厅 南，南，楼层适中。3室1厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "独立厨卫", "近地铁"], listedDate: "2026-04-06", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n123", name: "晴樾府 3室2厅 南", district: "其他", city: "nanjing", lat: 32.02788538273389, lng: 118.80658898171254, avgRent: 0, listings: [
+  { id: "n123", name: "晴樾府", district: "其他区", city: "nanjing", lat: 32.02788538273389, lng: 118.80658898171254, avgRent: 0, listings: [
     { id: "n138", title: "整租·晴樾府 3室2厅 南", rent: 2700, area: 113, rooms: "3室2厅", floor: "楼层适中", direction: "北", community: "晴樾府 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/53ccf6407c038ab3592f834cf6f84fcd.jpeg.250x182.jpg", "img://room/980", "img://room/981"],
       landlordName: "吴敏", landlordPhone: "13853753718",
       description: "房源位于晴樾府 3室2厅 南，北，楼层适中。3室2厅户型，113平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "近地铁", "安静宜居"], listedDate: "2026-04-09", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n124", name: "嘉德园 3室2厅 南", district: "其他", city: "nanjing", lat: 31.633055, lng: 119.033353, avgRent: 0, listings: [
+  { id: "n124", name: "嘉德园", district: "其他区", city: "nanjing", lat: 31.633055, lng: 119.033353, avgRent: 0, listings: [
     { id: "n139", title: "整租·嘉德园 3室2厅 南", rent: 1500, area: 112, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "嘉德园 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/ef15e87a0f4eb6484146c4afbf66343c-012.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/987", "img://room/988"],
       landlordName: "吴敏", landlordPhone: "13996185671", landlordWechat: "吴敏139",
       description: "房源位于嘉德园 3室2厅 南，南，楼层适中。3室2厅户型，112平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "安静宜居", "精装修"], listedDate: "2026-04-03", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n125", name: "天宁雅居 3室1厅 南", district: "其他", city: "nanjing", lat: 31.95615, lng: 118.8843, avgRent: 0, listings: [
+  { id: "n125", name: "天宁雅居", district: "其他区", city: "nanjing", lat: 31.95615, lng: 118.8843, avgRent: 0, listings: [
     { id: "n140", title: "整租·天宁雅居 3室1厅 南", rent: 2700, area: 130, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "天宁雅居 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_HEtLtrMUc.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/994", "img://room/995"],
       landlordName: "赵娜", landlordPhone: "13831589618",
       description: "房源位于天宁雅居 3室1厅 南，南，楼层适中。3室1厅户型，130平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修"], listedDate: "2026-04-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n126", name: "江山嘉园 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.332246, lng: 118.889061, avgRent: 0, listings: [
+  { id: "n126", name: "江山嘉园", district: "其他区", city: "nanjing", lat: 31.332246, lng: 118.889061, avgRent: 0, listings: [
     { id: "n141", title: "整租·江山嘉园 3室2厅 南/北", rent: 1100, area: 160, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "江山嘉园 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/0d3ee96cbdb1c2863f7e4f5e0a593128-093.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1001", "img://room/1002"],
       landlordName: "杨磊", landlordPhone: "18850857983",
       description: "房源位于江山嘉园 3室2厅 南/北，南，楼层适中。3室2厅户型，160平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "近地铁"], listedDate: "2026-03-06", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n127", name: "碧桂园S1秦淮世家 3室2厅 南/北", district: "秦淮区", city: "nanjing", lat: 31.646154, lng: 118.905692, avgRent: 0, listings: [
+  { id: "n127", name: "碧桂园S1秦淮世家", district: "秦淮区", city: "nanjing", lat: 31.646154, lng: 118.905692, avgRent: 0, listings: [
     { id: "n142", title: "整租·碧桂园S1秦淮世家 3室2厅 南/北", rent: 1500, area: 122, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "碧桂园S1秦淮世家 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/a0c4637d-c7c6-4fb6-8f8c-018382c4dca0.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1008", "img://room/1009"],
       landlordName: "吴敏", landlordPhone: "15827313983",
       description: "房源位于碧桂园S1秦淮世家 3室2厅 南/北，南，楼层适中。3室2厅户型，122平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "安静宜居"], listedDate: "2026-03-07", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n128", name: "青石村 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.07922, lng: 118.776904, avgRent: 0, listings: [
+  { id: "n128", name: "青石村", district: "其他区", city: "nanjing", lat: 32.07922, lng: 118.776904, avgRent: 0, listings: [
     { id: "n143", title: "整租·青石村 3室1厅 南/北", rent: 6000, area: 100, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "青石村 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_u0jWwEJH9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1015", "img://room/1016"],
       landlordName: "吴敏", landlordPhone: "18888079255",
       description: "房源位于青石村 3室1厅 南/北，南，楼层适中。3室1厅户型，100平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "拎包入住", "南北通透"], listedDate: "2026-04-16", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n129", name: "颐园世家 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.09242999020387, lng: 118.84344782791219, avgRent: 0, listings: [
+  { id: "n129", name: "颐园世家", district: "其他区", city: "nanjing", lat: 32.09242999020387, lng: 118.84344782791219, avgRent: 0, listings: [
     { id: "n144", title: "整租·颐园世家 2室1厅 南/北", rent: 600, area: 89, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "颐园世家 2室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1022", "img://room/1023"],
       landlordName: "王芳", landlordPhone: "15097873155", landlordWechat: "王芳144",
       description: "房源位于颐园世家 2室1厅 南/北，南，楼层适中。2室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "安静宜居"], listedDate: "2026-03-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n130", name: "摄山星城尤山苑 3室1厅 南", district: "其他", city: "nanjing", lat: 32.140263, lng: 119.011465, avgRent: 0, listings: [
+  { id: "n130", name: "摄山星城尤山苑", district: "其他区", city: "nanjing", lat: 32.140263, lng: 119.011465, avgRent: 0, listings: [
     { id: "n145", title: "整租·摄山星城尤山苑 3室1厅 南", rent: 1200, area: 80, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "摄山星城尤山苑 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1029", "img://room/1030"],
       landlordName: "陈静", landlordPhone: "15886573605",
       description: "房源位于摄山星城尤山苑 3室1厅 南，南，楼层适中。3室1厅户型，80平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居", "拎包入住"], listedDate: "2026-06-27", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n131", name: "和园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.02216515424886, lng: 118.87354042500901, avgRent: 0, listings: [
+  { id: "n131", name: "和园", district: "其他区", city: "nanjing", lat: 32.02216515424886, lng: 118.87354042500901, avgRent: 0, listings: [
     { id: "n146", title: "整租·和园 3室2厅 南", rent: 1800, area: 136, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "和园 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1036", "img://room/1037"],
       landlordName: "赵娜", landlordPhone: "13959717023",
       description: "房源位于和园 3室2厅 南，南，楼层适中。3室2厅户型，136平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-05-06", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n132", name: "盘锦花园 2室2厅 南", district: "其他", city: "nanjing", lat: 32.02703931801022, lng: 118.72298763366075, avgRent: 0, listings: [
+  { id: "n132", name: "盘锦花园", district: "其他区", city: "nanjing", lat: 32.02703931801022, lng: 118.72298763366075, avgRent: 0, listings: [
     { id: "n147", title: "整租·盘锦花园 2室2厅 南", rent: 2000, area: 88, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "盘锦花园 2室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1043", "img://room/1044"],
       landlordName: "刘洋", landlordPhone: "15049454365",
       description: "房源位于盘锦花园 2室2厅 南，南，楼层适中。2室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-05-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n133", name: "高淳碧桂园 3室2厅 南", district: "高淳区", city: "nanjing", lat: 32.028843120940785, lng: 118.73157945557382, avgRent: 0, listings: [
+  { id: "n133", name: "高淳碧桂园", district: "高淳区", city: "nanjing", lat: 32.028843120940785, lng: 118.73157945557382, avgRent: 0, listings: [
     { id: "n148", title: "整租·高淳碧桂园 3室2厅 南", rent: 1215, area: 133, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "高淳碧桂园 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1050", "img://room/1051"],
       landlordName: "陈静", landlordPhone: "15021876431",
       description: "房源位于高淳碧桂园 3室2厅 南，南，楼层适中。3室2厅户型，133平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "独立厨卫", "南北通透"], listedDate: "2026-06-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n134", name: "虎踞路 3室1厅 南", district: "其他", city: "nanjing", lat: 32.054583, lng: 118.755228, avgRent: 0, listings: [
+  { id: "n134", name: "虎踞路", district: "其他区", city: "nanjing", lat: 32.054583, lng: 118.755228, avgRent: 0, listings: [
     { id: "n149", title: "整租·虎踞路 3室1厅 南", rent: 4800, area: 71, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "虎踞路 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1057", "img://room/1058"],
       landlordName: "杨磊", landlordPhone: "18892661668", landlordWechat: "杨磊149",
       description: "房源位于虎踞路 3室1厅 南，南，楼层适中。3室1厅户型，71平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "采光好"], listedDate: "2026-04-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n135", name: "春东村 2室2厅 南/北", district: "其他", city: "nanjing", lat: 31.320009, lng: 118.872718, avgRent: 0, listings: [
+  { id: "n135", name: "春东村", district: "其他区", city: "nanjing", lat: 31.320009, lng: 118.872718, avgRent: 0, listings: [
     { id: "n150", title: "整租·春东村 2室2厅 南/北", rent: 1000, area: 77, rooms: "2室2厅", floor: "楼层适中", direction: "东", community: "春东村 2室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1064", "img://room/1065"],
       landlordName: "周杰", landlordPhone: "18877466055",
       description: "房源位于春东村 2室2厅 南/北，东，楼层适中。2室2厅户型，77平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-04-03", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n136", name: "定林苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.041577, lng: 118.930922, avgRent: 0, listings: [
+  { id: "n136", name: "定林苑", district: "其他区", city: "nanjing", lat: 32.041577, lng: 118.930922, avgRent: 0, listings: [
     { id: "n151", title: "整租·定林苑 2室1厅 南", rent: 1500, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "定林苑 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1071", "img://room/1072"],
       landlordName: "陈静", landlordPhone: "15070013784", landlordWechat: "陈静151",
       description: "房源位于定林苑 2室1厅 南，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "拎包入住", "采光好"], listedDate: "2026-04-08", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n137", name: "南江新寓 3室1厅 南", district: "其他", city: "nanjing", lat: 32.05838, lng: 118.62093, avgRent: 0, listings: [
+  { id: "n137", name: "南江新寓", district: "其他区", city: "nanjing", lat: 32.05838, lng: 118.62093, avgRent: 0, listings: [
     { id: "n152", title: "整租·南江新寓 3室1厅 南", rent: 1600, area: 97, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "南江新寓 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1078", "img://room/1079"],
       landlordName: "黄明", landlordPhone: "13934287817", landlordWechat: "黄明152",
       description: "房源位于南江新寓 3室1厅 南，南，楼层适中。3室1厅户型，97平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透"], listedDate: "2026-03-02", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n138", name: "栖凤佳苑 2室2厅 南", district: "其他", city: "nanjing", lat: 31.657262, lng: 119.017642, avgRent: 0, listings: [
+  { id: "n138", name: "栖凤佳苑", district: "其他区", city: "nanjing", lat: 31.657262, lng: 119.017642, avgRent: 0, listings: [
     { id: "n153", title: "整租·栖凤佳苑 2室2厅 南", rent: 900, area: 86, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "栖凤佳苑 2室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1085", "img://room/1086"],
       landlordName: "王芳", landlordPhone: "15817308777",
       description: "房源位于栖凤佳苑 2室2厅 南，南，楼层适中。2室2厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-03-15", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n139", name: "江瑜花苑福来园 4室2厅 南", district: "其他", city: "nanjing", lat: 32.133627, lng: 118.740767, avgRent: 0, listings: [
+  { id: "n139", name: "江瑜花苑福来园", district: "其他区", city: "nanjing", lat: 32.133627, lng: 118.740767, avgRent: 0, listings: [
     { id: "n154", title: "整租·江瑜花苑福来园 4室2厅 南", rent: 1000, area: 120, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "江瑜花苑福来园 4室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1092", "img://room/1093"],
       landlordName: "周杰", landlordPhone: "13830101427", landlordWechat: "周杰154",
       description: "房源位于江瑜花苑福来园 4室2厅 南，南，楼层适中。4室2厅户型，120平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "拎包入住"], listedDate: "2026-05-20", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n140", name: "朗诗绿色街区东园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.05403603425518, lng: 118.86026640607477, avgRent: 0, listings: [
+  { id: "n140", name: "朗诗绿色街区东园", district: "其他区", city: "nanjing", lat: 32.05403603425518, lng: 118.86026640607477, avgRent: 0, listings: [
     { id: "n155", title: "整租·朗诗绿色街区东园 3室2厅 南", rent: 2800, area: 138, rooms: "3室2厅", floor: "楼层适中", direction: "东", community: "朗诗绿色街区东园 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1099", "img://room/1100"],
       landlordName: "张伟", landlordPhone: "13914730889", landlordWechat: "张伟155",
       description: "房源位于朗诗绿色街区东园 3室2厅 南，东，楼层适中。3室2厅户型，138平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "近地铁", "随时看房"], listedDate: "2026-06-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n141", name: "北苑之星 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.100928, lng: 118.822411, avgRent: 0, listings: [
+  { id: "n141", name: "北苑之星", district: "其他区", city: "nanjing", lat: 32.100928, lng: 118.822411, avgRent: 0, listings: [
     { id: "n156", title: "整租·北苑之星 2室2厅 南/北", rent: 3000, area: 85, rooms: "2室2厅", floor: "楼层适中", direction: "北", community: "北苑之星 2室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1106", "img://room/1107"],
       landlordName: "张伟", landlordPhone: "18633618700", landlordWechat: "张伟156",
       description: "房源位于北苑之星 2室2厅 南/北，北，楼层适中。2室2厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "拎包入住", "精装修"], listedDate: "2026-06-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n142", name: "桃园居 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.092558343333316, lng: 118.81975634262965, avgRent: 0, listings: [
+  { id: "n142", name: "桃园居", district: "其他区", city: "nanjing", lat: 32.092558343333316, lng: 118.81975634262965, avgRent: 0, listings: [
     { id: "n157", title: "整租·桃园居 2室2厅 南/北", rent: 3400, area: 64, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "桃园居 2室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1113", "img://room/1114"],
       landlordName: "杨磊", landlordPhone: "15027191453",
       description: "房源位于桃园居 2室2厅 南/北，南，楼层适中。2室2厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透"], listedDate: "2026-06-22", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n143", name: "黑龙江路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
+  { id: "n143", name: "黑龙江路", district: "其他区", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
     { id: "n158", title: "整租·黑龙江路 2室1厅 南", rent: 3200, area: 73, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "黑龙江路 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1120", "img://room/1121"],
       landlordName: "赵娜", landlordPhone: "13968449065",
       description: "房源位于黑龙江路 2室1厅 南，南，楼层适中。2室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫"], listedDate: "2026-04-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n144", name: "润玉水苑 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.225366, lng: 118.912733, avgRent: 0, listings: [
+  { id: "n144", name: "润玉水苑", district: "其他区", city: "nanjing", lat: 32.225366, lng: 118.912733, avgRent: 0, listings: [
     { id: "n159", title: "整租·润玉水苑 2室1厅 南/北", rent: 1200, area: 86, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "润玉水苑 2室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/1127", "img://room/1128"],
       landlordName: "刘洋", landlordPhone: "18847988297",
       description: "房源位于润玉水苑 2室1厅 南/北，南，楼层适中。2室1厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "近地铁", "精装修"], listedDate: "2026-06-19", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n145", name: "融寓】 朝南单室 云南路地铁站 押一付一 省人医 鼓楼医院 南大 南师范 开间", district: "鼓楼区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
+  { id: "n145", name: "融寓】 朝南单室 云南路地铁站 押一付一 省人医 鼓楼医院 南大 南师范", district: "鼓楼区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
     { id: "n160", title: "独栋·融寓 上海路店 【央企公寓·融寓】 朝南单室 云南路地铁站 押一付一 省人", rent: 2943, area: 18, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "融寓】 朝南单室 云南路地铁站 押一付一 省人医 鼓楼医院 南大 南师范 开间",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1740476508277/97d59ecb77ee3a8ca23c4511ab7c4ec3.jpg.250x182.jpg", "img://room/1134", "img://room/1135"],
       landlordName: "赵娜", landlordPhone: "15880963383",
       description: "房源位于融寓】 朝南单室 云南路地铁站 押一付一 省人医 鼓楼医院 南大 南师范 开间，朝向好，楼层适中。1室0厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-05-28", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n146", name: "湖南路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.071108, lng: 118.778581, avgRent: 0, listings: [
+  { id: "n146", name: "湖南路", district: "其他区", city: "nanjing", lat: 32.071108, lng: 118.778581, avgRent: 0, listings: [
     { id: "n161", title: "整租·湖南路 2室1厅 南", rent: 2310, area: 49, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "湖南路 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/0611832282b864102ba8076e56e8865b.jpeg.250x182.jpg", "img://room/1141", "img://room/1142"],
       landlordName: "王芳", landlordPhone: "15020946335", landlordWechat: "王芳161",
       description: "房源位于湖南路 2室1厅 南，南，楼层适中。2室1厅户型，49平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-03-02", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n147", name: "融寓 新门口店 【鼓楼区电梯房】育英学校旁无中介费精装特惠/月付可开票 1室1厅", district: "鼓楼区", city: "nanjing", lat: 32.044112, lng: 118.755793, avgRent: 0, listings: [
+  { id: "n147", name: "融寓 新门口店 【鼓楼区电梯房】育英学校旁无中介费精装特惠/月付可开票", district: "鼓楼区", city: "nanjing", lat: 32.044112, lng: 118.755793, avgRent: 0, listings: [
     { id: "n162", title: "独栋·融寓 新门口店 【鼓楼区电梯房】育英学校旁无中介费精装特惠/月付可开票 1", rent: 2450, area: 23, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 新门口店 【鼓楼区电梯房】育英学校旁无中介费精装特惠/月付可开票 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1780200589581/02513034aaf9444a2b67e493266cb75e.jpg.250x182.jpg", "img://room/1148", "img://room/1149"],
       landlordName: "赵娜", landlordPhone: "13823408400", landlordWechat: "赵娜162",
       description: "房源位于融寓 新门口店 【鼓楼区电梯房】育英学校旁无中介费精装特惠/月付可开票 1室1厅，朝向好，楼层适中。1室1厅户型，23平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "独立厨卫", "精装修"], listedDate: "2026-04-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n148", name: "金舟花园 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.051232, lng: 118.737822, avgRent: 0, listings: [
+  { id: "n148", name: "金舟花园", district: "其他区", city: "nanjing", lat: 32.051232, lng: 118.737822, avgRent: 0, listings: [
     { id: "n163", title: "整租·金舟花园 2室1厅 南/北", rent: 3100, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "金舟花园 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_HDKZ1yR6I.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1155", "img://room/1156"],
       landlordName: "周杰", landlordPhone: "15061999570",
       description: "房源位于金舟花园 2室1厅 南/北，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居"], listedDate: "2026-04-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n149", name: "教工新村(鼓楼) 2室1厅 南/北", district: "鼓楼区", city: "nanjing", lat: 32.043993, lng: 118.751544, avgRent: 0, listings: [
+  { id: "n149", name: "教工新村(鼓楼)", district: "鼓楼区", city: "nanjing", lat: 32.043993, lng: 118.751544, avgRent: 0, listings: [
     { id: "n164", title: "整租·教工新村(鼓楼) 2室1厅 南/北", rent: 3600, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "教工新村(鼓楼) 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_jYDZEHUoZ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1162", "img://room/1163"],
       landlordName: "张伟", landlordPhone: "18651438827", landlordWechat: "张伟164",
       description: "房源位于教工新村(鼓楼) 2室1厅 南/北，西，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修"], listedDate: "2026-06-02", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n150", name: "融寓 新门口店 【限时出租套间】南邮/南财/南艺整租 /非中介 直达新街口 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n150", name: "融寓 新门口店 【限时出租套间】南邮/南财/南艺整租 /非中介 直达新街口", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n165", title: "独栋·融寓 新门口店 【限时出租套间】南邮/南财/南艺整租 /非中介 直达新街口", rent: 2800, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 新门口店 【限时出租套间】南邮/南财/南艺整租 /非中介 直达新街口 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1780124002340/80cfb29047a20fd6fb2f0538c813fa7b.jpg.250x182.jpg", "img://room/1169", "img://room/1170"],
       landlordName: "王芳", landlordPhone: "13883618106",
       description: "房源位于融寓 新门口店 【限时出租套间】南邮/南财/南艺整租 /非中介 直达新街口 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-05-25", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n151", name: "中山北路 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
+  { id: "n151", name: "中山北路", district: "其他区", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
     { id: "n166", title: "整租·中山北路 3室1厅 南/北", rent: 3200, area: 73, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "中山北路 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_tKu5dEHCE.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1176", "img://room/1177"],
       landlordName: "吴敏", landlordPhone: "13936953229",
       description: "房源位于中山北路 3室1厅 南/北，北，楼层适中。3室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-06-15", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n152", name: "融寓 新门口店 大户型，7/5双地铁福建路 南邮南财南艺附近，中大二附院旁边 1室1厅", district: "其他", city: "nanjing", lat: 31.981834, lng: 118.788291, avgRent: 0, listings: [
+  { id: "n152", name: "融寓 新门口店 大户型，7/5双地铁福建路 南邮南财南艺附近，中大二附院旁边", district: "其他区", city: "nanjing", lat: 31.981834, lng: 118.788291, avgRent: 0, listings: [
     { id: "n167", title: "独栋·融寓 新门口店 大户型，7/5双地铁福建路 南邮南财南艺附近，中大二附院旁", rent: 2590, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 新门口店 大户型，7/5双地铁福建路 南邮南财南艺附近，中大二附院旁边 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1772346861998/7f1047b5c8251e2968181f2c5ec2494b.jpg.250x182.jpg", "img://room/1183", "img://room/1184"],
       landlordName: "王芳", landlordPhone: "15097929411",
       description: "房源位于融寓 新门口店 大户型，7/5双地铁福建路 南邮南财南艺附近，中大二附院旁边 1室1厅，朝向好，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "精装修", "采光好"], listedDate: "2026-04-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n153", name: "清江公寓 2室1厅 南", district: "其他", city: "nanjing", lat: 32.046042, lng: 118.729552, avgRent: 0, listings: [
+  { id: "n153", name: "清江公寓", district: "其他区", city: "nanjing", lat: 32.046042, lng: 118.729552, avgRent: 0, listings: [
     { id: "n168", title: "整租·清江公寓 2室1厅 南", rent: 3999, area: 82, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "清江公寓 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Cuv9YWZw9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1190", "img://room/1191"],
       landlordName: "周杰", landlordPhone: "18625386867", landlordWechat: "周杰168",
       description: "房源位于清江公寓 2室1厅 南，西，楼层适中。2室1厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "安静宜居"], listedDate: "2026-03-26", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n154", name: "融寓 新门口店 【特大户型秒杀房】央企直租0中介/东南中大 鼓楼医院 /可开票 1室1厅", district: "鼓楼区", city: "nanjing", lat: 31.981834, lng: 118.788291, avgRent: 0, listings: [
+  { id: "n154", name: "融寓 新门口店 【特大户型秒杀房】央企直租0中介/东南中大 鼓楼医院 /可开票", district: "鼓楼区", city: "nanjing", lat: 31.981834, lng: 118.788291, avgRent: 0, listings: [
     { id: "n169", title: "独栋·融寓 新门口店 【特大户型秒杀房】央企直租0中介/东南中大 鼓楼医院 /可", rent: 2700, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 新门口店 【特大户型秒杀房】央企直租0中介/东南中大 鼓楼医院 /可开票 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1779521533075/a6edbdb9e8cd0b5c76a4aa82aafda038.jpg.250x182.jpg", "img://room/1197", "img://room/1198"],
       landlordName: "杨磊", landlordPhone: "13827781102", landlordWechat: "杨磊169",
       description: "房源位于融寓 新门口店 【特大户型秒杀房】央企直租0中介/东南中大 鼓楼医院 /可开票 1室1厅，朝向好，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "随时看房", "南北通透"], listedDate: "2026-03-23", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n155", name: "东妙峰庵 1室1厅 南", district: "其他", city: "nanjing", lat: 32.085931, lng: 118.757167, avgRent: 0, listings: [
+  { id: "n155", name: "东妙峰庵", district: "其他区", city: "nanjing", lat: 32.085931, lng: 118.757167, avgRent: 0, listings: [
     { id: "n170", title: "整租·东妙峰庵 1室1厅 南", rent: 1400, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "东妙峰庵 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_WGDcoU1YD.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1204", "img://room/1205"],
       landlordName: "张伟", landlordPhone: "18832740404", landlordWechat: "张伟170",
       description: "房源位于东妙峰庵 1室1厅 南，东，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "安静宜居", "随时看房"], listedDate: "2026-05-09", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n156", name: "泊寓 萨家湾社区店 温馨单间丨地铁口丨三牌楼丨7号线丨可开票 开间", district: "其他", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
+  { id: "n156", name: "泊寓 萨家湾社区店 温馨单间丨地铁口丨三牌楼丨7号线丨可开票", district: "其他区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
     { id: "n171", title: "独栋·泊寓 萨家湾社区店 温馨单间丨地铁口丨三牌楼丨7号线丨可开票 开间", rent: 1822, area: 18, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 萨家湾社区店 温馨单间丨地铁口丨三牌楼丨7号线丨可开票 开间",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1744098659389/94efcb3fe3665bcfd9c28730619ea246.jpg.250x182.jpg", "img://room/1211", "img://room/1212"],
       landlordName: "陈静", landlordPhone: "15826660920",
       description: "房源位于泊寓 萨家湾社区店 温馨单间丨地铁口丨三牌楼丨7号线丨可开票 开间，朝向好，楼层适中。1室0厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "独立厨卫"], listedDate: "2026-05-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n157", name: "紫苑 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.051573, lng: 118.888963, avgRent: 0, listings: [
+  { id: "n157", name: "紫苑", district: "其他区", city: "nanjing", lat: 32.051573, lng: 118.888963, avgRent: 0, listings: [
     { id: "n172", title: "整租·紫苑 2室2厅 南/北", rent: 4600, area: 96, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "紫苑 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/57ad7a4d33a81c3c7d792b4036f90435-086.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1218", "img://room/1219"],
       landlordName: "杨磊", landlordPhone: "18684133074",
       description: "房源位于紫苑 2室2厅 南/北，南，楼层适中。2室2厅户型，96平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-06-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n158", name: "世茂外滩新城 4居室 南卧", district: "其他", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
+  { id: "n158", name: "世茂外滩新城 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
     { id: "n173", title: "合租·世茂外滩新城 4居室 南卧", rent: 1605, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "世茂外滩新城 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775626361046/a9c22b5c75d90e9c7d726e208f107da0.jpg.250x182.jpg", "img://room/1225", "img://room/1226"],
       landlordName: "赵娜", landlordPhone: "18691820867",
       description: "房源位于世茂外滩新城 4居室 南卧，南，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "南北通透"], listedDate: "2026-04-05", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n159", name: "金阜雅苑 4居室 东卧", district: "其他", city: "nanjing", lat: 32.087963, lng: 118.765482, avgRent: 0, listings: [
+  { id: "n159", name: "金阜雅苑 4居室 东卧", district: "其他区", city: "nanjing", lat: 32.087963, lng: 118.765482, avgRent: 0, listings: [
     { id: "n174", title: "合租·金阜雅苑 4居室 东卧", rent: 960, area: 6, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "金阜雅苑 4居室 东卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1776152657898/36b6bf240b0fd7bb170adf1d65f01003.jpg.250x182.jpg", "img://room/1232", "img://room/1233"],
       landlordName: "周杰", landlordPhone: "18815518913",
       description: "房源位于金阜雅苑 4居室 东卧，东，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "采光好"], listedDate: "2026-05-27", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n160", name: "云南路 3居室 西卧", district: "其他", city: "nanjing", lat: 32.055823, lng: 118.775229, avgRent: 0, listings: [
+  { id: "n160", name: "云南路 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.055823, lng: 118.775229, avgRent: 0, listings: [
     { id: "n175", title: "合租·云南路 3居室 西卧", rent: 1130, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "云南路 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779352167474/6b1c4fa1e0f536e43369c92b62ff0451.jpg.250x182.jpg", "img://room/1239", "img://room/1240"],
       landlordName: "陈静", landlordPhone: "15071742228", landlordWechat: "陈静175",
       description: "房源位于云南路 3居室 西卧，南，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "独立厨卫"], listedDate: "2026-04-16", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n161", name: "新城市广场 3居室 西南卧", district: "其他", city: "nanjing", lat: 32.053024, lng: 118.741383, avgRent: 0, listings: [
+  { id: "n161", name: "新城市广场 3居室 西南卧", district: "其他区", city: "nanjing", lat: 32.053024, lng: 118.741383, avgRent: 0, listings: [
     { id: "n176", title: "合租·新城市广场 3居室 西南卧", rent: 1699, area: 20, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "新城市广场 3居室 西南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1772272772581/135ec0b5e0d9d745776b074d4b4df5b5.jpg.250x182.jpg", "img://room/1246", "img://room/1247"],
       landlordName: "周杰", landlordPhone: "13810288166",
       description: "房源位于新城市广场 3居室 西南卧，西，楼层适中。3室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-04-02", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n162", name: "龙湖冠寓 南京中央门店 连锁公寓无中介！近3号线地铁口，家电齐全拎包入住，自带超大免费健身房 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n162", name: "龙湖冠寓 南京中央门店 连锁公寓无中介！近3号线地铁口，家电齐全拎包入住，自带超大免费健身房", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n177", title: "独栋·龙湖冠寓 南京中央门店 连锁公寓无中介！近3号线地铁口，家电齐全拎包入住，", rent: 2010, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京中央门店 连锁公寓无中介！近3号线地铁口，家电齐全拎包入住，自带超大免费健身房 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1715925928400/f2d44f518eeca1853be3dde673d060a4.jpg.250x182.jpg", "img://room/1253", "img://room/1254"],
       landlordName: "杨磊", landlordPhone: "18864527987", landlordWechat: "杨磊177",
       description: "房源位于龙湖冠寓 南京中央门店 连锁公寓无中介！近3号线地铁口，家电齐全拎包入住，自带超大免费健身房 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "独立厨卫", "南北通透"], listedDate: "2026-05-26", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n163", name: "随园 3居室 南卧", district: "其他", city: "nanjing", lat: 32.050957, lng: 118.777166, avgRent: 0, listings: [
+  { id: "n163", name: "随园 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.050957, lng: 118.777166, avgRent: 0, listings: [
     { id: "n178", title: "合租·随园 3居室 南卧", rent: 1630, area: 17, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "随园 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775480092368/c16b76851a77b30783a517cc1049be45.jpg.250x182.jpg", "img://room/1260", "img://room/1261"],
       landlordName: "李强", landlordPhone: "15875696931", landlordWechat: "李强178",
       description: "房源位于随园 3居室 南卧，南，楼层适中。3室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "采光好"], listedDate: "2026-04-05", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n164", name: "裴家桥小区 3居室 北卧", district: "其他", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
+  { id: "n164", name: "裴家桥小区 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
     { id: "n179", title: "合租·裴家桥小区 3居室 北卧", rent: 1290, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "裴家桥小区 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777288267433/2709fce6a594bf50f925771dec0d517b.jpg.250x182.jpg", "img://room/1267", "img://room/1268"],
       landlordName: "王芳", landlordPhone: "15873363764", landlordWechat: "王芳179",
       description: "房源位于裴家桥小区 3居室 北卧，南，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "精装修", "南北通透"], listedDate: "2026-06-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n165", name: "龙湖冠寓 南京中央门店 夏季特惠！可短租可长租！连锁公寓无中介！可办理租房补贴可养宠物 1室1厅", district: "其他", city: "nanjing", lat: 32.032399, lng: 118.779914, avgRent: 0, listings: [
+  { id: "n165", name: "龙湖冠寓 南京中央门店 夏季特惠！可短租可长租！连锁公寓无中介！可办理租房补贴可养宠物", district: "其他区", city: "nanjing", lat: 32.032399, lng: 118.779914, avgRent: 0, listings: [
     { id: "n180", title: "独栋·龙湖冠寓 南京中央门店 夏季特惠！可短租可长租！连锁公寓无中介！可办理租房", rent: 2091, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京中央门店 夏季特惠！可短租可长租！连锁公寓无中介！可办理租房补贴可养宠物 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1693377742310/7b3d80e226a96ec6a254d38b1f6a2888.jpg.250x182.jpg", "img://room/1274", "img://room/1275"],
       landlordName: "吴敏", landlordPhone: "15074638302",
       description: "房源位于龙湖冠寓 南京中央门店 夏季特惠！可短租可长租！连锁公寓无中介！可办理租房补贴可养宠物 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "采光好", "近地铁"], listedDate: "2026-03-23", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n166", name: "马台街 4居室 南卧", district: "其他", city: "nanjing", lat: 32.071241, lng: 118.773658, avgRent: 0, listings: [
+  { id: "n166", name: "马台街 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.071241, lng: 118.773658, avgRent: 0, listings: [
     { id: "n181", title: "合租·马台街 4居室 南卧", rent: 1660, area: 17, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "马台街 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778394465463/f9cd529480a24af4b7b1d5f7fe783a51.jpg.250x182.jpg", "img://room/1281", "img://room/1282"],
       landlordName: "黄明", landlordPhone: "18679651061", landlordWechat: "黄明181",
       description: "房源位于马台街 4居室 南卧，南，楼层适中。4室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "独立厨卫"], listedDate: "2026-06-26", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n167", name: "双门楼 2室1厅 南", district: "其他", city: "nanjing", lat: 32.082889, lng: 118.754864, avgRent: 0, listings: [
+  { id: "n167", name: "双门楼", district: "其他区", city: "nanjing", lat: 32.082889, lng: 118.754864, avgRent: 0, listings: [
     { id: "n182", title: "整租·双门楼 2室1厅 南", rent: 2000, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "双门楼 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_4uGJ6WSvZ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1288", "img://room/1289"],
       landlordName: "赵娜", landlordPhone: "13955694883",
       description: "房源位于双门楼 2室1厅 南，南，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "南北通透", "采光好"], listedDate: "2026-04-19", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n168", name: "江雁依山郡 3居室 西卧", district: "其他", city: "nanjing", lat: 32.107039, lng: 118.769757, avgRent: 0, listings: [
+  { id: "n168", name: "江雁依山郡 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.107039, lng: 118.769757, avgRent: 0, listings: [
     { id: "n183", title: "合租·江雁依山郡 3居室 西卧", rent: 990, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "江雁依山郡 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1723712489574/12647881a0993d6ae5e2219bf598e212.jpg.250x182.jpg", "img://room/1295", "img://room/1296"],
       landlordName: "陈静", landlordPhone: "18695359822", landlordWechat: "陈静183",
       description: "房源位于江雁依山郡 3居室 西卧，西，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "采光好", "随时看房"], listedDate: "2026-03-21", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n169", name: "观音里小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
+  { id: "n169", name: "观音里小区", district: "其他区", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
     { id: "n184", title: "整租·观音里小区 2室1厅 南", rent: 2700, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "观音里小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_J78LjiwSK.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1302", "img://room/1303"],
       landlordName: "刘洋", landlordPhone: "18624616684", landlordWechat: "刘洋184",
       description: "房源位于观音里小区 2室1厅 南，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "南北通透"], listedDate: "2026-04-03", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n170", name: "江雁依山郡 4居室 南卧", district: "其他", city: "nanjing", lat: 32.107039, lng: 118.769757, avgRent: 0, listings: [
+  { id: "n170", name: "江雁依山郡 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.107039, lng: 118.769757, avgRent: 0, listings: [
     { id: "n185", title: "合租·江雁依山郡 4居室 南卧", rent: 1630, area: 16, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "江雁依山郡 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779883151295/131ad284b7c7b34a950369cbdacfac46.jpg.250x182.jpg", "img://room/1309", "img://room/1310"],
       landlordName: "王芳", landlordPhone: "13835341858",
       description: "房源位于江雁依山郡 4居室 南卧，南，楼层适中。4室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫"], listedDate: "2026-04-25", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n171", name: "证大大拇指广场 1室1厅 北", district: "其他", city: "nanjing", lat: 32.098008067119466, lng: 118.87076755531085, avgRent: 0, listings: [
+  { id: "n171", name: "证大大拇指广场", district: "其他区", city: "nanjing", lat: 32.098008067119466, lng: 118.87076755531085, avgRent: 0, listings: [
     { id: "n186", title: "整租·证大大拇指广场 1室1厅 北", rent: 2100, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "证大大拇指广场 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_D4JekK02i.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1316", "img://room/1317"],
       landlordName: "黄明", landlordPhone: "15827180379",
       description: "房源位于证大大拇指广场 1室1厅 北，北，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "采光好"], listedDate: "2026-04-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n172", name: "锦绣江山花园南苑 3居室 西卧", district: "其他", city: "nanjing", lat: 32.101302, lng: 118.753954, avgRent: 0, listings: [
+  { id: "n172", name: "锦绣江山花园南苑 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.101302, lng: 118.753954, avgRent: 0, listings: [
     { id: "n187", title: "合租·锦绣江山花园南苑 3居室 西卧", rent: 960, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "锦绣江山花园南苑 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781266168162/ebb3b7613ac24953abf43643a43cafc2.jpg.250x182.jpg", "img://room/1323", "img://room/1324"],
       landlordName: "刘洋", landlordPhone: "18633243297",
       description: "房源位于锦绣江山花园南苑 3居室 西卧，南，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "近地铁"], listedDate: "2026-06-11", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n173", name: "华保新寓 3居室 北卧", district: "其他", city: "nanjing", lat: 32.0562, lng: 118.73121, avgRent: 0, listings: [
+  { id: "n173", name: "华保新寓 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.0562, lng: 118.73121, avgRent: 0, listings: [
     { id: "n188", title: "合租·华保新寓 3居室 北卧", rent: 1360, area: 21, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "华保新寓 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781573139326/426e6f0d8ba1fd8db7aaf0a9ce7ecffb.jpg.250x182.jpg", "img://room/1330", "img://room/1331"],
       landlordName: "王芳", landlordPhone: "15864083339",
       description: "房源位于华保新寓 3居室 北卧，北，楼层适中。3室1厅户型，21平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "随时看房"], listedDate: "2026-05-19", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n174", name: "新门口 5居室 北卧", district: "其他", city: "nanjing", lat: 32.082992, lng: 118.766366, avgRent: 0, listings: [
+  { id: "n174", name: "新门口 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.082992, lng: 118.766366, avgRent: 0, listings: [
     { id: "n189", title: "合租·新门口 5居室 北卧", rent: 1430, area: 18, rooms: "5室1厅", floor: "楼层适中", direction: "北", community: "新门口 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779189889797/4168020b0372dbcbe83fb3ea193e94a9.jpg.250x182.jpg", "img://room/1337", "img://room/1338"],
       landlordName: "赵娜", landlordPhone: "18627270709", landlordWechat: "赵娜189",
       description: "房源位于新门口 5居室 北卧，北，楼层适中。5室1厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修"], listedDate: "2026-06-27", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n175", name: "亿立方公寓 广东路店 特惠复式温馨标准间 开间", district: "其他", city: "nanjing", lat: 32.080575, lng: 118.766875, avgRent: 0, listings: [
+  { id: "n175", name: "亿立方公寓 广东路店 特惠复式温馨标准间", district: "其他区", city: "nanjing", lat: 32.080575, lng: 118.766875, avgRent: 0, listings: [
     { id: "n190", title: "独栋·亿立方公寓 广东路店 特惠复式温馨标准间 开间", rent: 1400, area: 20, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "亿立方公寓 广东路店 特惠复式温馨标准间 开间",
       images: ["https://image1.ljcdn.com/wanjia/1926def6da201952b2eaa9dbece6e5f6-1708582789146/7133836f7234c6f7b0eb7a97e7d7e329.jpg.250x182.jpg", "img://room/1344", "img://room/1345"],
       landlordName: "黄明", landlordPhone: "18843357230", landlordWechat: "黄明190",
       description: "房源位于亿立方公寓 广东路店 特惠复式温馨标准间 开间，朝向好，楼层适中。1室0厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-06-22", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n176", name: "虎丘路 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.03748355147158, lng: 118.76260837697528, avgRent: 0, listings: [
+  { id: "n176", name: "虎丘路", district: "其他区", city: "nanjing", lat: 32.03748355147158, lng: 118.76260837697528, avgRent: 0, listings: [
     { id: "n191", title: "整租·虎丘路 2室1厅 南/北", rent: 4200, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "虎丘路 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_zp1L92YIz_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1351", "img://room/1352"],
       landlordName: "周杰", landlordPhone: "18639666308", landlordWechat: "周杰191",
       description: "房源位于虎丘路 2室1厅 南/北，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-03-06", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n177", name: "汉口西路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.055795, lng: 118.76469, avgRent: 0, listings: [
+  { id: "n177", name: "汉口西路", district: "其他区", city: "nanjing", lat: 32.055795, lng: 118.76469, avgRent: 0, listings: [
     { id: "n192", title: "整租·汉口西路 2室1厅 南", rent: 2800, area: 74, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "汉口西路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Kj6N7CiB9_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1358", "img://room/1359"],
       landlordName: "吴敏", landlordPhone: "15059634447",
       description: "房源位于汉口西路 2室1厅 南，西，楼层适中。2室1厅户型，74平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "近地铁"], listedDate: "2026-03-02", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n178", name: "三乐公寓 湖南路店 109鼓楼区/单室套/独门独户独卫/0中介费/可短租月付 1室1厅", district: "鼓楼区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n178", name: "三乐公寓 湖南路店 109鼓楼区/单室套/独门独户独卫/0中介费/可短租月付", district: "鼓楼区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n193", title: "独栋·三乐公寓 湖南路店 109鼓楼区/单室套/独门独户独卫/0中介费/可短租月", rent: 1299, area: 22, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "三乐公寓 湖南路店 109鼓楼区/单室套/独门独户独卫/0中介费/可短租月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/55947e72fff028246821a7571996993d-1751196141273/32a309ec60a95da25b634c4c98d7eb43.jpg.250x182.jpg", "img://room/1365", "img://room/1366"],
       landlordName: "杨磊", landlordPhone: "18821664079", landlordWechat: "杨磊193",
       description: "房源位于三乐公寓 湖南路店 109鼓楼区/单室套/独门独户独卫/0中介费/可短租月付 1室1厅，朝向好，楼层适中。1室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫"], listedDate: "2026-06-23", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n179", name: "幕府一村 1室1厅 南", district: "其他", city: "nanjing", lat: 32.107927, lng: 118.777473, avgRent: 0, listings: [
+  { id: "n179", name: "幕府一村", district: "其他区", city: "nanjing", lat: 32.107927, lng: 118.777473, avgRent: 0, listings: [
     { id: "n194", title: "整租·幕府一村 1室1厅 南", rent: 2200, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "幕府一村 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_C9EaX8LK7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1372", "img://room/1373"],
       landlordName: "王芳", landlordPhone: "18818050767", landlordWechat: "王芳194",
       description: "房源位于幕府一村 1室1厅 南，南，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "精装修", "南北通透"], listedDate: "2026-06-01", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n180", name: "江山汇悦山府 3居室 南卧", district: "其他", city: "nanjing", lat: 32.11513, lng: 118.766314, avgRent: 0, listings: [
+  { id: "n180", name: "江山汇悦山府 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.11513, lng: 118.766314, avgRent: 0, listings: [
     { id: "n195", title: "合租·江山汇悦山府 3居室 南卧", rent: 1090, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "江山汇悦山府 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777784966280/bf3e431d1f7cd1f2b7eb6a138a5859d1.jpg.250x182.jpg", "img://room/1379", "img://room/1380"],
       landlordName: "黄明", landlordPhone: "13884884869",
       description: "房源位于江山汇悦山府 3居室 南卧，南，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "采光好", "拎包入住"], listedDate: "2026-03-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n181", name: "光夏新村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.08939, lng: 118.753513, avgRent: 0, listings: [
+  { id: "n181", name: "光夏新村", district: "其他区", city: "nanjing", lat: 32.08939, lng: 118.753513, avgRent: 0, listings: [
     { id: "n196", title: "整租·光夏新村 2室1厅 南", rent: 3500, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "光夏新村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_UycwXoXzx.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1386", "img://room/1387"],
       landlordName: "李强", landlordPhone: "13865460986",
       description: "房源位于光夏新村 2室1厅 南，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "拎包入住", "随时看房"], listedDate: "2026-05-16", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n182", name: "世茂外滩新城 3居室 北卧", district: "其他", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
+  { id: "n182", name: "世茂外滩新城 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
     { id: "n197", title: "合租·世茂外滩新城 3居室 北卧", rent: 1260, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "世茂外滩新城 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1765169856567/3593b841b7770c0af196af20b8b6e67a.jpg.250x182.jpg", "img://room/1393", "img://room/1394"],
       landlordName: "赵娜", landlordPhone: "13881727379",
       description: "房源位于世茂外滩新城 3居室 北卧，南，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-05-06", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n183", name: "东柏果园 2室1厅 南", district: "其他", city: "nanjing", lat: 32.078856, lng: 118.772014, avgRent: 0, listings: [
+  { id: "n183", name: "东柏果园", district: "其他区", city: "nanjing", lat: 32.078856, lng: 118.772014, avgRent: 0, listings: [
     { id: "n198", title: "整租·东柏果园 2室1厅 南", rent: 2600, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东柏果园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MgsdZuKtd.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1400", "img://room/1401"],
       landlordName: "刘洋", landlordPhone: "13926090430",
       description: "房源位于东柏果园 2室1厅 南，东，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-04-19", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n184", name: "中海桃源里 5居室 南卧", district: "其他", city: "nanjing", lat: 32.085847985512785, lng: 118.81626562295465, avgRent: 0, listings: [
+  { id: "n184", name: "中海桃源里 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.085847985512785, lng: 118.81626562295465, avgRent: 0, listings: [
     { id: "n199", title: "合租·中海桃源里 5居室 南卧", rent: 1460, area: 17, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "中海桃源里 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781941434050/598442d8034043ad75b479955a84c880.jpg.250x182.jpg", "img://room/1407", "img://room/1408"],
       landlordName: "李强", landlordPhone: "15824801586",
       description: "房源位于中海桃源里 5居室 南卧，南，楼层适中。5室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "安静宜居", "精装修"], listedDate: "2026-04-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n185", name: "龙湖春江紫宸 4居室 南卧", district: "其他", city: "nanjing", lat: 32.091168, lng: 118.737383, avgRent: 0, listings: [
+  { id: "n185", name: "龙湖春江紫宸 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.091168, lng: 118.737383, avgRent: 0, listings: [
     { id: "n200", title: "合租·龙湖春江紫宸 4居室 南卧", rent: 1330, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "龙湖春江紫宸 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1752302749786/282246876fcbb22ad08d0b60f0c5a7d6.jpg.250x182.jpg", "img://room/1414", "img://room/1415"],
       landlordName: "刘洋", landlordPhone: "18679088515", landlordWechat: "刘洋200",
       description: "房源位于龙湖春江紫宸 4居室 南卧，南，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "南北通透"], listedDate: "2026-03-05", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n186", name: "世茂外滩新城 5居室 南卧", district: "其他", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
+  { id: "n186", name: "世茂外滩新城 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.080929, lng: 118.735524, avgRent: 0, listings: [
     { id: "n201", title: "合租·世茂外滩新城 5居室 南卧", rent: 1190, area: 8, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "世茂外滩新城 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1694215437437/b593257330c985e32ec34c29dbb5cde9.jpg.250x182.jpg", "img://room/1421", "img://room/1422"],
       landlordName: "赵娜", landlordPhone: "13916790559",
       description: "房源位于世茂外滩新城 5居室 南卧，南，楼层适中。5室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-05-08", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n187", name: "幕府佳园 3居室 南卧", district: "其他", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
+  { id: "n187", name: "幕府佳园 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
     { id: "n202", title: "合租·幕府佳园 3居室 南卧", rent: 990, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "幕府佳园 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1774701039427/1c65870c54a77e204f087d57b07902e2.jpg.250x182.jpg", "img://room/1428", "img://room/1429"],
       landlordName: "黄明", landlordPhone: "13865366497",
       description: "房源位于幕府佳园 3居室 南卧，南，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "采光好", "南北通透"], listedDate: "2026-05-14", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n188", name: "苏宁睿城银河国际街区 4居室 南卧", district: "其他", city: "nanjing", lat: 32.030882, lng: 118.730031, avgRent: 0, listings: [
+  { id: "n188", name: "苏宁睿城银河国际街区 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.030882, lng: 118.730031, avgRent: 0, listings: [
     { id: "n203", title: "合租·苏宁睿城银河国际街区 4居室 南卧", rent: 2560, area: 24, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "苏宁睿城银河国际街区 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1747984524918/ca86b7e736a6abbc2266d925b4cc1d8d.jpg.250x182.jpg", "img://room/1435", "img://room/1436"],
       landlordName: "黄明", landlordPhone: "15087988883",
       description: "房源位于苏宁睿城银河国际街区 4居室 南卧，南，楼层适中。4室1厅户型，24平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居"], listedDate: "2026-04-21", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n189", name: "花样年喜年中心 1室1厅 南", district: "其他", city: "nanjing", lat: 31.351689, lng: 118.941106, avgRent: 0, listings: [
+  { id: "n189", name: "花样年喜年中心", district: "其他区", city: "nanjing", lat: 31.351689, lng: 118.941106, avgRent: 0, listings: [
     { id: "n204", title: "整租·花样年喜年中心 1室1厅 南", rent: 2100, area: 55, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "花样年喜年中心 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kXvx2GOrv.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1442", "img://room/1443"],
       landlordName: "赵娜", landlordPhone: "15090216920",
       description: "房源位于花样年喜年中心 1室1厅 南，南，楼层适中。1室1厅户型，55平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "精装修", "随时看房"], listedDate: "2026-03-07", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n190", name: "证大大拇指广场 1室0厅 西", district: "其他", city: "nanjing", lat: 32.022066895343244, lng: 118.72390110202204, avgRent: 0, listings: [
+  { id: "n190", name: "证大大拇指广场", district: "其他区", city: "nanjing", lat: 32.022066895343244, lng: 118.72390110202204, avgRent: 0, listings: [
     { id: "n205", title: "整租·证大大拇指广场 1室0厅 西", rent: 1995, area: 37, rooms: "1室0厅", floor: "楼层适中", direction: "西", community: "证大大拇指广场 1室0厅 西",
       images: ["https://image1.ljcdn.com/lease-image/house/e9a55f6b0a250c2f8c6b37cf3b1de727.jpeg.250x182.jpg", "img://room/1449", "img://room/1450"],
       landlordName: "张伟", landlordPhone: "15893885680", landlordWechat: "张伟205",
       description: "房源位于证大大拇指广场 1室0厅 西，西，楼层适中。1室0厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "近地铁", "安静宜居"], listedDate: "2026-03-12", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n191", name: "幕府佳园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
+  { id: "n191", name: "幕府佳园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
     { id: "n206", title: "合租·幕府佳园 4居室 北卧", rent: 990, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "幕府佳园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781317194850/81958324e7765e23ce93852eb81b92f0.jpg.250x182.jpg", "img://room/1456", "img://room/1457"],
       landlordName: "李强", landlordPhone: "18655216255", landlordWechat: "李强206",
       description: "房源位于幕府佳园 4居室 北卧，北，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫"], listedDate: "2026-06-23", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n192", name: "中商万豪 1室1厅 南", district: "其他", city: "nanjing", lat: 32.070002, lng: 118.769967, avgRent: 0, listings: [
+  { id: "n192", name: "中商万豪", district: "其他区", city: "nanjing", lat: 32.070002, lng: 118.769967, avgRent: 0, listings: [
     { id: "n207", title: "整租·中商万豪 1室1厅 南", rent: 1700, area: 37, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "中商万豪 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/1960efbe8beb1a518351e38c133075d1.jpeg.250x182.jpg", "img://room/1463", "img://room/1464"],
       landlordName: "王芳", landlordPhone: "18891662321",
       description: "房源位于中商万豪 1室1厅 南，南，楼层适中。1室1厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-04-13", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n193", name: "东井村3号 4居室 南卧", district: "其他", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
+  { id: "n193", name: "东井村3号 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
     { id: "n208", title: "合租·东井村3号 4居室 南卧", rent: 1090, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "东井村3号 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1774276623174/8eaef4ac9c44c3daf592a9b8610c9d93.jpg.250x182.jpg", "img://room/1470", "img://room/1471"],
       landlordName: "陈静", landlordPhone: "18677814824", landlordWechat: "陈静208",
       description: "房源位于东井村3号 4居室 南卧，东，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-04-18", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n194", name: "宁工新寓一村 4居室 西卧", district: "其他", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
+  { id: "n194", name: "宁工新寓一村 4居室 西卧", district: "其他区", city: "nanjing", lat: 32.058407, lng: 118.734577, avgRent: 0, listings: [
     { id: "n209", title: "合租·宁工新寓一村 4居室 西卧", rent: 860, area: 5, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "宁工新寓一村 4居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782376944539/f0de631e479fd99388ac6bc5fa58fdb3.jpg.250x182.jpg", "img://room/1477", "img://room/1478"],
       landlordName: "陈静", landlordPhone: "13962245116",
       description: "房源位于宁工新寓一村 4居室 西卧，西，楼层适中。4室1厅户型，5平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-06-18", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n195", name: "黑龙江路26号 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.087735, lng: 118.774885, avgRent: 0, listings: [
+  { id: "n195", name: "黑龙江路26号", district: "其他区", city: "nanjing", lat: 32.087735, lng: 118.774885, avgRent: 0, listings: [
     { id: "n210", title: "整租·黑龙江路26号 3室2厅 南/北", rent: 3500, area: 99, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "黑龙江路26号 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_o9s5qjaoV_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1484", "img://room/1485"],
       landlordName: "黄明", landlordPhone: "18817124136", landlordWechat: "黄明210",
       description: "房源位于黑龙江路26号 3室2厅 南/北，南，楼层适中。3室2厅户型，99平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "拎包入住", "安静宜居"], listedDate: "2026-04-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n196", name: "德水香林 5居室 南卧", district: "其他", city: "nanjing", lat: 32.117196, lng: 118.78869, avgRent: 0, listings: [
+  { id: "n196", name: "德水香林 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.117196, lng: 118.78869, avgRent: 0, listings: [
     { id: "n211", title: "合租·德水香林 5居室 南卧", rent: 1130, area: 10, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "德水香林 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779713162608/1ed204669daf781ee5f4ea26b4bbe02d.jpg.250x182.jpg", "img://room/1491", "img://room/1492"],
       landlordName: "李强", landlordPhone: "13884332560", landlordWechat: "李强211",
       description: "房源位于德水香林 5居室 南卧，南，楼层适中。5室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "南北通透"], listedDate: "2026-06-03", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n197", name: "安怀村453号 3室2厅 南", district: "其他", city: "nanjing", lat: 32.06676788679775, lng: 118.83732891266911, avgRent: 0, listings: [
+  { id: "n197", name: "安怀村453号", district: "其他区", city: "nanjing", lat: 32.06676788679775, lng: 118.83732891266911, avgRent: 0, listings: [
     { id: "n212", title: "整租·安怀村453号 3室2厅 南", rent: 3500, area: 92, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "安怀村453号 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_a4kiFr1nI.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1498", "img://room/1499"],
       landlordName: "张伟", landlordPhone: "18810563510",
       description: "房源位于安怀村453号 3室2厅 南，南，楼层适中。3室2厅户型，92平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好"], listedDate: "2026-04-19", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n198", name: "瑞园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.03883894470479, lng: 118.75340944095333, avgRent: 0, listings: [
+  { id: "n198", name: "瑞园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.03883894470479, lng: 118.75340944095333, avgRent: 0, listings: [
     { id: "n213", title: "合租·瑞园 5居室 南卧", rent: 1445, area: 8, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "瑞园 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775524758201/631cd7690629ac07306594295264b804.jpg.250x182.jpg", "img://room/1505", "img://room/1506"],
       landlordName: "刘洋", landlordPhone: "15062924797",
       description: "房源位于瑞园 5居室 南卧，南，楼层适中。5室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "独立厨卫"], listedDate: "2026-05-02", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n199", name: "中保华庭 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.05491, lng: 118.734626, avgRent: 0, listings: [
+  { id: "n199", name: "中保华庭", district: "其他区", city: "nanjing", lat: 32.05491, lng: 118.734626, avgRent: 0, listings: [
     { id: "n214", title: "整租·中保华庭 3室2厅 南/北", rent: 5500, area: 151, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "中保华庭 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MvRyzcd5P.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1512", "img://room/1513"],
       landlordName: "杨磊", landlordPhone: "18827073814",
       description: "房源位于中保华庭 3室2厅 南/北，南，楼层适中。3室2厅户型，151平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住"], listedDate: "2026-04-16", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n200", name: "江岸佳苑 4居室 南卧", district: "其他", city: "nanjing", lat: 31.578721, lng: 119.185015, avgRent: 0, listings: [
+  { id: "n200", name: "江岸佳苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.578721, lng: 119.185015, avgRent: 0, listings: [
     { id: "n215", title: "合租·江岸佳苑 4居室 南卧", rent: 1260, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "江岸佳苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1769430395636/3dad134e2cec215bec1ae0432c1d01d2.jpg.250x182.jpg", "img://room/1519", "img://room/1520"],
       landlordName: "陈静", landlordPhone: "18828289950",
       description: "房源位于江岸佳苑 4居室 南卧，南，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "随时看房", "南北通透"], listedDate: "2026-03-11", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n201", name: "虎踞北路15号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.074415, lng: 118.754661, avgRent: 0, listings: [
+  { id: "n201", name: "虎踞北路15号", district: "其他区", city: "nanjing", lat: 32.074415, lng: 118.754661, avgRent: 0, listings: [
     { id: "n216", title: "整租·虎踞北路15号 2室1厅 南", rent: 4800, area: 54, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "虎踞北路15号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_LIwZqt0tf.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1526", "img://room/1527"],
       landlordName: "吴敏", landlordPhone: "13968192646", landlordWechat: "吴敏216",
       description: "房源位于虎踞北路15号 2室1厅 南，北，楼层适中。2室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "随时看房"], listedDate: "2026-05-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n202", name: "江岸佳苑 3居室 南卧", district: "其他", city: "nanjing", lat: 32.067069199717565, lng: 118.74320117698754, avgRent: 0, listings: [
+  { id: "n202", name: "江岸佳苑 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.067069199717565, lng: 118.74320117698754, avgRent: 0, listings: [
     { id: "n217", title: "合租·江岸佳苑 3居室 南卧", rent: 1430, area: 13, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "江岸佳苑 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782550213821/361c22039a2d6173778bfddf41945bdf.jpg.250x182.jpg", "img://room/1533", "img://room/1534"],
       landlordName: "张伟", landlordPhone: "15097775040", landlordWechat: "张伟217",
       description: "房源位于江岸佳苑 3居室 南卧，南，楼层适中。3室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "独立厨卫", "安静宜居"], listedDate: "2026-05-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n203", name: "汽轮四村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.098923, lng: 118.783381, avgRent: 0, listings: [
+  { id: "n203", name: "汽轮四村", district: "其他区", city: "nanjing", lat: 32.098923, lng: 118.783381, avgRent: 0, listings: [
     { id: "n218", title: "整租·汽轮四村 2室1厅 南/北", rent: 3200, area: 78, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "汽轮四村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_I3C0TF763.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1540", "img://room/1541"],
       landlordName: "周杰", landlordPhone: "13920197525", landlordWechat: "周杰218",
       description: "房源位于汽轮四村 2室1厅 南/北，南，楼层适中。2室1厅户型，78平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-06-21", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n204", name: "鼓教新村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.063399, lng: 118.736503, avgRent: 0, listings: [
+  { id: "n204", name: "鼓教新村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.063399, lng: 118.736503, avgRent: 0, listings: [
     { id: "n219", title: "合租·鼓教新村 4居室 南卧", rent: 1890, area: 20, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "鼓教新村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781596349689/d0ec4fc9b74f6dd454478a3ce0c71d3b.jpg.250x182.jpg", "img://room/1547", "img://room/1548"],
       landlordName: "杨磊", landlordPhone: "13839619225", landlordWechat: "杨磊219",
       description: "房源位于鼓教新村 4居室 南卧，南，楼层适中。4室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房"], listedDate: "2026-04-01", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n205", name: "先锋广场 1室1厅 南", district: "其他", city: "nanjing", lat: 32.082135, lng: 118.779054, avgRent: 0, listings: [
+  { id: "n205", name: "先锋广场", district: "其他区", city: "nanjing", lat: 32.082135, lng: 118.779054, avgRent: 0, listings: [
     { id: "n220", title: "整租·先锋广场 1室1厅 南", rent: 2800, area: 52, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "先锋广场 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BHtxsDe10.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1554", "img://room/1555"],
       landlordName: "刘洋", landlordPhone: "15045135611",
       description: "房源位于先锋广场 1室1厅 南，南，楼层适中。1室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "近地铁"], listedDate: "2026-06-24", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n206", name: "海德卫城 4居室 北卧", district: "其他", city: "nanjing", lat: 32.063062, lng: 118.732888, avgRent: 0, listings: [
+  { id: "n206", name: "海德卫城 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.063062, lng: 118.732888, avgRent: 0, listings: [
     { id: "n221", title: "合租·海德卫城 4居室 北卧", rent: 1260, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "海德卫城 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780479092208/ce9d7d0c27c65d659ffc828d674e556f.jpg.250x182.jpg", "img://room/1561", "img://room/1562"],
       landlordName: "李强", landlordPhone: "13917972316", landlordWechat: "李强221",
       description: "房源位于海德卫城 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "拎包入住", "安静宜居"], listedDate: "2026-06-20", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n207", name: "黑龙江路12巷 2室1厅 南", district: "其他", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
+  { id: "n207", name: "黑龙江路12巷", district: "其他区", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
     { id: "n222", title: "整租·黑龙江路12巷 2室1厅 南", rent: 3000, area: 58, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "黑龙江路12巷 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ycptKqCuY_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1568", "img://room/1569"],
       landlordName: "陈静", landlordPhone: "15038412898", landlordWechat: "陈静222",
       description: "房源位于黑龙江路12巷 2室1厅 南，南，楼层适中。2室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住"], listedDate: "2026-05-23", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n208", name: "云谷山庄 4居室 南卧", district: "其他", city: "nanjing", lat: 32.115531, lng: 118.7895, avgRent: 0, listings: [
+  { id: "n208", name: "云谷山庄 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.115531, lng: 118.7895, avgRent: 0, listings: [
     { id: "n223", title: "合租·云谷山庄 4居室 南卧", rent: 930, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "云谷山庄 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778670399942/019bffbbdc02dce6872bdf35be074123.jpg.250x182.jpg", "img://room/1575", "img://room/1576"],
       landlordName: "张伟", landlordPhone: "13846238595", landlordWechat: "张伟223",
       description: "房源位于云谷山庄 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "南北通透"], listedDate: "2026-04-07", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n209", name: "高云岭 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.063335, lng: 118.783542, avgRent: 0, listings: [
+  { id: "n209", name: "高云岭", district: "其他区", city: "nanjing", lat: 32.063335, lng: 118.783542, avgRent: 0, listings: [
     { id: "n224", title: "整租·高云岭 3室1厅 南/北", rent: 4500, area: 74, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "高云岭 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_pa9UIJ2Ri.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1582", "img://room/1583"],
       landlordName: "王芳", landlordPhone: "13851863009",
       description: "房源位于高云岭 3室1厅 南/北，南，楼层适中。3室1厅户型，74平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "独立厨卫"], listedDate: "2026-05-09", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n210", name: "金湾花园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.056235, lng: 118.73347, avgRent: 0, listings: [
+  { id: "n210", name: "金湾花园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.056235, lng: 118.73347, avgRent: 0, listings: [
     { id: "n225", title: "合租·金湾花园 4居室 北卧", rent: 1060, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "金湾花园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779184335334/03e903297ea37a18b83dddff04cb3b0a.jpg.250x182.jpg", "img://room/1589", "img://room/1590"],
       landlordName: "周杰", landlordPhone: "13934146749",
       description: "房源位于金湾花园 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁"], listedDate: "2026-03-07", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n211", name: "清江花苑明月园 3居室 北卧", district: "其他", city: "nanjing", lat: 32.067989, lng: 118.742707, avgRent: 0, listings: [
+  { id: "n211", name: "清江花苑明月园 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.067989, lng: 118.742707, avgRent: 0, listings: [
     { id: "n226", title: "合租·清江花苑明月园 3居室 北卧", rent: 790, area: 5, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "清江花苑明月园 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1776921333238/8eacd009e373e1ceaf706303313034a4.jpg.250x182.jpg", "img://room/1596", "img://room/1597"],
       landlordName: "周杰", landlordPhone: "18878518796", landlordWechat: "周杰226",
       description: "房源位于清江花苑明月园 3居室 北卧，北，楼层适中。3室1厅户型，5平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "近地铁"], listedDate: "2026-04-22", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n212", name: "黑龙江路八巷 3居室 北卧", district: "其他", city: "nanjing", lat: 32.087655, lng: 118.778967, avgRent: 0, listings: [
+  { id: "n212", name: "黑龙江路八巷 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.087655, lng: 118.778967, avgRent: 0, listings: [
     { id: "n227", title: "合租·黑龙江路八巷 3居室 北卧", rent: 990, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "黑龙江路八巷 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779615400995/fc2cb8808dfe38514542e170532c206e.jpg.250x182.jpg", "img://room/1603", "img://room/1604"],
       landlordName: "黄明", landlordPhone: "15088805624", landlordWechat: "黄明227",
       description: "房源位于黑龙江路八巷 3居室 北卧，北，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "安静宜居"], listedDate: "2026-04-10", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n213", name: "金阜雅苑 4居室 北卧", district: "其他", city: "nanjing", lat: 32.087963, lng: 118.765482, avgRent: 0, listings: [
+  { id: "n213", name: "金阜雅苑 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.087963, lng: 118.765482, avgRent: 0, listings: [
     { id: "n228", title: "合租·金阜雅苑 4居室 北卧", rent: 1130, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "金阜雅苑 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775088704655/16a150112733ff241b416513903b8b72.jpg.250x182.jpg", "img://room/1610", "img://room/1611"],
       landlordName: "杨磊", landlordPhone: "18654396415", landlordWechat: "杨磊228",
       description: "房源位于金阜雅苑 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "精装修"], listedDate: "2026-05-21", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n214", name: "锦绣华府东苑 4居室 西卧", district: "其他", city: "nanjing", lat: 32.046934, lng: 118.886093, avgRent: 0, listings: [
+  { id: "n214", name: "锦绣华府东苑 4居室 西卧", district: "其他区", city: "nanjing", lat: 32.046934, lng: 118.886093, avgRent: 0, listings: [
     { id: "n229", title: "合租·锦绣华府东苑 4居室 西卧", rent: 830, area: 6, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "锦绣华府东苑 4居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779063999180/f3f3665199a1e366cbf0f14a7c9dceb0.jpg.250x182.jpg", "img://room/1617", "img://room/1618"],
       landlordName: "张伟", landlordPhone: "15831498311",
       description: "房源位于锦绣华府东苑 4居室 西卧，东，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-06-01", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n215", name: "金鼎湾如院 5居室 南卧", district: "其他", city: "nanjing", lat: 32.076147, lng: 118.761188, avgRent: 0, listings: [
+  { id: "n215", name: "金鼎湾如院 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.076147, lng: 118.761188, avgRent: 0, listings: [
     { id: "n230", title: "合租·金鼎湾如院 5居室 南卧", rent: 1660, area: 22, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "金鼎湾如院 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782373847472/927e10ec4dae823ac18f5eff2c6c6eaa.jpg.250x182.jpg", "img://room/1624", "img://room/1625"],
       landlordName: "王芳", landlordPhone: "18666252725", landlordWechat: "王芳230",
       description: "房源位于金鼎湾如院 5居室 南卧，南，楼层适中。5室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "采光好"], listedDate: "2026-03-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n216", name: "青石村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.00215, lng: 118.792174, avgRent: 0, listings: [
+  { id: "n216", name: "青石村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.00215, lng: 118.792174, avgRent: 0, listings: [
     { id: "n231", title: "合租·青石村 4居室 南卧", rent: 1130, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "青石村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1770638244165/564f5d92734b0b0175c19b626b1c983f.jpg.250x182.jpg", "img://room/1631", "img://room/1632"],
       landlordName: "陈静", landlordPhone: "18693323933",
       description: "房源位于青石村 4居室 南卧，南，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-03-10", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n217", name: "南堡新寓 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.101205, lng: 118.750207, avgRent: 0, listings: [
+  { id: "n217", name: "南堡新寓", district: "其他区", city: "nanjing", lat: 32.101205, lng: 118.750207, avgRent: 0, listings: [
     { id: "n232", title: "整租·南堡新寓 2室1厅 南/北", rent: 1400, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "南堡新寓 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_wzaLRiggj_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1638", "img://room/1639"],
       landlordName: "李强", landlordPhone: "13976868215",
       description: "房源位于南堡新寓 2室1厅 南/北，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "采光好", "安静宜居"], listedDate: "2026-05-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n218", name: "水关桥 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.098514, lng: 118.759968, avgRent: 0, listings: [
+  { id: "n218", name: "水关桥", district: "其他区", city: "nanjing", lat: 32.098514, lng: 118.759968, avgRent: 0, listings: [
     { id: "n233", title: "整租·水关桥 3室1厅 南/北", rent: 2200, area: 68, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "水关桥 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_RKAsWFTM4.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1645", "img://room/1646"],
       landlordName: "陈静", landlordPhone: "13978517307", landlordWechat: "陈静233",
       description: "房源位于水关桥 3室1厅 南/北，南，楼层适中。3室1厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "独立厨卫", "安静宜居"], listedDate: "2026-03-07", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n219", name: "峨嵋岭 2室1厅 南", district: "其他", city: "nanjing", lat: 32.046009, lng: 118.770974, avgRent: 0, listings: [
+  { id: "n219", name: "峨嵋岭", district: "其他区", city: "nanjing", lat: 32.046009, lng: 118.770974, avgRent: 0, listings: [
     { id: "n234", title: "整租·峨嵋岭 2室1厅 南", rent: 2700, area: 44, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "峨嵋岭 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_O3vILCT3g.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1652", "img://room/1653"],
       landlordName: "王芳", landlordPhone: "13878710328", landlordWechat: "王芳234",
       description: "房源位于峨嵋岭 2室1厅 南，南，楼层适中。2室1厅户型，44平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-06-24", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n220", name: "回龙桥8号 2室2厅 南", district: "其他", city: "nanjing", lat: 32.075624, lng: 118.757034, avgRent: 0, listings: [
+  { id: "n220", name: "回龙桥8号", district: "其他区", city: "nanjing", lat: 32.075624, lng: 118.757034, avgRent: 0, listings: [
     { id: "n235", title: "整租·回龙桥8号 2室2厅 南", rent: 4500, area: 73, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "回龙桥8号 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_p6iqkZhfq.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1659", "img://room/1660"],
       landlordName: "杨磊", landlordPhone: "18885186531", landlordWechat: "杨磊235",
       description: "房源位于回龙桥8号 2室2厅 南，南，楼层适中。2室2厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "独立厨卫"], listedDate: "2026-05-19", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n221", name: "江滨新寓 2室1厅 南", district: "其他", city: "nanjing", lat: 32.054303, lng: 118.730923, avgRent: 0, listings: [
+  { id: "n221", name: "江滨新寓", district: "其他区", city: "nanjing", lat: 32.054303, lng: 118.730923, avgRent: 0, listings: [
     { id: "n236", title: "整租·江滨新寓 2室1厅 南", rent: 3100, area: 44, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "江滨新寓 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_vIx3ViRWn.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1666", "img://room/1667"],
       landlordName: "黄明", landlordPhone: "15845783834",
       description: "房源位于江滨新寓 2室1厅 南，南，楼层适中。2室1厅户型，44平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透"], listedDate: "2026-05-03", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n222", name: "清江西苑 4居室 北卧", district: "其他", city: "nanjing", lat: 32.07621482391835, lng: 118.82226628668127, avgRent: 0, listings: [
+  { id: "n222", name: "清江西苑 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.07621482391835, lng: 118.82226628668127, avgRent: 0, listings: [
     { id: "n237", title: "合租·清江西苑 4居室 北卧", rent: 1390, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "清江西苑 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1739184169623/2d88caf3bd8e6e5137c2d34bf95ba036.jpg.250x182.jpg", "img://room/1673", "img://room/1674"],
       landlordName: "王芳", landlordPhone: "18844816430",
       description: "房源位于清江西苑 4居室 北卧，西，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房", "精装修"], listedDate: "2026-04-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n223", name: "中海凤凰熙岸三期 1室0厅 南", district: "其他", city: "nanjing", lat: 32.04389, lng: 118.757613, avgRent: 0, listings: [
+  { id: "n223", name: "中海凤凰熙岸三期", district: "其他区", city: "nanjing", lat: 32.04389, lng: 118.757613, avgRent: 0, listings: [
     { id: "n238", title: "整租·中海凤凰熙岸三期 1室0厅 南", rent: 600, area: 13, rooms: "1室0厅", floor: "楼层适中", direction: "西", community: "中海凤凰熙岸三期 1室0厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/4a21f346-fd22-4fc5-9ae6-ec1075b29f0d.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1680", "img://room/1681"],
       landlordName: "陈静", landlordPhone: "18850920611",
       description: "房源位于中海凤凰熙岸三期 1室0厅 南，西，楼层适中。1室0厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "近地铁"], listedDate: "2026-05-15", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n224", name: "东妙峰庵 2室1厅 南", district: "其他", city: "nanjing", lat: 32.085931, lng: 118.757167, avgRent: 0, listings: [
+  { id: "n224", name: "东妙峰庵", district: "其他区", city: "nanjing", lat: 32.085931, lng: 118.757167, avgRent: 0, listings: [
     { id: "n239", title: "整租·东妙峰庵 2室1厅 南", rent: 2600, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东妙峰庵 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_SnjjGWoyk.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1687", "img://room/1688"],
       landlordName: "杨磊", landlordPhone: "15825090978",
       description: "房源位于东妙峰庵 2室1厅 南，东，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修"], listedDate: "2026-05-27", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n225", name: "中冶盛世滨江 4居室 北卧", district: "其他", city: "nanjing", lat: 32.02573265351838, lng: 118.86576613324213, avgRent: 0, listings: [
+  { id: "n225", name: "中冶盛世滨江 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.02573265351838, lng: 118.86576613324213, avgRent: 0, listings: [
     { id: "n240", title: "合租·中冶盛世滨江 4居室 北卧", rent: 1030, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "中冶盛世滨江 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1716298594835/3513845f5963d7ae2d6f79dae36ad1ac.jpg.250x182.jpg", "img://room/1694", "img://room/1695"],
       landlordName: "赵娜", landlordPhone: "13924494508", landlordWechat: "赵娜240",
       description: "房源位于中冶盛世滨江 4居室 北卧，北，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "随时看房", "拎包入住"], listedDate: "2026-06-04", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n226", name: "东井村3号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
+  { id: "n226", name: "东井村3号", district: "其他区", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
     { id: "n241", title: "整租·东井村3号 2室1厅 南", rent: 2650, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东井村3号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_gfFZ0g6X1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1701", "img://room/1702"],
       landlordName: "吴敏", landlordPhone: "15862980171", landlordWechat: "吴敏241",
       description: "房源位于东井村3号 2室1厅 南，东，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "精装修", "独立厨卫"], listedDate: "2026-04-11", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n227", name: "湖北路 3居室 南卧", district: "其他", city: "nanjing", lat: 32.066641, lng: 118.778233, avgRent: 0, listings: [
+  { id: "n227", name: "湖北路 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.066641, lng: 118.778233, avgRent: 0, listings: [
     { id: "n242", title: "合租·湖北路 3居室 南卧", rent: 1390, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "湖北路 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779156764612/af50a27a143022e836b13fedb6536bf3.jpg.250x182.jpg", "img://room/1708", "img://room/1709"],
       landlordName: "吴敏", landlordPhone: "15087707292",
       description: "房源位于湖北路 3居室 南卧，南，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "精装修"], listedDate: "2026-03-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n228", name: "鲁迅园小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
+  { id: "n228", name: "鲁迅园小区", district: "其他区", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
     { id: "n243", title: "整租·鲁迅园小区 2室1厅 南", rent: 3300, area: 61, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "鲁迅园小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MFZLMJRyj.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1715", "img://room/1716"],
       landlordName: "赵娜", landlordPhone: "13951685689",
       description: "房源位于鲁迅园小区 2室1厅 南，南，楼层适中。2室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好"], listedDate: "2026-03-13", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n229", name: "新门口18号 2居室 北卧", district: "其他", city: "nanjing", lat: 32.086429, lng: 118.767938, avgRent: 0, listings: [
+  { id: "n229", name: "新门口18号 2居室 北卧", district: "其他区", city: "nanjing", lat: 32.086429, lng: 118.767938, avgRent: 0, listings: [
     { id: "n244", title: "合租·新门口18号 2居室 北卧", rent: 1290, area: 10, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "新门口18号 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778918190348/e0c77dc0bf75a53d392db96b856c061e.jpg.250x182.jpg", "img://room/1722", "img://room/1723"],
       landlordName: "王芳", landlordPhone: "13919028218",
       description: "房源位于新门口18号 2居室 北卧，北，楼层适中。2室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "精装修", "拎包入住"], listedDate: "2026-04-24", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n230", name: "丽晶国际 1室1厅 南", district: "其他", city: "nanjing", lat: 32.067572, lng: 118.747808, avgRent: 0, listings: [
+  { id: "n230", name: "丽晶国际", district: "其他区", city: "nanjing", lat: 32.067572, lng: 118.747808, avgRent: 0, listings: [
     { id: "n245", title: "整租·丽晶国际 1室1厅 南", rent: 2600, area: 39, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "丽晶国际 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0Ij92Proq.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1729", "img://room/1730"],
       landlordName: "王芳", landlordPhone: "15819442015", landlordWechat: "王芳245",
       description: "房源位于丽晶国际 1室1厅 南，南，楼层适中。1室1厅户型，39平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "随时看房", "近地铁"], listedDate: "2026-05-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n231", name: "和会街 3居室 北卧", district: "其他", city: "nanjing", lat: 32.077575, lng: 118.765591, avgRent: 0, listings: [
+  { id: "n231", name: "和会街 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.077575, lng: 118.765591, avgRent: 0, listings: [
     { id: "n246", title: "合租·和会街 3居室 北卧", rent: 1360, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "和会街 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779352176011/e908a77dbe90e97f39fc66b427ba330e.jpg.250x182.jpg", "img://room/1736", "img://room/1737"],
       landlordName: "杨磊", landlordPhone: "13948942469",
       description: "房源位于和会街 3居室 北卧，北，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "近地铁"], listedDate: "2026-06-19", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n232", name: "金信花园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.06211135048793, lng: 118.72582927568871, avgRent: 0, listings: [
+  { id: "n232", name: "金信花园", district: "其他区", city: "nanjing", lat: 32.06211135048793, lng: 118.72582927568871, avgRent: 0, listings: [
     { id: "n247", title: "整租·金信花园 3室1厅 南", rent: 5500, area: 113, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "金信花园 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Ict7RNLrq.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1743", "img://room/1744"],
       landlordName: "王芳", landlordPhone: "15884198739", landlordWechat: "王芳247",
@@ -1707,651 +1707,651 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于厚载巷（鼓楼） 2居室 北卧，南，楼层适中。2室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "精装修"], listedDate: "2026-06-26", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n234", name: "世茂滨江新城 4室3厅 南", district: "其他", city: "nanjing", lat: 32.077358, lng: 118.734354, avgRent: 0, listings: [
+  { id: "n234", name: "世茂滨江新城", district: "其他区", city: "nanjing", lat: 32.077358, lng: 118.734354, avgRent: 0, listings: [
     { id: "n249", title: "整租·世茂滨江新城 4室3厅 南", rent: 10000, area: 301, rooms: "4室3厅", floor: "楼层适中", direction: "南", community: "世茂滨江新城 4室3厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wd0UpOmoR.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1757", "img://room/1758"],
       landlordName: "张伟", landlordPhone: "18676153700",
       description: "房源位于世茂滨江新城 4室3厅 南，南，楼层适中。4室3厅户型，301平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-06-16", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n235", name: "金陵湾 4居室 南卧", district: "其他", city: "nanjing", lat: 32.067708, lng: 118.733127, avgRent: 0, listings: [
+  { id: "n235", name: "金陵湾 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.067708, lng: 118.733127, avgRent: 0, listings: [
     { id: "n250", title: "合租·金陵湾 4居室 南卧", rent: 1738, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "金陵湾 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778034165300/8ddee15dd2040cca5dbc91609cdf75c7.jpg.250x182.jpg", "img://room/1764", "img://room/1765"],
       landlordName: "刘洋", landlordPhone: "13923942361",
       description: "房源位于金陵湾 4居室 南卧，南，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "近地铁"], listedDate: "2026-03-14", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n236", name: "金陵大公馆 5居室 南卧", district: "其他", city: "nanjing", lat: 32.087107, lng: 118.770817, avgRent: 0, listings: [
+  { id: "n236", name: "金陵大公馆 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.087107, lng: 118.770817, avgRent: 0, listings: [
     { id: "n251", title: "合租·金陵大公馆 5居室 南卧", rent: 1760, area: 22, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "金陵大公馆 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780639395793/83ad40b10633b60990f7a3c3ee88e3cc.jpg.250x182.jpg", "img://room/1771", "img://room/1772"],
       landlordName: "刘洋", landlordPhone: "15884792065", landlordWechat: "刘洋251",
       description: "房源位于金陵大公馆 5居室 南卧，南，楼层适中。5室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "南北通透"], listedDate: "2026-04-11", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n237", name: "工人新村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.079572, lng: 118.779064, avgRent: 0, listings: [
+  { id: "n237", name: "工人新村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.079572, lng: 118.779064, avgRent: 0, listings: [
     { id: "n252", title: "合租·工人新村 4居室 南卧", rent: 1530, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "工人新村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780380771310/4c62bf39fc491cfa31ce7f48751b0652.jpg.250x182.jpg", "img://room/1778", "img://room/1779"],
       landlordName: "李强", landlordPhone: "18831710002", landlordWechat: "李强252",
       description: "房源位于工人新村 4居室 南卧，南，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "独立厨卫", "采光好"], listedDate: "2026-04-24", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n238", name: "金陵湾 5居室 南卧", district: "其他", city: "nanjing", lat: 32.069319, lng: 118.732981, avgRent: 0, listings: [
+  { id: "n238", name: "金陵湾 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.069319, lng: 118.732981, avgRent: 0, listings: [
     { id: "n253", title: "合租·金陵湾 5居室 南卧", rent: 1860, area: 18, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "金陵湾 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775894299915/6e1dc39c1b8b3e1138b2ce977b524cd0.jpg.250x182.jpg", "img://room/1785", "img://room/1786"],
       landlordName: "刘洋", landlordPhone: "15098389286", landlordWechat: "刘洋253",
       description: "房源位于金陵湾 5居室 南卧，南，楼层适中。5室1厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居", "近地铁"], listedDate: "2026-06-17", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n239", name: "百花小区 3居室 南卧", district: "其他", city: "nanjing", lat: 36.678358, lng: 117.076789, avgRent: 0, listings: [
+  { id: "n239", name: "百花小区 3居室 南卧", district: "其他区", city: "nanjing", lat: 36.678358, lng: 117.076789, avgRent: 0, listings: [
     { id: "n254", title: "合租·百花小区 3居室 南卧", rent: 1190, area: 9, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "百花小区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777354827167/925da58aa825b8cdf2260cd48ef09d84.jpg.250x182.jpg", "img://room/1792", "img://room/1793"],
       landlordName: "吴敏", landlordPhone: "13923706744", landlordWechat: "吴敏254",
       description: "房源位于百花小区 3居室 南卧，南，楼层适中。3室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透", "安静宜居", "采光好"], listedDate: "2026-04-21", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n240", name: "裴家桥小区 2居室 南卧", district: "其他", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
+  { id: "n240", name: "裴家桥小区 2居室 南卧", district: "其他区", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
     { id: "n255", title: "合租·裴家桥小区 2居室 南卧", rent: 1390, area: 7, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "裴家桥小区 2居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781860008313/b81df1c28cf9bfa194d7b42956c04d21.jpg.250x182.jpg", "img://room/1799", "img://room/1800"],
       landlordName: "李强", landlordPhone: "15073834019",
       description: "房源位于裴家桥小区 2居室 南卧，南，楼层适中。2室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居"], listedDate: "2026-03-27", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n241", name: "钟阜路小区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.08774, lng: 118.767419, avgRent: 0, listings: [
+  { id: "n241", name: "钟阜路小区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.08774, lng: 118.767419, avgRent: 0, listings: [
     { id: "n256", title: "合租·钟阜路小区 3居室 南卧", rent: 1290, area: 11, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "钟阜路小区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781165391685/04e0050b82657ab755ca65f437f22af2.jpg.250x182.jpg", "img://room/1806", "img://room/1807"],
       landlordName: "黄明", landlordPhone: "15044837345", landlordWechat: "黄明256",
       description: "房源位于钟阜路小区 3居室 南卧，南，楼层适中。3室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁"], listedDate: "2026-05-08", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n242", name: "安乐村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.09219, lng: 118.763798, avgRent: 0, listings: [
+  { id: "n242", name: "安乐村", district: "其他区", city: "nanjing", lat: 32.09219, lng: 118.763798, avgRent: 0, listings: [
     { id: "n257", title: "整租·安乐村 2室1厅 南/北", rent: 2205, area: 45, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "安乐村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/8e2e94266047874cbdeaff46215fa5c6.jpeg.250x182.jpg", "img://room/1813", "img://room/1814"],
       landlordName: "赵娜", landlordPhone: "18693179985", landlordWechat: "赵娜257",
       description: "房源位于安乐村 2室1厅 南/北，南，楼层适中。2室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "安静宜居"], listedDate: "2026-03-13", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n243", name: "龙凤玫瑰园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.041309, lng: 118.755234, avgRent: 0, listings: [
+  { id: "n243", name: "龙凤玫瑰园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.041309, lng: 118.755234, avgRent: 0, listings: [
     { id: "n258", title: "合租·龙凤玫瑰园 5居室 南卧", rent: 1250, area: 19, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "龙凤玫瑰园 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1773317856664/5601884b6c10fc71475bf8d3a447df7d.jpg.250x182.jpg", "img://room/1820", "img://room/1821"],
       landlordName: "刘洋", landlordPhone: "13844079838",
       description: "房源位于龙凤玫瑰园 5居室 南卧，西，楼层适中。5室1厅户型，19平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "随时看房", "精装修"], listedDate: "2026-03-02", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n244", name: "永嘉年华 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.076056, lng: 118.661011, avgRent: 0, listings: [
+  { id: "n244", name: "永嘉年华", district: "其他区", city: "nanjing", lat: 32.076056, lng: 118.661011, avgRent: 0, listings: [
     { id: "n259", title: "整租·永嘉年华 3室2厅 南/北", rent: 3400, area: 80, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "永嘉年华 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/da72962782a93c920a440e4023106467.jpeg.250x182.jpg", "img://room/1827", "img://room/1828"],
       landlordName: "张伟", landlordPhone: "15837226799", landlordWechat: "张伟259",
       description: "房源位于永嘉年华 3室2厅 南/北，南，楼层适中。3室2厅户型，80平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "独立厨卫", "采光好"], listedDate: "2026-05-04", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n245", name: "定淮门 4居室 南卧", district: "其他", city: "nanjing", lat: 32.07453404576333, lng: 118.76913374417522, avgRent: 0, listings: [
+  { id: "n245", name: "定淮门 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.07453404576333, lng: 118.76913374417522, avgRent: 0, listings: [
     { id: "n260", title: "合租·定淮门 4居室 南卧", rent: 1500, area: 21, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "定淮门 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1744871177025/2d3e39070db123b2ba8f7b21532e3e64.jpg.250x182.jpg", "img://room/1834", "img://room/1835"],
       landlordName: "杨磊", landlordPhone: "18868409089", landlordWechat: "杨磊260",
       description: "房源位于定淮门 4居室 南卧，南，楼层适中。4室1厅户型，21平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-04-20", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n246", name: "中商万豪 1室1厅 东", district: "其他", city: "nanjing", lat: 32.070002, lng: 118.769967, avgRent: 0, listings: [
+  { id: "n246", name: "中商万豪", district: "其他区", city: "nanjing", lat: 32.070002, lng: 118.769967, avgRent: 0, listings: [
     { id: "n261", title: "整租·中商万豪 1室1厅 东", rent: 1600, area: 37, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "中商万豪 1室1厅 东",
       images: ["https://image1.ljcdn.com/lease-image/house/927575beb699e352fbe167efa6e9c227.jpeg.250x182.jpg", "img://room/1841", "img://room/1842"],
       landlordName: "黄明", landlordPhone: "15027612273",
       description: "房源位于中商万豪 1室1厅 东，东，楼层适中。1室1厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "南北通透", "精装修"], listedDate: "2026-04-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n247", name: "中山北路 3居室 西南卧", district: "其他", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
+  { id: "n247", name: "中山北路 3居室 西南卧", district: "其他区", city: "nanjing", lat: 32.078367, lng: 118.759506, avgRent: 0, listings: [
     { id: "n262", title: "合租·中山北路 3居室 西南卧", rent: 1200, area: 15, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "中山北路 3居室 西南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1740712630017/58c80c0b1dc19ecde79f813907e0281e.jpg.250x182.jpg", "img://room/1848", "img://room/1849"],
       landlordName: "周杰", landlordPhone: "13999547987",
       description: "房源位于中山北路 3居室 西南卧，北，楼层适中。3室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "采光好"], listedDate: "2026-03-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n248", name: "建宁路 1室1厅 南", district: "其他", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
+  { id: "n248", name: "建宁路", district: "其他区", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
     { id: "n263", title: "整租·建宁路 1室1厅 南", rent: 1400, area: 35, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "建宁路 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_q57CuLYoH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1855", "img://room/1856"],
       landlordName: "刘洋", landlordPhone: "15870661552",
       description: "房源位于建宁路 1室1厅 南，南，楼层适中。1室1厅户型，35平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "采光好", "精装修"], listedDate: "2026-05-02", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n249", name: "凤凰三村 3居室 南卧", district: "其他", city: "nanjing", lat: 32.040059, lng: 118.74827, avgRent: 0, listings: [
+  { id: "n249", name: "凤凰三村 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.040059, lng: 118.74827, avgRent: 0, listings: [
     { id: "n264", title: "合租·凤凰三村 3居室 南卧", rent: 1150, area: 16, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "凤凰三村 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1779933394758/4d3ab2773123ce4819554270b39d4dff.jpg.250x182.jpg", "img://room/1862", "img://room/1863"],
       landlordName: "黄明", landlordPhone: "15013839651", landlordWechat: "黄明264",
       description: "房源位于凤凰三村 3居室 南卧，西，楼层适中。3室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居", "精装修"], listedDate: "2026-05-25", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n250", name: "西妙峰庵小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.084762, lng: 118.756587, avgRent: 0, listings: [
+  { id: "n250", name: "西妙峰庵小区", district: "其他区", city: "nanjing", lat: 32.084762, lng: 118.756587, avgRent: 0, listings: [
     { id: "n265", title: "整租·西妙峰庵小区 2室1厅 南", rent: 3000, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "西妙峰庵小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_IcARNMYXv_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1869", "img://room/1870"],
       landlordName: "王芳", landlordPhone: "13852639012", landlordWechat: "王芳265",
       description: "房源位于西妙峰庵小区 2室1厅 南，西，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-03-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n251", name: "幕府佳园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
+  { id: "n251", name: "幕府佳园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.109166, lng: 118.772234, avgRent: 0, listings: [
     { id: "n266", title: "合租·幕府佳园 4居室 南卧", rent: 1450, area: 30, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "幕府佳园 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1683518640899/2b65200a2735af5e9fb33d94fa484f6b.jpg.250x182.jpg", "img://room/1876", "img://room/1877"],
       landlordName: "刘洋", landlordPhone: "18866567142", landlordWechat: "刘洋266",
       description: "房源位于幕府佳园 4居室 南卧，南，楼层适中。4室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "独立厨卫", "采光好"], listedDate: "2026-03-06", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n252", name: "中山北路 3居室 南卧", district: "其他", city: "nanjing", lat: 32.086849, lng: 118.73827, avgRent: 0, listings: [
+  { id: "n252", name: "中山北路 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.086849, lng: 118.73827, avgRent: 0, listings: [
     { id: "n267", title: "合租·中山北路 3居室 南卧", rent: 1500, area: 18, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "中山北路 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1750560391344/a2ec8b24a15fd25b334c1689e0aa1954.jpg.250x182.jpg", "img://room/1883", "img://room/1884"],
       landlordName: "吴敏", landlordPhone: "18875264985",
       description: "房源位于中山北路 3居室 南卧，北，楼层适中。3室1厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房"], listedDate: "2026-04-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n253", name: "天正湖滨二期 4室2厅 南/北", district: "其他", city: "nanjing", lat: 32.086184, lng: 118.781105, avgRent: 0, listings: [
+  { id: "n253", name: "天正湖滨二期", district: "其他区", city: "nanjing", lat: 32.086184, lng: 118.781105, avgRent: 0, listings: [
     { id: "n268", title: "整租·天正湖滨二期 4室2厅 南/北", rent: 8800, area: 162, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "天正湖滨二期 4室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_RbhU5j26e.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1890", "img://room/1891"],
       landlordName: "周杰", landlordPhone: "13876640276",
       description: "房源位于天正湖滨二期 4室2厅 南/北，南，楼层适中。4室2厅户型，162平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-03-08", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n254", name: "裕华新村 5居室 西卧", district: "其他", city: "nanjing", lat: 32.042836, lng: 118.758582, avgRent: 0, listings: [
+  { id: "n254", name: "裕华新村 5居室 西卧", district: "其他区", city: "nanjing", lat: 32.042836, lng: 118.758582, avgRent: 0, listings: [
     { id: "n269", title: "合租·裕华新村 5居室 西卧", rent: 1500, area: 25, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "裕华新村 5居室 西卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1699406977739/3e2b45067f6951af8fadb1bc3a8836ce.jpg.250x182.jpg", "img://room/1897", "img://room/1898"],
       landlordName: "杨磊", landlordPhone: "18881877020", landlordWechat: "杨磊269",
       description: "房源位于裕华新村 5居室 西卧，西，楼层适中。5室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "近地铁", "拎包入住"], listedDate: "2026-04-28", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n255", name: "中环国际 1室1厅 南", district: "其他", city: "nanjing", lat: 32.046450173405105, lng: 118.84109139423887, avgRent: 0, listings: [
+  { id: "n255", name: "中环国际", district: "其他区", city: "nanjing", lat: 32.046450173405105, lng: 118.84109139423887, avgRent: 0, listings: [
     { id: "n270", title: "整租·中环国际 1室1厅 南", rent: 3800, area: 65, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "中环国际 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8aCszTCNT.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1904", "img://room/1905"],
       landlordName: "黄明", landlordPhone: "18651765041",
       description: "房源位于中环国际 1室1厅 南，南，楼层适中。1室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "精装修", "独立厨卫"], listedDate: "2026-04-08", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n256", name: "紫竹林1号 5居室 北卧", district: "其他", city: "nanjing", lat: 32.08442, lng: 118.772142, avgRent: 0, listings: [
+  { id: "n256", name: "紫竹林1号 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.08442, lng: 118.772142, avgRent: 0, listings: [
     { id: "n271", title: "合租·紫竹林1号 5居室 北卧", rent: 801, area: 10, rooms: "5室1厅", floor: "楼层适中", direction: "北", community: "紫竹林1号 5居室 北卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1780828371023/2364916cb7f4da6f0beb34d1644067ff.jpg.250x182.jpg", "img://room/1911", "img://room/1912"],
       landlordName: "吴敏", landlordPhone: "15831683598", landlordWechat: "吴敏271",
       description: "房源位于紫竹林1号 5居室 北卧，北，楼层适中。5室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "拎包入住", "安静宜居"], listedDate: "2026-04-02", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n257", name: "校门口1号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
+  { id: "n257", name: "校门口1号", district: "其他区", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
     { id: "n272", title: "整租·校门口1号 2室1厅 南", rent: 3000, area: 43, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "校门口1号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kCAP9OwWN.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1918", "img://room/1919"],
       landlordName: "黄明", landlordPhone: "18818723895", landlordWechat: "黄明272",
       description: "房源位于校门口1号 2室1厅 南，南，楼层适中。2室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "独立厨卫", "随时看房"], listedDate: "2026-06-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n258", name: "上元里 3居室 南卧", district: "其他", city: "nanjing", lat: 32.112321, lng: 118.773598, avgRent: 0, listings: [
+  { id: "n258", name: "上元里 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.112321, lng: 118.773598, avgRent: 0, listings: [
     { id: "n273", title: "合租·上元里 3居室 南卧", rent: 999, area: 22, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "上元里 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1686911166136/1c155f683125f859fab83c467b0d0b2c.jpg.250x182.jpg", "img://room/1925", "img://room/1926"],
       landlordName: "张伟", landlordPhone: "15826080354", landlordWechat: "张伟273",
       description: "房源位于上元里 3居室 南卧，南，楼层适中。3室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-06-18", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n259", name: "方家营 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.100021, lng: 118.752667, avgRent: 0, listings: [
+  { id: "n259", name: "方家营", district: "其他区", city: "nanjing", lat: 32.100021, lng: 118.752667, avgRent: 0, listings: [
     { id: "n274", title: "整租·方家营 2室1厅 南/北", rent: 1900, area: 51, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "方家营 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ObxOy5YlO_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1932", "img://room/1933"],
       landlordName: "周杰", landlordPhone: "18856601676",
       description: "房源位于方家营 2室1厅 南/北，南，楼层适中。2室1厅户型，51平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "南北通透"], listedDate: "2026-03-07", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n260", name: "合群新村 5居室 南卧", district: "其他", city: "nanjing", lat: 32.053059, lng: 118.772576, avgRent: 0, listings: [
+  { id: "n260", name: "合群新村 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.053059, lng: 118.772576, avgRent: 0, listings: [
     { id: "n275", title: "合租·合群新村 5居室 南卧", rent: 1450, area: 20, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "合群新村 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1717312590334/72456c9ebbcd6c110c028539004b3984.jpg.250x182.jpg", "img://room/1939", "img://room/1940"],
       landlordName: "周杰", landlordPhone: "15021798935",
       description: "房源位于合群新村 5居室 南卧，南，楼层适中。5室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "拎包入住", "近地铁"], listedDate: "2026-03-23", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n261", name: "回龙桥 1室1厅 南", district: "其他", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
+  { id: "n261", name: "回龙桥", district: "其他区", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
     { id: "n276", title: "整租·回龙桥 1室1厅 南", rent: 2800, area: 45, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "回龙桥 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_zqNEBtGnM.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1946", "img://room/1947"],
       landlordName: "陈静", landlordPhone: "13929383998", landlordWechat: "陈静276",
       description: "房源位于回龙桥 1室1厅 南，南，楼层适中。1室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "独立厨卫", "精装修"], listedDate: "2026-03-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n262", name: "莫愁新寓荷花里 4居室 南卧", district: "其他", city: "nanjing", lat: 32.038322, lng: 118.75685, avgRent: 0, listings: [
+  { id: "n262", name: "莫愁新寓荷花里 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.038322, lng: 118.75685, avgRent: 0, listings: [
     { id: "n277", title: "合租·莫愁新寓荷花里 4居室 南卧", rent: 1300, area: 21, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "莫愁新寓荷花里 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1779849387910/34132f4c7a2cf228deb5fc5db91b6737.jpg.250x182.jpg", "img://room/1953", "img://room/1954"],
       landlordName: "刘洋", landlordPhone: "18835851532",
       description: "房源位于莫愁新寓荷花里 4居室 南卧，南，楼层适中。4室1厅户型，21平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住"], listedDate: "2026-05-16", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n263", name: "龙江里 3室2厅 南", district: "其他", city: "nanjing", lat: 32.052938, lng: 118.737798, avgRent: 0, listings: [
+  { id: "n263", name: "龙江里", district: "其他区", city: "nanjing", lat: 32.052938, lng: 118.737798, avgRent: 0, listings: [
     { id: "n278", title: "整租·龙江里 3室2厅 南", rent: 9900, area: 92, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "龙江里 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_RKPFOJ6AZ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/1960", "img://room/1961"],
       landlordName: "赵娜", landlordPhone: "13824600175",
       description: "房源位于龙江里 3室2厅 南，南，楼层适中。3室2厅户型，92平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "拎包入住", "采光好"], listedDate: "2026-04-06", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n264", name: "新城市广场 3居室 东卧", district: "其他", city: "nanjing", lat: 32.055875, lng: 118.741175, avgRent: 0, listings: [
+  { id: "n264", name: "新城市广场 3居室 东卧", district: "其他区", city: "nanjing", lat: 32.055875, lng: 118.741175, avgRent: 0, listings: [
     { id: "n279", title: "合租·新城市广场 3居室 东卧", rent: 1860, area: 23, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "新城市广场 3居室 东卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781942989678/4e4ae9dedaea4860b0512e6edefc50f9.jpg.250x182.jpg", "img://room/1967", "img://room/1968"],
       landlordName: "吴敏", landlordPhone: "18667266621", landlordWechat: "吴敏279",
       description: "房源位于新城市广场 3居室 东卧，东，楼层适中。3室1厅户型，23平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居", "采光好"], listedDate: "2026-05-24", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n265", name: "西桥 5居室 南卧", district: "其他", city: "nanjing", lat: 32.061449, lng: 118.773057, avgRent: 0, listings: [
+  { id: "n265", name: "西桥 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.061449, lng: 118.773057, avgRent: 0, listings: [
     { id: "n280", title: "合租·西桥 5居室 南卧", rent: 1000, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "西桥 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1780542580313/adc7b7fe729c27b18ac00f70b27490eb.jpg.250x182.jpg", "img://room/1974", "img://room/1975"],
       landlordName: "刘洋", landlordPhone: "13889338986",
       description: "房源位于西桥 5居室 南卧，南，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-03-09", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n266", name: "华阳佳园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.044756, lng: 118.74629, avgRent: 0, listings: [
+  { id: "n266", name: "华阳佳园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.044756, lng: 118.74629, avgRent: 0, listings: [
     { id: "n281", title: "合租·华阳佳园 4居室 南卧", rent: 1290, area: 12, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "华阳佳园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775288919458/da29f9430059f1114f2eee2352cdfc1c.jpg.250x182.jpg", "img://room/1981", "img://room/1982"],
       landlordName: "陈静", landlordPhone: "15824066994",
       description: "房源位于华阳佳园 4居室 南卧，西，楼层适中。4室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "采光好"], listedDate: "2026-04-03", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n267", name: "清江西苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.067689, lng: 118.739491, avgRent: 0, listings: [
+  { id: "n267", name: "清江西苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.067689, lng: 118.739491, avgRent: 0, listings: [
     { id: "n282", title: "合租·清江西苑 4居室 南卧", rent: 1200, area: 25, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "清江西苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1709268299055/457c48f6455c5b1fa60b72278325a3e3.jpg.250x182.jpg", "img://room/1988", "img://room/1989"],
       landlordName: "刘洋", landlordPhone: "13818107930",
       description: "房源位于清江西苑 4居室 南卧，西，楼层适中。4室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "独立厨卫", "安静宜居"], listedDate: "2026-06-14", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n268", name: "交通一村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.080758, lng: 118.762242, avgRent: 0, listings: [
+  { id: "n268", name: "交通一村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.080758, lng: 118.762242, avgRent: 0, listings: [
     { id: "n283", title: "合租·交通一村 4居室 南卧", rent: 1300, area: 16, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "交通一村 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1782284919449/7187b71d9f2ebc2b255662e7ccc89ed9.jpg.250x182.jpg", "img://room/1995", "img://room/1996"],
       landlordName: "王芳", landlordPhone: "18697214941",
       description: "房源位于交通一村 4居室 南卧，南，楼层适中。4室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-04-08", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n269", name: "深业揽江府 4居室 南卧", district: "其他", city: "nanjing", lat: 32.098361, lng: 118.739798, avgRent: 0, listings: [
+  { id: "n269", name: "深业揽江府 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.098361, lng: 118.739798, avgRent: 0, listings: [
     { id: "n284", title: "合租·深业揽江府 4居室 南卧", rent: 1630, area: 17, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "深业揽江府 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1755405540640/93859ea11706c69c819a82d9ef9bd207.jpg.250x182.jpg", "img://room/2002", "img://room/2003"],
       landlordName: "吴敏", landlordPhone: "15827306185", landlordWechat: "吴敏284",
       description: "房源位于深业揽江府 4居室 南卧，南，楼层适中。4室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "随时看房"], listedDate: "2026-04-22", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n270", name: "高云岭 1室0厅 南", district: "其他", city: "nanjing", lat: 32.063335, lng: 118.783542, avgRent: 0, listings: [
+  { id: "n270", name: "高云岭", district: "其他区", city: "nanjing", lat: 32.063335, lng: 118.783542, avgRent: 0, listings: [
     { id: "n285", title: "整租·高云岭 1室0厅 南", rent: 2100, area: 31, rooms: "1室0厅", floor: "楼层适中", direction: "南", community: "高云岭 1室0厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_ybhXZkWbi_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2009", "img://room/2010"],
       landlordName: "王芳", landlordPhone: "18860878082", landlordWechat: "王芳285",
       description: "房源位于高云岭 1室0厅 南，南，楼层适中。1室0厅户型，31平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁", "拎包入住", "精装修"], listedDate: "2026-06-23", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n271", name: "五塘新村 1室1厅 南/北", district: "其他", city: "nanjing", lat: 32.110332, lng: 118.78375, avgRent: 0, listings: [
+  { id: "n271", name: "五塘新村", district: "其他区", city: "nanjing", lat: 32.110332, lng: 118.78375, avgRent: 0, listings: [
     { id: "n286", title: "整租·五塘新村 1室1厅 南/北", rent: 1600, area: 43, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "五塘新村 1室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_GTOAmsEog.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2016", "img://room/2017"],
       landlordName: "刘洋", landlordPhone: "18619139327",
       description: "房源位于五塘新村 1室1厅 南/北，南，楼层适中。1室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-06-25", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n272", name: "新河一村北区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.090867316308916, lng: 118.72734401988721, avgRent: 0, listings: [
+  { id: "n272", name: "新河一村北区", district: "其他区", city: "nanjing", lat: 32.090867316308916, lng: 118.72734401988721, avgRent: 0, listings: [
     { id: "n287", title: "整租·新河一村北区 1室1厅 南", rent: 2500, area: 38, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "新河一村北区 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_rfCqwz53A.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2023", "img://room/2024"],
       landlordName: "李强", landlordPhone: "18655533528", landlordWechat: "李强287",
       description: "房源位于新河一村北区 1室1厅 南，北，楼层适中。1室1厅户型，38平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "随时看房"], listedDate: "2026-06-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n273", name: "广州路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.049379, lng: 118.782476, avgRent: 0, listings: [
+  { id: "n273", name: "广州路", district: "其他区", city: "nanjing", lat: 32.049379, lng: 118.782476, avgRent: 0, listings: [
     { id: "n288", title: "整租·广州路 2室1厅 南", rent: 2400, area: 46, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "广州路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_EDuVa313Q.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2030", "img://room/2031"],
       landlordName: "王芳", landlordPhone: "13879846326",
       description: "房源位于广州路 2室1厅 南，南，楼层适中。2室1厅户型，46平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-05-04", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n274", name: "张王庙 2室1厅 南", district: "其他", city: "nanjing", lat: 32.100569, lng: 118.77933, avgRent: 0, listings: [
+  { id: "n274", name: "张王庙", district: "其他区", city: "nanjing", lat: 32.100569, lng: 118.77933, avgRent: 0, listings: [
     { id: "n289", title: "整租·张王庙 2室1厅 南", rent: 2100, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "张王庙 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_n7Uj8r5zx.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2037", "img://room/2038"],
       landlordName: "王芳", landlordPhone: "18678420487", landlordWechat: "王芳289",
       description: "房源位于张王庙 2室1厅 南，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-05-14", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n275", name: "四平路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.095817, lng: 118.757773, avgRent: 0, listings: [
+  { id: "n275", name: "四平路", district: "其他区", city: "nanjing", lat: 32.095817, lng: 118.757773, avgRent: 0, listings: [
     { id: "n290", title: "整租·四平路 2室1厅 南", rent: 1800, area: 58, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "四平路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_iFhPbbepX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2044", "img://room/2045"],
       landlordName: "吴敏", landlordPhone: "18631441421", landlordWechat: "吴敏290",
       description: "房源位于四平路 2室1厅 南，南，楼层适中。2室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "随时看房"], listedDate: "2026-05-13", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n276", name: "证大大拇指广场 2室2厅 西南", district: "其他", city: "nanjing", lat: 32.058826381907906, lng: 118.75450719611094, avgRent: 0, listings: [
+  { id: "n276", name: "证大大拇指广场", district: "其他区", city: "nanjing", lat: 32.058826381907906, lng: 118.75450719611094, avgRent: 0, listings: [
     { id: "n291", title: "整租·证大大拇指广场 2室2厅 西南", rent: 3800, area: 76, rooms: "2室2厅", floor: "楼层适中", direction: "西", community: "证大大拇指广场 2室2厅 西南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_JLwqMWjli.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2051", "img://room/2052"],
       landlordName: "黄明", landlordPhone: "13986213866",
       description: "房源位于证大大拇指广场 2室2厅 西南，西，楼层适中。2室2厅户型，76平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "独立厨卫", "拎包入住"], listedDate: "2026-05-11", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n277", name: "锋尚国际公寓 3室2厅 南/北", district: "其他", city: "nanjing", lat: 39.961735, lng: 116.299966, avgRent: 0, listings: [
+  { id: "n277", name: "锋尚国际公寓", district: "其他区", city: "nanjing", lat: 39.961735, lng: 116.299966, avgRent: 0, listings: [
     { id: "n292", title: "整租·锋尚国际公寓 3室2厅 南/北", rent: 9800, area: 192, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "锋尚国际公寓 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_tgq8DgJl9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2058", "img://room/2059"],
       landlordName: "赵娜", landlordPhone: "15091175919",
       description: "房源位于锋尚国际公寓 3室2厅 南/北，南，楼层适中。3室2厅户型，192平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "拎包入住"], listedDate: "2026-05-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n278", name: "建邺村小区 3室1厅 南", district: "建邺区", city: "nanjing", lat: 32.027921, lng: 118.758775, avgRent: 0, listings: [
+  { id: "n278", name: "建邺村小区", district: "建邺区", city: "nanjing", lat: 32.027921, lng: 118.758775, avgRent: 0, listings: [
     { id: "n293", title: "整租·建邺村小区 3室1厅 南", rent: 5500, area: 81, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "建邺村小区 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kFW9y6Wf1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2065", "img://room/2066"],
       landlordName: "杨磊", landlordPhone: "13921780645",
       description: "房源位于建邺村小区 3室1厅 南，南，楼层适中。3室1厅户型，81平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-05-12", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n279", name: "望江新寓 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.030265, lng: 118.793952, avgRent: 0, listings: [
+  { id: "n279", name: "望江新寓", district: "其他区", city: "nanjing", lat: 32.030265, lng: 118.793952, avgRent: 0, listings: [
     { id: "n294", title: "整租·望江新寓 2室1厅 南/北", rent: 2500, area: 52, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "望江新寓 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_5nB1oSu96.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2072", "img://room/2073"],
       landlordName: "刘洋", landlordPhone: "15031811017", landlordWechat: "刘洋294",
       description: "房源位于望江新寓 2室1厅 南/北，西，楼层适中。2室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-06-07", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n280", name: "马鞍山 2室1厅 南", district: "其他", city: "nanjing", lat: 31.698025, lng: 118.500125, avgRent: 0, listings: [
+  { id: "n280", name: "马鞍山", district: "其他区", city: "nanjing", lat: 31.698025, lng: 118.500125, avgRent: 0, listings: [
     { id: "n295", title: "整租·马鞍山 2室1厅 南", rent: 3400, area: 61, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "马鞍山 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_bUVFEprc7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2079", "img://room/2080"],
       landlordName: "周杰", landlordPhone: "13847883871",
       description: "房源位于马鞍山 2室1厅 南，南，楼层适中。2室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "近地铁"], listedDate: "2026-05-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n281", name: "易发科技大厦 1室1厅 南", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n281", name: "易发科技大厦", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n296", title: "整租·易发科技大厦 1室1厅 南", rent: 2000, area: 25, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "易发科技大厦 1室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2086", "img://room/2087"],
       landlordName: "张伟", landlordPhone: "15861968499", landlordWechat: "张伟296",
       description: "房源位于易发科技大厦 1室1厅 南，南，楼层适中。1室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "独立厨卫"], listedDate: "2026-05-13", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n282", name: "凤凰街 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.040059, lng: 118.74827, avgRent: 0, listings: [
+  { id: "n282", name: "凤凰街", district: "其他区", city: "nanjing", lat: 32.040059, lng: 118.74827, avgRent: 0, listings: [
     { id: "n297", title: "整租·凤凰街 3室1厅 南/北", rent: 4800, area: 89, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "凤凰街 3室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2093", "img://room/2094"],
       landlordName: "陈静", landlordPhone: "13848787856",
       description: "房源位于凤凰街 3室1厅 南/北，南，楼层适中。3室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "南北通透", "精装修"], listedDate: "2026-03-22", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n283", name: "天水滨江花园东苑 3室2厅 南", district: "其他", city: "nanjing", lat: 32.04045, lng: 118.728306, avgRent: 0, listings: [
+  { id: "n283", name: "天水滨江花园东苑", district: "其他区", city: "nanjing", lat: 32.04045, lng: 118.728306, avgRent: 0, listings: [
     { id: "n298", title: "整租·天水滨江花园东苑 3室2厅 南", rent: 6900, area: 129, rooms: "3室2厅", floor: "楼层适中", direction: "西", community: "天水滨江花园东苑 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2100", "img://room/2101"],
       landlordName: "周杰", landlordPhone: "15875373999",
       description: "房源位于天水滨江花园东苑 3室2厅 南，西，楼层适中。3室2厅户型，129平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "精装修"], listedDate: "2026-03-20", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n284", name: "萍聚村 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
+  { id: "n284", name: "萍聚村", district: "其他区", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
     { id: "n299", title: "整租·萍聚村 3室1厅 南/北", rent: 5500, area: 85, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "萍聚村 3室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2107", "img://room/2108"],
       landlordName: "陈静", landlordPhone: "15099387539",
       description: "房源位于萍聚村 3室1厅 南/北，南，楼层适中。3室1厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "精装修", "采光好"], listedDate: "2026-04-19", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n285", name: "中海凤凰熙岸玺荟 1室0厅 南", district: "其他", city: "nanjing", lat: 32.044112, lng: 118.755793, avgRent: 0, listings: [
+  { id: "n285", name: "中海凤凰熙岸玺荟", district: "其他区", city: "nanjing", lat: 32.044112, lng: 118.755793, avgRent: 0, listings: [
     { id: "n300", title: "整租·中海凤凰熙岸玺荟 1室0厅 南", rent: 500, area: 14, rooms: "1室0厅", floor: "楼层适中", direction: "西", community: "中海凤凰熙岸玺荟 1室0厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2114", "img://room/2115"],
       landlordName: "杨磊", landlordPhone: "15895725750", landlordWechat: "杨磊300",
       description: "房源位于中海凤凰熙岸玺荟 1室0厅 南，西，楼层适中。1室0厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居", "独立厨卫"], listedDate: "2026-03-03", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n286", name: "证大大拇指广场 1室1厅 西", district: "其他", city: "nanjing", lat: 32.038746703865634, lng: 118.8622320179778, avgRent: 0, listings: [
+  { id: "n286", name: "证大大拇指广场", district: "其他区", city: "nanjing", lat: 32.038746703865634, lng: 118.8622320179778, avgRent: 0, listings: [
     { id: "n301", title: "整租·证大大拇指广场 1室1厅 西", rent: 3000, area: 54, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "证大大拇指广场 1室1厅 西",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2121", "img://room/2122"],
       landlordName: "周杰", landlordPhone: "13990726310", landlordWechat: "周杰301",
       description: "房源位于证大大拇指广场 1室1厅 西，西，楼层适中。1室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "精装修", "拎包入住"], listedDate: "2026-06-10", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n287", name: "龙凤玫瑰园 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.041309, lng: 118.755234, avgRent: 0, listings: [
+  { id: "n287", name: "龙凤玫瑰园", district: "其他区", city: "nanjing", lat: 32.041309, lng: 118.755234, avgRent: 0, listings: [
     { id: "n302", title: "整租·龙凤玫瑰园 2室2厅 南/北", rent: 6500, area: 102, rooms: "2室2厅", floor: "楼层适中", direction: "西", community: "龙凤玫瑰园 2室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2128", "img://room/2129"],
       landlordName: "陈静", landlordPhone: "18874941383",
       description: "房源位于龙凤玫瑰园 2室2厅 南/北，西，楼层适中。2室2厅户型，102平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "安静宜居", "南北通透"], listedDate: "2026-06-05", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n288", name: "中海凤凰熙岸二期 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.04299, lng: 118.754235, avgRent: 0, listings: [
+  { id: "n288", name: "中海凤凰熙岸二期", district: "其他区", city: "nanjing", lat: 32.04299, lng: 118.754235, avgRent: 0, listings: [
     { id: "n303", title: "整租·中海凤凰熙岸二期 2室1厅 南/北", rent: 7900, area: 99, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "中海凤凰熙岸二期 2室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2135", "img://room/2136"],
       landlordName: "杨磊", landlordPhone: "15827629147", landlordWechat: "杨磊303",
       description: "房源位于中海凤凰熙岸二期 2室1厅 南/北，西，楼层适中。2室1厅户型，99平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "采光好"], listedDate: "2026-05-13", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n289", name: "张家圩小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.086595, lng: 118.737583, avgRent: 0, listings: [
+  { id: "n289", name: "张家圩小区", district: "其他区", city: "nanjing", lat: 32.086595, lng: 118.737583, avgRent: 0, listings: [
     { id: "n304", title: "整租·张家圩小区 2室1厅 南", rent: 3100, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "张家圩小区 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2142", "img://room/2143"],
       landlordName: "赵娜", landlordPhone: "15051493452",
       description: "房源位于张家圩小区 2室1厅 南，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透"], listedDate: "2026-06-20", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n290", name: "新金贸花园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.082135, lng: 118.779054, avgRent: 0, listings: [
+  { id: "n290", name: "新金贸花园", district: "其他区", city: "nanjing", lat: 32.082135, lng: 118.779054, avgRent: 0, listings: [
     { id: "n305", title: "整租·新金贸花园 3室2厅 南", rent: 7000, area: 140, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "新金贸花园 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2149", "img://room/2150"],
       landlordName: "陈静", landlordPhone: "15030955004",
       description: "房源位于新金贸花园 3室2厅 南，南，楼层适中。3室2厅户型，140平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好"], listedDate: "2026-04-14", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n291", name: "博悦府 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.111224, lng: 118.786996, avgRent: 0, listings: [
+  { id: "n291", name: "博悦府", district: "其他区", city: "nanjing", lat: 32.111224, lng: 118.786996, avgRent: 0, listings: [
     { id: "n306", title: "整租·博悦府 3室2厅 南/北", rent: 4500, area: 89, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "博悦府 3室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2156", "img://room/2157"],
       landlordName: "黄明", landlordPhone: "15886918132", landlordWechat: "黄明306",
       description: "房源位于博悦府 3室2厅 南/北，南，楼层适中。3室2厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "近地铁"], listedDate: "2026-03-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n292", name: "金银街17号 1室1厅 南", district: "其他", city: "nanjing", lat: 32.057294, lng: 118.775688, avgRent: 0, listings: [
+  { id: "n292", name: "金银街17号", district: "其他区", city: "nanjing", lat: 32.057294, lng: 118.775688, avgRent: 0, listings: [
     { id: "n307", title: "整租·金银街17号 1室1厅 南", rent: 2600, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "金银街17号 1室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2163", "img://room/2164"],
       landlordName: "周杰", landlordPhone: "13874213443", landlordWechat: "周杰307",
       description: "房源位于金银街17号 1室1厅 南，南，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "近地铁", "南北通透"], listedDate: "2026-05-03", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n293", name: "锦江花苑 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.041313, lng: 118.733663, avgRent: 0, listings: [
+  { id: "n293", name: "锦江花苑", district: "其他区", city: "nanjing", lat: 32.041313, lng: 118.733663, avgRent: 0, listings: [
     { id: "n308", title: "整租·锦江花苑 2室2厅 南/北", rent: 3866, area: 73, rooms: "2室2厅", floor: "楼层适中", direction: "西", community: "锦江花苑 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_qKhr7E64w.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2170", "img://room/2171"],
       landlordName: "吴敏", landlordPhone: "18875633384",
       description: "房源位于锦江花苑 2室2厅 南/北，西，楼层适中。2室2厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "采光好"], listedDate: "2026-06-12", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n294", name: "金轮峰华 2居室 复式 东卧", district: "其他", city: "nanjing", lat: 32.051652, lng: 118.783547, avgRent: 0, listings: [
+  { id: "n294", name: "金轮峰华 2居室 复式 东卧", district: "其他区", city: "nanjing", lat: 32.051652, lng: 118.783547, avgRent: 0, listings: [
     { id: "n309", title: "合租·金轮峰华 2居室 复式 东卧", rent: 2400, area: 30, rooms: "2室0厅", floor: "楼层适中", direction: "东", community: "金轮峰华 2居室 复式 东卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1777201433968/92f258680eefd17b551486218d9930eb.jpg.250x182.jpg", "img://room/2177", "img://room/2178"],
       landlordName: "杨磊", landlordPhone: "13999509537", landlordWechat: "杨磊309",
       description: "房源位于金轮峰华 2居室 复式 东卧，东，楼层适中。2室0厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "拎包入住", "近地铁"], listedDate: "2026-06-02", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n295", name: "世纪花园 3居室 南卧", district: "其他", city: "nanjing", lat: 32.04558229840043, lng: 118.76722016932023, avgRent: 0, listings: [
+  { id: "n295", name: "世纪花园 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.04558229840043, lng: 118.76722016932023, avgRent: 0, listings: [
     { id: "n310", title: "合租·世纪花园 3居室 南卧", rent: 1390, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "世纪花园 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777537323940/938bd34cf8bccd3bef1c61fae58f8638.jpg.250x182.jpg", "img://room/2184", "img://room/2185"],
       landlordName: "李强", landlordPhone: "15064638971", landlordWechat: "李强310",
       description: "房源位于世纪花园 3居室 南卧，西，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "随时看房"], listedDate: "2026-05-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n296", name: "长阳花园 2室1厅 南", district: "其他", city: "nanjing", lat: 32.048363, lng: 118.730596, avgRent: 0, listings: [
+  { id: "n296", name: "长阳花园", district: "其他区", city: "nanjing", lat: 32.048363, lng: 118.730596, avgRent: 0, listings: [
     { id: "n311", title: "整租·长阳花园 2室1厅 南", rent: 4900, area: 102, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "长阳花园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_daDZRVKAq_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2191", "img://room/2192"],
       landlordName: "吴敏", landlordPhone: "15036739823",
       description: "房源位于长阳花园 2室1厅 南，南，楼层适中。2室1厅户型，102平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-04-07", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n297", name: "裴家桥小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
+  { id: "n297", name: "裴家桥小区", district: "其他区", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
     { id: "n312", title: "整租·裴家桥小区 2室1厅 南/北", rent: 4000, area: 46, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "裴家桥小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_SoXQ1YARO.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2198", "img://room/2199"],
       landlordName: "周杰", landlordPhone: "18836831065", landlordWechat: "周杰312",
       description: "房源位于裴家桥小区 2室1厅 南/北，南，楼层适中。2室1厅户型，46平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住"], listedDate: "2026-05-05", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n298", name: "新门口 2室1厅 南", district: "其他", city: "nanjing", lat: 32.082992, lng: 118.766366, avgRent: 0, listings: [
+  { id: "n298", name: "新门口", district: "其他区", city: "nanjing", lat: 32.082992, lng: 118.766366, avgRent: 0, listings: [
     { id: "n313", title: "整租·新门口 2室1厅 南", rent: 2499, area: 53, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "新门口 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2205", "img://room/2206"],
       landlordName: "李强", landlordPhone: "15093182744",
       description: "房源位于新门口 2室1厅 南，南，楼层适中。2室1厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "随时看房", "独立厨卫"], listedDate: "2026-03-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n299", name: "深业滨江半岛 2室2厅 南", district: "其他", city: "nanjing", lat: 32.097475, lng: 118.739488, avgRent: 0, listings: [
+  { id: "n299", name: "深业滨江半岛", district: "其他区", city: "nanjing", lat: 32.097475, lng: 118.739488, avgRent: 0, listings: [
     { id: "n314", title: "整租·深业滨江半岛 2室2厅 南", rent: 4000, area: 87, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "深业滨江半岛 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_HAmKfIz5t.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2212", "img://room/2213"],
       landlordName: "吴敏", landlordPhone: "13898180392",
       description: "房源位于深业滨江半岛 2室2厅 南，南，楼层适中。2室2厅户型，87平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-04-25", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n300", name: "盛景园 3居室 北卧", district: "其他", city: "nanjing", lat: 32.108969, lng: 118.779689, avgRent: 0, listings: [
+  { id: "n300", name: "盛景园 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.108969, lng: 118.779689, avgRent: 0, listings: [
     { id: "n315", title: "合租·盛景园 3居室 北卧", rent: 1050, area: 15, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "盛景园 3居室 北卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1730034663092/fd847200ce84956183831e2413626569.jpg.250x182.jpg", "img://room/2219", "img://room/2220"],
       landlordName: "周杰", landlordPhone: "13874928503",
       description: "房源位于盛景园 3居室 北卧，北，楼层适中。3室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "精装修", "安静宜居"], listedDate: "2026-06-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n301", name: "新模范马路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.077844, lng: 118.769101, avgRent: 0, listings: [
+  { id: "n301", name: "新模范马路", district: "其他区", city: "nanjing", lat: 32.077844, lng: 118.769101, avgRent: 0, listings: [
     { id: "n316", title: "整租·新模范马路 2室1厅 南", rent: 2900, area: 55, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "新模范马路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_5COWQMN3d.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2226", "img://room/2227"],
       landlordName: "王芳", landlordPhone: "18879396247", landlordWechat: "王芳316",
       description: "房源位于新模范马路 2室1厅 南，南，楼层适中。2室1厅户型，55平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-06-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n302", name: "中山北路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.07633, lng: 118.764396, avgRent: 0, listings: [
+  { id: "n302", name: "中山北路", district: "其他区", city: "nanjing", lat: 32.07633, lng: 118.764396, avgRent: 0, listings: [
     { id: "n317", title: "整租·中山北路 2室1厅 南", rent: 3000, area: 48, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "中山北路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_gxz8EXr9q.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2233", "img://room/2234"],
       landlordName: "周杰", landlordPhone: "18672672119", landlordWechat: "周杰317",
       description: "房源位于中山北路 2室1厅 南，北，楼层适中。2室1厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好"], listedDate: "2026-04-03", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n303", name: "盛景园 3居室 南卧", district: "其他", city: "nanjing", lat: 32.108969, lng: 118.779689, avgRent: 0, listings: [
+  { id: "n303", name: "盛景园 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.108969, lng: 118.779689, avgRent: 0, listings: [
     { id: "n318", title: "合租·盛景园 3居室 南卧", rent: 1650, area: 20, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "盛景园 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1730034357072/87167c32678a1a7df66edaa15c56366c.jpg.250x182.jpg", "img://room/2240", "img://room/2241"],
       landlordName: "吴敏", landlordPhone: "13821581846",
       description: "房源位于盛景园 3居室 南卧，南，楼层适中。3室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "独立厨卫", "精装修"], listedDate: "2026-04-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n304", name: "紫竹林21号 4居室 南卧", district: "其他", city: "nanjing", lat: 32.08442, lng: 118.772142, avgRent: 0, listings: [
+  { id: "n304", name: "紫竹林21号 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.08442, lng: 118.772142, avgRent: 0, listings: [
     { id: "n319", title: "合租·紫竹林21号 4居室 南卧", rent: 1300, area: 20, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "紫竹林21号 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1781685920065/03696df5d93478a509280839835f4786.jpg.250x182.jpg", "img://room/2247", "img://room/2248"],
       landlordName: "吴敏", landlordPhone: "18857833774",
       description: "房源位于紫竹林21号 4居室 南卧，南，楼层适中。4室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "近地铁", "拎包入住"], listedDate: "2026-03-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n305", name: "金碧花园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.02999000602229, lng: 118.82051836063702, avgRent: 0, listings: [
+  { id: "n305", name: "金碧花园", district: "其他区", city: "nanjing", lat: 32.02999000602229, lng: 118.82051836063702, avgRent: 0, listings: [
     { id: "n320", title: "整租·金碧花园 3室1厅 南", rent: 2600, area: 78, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "金碧花园 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Q3OLh5bYg.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2254", "img://room/2255"],
       landlordName: "张伟", landlordPhone: "15876630299", landlordWechat: "张伟320",
       description: "房源位于金碧花园 3室1厅 南，南，楼层适中。3室1厅户型，78平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-05-25", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n306", name: "莫愁新寓郁金里 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.039814, lng: 118.755294, avgRent: 0, listings: [
+  { id: "n306", name: "莫愁新寓郁金里", district: "其他区", city: "nanjing", lat: 32.039814, lng: 118.755294, avgRent: 0, listings: [
     { id: "n321", title: "整租·莫愁新寓郁金里 3室1厅 南/北", rent: 3200, area: 53, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "莫愁新寓郁金里 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_nd7y2WA28.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2261", "img://room/2262"],
       landlordName: "黄明", landlordPhone: "18830560772", landlordWechat: "黄明321",
       description: "房源位于莫愁新寓郁金里 3室1厅 南/北，南，楼层适中。3室1厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-06-09", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n307", name: "凤凰花园城福安园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.042662, lng: 118.741132, avgRent: 0, listings: [
+  { id: "n307", name: "凤凰花园城福安园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.042662, lng: 118.741132, avgRent: 0, listings: [
     { id: "n322", title: "合租·凤凰花园城福安园 4居室 北卧", rent: 1100, area: 12, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "凤凰花园城福安园 4居室 北卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1734947931684/2ced19598cc3f1122e2a18036d31d60d.jpg.250x182.jpg", "img://room/2268", "img://room/2269"],
       landlordName: "王芳", landlordPhone: "13979203636",
       description: "房源位于凤凰花园城福安园 4居室 北卧，西，楼层适中。4室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "独立厨卫"], listedDate: "2026-05-27", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n308", name: "石头城 3居室 南卧", district: "其他", city: "nanjing", lat: 32.055447, lng: 118.752257, avgRent: 0, listings: [
+  { id: "n308", name: "石头城 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.055447, lng: 118.752257, avgRent: 0, listings: [
     { id: "n323", title: "合租·石头城 3居室 南卧", rent: 1290, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "石头城 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780129040806/9b3bf5f1032e1eeb756cae98f5e877b5.jpg.250x182.jpg", "img://room/2275", "img://room/2276"],
       landlordName: "周杰", landlordPhone: "15094775208", landlordWechat: "周杰323",
       description: "房源位于石头城 3居室 南卧，南，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "南北通透", "安静宜居"], listedDate: "2026-04-11", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n309", name: "虎啸花园 1室1厅 东", district: "其他", city: "nanjing", lat: 32.069673, lng: 118.768288, avgRent: 0, listings: [
+  { id: "n309", name: "虎啸花园", district: "其他区", city: "nanjing", lat: 32.069673, lng: 118.768288, avgRent: 0, listings: [
     { id: "n324", title: "整租·虎啸花园 1室1厅 东", rent: 3000, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "虎啸花园 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_zxzF9tPPY_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2282", "img://room/2283"],
       landlordName: "黄明", landlordPhone: "13946511429",
       description: "房源位于虎啸花园 1室1厅 东，东，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透", "精装修", "拎包入住"], listedDate: "2026-06-18", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n310", name: "金港大厦 2室2厅 南", district: "其他", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
+  { id: "n310", name: "金港大厦", district: "其他区", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
     { id: "n325", title: "整租·金港大厦 2室2厅 南", rent: 2400, area: 113, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "金港大厦 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_r12WzjpSL.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2289", "img://room/2290"],
       landlordName: "周杰", landlordPhone: "18681638649",
       description: "房源位于金港大厦 2室2厅 南，南，楼层适中。2室2厅户型，113平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫"], listedDate: "2026-06-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n311", name: "汉中路 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
+  { id: "n311", name: "汉中路", district: "其他区", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
     { id: "n326", title: "整租·汉中路 2室2厅 南/北", rent: 4300, area: 91, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "汉中路 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cj9hw2eGB_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2296", "img://room/2297"],
       landlordName: "黄明", landlordPhone: "15846563439", landlordWechat: "黄明326",
       description: "房源位于汉中路 2室2厅 南/北，南，楼层适中。2室2厅户型，91平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-04-11", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n312", name: "汉中门大街 2室2厅 南", district: "其他", city: "nanjing", lat: 32.039927, lng: 118.744992, avgRent: 0, listings: [
+  { id: "n312", name: "汉中门大街", district: "其他区", city: "nanjing", lat: 32.039927, lng: 118.744992, avgRent: 0, listings: [
     { id: "n327", title: "整租·汉中门大街 2室2厅 南", rent: 2800, area: 75, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "汉中门大街 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_GNfpUeeit.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2303", "img://room/2304"],
       landlordName: "赵娜", landlordPhone: "15858586137",
       description: "房源位于汉中门大街 2室2厅 南，南，楼层适中。2室2厅户型，75平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-06-17", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n313", name: "锦绣华府北苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.105262, lng: 118.746559, avgRent: 0, listings: [
+  { id: "n313", name: "锦绣华府北苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.105262, lng: 118.746559, avgRent: 0, listings: [
     { id: "n328", title: "合租·锦绣华府北苑 4居室 南卧", rent: 1330, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "锦绣华府北苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779615404455/43b442eb3d29bcba8a50e30a1b4622ae.jpg.250x182.jpg", "img://room/2310", "img://room/2311"],
       landlordName: "黄明", landlordPhone: "15087368225", landlordWechat: "黄明328",
       description: "房源位于锦绣华府北苑 4居室 南卧，北，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "精装修", "近地铁"], listedDate: "2026-05-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n314", name: "五条巷小区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.063377, lng: 118.773922, avgRent: 0, listings: [
+  { id: "n314", name: "五条巷小区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.063377, lng: 118.773922, avgRent: 0, listings: [
     { id: "n329", title: "合租·五条巷小区 3居室 南卧", rent: 1630, area: 13, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "五条巷小区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778149124291/d8d29a3ca6a08ebd71af5ff81ff4f4ab.jpg.250x182.jpg", "img://room/2317", "img://room/2318"],
       landlordName: "黄明", landlordPhone: "15864782907", landlordWechat: "黄明329",
       description: "房源位于五条巷小区 3居室 南卧，南，楼层适中。3室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "拎包入住"], listedDate: "2026-05-14", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n315", name: "镇江路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.075756, lng: 118.754673, avgRent: 0, listings: [
+  { id: "n315", name: "镇江路", district: "其他区", city: "nanjing", lat: 32.075756, lng: 118.754673, avgRent: 0, listings: [
     { id: "n330", title: "整租·镇江路 2室1厅 南", rent: 3300, area: 53, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "镇江路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ZW9EW5FWy.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2324", "img://room/2325"],
       landlordName: "黄明", landlordPhone: "15046873172", landlordWechat: "黄明330",
       description: "房源位于镇江路 2室1厅 南，南，楼层适中。2室1厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "南北通透", "随时看房"], listedDate: "2026-04-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n316", name: "傅厚岗(鼓楼) 3室1厅 南/北", district: "鼓楼区", city: "nanjing", lat: 32.06454, lng: 118.781835, avgRent: 0, listings: [
+  { id: "n316", name: "傅厚岗(鼓楼)", district: "鼓楼区", city: "nanjing", lat: 32.06454, lng: 118.781835, avgRent: 0, listings: [
     { id: "n331", title: "整租·傅厚岗(鼓楼) 3室1厅 南/北", rent: 3600, area: 64, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "傅厚岗(鼓楼) 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_JRMb7zx6r.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2331", "img://room/2332"],
       landlordName: "赵娜", landlordPhone: "18834231191",
       description: "房源位于傅厚岗(鼓楼) 3室1厅 南/北，南，楼层适中。3室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "采光好", "近地铁"], listedDate: "2026-04-18", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n317", name: "卢龙山庄 3室2厅 南", district: "其他", city: "nanjing", lat: 32.095134, lng: 118.753765, avgRent: 0, listings: [
+  { id: "n317", name: "卢龙山庄", district: "其他区", city: "nanjing", lat: 32.095134, lng: 118.753765, avgRent: 0, listings: [
     { id: "n332", title: "整租·卢龙山庄 3室2厅 南", rent: 5380, area: 131, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "卢龙山庄 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_96iLiAmjZ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2338", "img://room/2339"],
       landlordName: "杨磊", landlordPhone: "13822144329",
       description: "房源位于卢龙山庄 3室2厅 南，南，楼层适中。3室2厅户型，131平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "随时看房"], listedDate: "2026-06-20", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n318", name: "五塘新村二段 2室1厅 南", district: "其他", city: "nanjing", lat: 32.110332, lng: 118.78375, avgRent: 0, listings: [
+  { id: "n318", name: "五塘新村二段", district: "其他区", city: "nanjing", lat: 32.110332, lng: 118.78375, avgRent: 0, listings: [
     { id: "n333", title: "整租·五塘新村二段 2室1厅 南", rent: 2500, area: 62, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "五塘新村二段 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xREkR4M8r.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2345", "img://room/2346"],
       landlordName: "黄明", landlordPhone: "18876060711",
       description: "房源位于五塘新村二段 2室1厅 南，南，楼层适中。2室1厅户型，62平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "南北通透"], listedDate: "2026-03-12", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n319", name: "金陵世纪花园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.041586, lng: 118.735444, avgRent: 0, listings: [
+  { id: "n319", name: "金陵世纪花园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.041586, lng: 118.735444, avgRent: 0, listings: [
     { id: "n334", title: "合租·金陵世纪花园 4居室 北卧", rent: 1190, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "金陵世纪花园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1772161178755/91d388193748f7ce52712df8ff263949.jpg.250x182.jpg", "img://room/2352", "img://room/2353"],
       landlordName: "王芳", landlordPhone: "18675666617",
       description: "房源位于金陵世纪花园 4居室 北卧，西，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修", "安静宜居"], listedDate: "2026-05-04", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n320", name: "上海路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
+  { id: "n320", name: "上海路", district: "其他区", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
     { id: "n335", title: "整租·上海路 2室1厅 南", rent: 3116, area: 54, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "上海路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_h5GtIhE8r.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2359", "img://room/2360"],
       landlordName: "赵娜", landlordPhone: "13825886698",
       description: "房源位于上海路 2室1厅 南，南，楼层适中。2室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好"], listedDate: "2026-06-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n321", name: "金川花苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.05566258782637, lng: 118.83388325446022, avgRent: 0, listings: [
+  { id: "n321", name: "金川花苑", district: "其他区", city: "nanjing", lat: 32.05566258782637, lng: 118.83388325446022, avgRent: 0, listings: [
     { id: "n336", title: "整租·金川花苑 2室1厅 南", rent: 3000, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "金川花苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_fYqwkX4EH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2366", "img://room/2367"],
       landlordName: "李强", landlordPhone: "15854045865",
       description: "房源位于金川花苑 2室1厅 南，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "拎包入住"], listedDate: "2026-05-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n322", name: "海德卫城 3室2厅 南", district: "其他", city: "nanjing", lat: 32.063062, lng: 118.732888, avgRent: 0, listings: [
+  { id: "n322", name: "海德卫城", district: "其他区", city: "nanjing", lat: 32.063062, lng: 118.732888, avgRent: 0, listings: [
     { id: "n337", title: "整租·海德卫城 3室2厅 南", rent: 6800, area: 151, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "海德卫城 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_68ibmqCYu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2373", "img://room/2374"],
       landlordName: "张伟", landlordPhone: "15893152939", landlordWechat: "张伟337",
       description: "房源位于海德卫城 3室2厅 南，南，楼层适中。3室2厅户型，151平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-06-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n323", name: "汉中门外大街 2室1厅 南", district: "其他", city: "nanjing", lat: 32.043057, lng: 118.764565, avgRent: 0, listings: [
+  { id: "n323", name: "汉中门外大街", district: "其他区", city: "nanjing", lat: 32.043057, lng: 118.764565, avgRent: 0, listings: [
     { id: "n338", title: "整租·汉中门外大街 2室1厅 南", rent: 3300, area: 61, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "汉中门外大街 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_o8C2hWPEz.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2380", "img://room/2381"],
       landlordName: "李强", landlordPhone: "15837317585", landlordWechat: "李强338",
       description: "房源位于汉中门外大街 2室1厅 南，南，楼层适中。2室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透"], listedDate: "2026-05-03", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n324", name: "龙湖春江紫宸 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.091168, lng: 118.737383, avgRent: 0, listings: [
+  { id: "n324", name: "龙湖春江紫宸", district: "其他区", city: "nanjing", lat: 32.091168, lng: 118.737383, avgRent: 0, listings: [
     { id: "n339", title: "整租·龙湖春江紫宸 3室2厅 南/北", rent: 4000, area: 92, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "龙湖春江紫宸 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_v5RddHMrX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2387", "img://room/2388"],
       landlordName: "周杰", landlordPhone: "18679542443", landlordWechat: "周杰339",
       description: "房源位于龙湖春江紫宸 3室2厅 南/北，南，楼层适中。3室2厅户型，92平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住"], listedDate: "2026-06-24", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n325", name: "线路新村社区 1室0厅 南", district: "其他", city: "nanjing", lat: 32.082089, lng: 118.776768, avgRent: 0, listings: [
+  { id: "n325", name: "线路新村社区", district: "其他区", city: "nanjing", lat: 32.082089, lng: 118.776768, avgRent: 0, listings: [
     { id: "n340", title: "整租·线路新村社区 1室0厅 南", rent: 1300, area: 26, rooms: "1室0厅", floor: "楼层适中", direction: "南", community: "线路新村社区 1室0厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/099b55372b798ddfb4533fbbf5e3db2d-091.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2394", "img://room/2395"],
       landlordName: "陈静", landlordPhone: "15039443441", landlordWechat: "陈静340",
       description: "房源位于线路新村社区 1室0厅 南，南，楼层适中。1室0厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-03-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n326", name: "娄子巷131巷 1室1厅 南", district: "其他", city: "nanjing", lat: 32.080008, lng: 118.763057, avgRent: 0, listings: [
+  { id: "n326", name: "娄子巷131巷", district: "其他区", city: "nanjing", lat: 32.080008, lng: 118.763057, avgRent: 0, listings: [
     { id: "n341", title: "整租·娄子巷131巷 1室1厅 南", rent: 2700, area: 39, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "娄子巷131巷 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/20668146-509b-4350-bc40-73e62aba7dc8.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2401", "img://room/2402"],
       landlordName: "赵娜", landlordPhone: "13945086958", landlordWechat: "赵娜341",
@@ -2365,756 +2365,756 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于青云巷(鼓楼) 4居室 东卧，南，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫"], listedDate: "2026-06-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n328", name: "虹桥 3室1厅 东南", district: "其他", city: "nanjing", lat: 32.07602964298706, lng: 118.7664705108676, avgRent: 0, listings: [
+  { id: "n328", name: "虹桥", district: "其他区", city: "nanjing", lat: 32.07602964298706, lng: 118.7664705108676, avgRent: 0, listings: [
     { id: "n343", title: "整租·虹桥 3室1厅 东南", rent: 2900, area: 70, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "虹桥 3室1厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_M3UddH0TX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2415", "img://room/2416"],
       landlordName: "刘洋", landlordPhone: "18651500680",
       description: "房源位于虹桥 3室1厅 东南，南，楼层适中。3室1厅户型，70平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "拎包入住"], listedDate: "2026-04-10", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n329", name: "东井村3号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
+  { id: "n329", name: "东井村3号", district: "其他区", city: "nanjing", lat: 32.098289, lng: 118.801319, avgRent: 0, listings: [
     { id: "n344", title: "整租·东井村3号 2室1厅 南/北", rent: 2600, area: 47, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东井村3号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_R5yUqBsOw.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2422", "img://room/2423"],
       landlordName: "王芳", landlordPhone: "13850408330",
       description: "房源位于东井村3号 2室1厅 南/北，东，楼层适中。2室1厅户型，47平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "安静宜居", "南北通透"], listedDate: "2026-03-08", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n330", name: "名城世纪园 5居室 北卧", district: "其他", city: "nanjing", lat: 32.041952, lng: 118.747093, avgRent: 0, listings: [
+  { id: "n330", name: "名城世纪园 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.041952, lng: 118.747093, avgRent: 0, listings: [
     { id: "n345", title: "合租·名城世纪园 5居室 北卧", rent: 1060, area: 8, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "名城世纪园 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782375054462/33f02f351eae5f17db729bc7926d47b9.jpg.250x182.jpg", "img://room/2429", "img://room/2430"],
       landlordName: "王芳", landlordPhone: "18846522590", landlordWechat: "王芳345",
       description: "房源位于名城世纪园 5居室 北卧，西，楼层适中。5室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居", "独立厨卫"], listedDate: "2026-03-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n331", name: "人和街 1室0厅 东南/南", district: "其他", city: "nanjing", lat: 32.068753, lng: 118.769192, avgRent: 0, listings: [
+  { id: "n331", name: "人和街", district: "其他区", city: "nanjing", lat: 32.068753, lng: 118.769192, avgRent: 0, listings: [
     { id: "n346", title: "整租·人和街 1室0厅 东南/南", rent: 2200, area: 27, rooms: "1室0厅", floor: "楼层适中", direction: "东", community: "人和街 1室0厅 东南/南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_9Ckxe931j_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2436", "img://room/2437"],
       landlordName: "周杰", landlordPhone: "18632173320",
       description: "房源位于人和街 1室0厅 东南/南，东，楼层适中。1室0厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "随时看房", "安静宜居"], listedDate: "2026-03-12", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n332", name: "虹桥 1室1厅 南", district: "其他", city: "nanjing", lat: 31.182416, lng: 121.252497, avgRent: 0, listings: [
+  { id: "n332", name: "虹桥", district: "其他区", city: "nanjing", lat: 31.182416, lng: 121.252497, avgRent: 0, listings: [
     { id: "n347", title: "整租·虹桥 1室1厅 南", rent: 3000, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "虹桥 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_3PLH7OK7o_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2443", "img://room/2444"],
       landlordName: "刘洋", landlordPhone: "15851274392",
       description: "房源位于虹桥 1室1厅 南，南，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "近地铁", "南北通透"], listedDate: "2026-03-19", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n333", name: "苏宁千秋情缘花园 4室2厅 南/北", district: "其他", city: "nanjing", lat: 32.048235, lng: 118.742322, avgRent: 0, listings: [
+  { id: "n333", name: "苏宁千秋情缘花园", district: "其他区", city: "nanjing", lat: 32.048235, lng: 118.742322, avgRent: 0, listings: [
     { id: "n348", title: "整租·苏宁千秋情缘花园 4室2厅 南/北", rent: 10800, area: 159, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "苏宁千秋情缘花园 4室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2450", "img://room/2451"],
       landlordName: "周杰", landlordPhone: "15021492069", landlordWechat: "周杰348",
       description: "房源位于苏宁千秋情缘花园 4室2厅 南/北，南，楼层适中。4室2厅户型，159平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房", "精装修", "安静宜居"], listedDate: "2026-04-18", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n334", name: "锦绣华府东苑 3居室 东北卧", district: "其他", city: "nanjing", lat: 32.024643, lng: 118.78807, avgRent: 0, listings: [
+  { id: "n334", name: "锦绣华府东苑 3居室 东北卧", district: "其他区", city: "nanjing", lat: 32.024643, lng: 118.78807, avgRent: 0, listings: [
     { id: "n349", title: "合租·锦绣华府东苑 3居室 东北卧", rent: 1030, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "锦绣华府东苑 3居室 东北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1767763881875/b6c4ee3158e7e6d9c758f55efcd2c1ea.jpg.250x182.jpg", "img://room/2457", "img://room/2458"],
       landlordName: "吴敏", landlordPhone: "18641387705", landlordWechat: "吴敏349",
       description: "房源位于锦绣华府东苑 3居室 东北卧，东，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-05-20", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n335", name: "天水滨江花园西苑 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.04045, lng: 118.728306, avgRent: 0, listings: [
+  { id: "n335", name: "天水滨江花园西苑", district: "其他区", city: "nanjing", lat: 32.04045, lng: 118.728306, avgRent: 0, listings: [
     { id: "n350", title: "整租·天水滨江花园西苑 3室2厅 南/北", rent: 7300, area: 116, rooms: "3室2厅", floor: "楼层适中", direction: "西", community: "天水滨江花园西苑 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_hxE8v72ZK.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2464", "img://room/2465"],
       landlordName: "陈静", landlordPhone: "18647974533", landlordWechat: "陈静350",
       description: "房源位于天水滨江花园西苑 3室2厅 南/北，西，楼层适中。3室2厅户型，116平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修"], listedDate: "2026-04-03", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n336", name: "水佐岗32巷 1室0厅 北", district: "其他", city: "nanjing", lat: 32.06953, lng: 118.765298, avgRent: 0, listings: [
+  { id: "n336", name: "水佐岗32巷", district: "其他区", city: "nanjing", lat: 32.06953, lng: 118.765298, avgRent: 0, listings: [
     { id: "n351", title: "整租·水佐岗32巷 1室0厅 北", rent: 1300, area: 21, rooms: "1室0厅", floor: "楼层适中", direction: "北", community: "水佐岗32巷 1室0厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_fBv7hQN2a.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2471", "img://room/2472"],
       landlordName: "王芳", landlordPhone: "13951834041", landlordWechat: "王芳351",
       description: "房源位于水佐岗32巷 1室0厅 北，北，楼层适中。1室0厅户型，21平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "随时看房"], listedDate: "2026-04-21", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n337", name: "世茂璀璨滨江 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.084472, lng: 118.73697, avgRent: 0, listings: [
+  { id: "n337", name: "世茂璀璨滨江", district: "其他区", city: "nanjing", lat: 32.084472, lng: 118.73697, avgRent: 0, listings: [
     { id: "n352", title: "整租·世茂璀璨滨江 3室2厅 南/北", rent: 6500, area: 131, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "世茂璀璨滨江 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_q3BRe1UFp.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2478", "img://room/2479"],
       landlordName: "黄明", landlordPhone: "13992854704", landlordWechat: "黄明352",
       description: "房源位于世茂璀璨滨江 3室2厅 南/北，南，楼层适中。3室2厅户型，131平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "采光好"], listedDate: "2026-04-20", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n338", name: "金陵新三村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.108249, lng: 118.758439, avgRent: 0, listings: [
+  { id: "n338", name: "金陵新三村", district: "其他区", city: "nanjing", lat: 32.108249, lng: 118.758439, avgRent: 0, listings: [
     { id: "n353", title: "整租·金陵新三村 2室1厅 南", rent: 1900, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "金陵新三村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_rnpldcc3f.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2485", "img://room/2486"],
       landlordName: "杨磊", landlordPhone: "13895952407", landlordWechat: "杨磊353",
       description: "房源位于金陵新三村 2室1厅 南，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住"], listedDate: "2026-03-10", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n339", name: "江滨新寓 3室1厅 南", district: "其他", city: "nanjing", lat: 32.054303, lng: 118.730923, avgRent: 0, listings: [
+  { id: "n339", name: "江滨新寓", district: "其他区", city: "nanjing", lat: 32.054303, lng: 118.730923, avgRent: 0, listings: [
     { id: "n354", title: "整租·江滨新寓 3室1厅 南", rent: 3800, area: 57, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "江滨新寓 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/2b90fe84-9d6f-47df-9663-f266f76e046d_1000.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2492", "img://room/2493"],
       landlordName: "黄明", landlordPhone: "13919756768",
       description: "房源位于江滨新寓 3室1厅 南，南，楼层适中。3室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好"], listedDate: "2026-04-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n340", name: "辰龙广场 1室1厅 南", district: "其他", city: "nanjing", lat: 32.045396, lng: 118.738344, avgRent: 0, listings: [
+  { id: "n340", name: "辰龙广场", district: "其他区", city: "nanjing", lat: 32.045396, lng: 118.738344, avgRent: 0, listings: [
     { id: "n355", title: "整租·辰龙广场 1室1厅 南", rent: 2500, area: 48, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "辰龙广场 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_HgAgs9kSm.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2499", "img://room/2500"],
       landlordName: "陈静", landlordPhone: "13815569649", landlordWechat: "陈静355",
       description: "房源位于辰龙广场 1室1厅 南，西，楼层适中。1室1厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n341", name: "锦绣华府东苑 4居室 北卧", district: "其他", city: "nanjing", lat: 32.08438954375989, lng: 118.86947213342864, avgRent: 0, listings: [
+  { id: "n341", name: "锦绣华府东苑 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.08438954375989, lng: 118.86947213342864, avgRent: 0, listings: [
     { id: "n356", title: "合租·锦绣华府东苑 4居室 北卧", rent: 830, area: 6, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "锦绣华府东苑 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781597200912/a372a69af8a72b51786242986880ba00.jpg.250x182.jpg", "img://room/2506", "img://room/2507"],
       landlordName: "王芳", landlordPhone: "13941424499",
       description: "房源位于锦绣华府东苑 4居室 北卧，东，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居"], listedDate: "2026-04-02", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n342", name: "碧树园南片 3室2厅 南", district: "其他", city: "nanjing", lat: 32.054461, lng: 118.745486, avgRent: 0, listings: [
+  { id: "n342", name: "碧树园南片", district: "其他区", city: "nanjing", lat: 32.054461, lng: 118.745486, avgRent: 0, listings: [
     { id: "n357", title: "整租·碧树园南片 3室2厅 南", rent: 5200, area: 92, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "碧树园南片 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_dnVryHwIq_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2513", "img://room/2514"],
       landlordName: "李强", landlordPhone: "18823477832", landlordWechat: "李强357",
       description: "房源位于碧树园南片 3室2厅 南，南，楼层适中。3室2厅户型，92平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "拎包入住"], listedDate: "2026-04-22", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n343", name: "建宁路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
+  { id: "n343", name: "建宁路", district: "其他区", city: "nanjing", lat: 32.092372, lng: 118.741758, avgRent: 0, listings: [
     { id: "n358", title: "整租·建宁路 2室1厅 南", rent: 2000, area: 45, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "建宁路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/2cc59adc7bbe073437510b19ed4c6bbf-000.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2520", "img://room/2521"],
       landlordName: "王芳", landlordPhone: "15876908332", landlordWechat: "王芳358",
       description: "房源位于建宁路 2室1厅 南，南，楼层适中。2室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住"], listedDate: "2026-06-09", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n344", name: "石城家园 4居室 东卧", district: "其他", city: "nanjing", lat: 32.108419, lng: 118.785671, avgRent: 0, listings: [
+  { id: "n344", name: "石城家园 4居室 东卧", district: "其他区", city: "nanjing", lat: 32.108419, lng: 118.785671, avgRent: 0, listings: [
     { id: "n359", title: "合租·石城家园 4居室 东卧", rent: 801, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "石城家园 4居室 东卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1778581350768/c02504a7ccc4f7456624e35f72c56a9c.jpg.250x182.jpg", "img://room/2527", "img://room/2528"],
       landlordName: "杨磊", landlordPhone: "15023591849", landlordWechat: "杨磊359",
       description: "房源位于石城家园 4居室 东卧，东，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-04-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n345", name: "江西路 1室1厅 南/北", district: "其他", city: "nanjing", lat: 32.082838, lng: 118.781899, avgRent: 0, listings: [
+  { id: "n345", name: "江西路", district: "其他区", city: "nanjing", lat: 32.082838, lng: 118.781899, avgRent: 0, listings: [
     { id: "n360", title: "整租·江西路 1室1厅 南/北", rent: 2200, area: 45, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "江西路 1室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_hWtdCaS19.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2534", "img://room/2535"],
       landlordName: "王芳", landlordPhone: "18873268731", landlordWechat: "王芳360",
       description: "房源位于江西路 1室1厅 南/北，西，楼层适中。1室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "采光好"], listedDate: "2026-05-03", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n346", name: "复地新都荟 1室1厅 北", district: "其他", city: "nanjing", lat: 32.100198, lng: 118.798262, avgRent: 0, listings: [
+  { id: "n346", name: "复地新都荟", district: "其他区", city: "nanjing", lat: 32.100198, lng: 118.798262, avgRent: 0, listings: [
     { id: "n361", title: "整租·复地新都荟 1室1厅 北", rent: 1750, area: 37, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "复地新都荟 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cqQND2uzr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2541", "img://room/2542"],
       landlordName: "周杰", landlordPhone: "18824963892",
       description: "房源位于复地新都荟 1室1厅 北，北，楼层适中。1室1厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-05-10", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n347", name: "孙家凹 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
+  { id: "n347", name: "孙家凹", district: "其他区", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
     { id: "n362", title: "整租·孙家凹 3室1厅 南/北", rent: 1700, area: 85, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "孙家凹 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_lYVNSRDEV.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2548", "img://room/2549"],
       landlordName: "李强", landlordPhone: "15842439932", landlordWechat: "李强362",
       description: "房源位于孙家凹 3室1厅 南/北，南，楼层适中。3室1厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居"], listedDate: "2026-03-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n348", name: "典雅大厦 2室1厅 东/南", district: "其他", city: "nanjing", lat: 32.341955, lng: 118.850673, avgRent: 0, listings: [
+  { id: "n348", name: "典雅大厦", district: "其他区", city: "nanjing", lat: 32.341955, lng: 118.850673, avgRent: 0, listings: [
     { id: "n363", title: "整租·典雅大厦 2室1厅 东/南", rent: 3500, area: 87, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "典雅大厦 2室1厅 东/南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_5r0U6Qe5o_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2555", "img://room/2556"],
       landlordName: "刘洋", landlordPhone: "13893300885",
       description: "房源位于典雅大厦 2室1厅 东/南，西，楼层适中。2室1厅户型，87平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "安静宜居"], listedDate: "2026-05-18", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n349", name: "苏宁睿城银河国际街区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.030771, lng: 118.731269, avgRent: 0, listings: [
+  { id: "n349", name: "苏宁睿城银河国际街区", district: "其他区", city: "nanjing", lat: 32.030771, lng: 118.731269, avgRent: 0, listings: [
     { id: "n364", title: "整租·苏宁睿城银河国际街区 2室1厅 南", rent: 5800, area: 94, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "苏宁睿城银河国际街区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_e0gdODHQl_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2562", "img://room/2563"],
       landlordName: "黄明", landlordPhone: "15034655216", landlordWechat: "黄明364",
       description: "房源位于苏宁睿城银河国际街区 2室1厅 南，南，楼层适中。2室1厅户型，94平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "独立厨卫"], listedDate: "2026-05-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n350", name: "证大大拇指广场 2室1厅 北", district: "其他", city: "nanjing", lat: 32.07391941923591, lng: 118.77108169819006, avgRent: 0, listings: [
+  { id: "n350", name: "证大大拇指广场", district: "其他区", city: "nanjing", lat: 32.07391941923591, lng: 118.77108169819006, avgRent: 0, listings: [
     { id: "n365", title: "整租·证大大拇指广场 2室1厅 北", rent: 3300, area: 69, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "证大大拇指广场 2室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_lXU7ZxxIP_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2569", "img://room/2570"],
       landlordName: "杨磊", landlordPhone: "15857991479", landlordWechat: "杨磊365",
       description: "房源位于证大大拇指广场 2室1厅 北，北，楼层适中。2室1厅户型，69平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "近地铁"], listedDate: "2026-05-22", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n351", name: "石城家园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.108419, lng: 118.785671, avgRent: 0, listings: [
+  { id: "n351", name: "石城家园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.108419, lng: 118.785671, avgRent: 0, listings: [
     { id: "n366", title: "合租·石城家园 4居室 南卧", rent: 899, area: 21, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "石城家园 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1778643381589/4a1a4ef673ff78cdd9602675b3847147.jpg.250x182.jpg", "img://room/2576", "img://room/2577"],
       landlordName: "王芳", landlordPhone: "18693779318", landlordWechat: "王芳366",
       description: "房源位于石城家园 4居室 南卧，南，楼层适中。4室1厅户型，21平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-04-26", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n352", name: "金域中央街区一期 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.105397, lng: 118.773553, avgRent: 0, listings: [
+  { id: "n352", name: "金域中央街区一期", district: "其他区", city: "nanjing", lat: 32.105397, lng: 118.773553, avgRent: 0, listings: [
     { id: "n367", title: "整租·金域中央街区一期 2室1厅 南/北", rent: 2700, area: 85, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "金域中央街区一期 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wOklpJuk6.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2583", "img://room/2584"],
       landlordName: "王芳", landlordPhone: "13975330861",
       description: "房源位于金域中央街区一期 2室1厅 南/北，南，楼层适中。2室1厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "拎包入住", "近地铁"], listedDate: "2026-04-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n353", name: "五台花园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
+  { id: "n353", name: "五台花园", district: "其他区", city: "nanjing", lat: 32.048663, lng: 118.776742, avgRent: 0, listings: [
     { id: "n368", title: "整租·五台花园 3室2厅 南", rent: 7600, area: 128, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "五台花园 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_rlmh7q4Eu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2590", "img://room/2591"],
       landlordName: "吴敏", landlordPhone: "13893521272",
       description: "房源位于五台花园 3室2厅 南，南，楼层适中。3室2厅户型，128平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "南北通透"], listedDate: "2026-04-07", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n354", name: "白云雅居 2室1厅 南", district: "其他", city: "nanjing", lat: 32.079138590077314, lng: 118.87416926743441, avgRent: 0, listings: [
+  { id: "n354", name: "白云雅居", district: "其他区", city: "nanjing", lat: 32.079138590077314, lng: 118.87416926743441, avgRent: 0, listings: [
     { id: "n369", title: "整租·白云雅居 2室1厅 南", rent: 3300, area: 77, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "白云雅居 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wQ2Jn6JZQ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2597", "img://room/2598"],
       landlordName: "陈静", landlordPhone: "18623368413",
       description: "房源位于白云雅居 2室1厅 南，南，楼层适中。2室1厅户型，77平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "拎包入住", "近地铁"], listedDate: "2026-05-16", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n355", name: "山阴路 1室1厅 南", district: "其他", city: "nanjing", lat: 32.056669, lng: 118.768698, avgRent: 0, listings: [
+  { id: "n355", name: "山阴路", district: "其他区", city: "nanjing", lat: 32.056669, lng: 118.768698, avgRent: 0, listings: [
     { id: "n370", title: "整租·山阴路 1室1厅 南", rent: 2300, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "山阴路 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wCPGaGCNF.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2604", "img://room/2605"],
       landlordName: "黄明", landlordPhone: "15860958552",
       description: "房源位于山阴路 1室1厅 南，南，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "拎包入住", "精装修"], listedDate: "2026-04-13", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n356", name: "干河沿前街 2室1厅 南", district: "其他", city: "nanjing", lat: 32.049379, lng: 118.782476, avgRent: 0, listings: [
+  { id: "n356", name: "干河沿前街", district: "其他区", city: "nanjing", lat: 32.049379, lng: 118.782476, avgRent: 0, listings: [
     { id: "n371", title: "整租·干河沿前街 2室1厅 南", rent: 3800, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "干河沿前街 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2611", "img://room/2612"],
       landlordName: "刘洋", landlordPhone: "13934965922", landlordWechat: "刘洋371",
       description: "房源位于干河沿前街 2室1厅 南，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "独立厨卫", "近地铁"], listedDate: "2026-05-21", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n357", name: "武夷路 1室1厅 南", district: "其他", city: "nanjing", lat: 32.09952935825094, lng: 118.86343641579325, avgRent: 0, listings: [
+  { id: "n357", name: "武夷路", district: "其他区", city: "nanjing", lat: 32.09952935825094, lng: 118.86343641579325, avgRent: 0, listings: [
     { id: "n372", title: "整租·武夷路 1室1厅 南", rent: 1800, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "武夷路 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_DyVoJMKGO_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2618", "img://room/2619"],
       landlordName: "黄明", landlordPhone: "18889974360", landlordWechat: "黄明372",
       description: "房源位于武夷路 1室1厅 南，南，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-04-14", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n358", name: "龙凤花园隽凤园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.050474, lng: 118.746716, avgRent: 0, listings: [
+  { id: "n358", name: "龙凤花园隽凤园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.050474, lng: 118.746716, avgRent: 0, listings: [
     { id: "n373", title: "合租·龙凤花园隽凤园 4居室 南卧", rent: 2130, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "龙凤花园隽凤园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781258054544/6461843c43498b4cbcff318bb86be594.jpg.250x182.jpg", "img://room/2625", "img://room/2626"],
       landlordName: "张伟", landlordPhone: "13878735621",
       description: "房源位于龙凤花园隽凤园 4居室 南卧，南，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居"], listedDate: "2026-03-15", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n359", name: "西桥 3居室 南卧", district: "其他", city: "nanjing", lat: 32.061449, lng: 118.773057, avgRent: 0, listings: [
+  { id: "n359", name: "西桥 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.061449, lng: 118.773057, avgRent: 0, listings: [
     { id: "n374", title: "合租·西桥 3居室 南卧", rent: 1730, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "西桥 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782271035028/afadefabc993ada6dfd5200c0be34937.jpg.250x182.jpg", "img://room/2632", "img://room/2633"],
       landlordName: "赵娜", landlordPhone: "13847465016", landlordWechat: "赵娜374",
       description: "房源位于西桥 3居室 南卧，南，楼层适中。3室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "精装修"], listedDate: "2026-03-26", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n360", name: "紫竹林3号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
+  { id: "n360", name: "紫竹林3号", district: "其他区", city: "nanjing", lat: 32.085033, lng: 118.775417, avgRent: 0, listings: [
     { id: "n375", title: "整租·紫竹林3号 2室1厅 南/北", rent: 4200, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "紫竹林3号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_tCvEiiByr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2639", "img://room/2640"],
       landlordName: "王芳", landlordPhone: "15087641427",
       description: "房源位于紫竹林3号 2室1厅 南/北，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "精装修"], listedDate: "2026-04-24", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n361", name: "滨江瑞景家园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.08845729173129, lng: 118.78636433215488, avgRent: 0, listings: [
+  { id: "n361", name: "滨江瑞景家园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.08845729173129, lng: 118.78636433215488, avgRent: 0, listings: [
     { id: "n376", title: "合租·滨江瑞景家园 4居室 北卧", rent: 1390, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "滨江瑞景家园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779333071189/6513a5a74d224ba4e58ee11a8024b78d.jpg.250x182.jpg", "img://room/2646", "img://room/2647"],
       landlordName: "赵娜", landlordPhone: "15869345974",
       description: "房源位于滨江瑞景家园 4居室 北卧，西，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "随时看房", "拎包入住"], listedDate: "2026-03-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n362", name: "回龙桥8号 3室1厅 南", district: "其他", city: "nanjing", lat: 32.074546, lng: 118.757288, avgRent: 0, listings: [
+  { id: "n362", name: "回龙桥8号", district: "其他区", city: "nanjing", lat: 32.074546, lng: 118.757288, avgRent: 0, listings: [
     { id: "n377", title: "整租·回龙桥8号 3室1厅 南", rent: 3700, area: 64, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "回龙桥8号 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xwyivBsDS.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2653", "img://room/2654"],
       landlordName: "黄明", landlordPhone: "13837417046",
       description: "房源位于回龙桥8号 3室1厅 南，南，楼层适中。3室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "安静宜居", "精装修"], listedDate: "2026-05-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n363", name: "福建新村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.082655, lng: 118.763293, avgRent: 0, listings: [
+  { id: "n363", name: "福建新村", district: "其他区", city: "nanjing", lat: 32.082655, lng: 118.763293, avgRent: 0, listings: [
     { id: "n378", title: "整租·福建新村 2室1厅 南", rent: 2300, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "福建新村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_PeD3hatls.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2660", "img://room/2661"],
       landlordName: "陈静", landlordPhone: "18647338203",
       description: "房源位于福建新村 2室1厅 南，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好"], listedDate: "2026-06-03", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n364", name: "白云园南片 2室1厅 南", district: "其他", city: "nanjing", lat: 32.053156, lng: 118.74369, avgRent: 0, listings: [
+  { id: "n364", name: "白云园南片", district: "其他区", city: "nanjing", lat: 32.053156, lng: 118.74369, avgRent: 0, listings: [
     { id: "n379", title: "整租·白云园南片 2室1厅 南", rent: 3900, area: 54, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "白云园南片 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_dLzrNymvA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2667", "img://room/2668"],
       landlordName: "李强", landlordPhone: "18612072539", landlordWechat: "李强379",
       description: "房源位于白云园南片 2室1厅 南，南，楼层适中。2室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁"], listedDate: "2026-03-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n365", name: "汉口路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.055795, lng: 118.76469, avgRent: 0, listings: [
+  { id: "n365", name: "汉口路", district: "其他区", city: "nanjing", lat: 32.055795, lng: 118.76469, avgRent: 0, listings: [
     { id: "n380", title: "整租·汉口路 2室1厅 南", rent: 3200, area: 55, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "汉口路 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_EZANJzyd0_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2674", "img://room/2675"],
       landlordName: "赵娜", landlordPhone: "18884764482", landlordWechat: "赵娜380",
       description: "房源位于汉口路 2室1厅 南，南，楼层适中。2室1厅户型，55平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "随时看房", "精装修"], listedDate: "2026-05-18", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n366", name: "校门口1号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
+  { id: "n366", name: "校门口1号", district: "其他区", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
     { id: "n381", title: "整租·校门口1号 2室1厅 南/北", rent: 3800, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "校门口1号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wIpuuDQNq.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2681", "img://room/2682"],
       landlordName: "吴敏", landlordPhone: "15887163895",
       description: "房源位于校门口1号 2室1厅 南/北，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "南北通透"], listedDate: "2026-03-23", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n367", name: "悦都荟广场 1室1厅 西", district: "其他", city: "nanjing", lat: 32.073319909258366, lng: 118.85732843683253, avgRent: 0, listings: [
+  { id: "n367", name: "悦都荟广场", district: "其他区", city: "nanjing", lat: 32.073319909258366, lng: 118.85732843683253, avgRent: 0, listings: [
     { id: "n382", title: "整租·悦都荟广场 1室1厅 西", rent: 2600, area: 46, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "悦都荟广场 1室1厅 西",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cebmq0U3q.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2688", "img://room/2689"],
       landlordName: "杨磊", landlordPhone: "13844214283",
       description: "房源位于悦都荟广场 1室1厅 西，南，楼层适中。1室1厅户型，46平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "随时看房", "近地铁"], listedDate: "2026-04-11", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n368", name: "五塘和园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.110835, lng: 118.781424, avgRent: 0, listings: [
+  { id: "n368", name: "五塘和园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.110835, lng: 118.781424, avgRent: 0, listings: [
     { id: "n383", title: "合租·五塘和园 4居室 北卧", rent: 1230, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "五塘和园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779456365730/998284adbefb7bb317f5c9cf9628ceae.jpg.250x182.jpg", "img://room/2695", "img://room/2696"],
       landlordName: "刘洋", landlordPhone: "13997996096",
       description: "房源位于五塘和园 4居室 北卧，北，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "南北通透", "随时看房"], listedDate: "2026-06-01", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n369", name: "热河南路 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.084771, lng: 118.742795, avgRent: 0, listings: [
+  { id: "n369", name: "热河南路", district: "其他区", city: "nanjing", lat: 32.084771, lng: 118.742795, avgRent: 0, listings: [
     { id: "n384", title: "整租·热河南路 2室1厅 南/北", rent: 2700, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "热河南路 2室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/2702", "img://room/2703"],
       landlordName: "张伟", landlordPhone: "18612847289",
       description: "房源位于热河南路 2室1厅 南/北，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "随时看房", "拎包入住"], listedDate: "2026-06-12", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n370", name: "银城花园北片 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.052835, lng: 118.731142, avgRent: 0, listings: [
+  { id: "n370", name: "银城花园北片", district: "其他区", city: "nanjing", lat: 32.052835, lng: 118.731142, avgRent: 0, listings: [
     { id: "n385", title: "整租·银城花园北片 2室1厅 南/北", rent: 3500, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "银城花园北片 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MLi2weUBO.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2709", "img://room/2710"],
       landlordName: "张伟", landlordPhone: "18620108267", landlordWechat: "张伟385",
       description: "房源位于银城花园北片 2室1厅 南/北，北，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房", "安静宜居", "南北通透"], listedDate: "2026-04-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n371", name: "中央路（玄武） 2室1厅 东", district: "玄武区", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
+  { id: "n371", name: "中央路（玄武）", district: "玄武区", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
     { id: "n386", title: "整租·中央路（玄武） 2室1厅 东", rent: 2500, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "中央路（玄武） 2室1厅 东",
       images: ["https://image1.ljcdn.com/lease-image/house/cc7f055f8607df62ee1861ba6862fe76.jpeg.250x182.jpg", "img://room/2716", "img://room/2717"],
       landlordName: "杨磊", landlordPhone: "15027115383",
       description: "房源位于中央路（玄武） 2室1厅 东，东，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "近地铁"], listedDate: "2026-05-06", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n372", name: "中海玄武公馆A区 3室2厅 南", district: "玄武区", city: "nanjing", lat: 32.097657, lng: 118.820097, avgRent: 0, listings: [
+  { id: "n372", name: "中海玄武公馆A区", district: "玄武区", city: "nanjing", lat: 32.097657, lng: 118.820097, avgRent: 0, listings: [
     { id: "n387", title: "整租·中海玄武公馆A区 3室2厅 南", rent: 4000, area: 98, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "中海玄武公馆A区 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/1510bca9-eea9-4da2-9403-46d0e0c3343d.jpg.250x182.jpg", "img://room/2723", "img://room/2724"],
       landlordName: "周杰", landlordPhone: "13986655875",
       description: "房源位于中海玄武公馆A区 3室2厅 南，南，楼层适中。3室2厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-05-19", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n373", name: "花园路70号 3室2厅 南", district: "其他", city: "nanjing", lat: 32.024452, lng: 118.804444, avgRent: 0, listings: [
+  { id: "n373", name: "花园路70号", district: "其他区", city: "nanjing", lat: 32.024452, lng: 118.804444, avgRent: 0, listings: [
     { id: "n388", title: "整租·花园路70号 3室2厅 南", rent: 2300, area: 94, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "花园路70号 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/5dcde784-0dc0-4335-9d1c-d71b8162154e.png.250x182.jpg", "img://room/2730", "img://room/2731"],
       landlordName: "李强", landlordPhone: "18697843034",
       description: "房源位于花园路70号 3室2厅 南，南，楼层适中。3室2厅户型，94平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "随时看房"], listedDate: "2026-04-01", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n374", name: "融寓 九华山店 年租特惠 精致单室套 无中介 押一付一 近军总 新街口4站 24H安保 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n374", name: "融寓 九华山店 年租特惠 精致单室套 无中介 押一付一 近军总 新街口4站 24H安保", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n389", title: "独栋·融寓 九华山店 年租特惠 精致单室套 无中介 押一付一 近军总 新街口4站", rent: 2500, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 九华山店 年租特惠 精致单室套 无中介 押一付一 近军总 新街口4站 24H安保 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1773037763769/d75e091f8ee797d27cbd14edee9ba25e.jpg.250x182.jpg", "img://room/2737", "img://room/2738"],
       landlordName: "黄明", landlordPhone: "18868031909", landlordWechat: "黄明389",
       description: "房源位于融寓 九华山店 年租特惠 精致单室套 无中介 押一付一 近军总 新街口4站 24H安保 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "南北通透"], listedDate: "2026-06-07", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n375", name: "苏宁环球钟山朝阳府 4室1厅 东", district: "其他", city: "nanjing", lat: 32.00941, lng: 118.818044, avgRent: 0, listings: [
+  { id: "n375", name: "苏宁环球钟山朝阳府", district: "其他区", city: "nanjing", lat: 32.00941, lng: 118.818044, avgRent: 0, listings: [
     { id: "n390", title: "整租·苏宁环球钟山朝阳府 4室1厅 东", rent: 3400, area: 158, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "苏宁环球钟山朝阳府 4室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_2qP4ymacm.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2744", "img://room/2745"],
       landlordName: "赵娜", landlordPhone: "18831208350", landlordWechat: "赵娜390",
       description: "房源位于苏宁环球钟山朝阳府 4室1厅 东，东，楼层适中。4室1厅户型，158平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁"], listedDate: "2026-05-05", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n376", name: "后宰门街32号 3室1厅 南", district: "其他", city: "nanjing", lat: 32.045683, lng: 118.82298, avgRent: 0, listings: [
+  { id: "n376", name: "后宰门街32号", district: "其他区", city: "nanjing", lat: 32.045683, lng: 118.82298, avgRent: 0, listings: [
     { id: "n391", title: "整租·后宰门街32号 3室1厅 南", rent: 3600, area: 70, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "后宰门街32号 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_XMHqps9WF.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2751", "img://room/2752"],
       landlordName: "李强", landlordPhone: "18625952133",
       description: "房源位于后宰门街32号 3室1厅 南，南，楼层适中。3室1厅户型，70平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "采光好", "近地铁"], listedDate: "2026-06-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n377", name: "老虎桥 2室1厅 南", district: "其他", city: "nanjing", lat: 32.052185, lng: 118.791987, avgRent: 0, listings: [
+  { id: "n377", name: "老虎桥", district: "其他区", city: "nanjing", lat: 32.052185, lng: 118.791987, avgRent: 0, listings: [
     { id: "n392", title: "整租·老虎桥 2室1厅 南", rent: 3600, area: 76, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "老虎桥 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NlaSnDHSG_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2758", "img://room/2759"],
       landlordName: "吴敏", landlordPhone: "13971824794", landlordWechat: "吴敏392",
       description: "房源位于老虎桥 2室1厅 南，南，楼层适中。2室1厅户型，76平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "安静宜居"], listedDate: "2026-06-18", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n378", name: "小卫街 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.036172, lng: 118.849102, avgRent: 0, listings: [
+  { id: "n378", name: "小卫街", district: "其他区", city: "nanjing", lat: 32.036172, lng: 118.849102, avgRent: 0, listings: [
     { id: "n393", title: "整租·小卫街 2室1厅 南/北", rent: 2800, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "小卫街 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_YXuFHdlZr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2765", "img://room/2766"],
       landlordName: "赵娜", landlordPhone: "18845051173",
       description: "房源位于小卫街 2室1厅 南/北，南，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "南北通透", "随时看房"], listedDate: "2026-03-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n379", name: "大发融悦 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.363304, lng: 118.423227, avgRent: 0, listings: [
+  { id: "n379", name: "大发融悦", district: "其他区", city: "nanjing", lat: 31.363304, lng: 118.423227, avgRent: 0, listings: [
     { id: "n394", title: "整租·大发融悦 3室2厅 南/北", rent: 4600, area: 89, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "大发融悦 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_nuDpBY8K2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2772", "img://room/2773"],
       landlordName: "李强", landlordPhone: "15070732516", landlordWechat: "李强394",
       description: "房源位于大发融悦 3室2厅 南/北，南，楼层适中。3室2厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "采光好"], listedDate: "2026-03-22", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n380", name: "大树根 2室1厅 南", district: "其他", city: "nanjing", lat: 32.0766, lng: 118.784913, avgRent: 0, listings: [
+  { id: "n380", name: "大树根", district: "其他区", city: "nanjing", lat: 32.0766, lng: 118.784913, avgRent: 0, listings: [
     { id: "n395", title: "整租·大树根 2室1厅 南", rent: 3600, area: 62, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "大树根 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/dd3d6853-e2ee-4532-a07c-6e4017a5374d.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2779", "img://room/2780"],
       landlordName: "周杰", landlordPhone: "15074821667",
       description: "房源位于大树根 2室1厅 南，南，楼层适中。2室1厅户型，62平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "拎包入住", "南北通透"], listedDate: "2026-05-04", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n381", name: "徐庄东南青年汇 徐庄青年广场一社区 女神专属楼层，可短租，可月付，无中介，班车直达地铁站 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n381", name: "徐庄东南青年汇 徐庄青年广场一社区 女神专属楼层，可短租，可月付，无中介，班车直达地铁站", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n396", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 女神专属楼层，可短租，可月付，无中介，", rent: 1860, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 女神专属楼层，可短租，可月付，无中介，班车直达地铁站 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1771919426819/90f9eec8b20318774e7a7a0e65e26425.jpg.250x182.jpg", "img://room/2786", "img://room/2787"],
       landlordName: "陈静", landlordPhone: "13967566079",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 女神专属楼层，可短租，可月付，无中介，班车直达地铁站 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "随时看房"], listedDate: "2026-06-21", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n382", name: "柚米 南京铁北红山路柚米社区 【公寓直租 三个月起租】南京站/红山动物园/玄武新城/国展中心租房优选   押一付一 拎包入住 1室1厅", district: "玄武区", city: "nanjing", lat: 32.097053, lng: 118.798925, avgRent: 0, listings: [
+  { id: "n382", name: "柚米 南京铁北红山路柚米社区 【公寓直租 三个月起租】南京站/红山动物园/玄武新城/国展中心租房优选   押一付一 拎包入住", district: "玄武区", city: "nanjing", lat: 32.097053, lng: 118.798925, avgRent: 0, listings: [
     { id: "n397", title: "独栋·柚米 南京铁北红山路柚米社区 【公寓直租 三个月起租】南京站/红山动物园/", rent: 1883, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 【公寓直租 三个月起租】南京站/红山动物园/玄武新城/国展中心租房优选   押一付一 拎包入住 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1701433155292/bfcd6c33d7e1cbdcb7382c3fbb2dde0c.JPG.250x182.jpg", "img://room/2793", "img://room/2794"],
       landlordName: "吴敏", landlordPhone: "13916344043", landlordWechat: "吴敏397",
       description: "房源位于柚米 南京铁北红山路柚米社区 【公寓直租 三个月起租】南京站/红山动物园/玄武新城/国展中心租房优选   押一付一 拎包入住 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "拎包入住", "独立厨卫"], listedDate: "2026-05-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n383", name: "中央路（玄武） 2室1厅 南/西北", district: "玄武区", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
+  { id: "n383", name: "中央路（玄武）", district: "玄武区", city: "nanjing", lat: 32.075653, lng: 118.78339, avgRent: 0, listings: [
     { id: "n398", title: "整租·中央路（玄武） 2室1厅 南/西北", rent: 3300, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "中央路（玄武） 2室1厅 南/西北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ZsHTPxEpt.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2800", "img://room/2801"],
       landlordName: "李强", landlordPhone: "18856751272",
       description: "房源位于中央路（玄武） 2室1厅 南/西北，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "近地铁", "独立厨卫"], listedDate: "2026-05-14", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n384", name: "柚米 南京铁北红山路柚米社区 三个月起租，长租特惠大一室  无物业费服务费，精装整租 邻星河 COCOCity 近南京站 1室1厅", district: "其他", city: "nanjing", lat: 32.027952, lng: 118.729544, avgRent: 0, listings: [
+  { id: "n384", name: "柚米 南京铁北红山路柚米社区 三个月起租，长租特惠大一室  无物业费服务费，精装整租 邻星河 COCOCity 近南京站", district: "其他区", city: "nanjing", lat: 32.027952, lng: 118.729544, avgRent: 0, listings: [
     { id: "n399", title: "独栋·柚米 南京铁北红山路柚米社区 三个月起租，长租特惠大一室  无物业费服务费", rent: 2320, area: 38, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 三个月起租，长租特惠大一室  无物业费服务费，精装整租 邻星河 COCOCity 近南京站 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1722674479792/76e4064209cc745c82c79b259d56e42f.jpg.250x182.jpg", "img://room/2807", "img://room/2808"],
       landlordName: "赵娜", landlordPhone: "18659813133",
       description: "房源位于柚米 南京铁北红山路柚米社区 三个月起租，长租特惠大一室  无物业费服务费，精装整租 邻星河 COCOCity 近南京站 1室1厅，朝向好，楼层适中。1室1厅户型，38平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-06-21", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n385", name: "五矿晏山居 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.036855, lng: 118.875754, avgRent: 0, listings: [
+  { id: "n385", name: "五矿晏山居", district: "其他区", city: "nanjing", lat: 32.036855, lng: 118.875754, avgRent: 0, listings: [
     { id: "n400", title: "整租·五矿晏山居 3室2厅 南/北", rent: 5000, area: 82, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "五矿晏山居 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/ed7c62c0-a76d-4fa9-9ac3-8a8e60c69e27.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2814", "img://room/2815"],
       landlordName: "陈静", landlordPhone: "15012718119", landlordWechat: "陈静400",
       description: "房源位于五矿晏山居 3室2厅 南/北，南，楼层适中。3室2厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "拎包入住", "安静宜居"], listedDate: "2026-03-05", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n386", name: "徐庄东南青年汇 徐庄青年广场二社区 品牌公寓，徐庄软件园租房/阳光大床房/可长短租 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n386", name: "徐庄东南青年汇 徐庄青年广场二社区 品牌公寓，徐庄软件园租房/阳光大床房/可长短租", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n401", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 品牌公寓，徐庄软件园租房/阳光大床房/", rent: 1400, area: 26, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 品牌公寓，徐庄软件园租房/阳光大床房/可长短租 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1775704354969/1749dd0f76190879890fd0317de678c9.jpg.250x182.jpg", "img://room/2821", "img://room/2822"],
       landlordName: "刘洋", landlordPhone: "15848212465", landlordWechat: "刘洋401",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 品牌公寓，徐庄软件园租房/阳光大床房/可长短租 开间，朝向好，楼层适中。1室0厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "采光好", "近地铁"], listedDate: "2026-03-08", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n387", name: "徐庄东南青年汇 徐庄青年广场一社区 国企直租/徐庄软件园/押一付一/无中介费 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n387", name: "徐庄东南青年汇 徐庄青年广场一社区 国企直租/徐庄软件园/押一付一/无中介费", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n402", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 国企直租/徐庄软件园/押一付一/无中介", rent: 1400, area: 26, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 国企直租/徐庄软件园/押一付一/无中介费 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1775704197116/1749dd0f76190879890fd0317de678c9.jpg.250x182.jpg", "img://room/2828", "img://room/2829"],
       landlordName: "刘洋", landlordPhone: "13918452819", landlordWechat: "刘洋402",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 国企直租/徐庄软件园/押一付一/无中介费 开间，朝向好，楼层适中。1室0厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "近地铁", "独立厨卫"], listedDate: "2026-06-08", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n388", name: "徐庄东南青年汇 徐庄青年广场二社区 无中介可月付，近徐庄软件园4号线地铁 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n388", name: "徐庄东南青年汇 徐庄青年广场二社区 无中介可月付，近徐庄软件园4号线地铁", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n403", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 无中介可月付，近徐庄软件园4号线地铁 ", rent: 1640, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 无中介可月付，近徐庄软件园4号线地铁 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1762573536973/76fe3750544c976970a52774699a30cf.jpg.250x182.jpg", "img://room/2835", "img://room/2836"],
       landlordName: "张伟", landlordPhone: "18857136534",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 无中介可月付，近徐庄软件园4号线地铁 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "独立厨卫", "南北通透"], listedDate: "2026-04-26", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n389", name: "徐庄东南青年汇 徐庄青年广场二社区 聚慧园，低能耗家电，拎包入住，电梯房 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n389", name: "徐庄东南青年汇 徐庄青年广场二社区 聚慧园，低能耗家电，拎包入住，电梯房", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n404", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 聚慧园，低能耗家电，拎包入住，电梯房 ", rent: 1740, area: 42, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 聚慧园，低能耗家电，拎包入住，电梯房 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763537539212/66b63a9c2556e5523ce50d571809a969.jpg.250x182.jpg", "img://room/2842", "img://room/2843"],
       landlordName: "王芳", landlordPhone: "13840900829", landlordWechat: "王芳404",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 聚慧园，低能耗家电，拎包入住，电梯房 开间，朝向好，楼层适中。1室0厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁", "拎包入住", "独立厨卫"], listedDate: "2026-06-24", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n390", name: "徐庄东南青年汇 徐庄青年广场二社区 全新家电，一级能耗 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n390", name: "徐庄东南青年汇 徐庄青年广场二社区 全新家电，一级能耗", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n405", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 全新家电，一级能耗 1室1厅", rent: 1640, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 全新家电，一级能耗 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763704998005/5bdf098e9bfb3490d88d67ed8c73c671.jpg.250x182.jpg", "img://room/2849", "img://room/2850"],
       landlordName: "刘洋", landlordPhone: "15883594105",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 全新家电，一级能耗 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房", "拎包入住"], listedDate: "2026-05-13", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n391", name: "徐庄东南青年汇 徐庄青年广场一社区 北阳台房，徐庄软件园单室套 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n391", name: "徐庄东南青年汇 徐庄青年广场一社区 北阳台房，徐庄软件园单室套", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n406", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 北阳台房，徐庄软件园单室套 1室1厅", rent: 1450, area: 34, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 北阳台房，徐庄软件园单室套 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763793927536/f03edf329381c96e2f96e06c8926a1e6.png.250x182.jpg", "img://room/2856", "img://room/2857"],
       landlordName: "陈静", landlordPhone: "18621687210",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 北阳台房，徐庄软件园单室套 1室1厅，朝向好，楼层适中。1室1厅户型，34平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "精装修", "采光好"], listedDate: "2026-03-27", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n392", name: "苏宁紫金嘉悦 1室1厅 北", district: "其他", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
+  { id: "n392", name: "苏宁紫金嘉悦", district: "其他区", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
     { id: "n407", title: "整租·苏宁紫金嘉悦 1室1厅 北", rent: 1575, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "苏宁紫金嘉悦 1室1厅 北",
       images: ["https://image1.ljcdn.com/lease-image/house/701796d2ba43fd9a09ff44f38b65d633.jpeg.250x182.jpg", "img://room/2863", "img://room/2864"],
       landlordName: "张伟", landlordPhone: "18867589318",
       description: "房源位于苏宁紫金嘉悦 1室1厅 北，北，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好"], listedDate: "2026-06-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n393", name: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/无中介/可短租 /可月付/年租可享高优惠 1室1厅", district: "其他", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
+  { id: "n393", name: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/无中介/可短租 /可月付/年租可享高优惠", district: "其他区", city: "nanjing", lat: 32.131237, lng: 118.985613, avgRent: 0, listings: [
     { id: "n408", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 拎包入住/无中介/可短租 /可月付/年", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/无中介/可短租 /可月付/年租可享高优惠 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1771918241072/9ebe989183dff6a9a656679485ef6314.jpg.250x182.jpg", "img://room/2870", "img://room/2871"],
       landlordName: "张伟", landlordPhone: "13917512486", landlordWechat: "张伟408",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 拎包入住/无中介/可短租 /可月付/年租可享高优惠 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "随时看房", "拎包入住"], listedDate: "2026-04-16", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n394", name: "后宰门西村 2室1厅 东", district: "其他", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
+  { id: "n394", name: "后宰门西村", district: "其他区", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
     { id: "n409", title: "整租·后宰门西村 2室1厅 东", rent: 2550, area: 70, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "后宰门西村 2室1厅 东",
       images: ["https://image1.ljcdn.com/lease-image/house/d791db5d4687cfddb11103a1b290c99f.jpeg.250x182.jpg", "img://room/2877", "img://room/2878"],
       landlordName: "杨磊", landlordPhone: "18887486816", landlordWechat: "杨磊409",
       description: "房源位于后宰门西村 2室1厅 东，西，楼层适中。2室1厅户型，70平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "近地铁"], listedDate: "2026-03-08", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n395", name: "徐庄东南青年汇 徐庄青年广场二社区 可月付丨徐庄软件园高性价比房间 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n395", name: "徐庄东南青年汇 徐庄青年广场二社区 可月付丨徐庄软件园高性价比房间", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n410", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 可月付丨徐庄软件园高性价比房间 开间", rent: 1550, area: 42, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 可月付丨徐庄软件园高性价比房间 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1762518722778/a09048df6d61b4f2107274fb344b4a40.jpg.250x182.jpg", "img://room/2884", "img://room/2885"],
       landlordName: "黄明", landlordPhone: "18857035802", landlordWechat: "黄明410",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 可月付丨徐庄软件园高性价比房间 开间，朝向好，楼层适中。1室0厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "拎包入住", "南北通透"], listedDate: "2026-06-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n396", name: "木马公寓 1室0厅 北", district: "其他", city: "nanjing", lat: 32.051651, lng: 118.787921, avgRent: 0, listings: [
+  { id: "n396", name: "木马公寓", district: "其他区", city: "nanjing", lat: 32.051651, lng: 118.787921, avgRent: 0, listings: [
     { id: "n411", title: "整租·木马公寓 1室0厅 北", rent: 2100, area: 28, rooms: "1室0厅", floor: "楼层适中", direction: "北", community: "木马公寓 1室0厅 北",
       images: ["https://image1.ljcdn.com/lease-image/house/02aded3908bd6075f3f332ef66b168dc.jpeg.250x182.jpg", "img://room/2891", "img://room/2892"],
       landlordName: "陈静", landlordPhone: "13811654286", landlordWechat: "陈静411",
       description: "房源位于木马公寓 1室0厅 北，北，楼层适中。1室0厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "采光好"], listedDate: "2026-06-18", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n397", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可月付，独立阳台房 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n397", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可月付，独立阳台房", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n412", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可月付，独立阳台房 1室1", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可月付，独立阳台房 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1771916569483/f5e41b4992f2c2773ea8b01cb93337e4.jpg.250x182.jpg", "img://room/2898", "img://room/2899"],
       landlordName: "周杰", landlordPhone: "18672473098", landlordWechat: "周杰412",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可月付，独立阳台房 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "独立厨卫"], listedDate: "2026-05-21", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n398", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园丨可月付可短租丨朝南带阳台 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n398", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园丨可月付可短租丨朝南带阳台", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n413", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园丨可月付可短租丨朝南带阳台 ", rent: 1740, area: 42, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园丨可月付可短租丨朝南带阳台 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1768470225081/799bad5a3b514f096e69bbc4a7896cd9.jpg.250x182.jpg", "img://room/2905", "img://room/2906"],
       landlordName: "吴敏", landlordPhone: "15824828072", landlordWechat: "吴敏413",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园丨可月付可短租丨朝南带阳台 开间，朝向好，楼层适中。1室0厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "南北通透"], listedDate: "2026-05-15", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n399", name: "徐庄东南青年汇 徐庄青年广场二社区 独立阳台卫生间，开放式厨房，视野无遮挡 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n399", name: "徐庄东南青年汇 徐庄青年广场二社区 独立阳台卫生间，开放式厨房，视野无遮挡", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n414", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 独立阳台卫生间，开放式厨房，视野无遮挡", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 独立阳台卫生间，开放式厨房，视野无遮挡 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763793815735/37fed79e9060023559ffb49929dec826.png.250x182.jpg", "img://room/2912", "img://room/2913"],
       landlordName: "王芳", landlordPhone: "15082139588",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 独立阳台卫生间，开放式厨房，视野无遮挡 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "拎包入住", "随时看房"], listedDate: "2026-05-24", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n400", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可短租，可月付，独立阳台 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n400", name: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可短租，可月付，独立阳台", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n415", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可短租，可月付，独立阳台 ", rent: 1450, area: 34, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可短租，可月付，独立阳台 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763793905071/8b82b11fa6535c55d4a04008984424b5.png.250x182.jpg", "img://room/2919", "img://room/2920"],
       landlordName: "周杰", landlordPhone: "18697366961",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 徐庄软件园，可短租，可月付，独立阳台 1室1厅，朝向好，楼层适中。1室1厅户型，34平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "近地铁"], listedDate: "2026-03-26", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n401", name: "珠江路(玄武) 2室1厅 南/北", district: "玄武区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
+  { id: "n401", name: "珠江路(玄武)", district: "玄武区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
     { id: "n416", title: "整租·珠江路(玄武) 2室1厅 南/北", rent: 3690, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "珠江路(玄武) 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_siP1KYtju_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2926", "img://room/2927"],
       landlordName: "杨磊", landlordPhone: "15089700676",
       description: "房源位于珠江路(玄武) 2室1厅 南/北，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "采光好", "近地铁"], listedDate: "2026-05-15", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n402", name: "徐庄东南青年汇 徐庄青年广场二社区 徐庄软件园整租一居室，可月付 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n402", name: "徐庄东南青年汇 徐庄青年广场二社区 徐庄软件园整租一居室，可月付", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n417", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 徐庄软件园整租一居室，可月付 1室1厅", rent: 1550, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 徐庄软件园整租一居室，可月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1762516952399/6ff4c31a02eeec219dc41058f3aa608c.jpg.250x182.jpg", "img://room/2933", "img://room/2934"],
       landlordName: "陈静", landlordPhone: "15034790695",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 徐庄软件园整租一居室，可月付 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-03-21", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n403", name: "北西家大塘 2室1厅 南", district: "其他", city: "nanjing", lat: 32.063089, lng: 118.792595, avgRent: 0, listings: [
+  { id: "n403", name: "北西家大塘", district: "其他区", city: "nanjing", lat: 32.063089, lng: 118.792595, avgRent: 0, listings: [
     { id: "n418", title: "整租·北西家大塘 2室1厅 南", rent: 3800, area: 54, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "北西家大塘 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_uwsxAQeM8.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2940", "img://room/2941"],
       landlordName: "刘洋", landlordPhone: "18632199604",
       description: "房源位于北西家大塘 2室1厅 南，北，楼层适中。2室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "南北通透"], listedDate: "2026-03-13", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n404", name: "徐庄东南青年汇 徐庄青年广场二社区 可短租，可月付，徐庄软件园 开间", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n404", name: "徐庄东南青年汇 徐庄青年广场二社区 可短租，可月付，徐庄软件园", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n419", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 可短租，可月付，徐庄软件园 开间", rent: 1640, area: 42, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 可短租，可月付，徐庄软件园 开间",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1772356806874/c1737352ef61728694781fbecbe54611.jpg.250x182.jpg", "img://room/2947", "img://room/2948"],
       landlordName: "杨磊", landlordPhone: "18694282047", landlordWechat: "杨磊419",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 可短租，可月付，徐庄软件园 开间，朝向好，楼层适中。1室0厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["采光好", "南北通透"], listedDate: "2026-03-03", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n405", name: "西家大塘 2室1厅 南", district: "其他", city: "nanjing", lat: 32.063089, lng: 118.792595, avgRent: 0, listings: [
+  { id: "n405", name: "西家大塘", district: "其他区", city: "nanjing", lat: 32.063089, lng: 118.792595, avgRent: 0, listings: [
     { id: "n420", title: "整租·西家大塘 2室1厅 南", rent: 4500, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "西家大塘 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_bvFxrELnH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2954", "img://room/2955"],
       landlordName: "黄明", landlordPhone: "13983086335",
       description: "房源位于西家大塘 2室1厅 南，西，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "独立厨卫"], listedDate: "2026-04-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n406", name: "徐庄东南青年汇 徐庄青年广场二社区 朝南带阳台丨可月付 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n406", name: "徐庄东南青年汇 徐庄青年广场二社区 朝南带阳台丨可月付", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n421", title: "独栋·徐庄东南青年汇 徐庄青年广场二社区 朝南带阳台丨可月付 1室1厅", rent: 1800, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场二社区 朝南带阳台丨可月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1768470405456/18e2999891374a475d0687ca9f989d83.jpg.250x182.jpg", "img://room/2961", "img://room/2962"],
       landlordName: "李强", landlordPhone: "15874195446", landlordWechat: "李强421",
       description: "房源位于徐庄东南青年汇 徐庄青年广场二社区 朝南带阳台丨可月付 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-05-14", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n407", name: "孝陵卫 2室1厅 南", district: "其他", city: "nanjing", lat: 32.03214, lng: 118.851899, avgRent: 0, listings: [
+  { id: "n407", name: "孝陵卫", district: "其他区", city: "nanjing", lat: 32.03214, lng: 118.851899, avgRent: 0, listings: [
     { id: "n422", title: "整租·孝陵卫 2室1厅 南", rent: 3000, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "孝陵卫 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_mR0I72KhV.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/2968", "img://room/2969"],
       landlordName: "张伟", landlordPhone: "18675326772", landlordWechat: "张伟422",
       description: "房源位于孝陵卫 2室1厅 南，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-05-21", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n408", name: "可申请租房补贴 1室1厅", district: "其他", city: "nanjing", lat: 32.0478051197725, lng: 118.73361563582236, avgRent: 0, listings: [
+  { id: "n408", name: "可申请租房补贴", district: "其他区", city: "nanjing", lat: 32.0478051197725, lng: 118.73361563582236, avgRent: 0, listings: [
     { id: "n423", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 拎包入住·安保齐全·可申请租房补贴 1", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "可申请租房补贴 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1771981356493/a378c61247165ea71a23c2ab9d28a258.png.250x182.jpg", "img://room/2975", "img://room/2976"],
       landlordName: "刘洋", landlordPhone: "15873786940", landlordWechat: "刘洋423",
       description: "房源位于可申请租房补贴 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住"], listedDate: "2026-06-21", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n409", name: "24H物业 1室1厅", district: "其他", city: "nanjing", lat: 32.10469, lng: 118.686197, avgRent: 0, listings: [
+  { id: "n409", name: "24H物业", district: "其他区", city: "nanjing", lat: 32.10469, lng: 118.686197, avgRent: 0, listings: [
     { id: "n424", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 公积金直租免押金可月付·大落地窗·家电", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "24H物业 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1778382526284/fedb00a7d39e40131ebe7857f1c91910.jpg.250x182.jpg", "img://room/2982", "img://room/2983"],
       landlordName: "赵娜", landlordPhone: "13957913874", landlordWechat: "赵娜424",
       description: "房源位于24H物业 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-06-15", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n410", name: "柚米 南京铁北红山路柚米社区 三个月起租，近小市/迈皋桥，整租一室直租无中介费，  独立卫浴可做饭 拎包即住 1室1厅", district: "其他", city: "nanjing", lat: 31.926333, lng: 118.831019, avgRent: 0, listings: [
+  { id: "n410", name: "柚米 南京铁北红山路柚米社区 三个月起租，近小市/迈皋桥，整租一室直租无中介费，  独立卫浴可做饭 拎包即住", district: "其他区", city: "nanjing", lat: 31.926333, lng: 118.831019, avgRent: 0, listings: [
     { id: "n425", title: "独栋·柚米 南京铁北红山路柚米社区 三个月起租，近小市/迈皋桥，整租一室直租无中", rent: 1883, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 三个月起租，近小市/迈皋桥，整租一室直租无中介费，  独立卫浴可做饭 拎包即住 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1768298528345/9414a8f5b810972c3c9a0e2860c07532.jpg.250x182.jpg", "img://room/2989", "img://room/2990"],
       landlordName: "李强", landlordPhone: "15072630672", landlordWechat: "李强425",
       description: "房源位于柚米 南京铁北红山路柚米社区 三个月起租，近小市/迈皋桥，整租一室直租无中介费，  独立卫浴可做饭 拎包即住 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "精装修", "安静宜居"], listedDate: "2026-03-09", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n411", name: "柚米 南京铁北红山路柚米社区 【学生租房福利上线】三个月起租，3号线南林新庄站 押一付一商场环绕生活便利 拎包入住 1室1厅", district: "其他", city: "nanjing", lat: 31.932657, lng: 118.88879, avgRent: 0, listings: [
+  { id: "n411", name: "柚米 南京铁北红山路柚米社区 【学生租房福利上线】三个月起租，3号线南林新庄站 押一付一商场环绕生活便利 拎包入住", district: "其他区", city: "nanjing", lat: 31.932657, lng: 118.88879, avgRent: 0, listings: [
     { id: "n426", title: "独栋·柚米 南京铁北红山路柚米社区 【学生租房福利上线】三个月起租，3号线南林新", rent: 1883, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 【学生租房福利上线】三个月起租，3号线南林新庄站 押一付一商场环绕生活便利 拎包入住 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1774235532727/f3ccdd27d2000e3f9255a7e3e2c48800.jpg.250x182.jpg", "img://room/2996", "img://room/2997"],
       landlordName: "杨磊", landlordPhone: "15874389655", landlordWechat: "杨磊426",
       description: "房源位于柚米 南京铁北红山路柚米社区 【学生租房福利上线】三个月起租，3号线南林新庄站 押一付一商场环绕生活便利 拎包入住 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "精装修"], listedDate: "2026-03-19", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n412", name: "融寓 九华山店 近东部总院 租期灵活 可开发票 交通便捷 24H安保在岗 1室1厅", district: "其他", city: "nanjing", lat: 32.043691, lng: 118.917698, avgRent: 0, listings: [
+  { id: "n412", name: "融寓 九华山店 近东部总院 租期灵活 可开发票 交通便捷 24H安保在岗", district: "其他区", city: "nanjing", lat: 32.043691, lng: 118.917698, avgRent: 0, listings: [
     { id: "n427", title: "独栋·融寓 九华山店 近东部总院 租期灵活 可开发票 交通便捷 24H安保在岗 ", rent: 2450, area: 19, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 九华山店 近东部总院 租期灵活 可开发票 交通便捷 24H安保在岗 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1717585859571/b6e5526041911ba54dae385ba684c6ce.jpg.250x182.jpg", "img://room/3003", "img://room/3004"],
       landlordName: "周杰", landlordPhone: "18882409714",
       description: "房源位于融寓 九华山店 近东部总院 租期灵活 可开发票 交通便捷 24H安保在岗 1室1厅，朝向好，楼层适中。1室1厅户型，19平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "南北通透", "独立厨卫"], listedDate: "2026-03-26", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n413", name: "清溪路3号 4居室 北卧", district: "其他", city: "nanjing", lat: 32.042477, lng: 118.823594, avgRent: 0, listings: [
+  { id: "n413", name: "清溪路3号 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.042477, lng: 118.823594, avgRent: 0, listings: [
     { id: "n428", title: "合租·清溪路3号 4居室 北卧", rent: 1790, area: 20, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "清溪路3号 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775048533855/b01eab95a47af99511d289a302e450b6.jpg.250x182.jpg", "img://room/3010", "img://room/3011"],
       landlordName: "黄明", landlordPhone: "13858476894",
       description: "房源位于清溪路3号 4居室 北卧，北，楼层适中。4室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "独立厨卫"], listedDate: "2026-03-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n414", name: "苏宁紫金嘉悦 1室1厅 南", district: "其他", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
+  { id: "n414", name: "苏宁紫金嘉悦", district: "其他区", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
     { id: "n429", title: "整租·苏宁紫金嘉悦 1室1厅 南", rent: 2600, area: 59, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "苏宁紫金嘉悦 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/ba51bdd522883ce0a0f8c8b72ae7f65a.jpeg.250x182.jpg", "img://room/3017", "img://room/3018"],
       landlordName: "王芳", landlordPhone: "13896176018",
       description: "房源位于苏宁紫金嘉悦 1室1厅 南，南，楼层适中。1室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "拎包入住", "近地铁"], listedDate: "2026-06-19", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n415", name: "颐和贝客公寓 南师大紫金校区店 B年终大促 精装公寓 国企房东 南师大校园 押一付一 家电齐全 1室1厅", district: "其他", city: "nanjing", lat: 31.912563, lng: 118.845176, avgRent: 0, listings: [
+  { id: "n415", name: "颐和贝客公寓 南师大紫金校区店 B年终大促 精装公寓 国企房东 南师大校园 押一付一 家电齐全", district: "其他区", city: "nanjing", lat: 31.912563, lng: 118.845176, avgRent: 0, listings: [
     { id: "n430", title: "独栋·颐和贝客公寓 南师大紫金校区店 B年终大促 精装公寓 国企房东 南师大校园", rent: 2000, area: 16, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "颐和贝客公寓 南师大紫金校区店 B年终大促 精装公寓 国企房东 南师大校园 押一付一 家电齐全 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/1bca2eba571771eb9b4a6bc2583a2e5e-1764845891324/c638f6e36077eaa90ca7a313df878b7a.jpg.250x182.jpg", "img://room/3024", "img://room/3025"],
       landlordName: "吴敏", landlordPhone: "15815786770", landlordWechat: "吴敏430",
       description: "房源位于颐和贝客公寓 南师大紫金校区店 B年终大促 精装公寓 国企房东 南师大校园 押一付一 家电齐全 1室1厅，朝向好，楼层适中。1室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "近地铁"], listedDate: "2026-06-01", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n416", name: "峨嵋公寓 1室1厅 东", district: "其他", city: "nanjing", lat: 32.045757, lng: 118.768865, avgRent: 0, listings: [
+  { id: "n416", name: "峨嵋公寓", district: "其他区", city: "nanjing", lat: 32.045757, lng: 118.768865, avgRent: 0, listings: [
     { id: "n431", title: "整租·峨嵋公寓 1室1厅 东", rent: 2900, area: 52, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "峨嵋公寓 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/17764391800_blOorMNhc.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3031", "img://room/3032"],
       landlordName: "赵娜", landlordPhone: "18682220705",
       description: "房源位于峨嵋公寓 1室1厅 东，东，楼层适中。1室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "独立厨卫"], listedDate: "2026-04-07", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n417", name: "奥克斯钟山府 4居室 北卧", district: "其他", city: "nanjing", lat: 32.088957, lng: 118.907854, avgRent: 0, listings: [
+  { id: "n417", name: "奥克斯钟山府 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.088957, lng: 118.907854, avgRent: 0, listings: [
     { id: "n432", title: "合租·奥克斯钟山府 4居室 北卧", rent: 990, area: 7, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "奥克斯钟山府 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782065257844/11dfbf98f48b1298ba1d6aedbabee7ba.jpg.250x182.jpg", "img://room/3038", "img://room/3039"],
       landlordName: "李强", landlordPhone: "15096849591",
       description: "房源位于奥克斯钟山府 4居室 北卧，北，楼层适中。4室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "采光好", "随时看房"], listedDate: "2026-05-07", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n418", name: "龙湖冠寓 南京孝陵卫地铁站店 毕业季特惠 孝陵卫2号线短租特价 近南理工 南体 南农 学生折上折 开间", district: "其他", city: "nanjing", lat: 32.035254, lng: 118.863483, avgRent: 0, listings: [
+  { id: "n418", name: "龙湖冠寓 南京孝陵卫地铁站店 毕业季特惠 孝陵卫2号线短租特价 近南理工 南体 南农 学生折上折", district: "其他区", city: "nanjing", lat: 32.035254, lng: 118.863483, avgRent: 0, listings: [
     { id: "n433", title: "独栋·龙湖冠寓 南京孝陵卫地铁站店 毕业季特惠 孝陵卫2号线短租特价 近南理工 ", rent: 2153, area: 22, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "龙湖冠寓 南京孝陵卫地铁站店 毕业季特惠 孝陵卫2号线短租特价 近南理工 南体 南农 学生折上折 开间",
       images: ["https://image1.ljcdn.com/wanjia/ff334e4b8d7dc864fe99c817b65ffdf5-1777692864355/7c9250e2d9acac432728efcf2a0357ad.jpg.250x182.jpg", "img://room/3045", "img://room/3046"],
       landlordName: "刘洋", landlordPhone: "13852987487", landlordWechat: "刘洋433",
       description: "房源位于龙湖冠寓 南京孝陵卫地铁站店 毕业季特惠 孝陵卫2号线短租特价 近南理工 南体 南农 学生折上折 开间，朝向好，楼层适中。1室0厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "拎包入住"], listedDate: "2026-06-19", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n419", name: "钟山花园城陶然居 4居室 南卧", district: "其他", city: "nanjing", lat: 31.971919, lng: 118.83156, avgRent: 0, listings: [
+  { id: "n419", name: "钟山花园城陶然居 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.971919, lng: 118.83156, avgRent: 0, listings: [
     { id: "n434", title: "合租·钟山花园城陶然居 4居室 南卧", rent: 1490, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "钟山花园城陶然居 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780799773517/3f8b59ac843702a2d54acc811a6c2c77.jpg.250x182.jpg", "img://room/3052", "img://room/3053"],
       landlordName: "杨磊", landlordPhone: "13837596903",
       description: "房源位于钟山花园城陶然居 4居室 南卧，南，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "采光好", "近地铁"], listedDate: "2026-03-27", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n420", name: "南湾营馨康苑 4居室 北卧", district: "其他", city: "nanjing", lat: 32.035581, lng: 118.892907, avgRent: 0, listings: [
+  { id: "n420", name: "南湾营馨康苑 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.035581, lng: 118.892907, avgRent: 0, listings: [
     { id: "n435", title: "合租·南湾营馨康苑 4居室 北卧", rent: 790, area: 12, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "南湾营馨康苑 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780123105818/c1aba0ae6a09bd7c38f002998d899f8e.jpg.250x182.jpg", "img://room/3059", "img://room/3060"],
       landlordName: "张伟", landlordPhone: "15099333517", landlordWechat: "张伟435",
       description: "房源位于南湾营馨康苑 4居室 北卧，南，楼层适中。4室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "独立厨卫", "南北通透"], listedDate: "2026-05-12", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n421", name: "成贤公寓 3室2厅 东南/西北", district: "其他", city: "nanjing", lat: 32.049619, lng: 118.794574, avgRent: 0, listings: [
+  { id: "n421", name: "成贤公寓", district: "其他区", city: "nanjing", lat: 32.049619, lng: 118.794574, avgRent: 0, listings: [
     { id: "n436", title: "整租·成贤公寓 3室2厅 东南/西北", rent: 9000, area: 139, rooms: "3室2厅", floor: "楼层适中", direction: "东", community: "成贤公寓 3室2厅 东南/西北",
       images: ["https://image1.ljcdn.com/110000-inspection/67faca7b-4d19-4908-894d-103f4c3bf34b.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3066", "img://room/3067"],
       landlordName: "周杰", landlordPhone: "13885621196", landlordWechat: "周杰436",
       description: "房源位于成贤公寓 3室2厅 东南/西北，东，楼层适中。3室2厅户型，139平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透"], listedDate: "2026-06-10", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n422", name: "五矿晏山居 3居室 北卧", district: "其他", city: "nanjing", lat: 32.036855, lng: 118.875754, avgRent: 0, listings: [
+  { id: "n422", name: "五矿晏山居 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.036855, lng: 118.875754, avgRent: 0, listings: [
     { id: "n437", title: "合租·五矿晏山居 3居室 北卧", rent: 1460, area: 17, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "五矿晏山居 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1749208539022/0ed0c1cb79b29234dd0b25fe11e54528.jpg.250x182.jpg", "img://room/3073", "img://room/3074"],
       landlordName: "张伟", landlordPhone: "18848208041", landlordWechat: "张伟437",
       description: "房源位于五矿晏山居 3居室 北卧，北，楼层适中。3室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "独立厨卫", "近地铁"], listedDate: "2026-03-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n423", name: "沙塘园 1室1厅 南", district: "其他", city: "nanjing", lat: 32.051366, lng: 118.794198, avgRent: 0, listings: [
+  { id: "n423", name: "沙塘园", district: "其他区", city: "nanjing", lat: 32.051366, lng: 118.794198, avgRent: 0, listings: [
     { id: "n438", title: "整租·沙塘园 1室1厅 南", rent: 2800, area: 36, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "沙塘园 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ID2JQZOcA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3080", "img://room/3081"],
       landlordName: "陈静", landlordPhone: "13885898326",
       description: "房源位于沙塘园 1室1厅 南，南，楼层适中。1室1厅户型，36平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住"], listedDate: "2026-04-07", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n424", name: "南湾营馨康苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.035581, lng: 118.892907, avgRent: 0, listings: [
+  { id: "n424", name: "南湾营馨康苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.035581, lng: 118.892907, avgRent: 0, listings: [
     { id: "n439", title: "合租·南湾营馨康苑 4居室 南卧", rent: 860, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "南湾营馨康苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1731757967459/b84597310cf8d8eebc0f79bda6326e74.jpg.250x182.jpg", "img://room/3087", "img://room/3088"],
       landlordName: "赵娜", landlordPhone: "13999580416", landlordWechat: "赵娜439",
       description: "房源位于南湾营馨康苑 4居室 南卧，南，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "安静宜居", "南北通透"], listedDate: "2026-06-04", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n425", name: "一枝园小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.0482, lng: 118.793174, avgRent: 0, listings: [
+  { id: "n425", name: "一枝园小区", district: "其他区", city: "nanjing", lat: 32.0482, lng: 118.793174, avgRent: 0, listings: [
     { id: "n440", title: "整租·一枝园小区 2室1厅 南/北", rent: 3800, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "一枝园小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ASapm5kdx.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3094", "img://room/3095"],
       landlordName: "杨磊", landlordPhone: "13992257614",
       description: "房源位于一枝园小区 2室1厅 南/北，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-06-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n426", name: "大发融悦 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.031764, lng: 118.868986, avgRent: 0, listings: [
+  { id: "n426", name: "大发融悦", district: "其他区", city: "nanjing", lat: 32.031764, lng: 118.868986, avgRent: 0, listings: [
     { id: "n441", title: "整租·大发融悦 3室1厅 南/北", rent: 3750, area: 89, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "大发融悦 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_SvfTDXXuW.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3101", "img://room/3102"],
       landlordName: "周杰", landlordPhone: "18851192177", landlordWechat: "周杰441",
       description: "房源位于大发融悦 3室1厅 南/北，南，楼层适中。3室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "精装修"], listedDate: "2026-03-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n427", name: "晏公庙新村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.031897, lng: 118.862859, avgRent: 0, listings: [
+  { id: "n427", name: "晏公庙新村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.031897, lng: 118.862859, avgRent: 0, listings: [
     { id: "n442", title: "合租·晏公庙新村 4居室 南卧", rent: 1690, area: 28, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "晏公庙新村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781225084033/1a36f299748d7a9399be71d2aeb41025.jpg.250x182.jpg", "img://room/3108", "img://room/3109"],
       landlordName: "赵娜", landlordPhone: "15864737808", landlordWechat: "赵娜442",
       description: "房源位于晏公庙新村 4居室 南卧，南，楼层适中。4室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "南北通透", "独立厨卫"], listedDate: "2026-03-07", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n428", name: "蓁巷 1室1厅 南", district: "其他", city: "nanjing", lat: 32.052268, lng: 118.792957, avgRent: 0, listings: [
+  { id: "n428", name: "蓁巷", district: "其他区", city: "nanjing", lat: 32.052268, lng: 118.792957, avgRent: 0, listings: [
     { id: "n443", title: "整租·蓁巷 1室1厅 南", rent: 2300, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "蓁巷 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/5671a9a0-9fa5-4b6b-b5f5-661c9c433a28.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3115", "img://room/3116"],
       landlordName: "陈静", landlordPhone: "15081177025",
       description: "房源位于蓁巷 1室1厅 南，南，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "精装修", "独立厨卫"], listedDate: "2026-04-03", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n429", name: "银城东苑菱香苑 4居室 北卧", district: "其他", city: "nanjing", lat: 32.026421, lng: 118.847178, avgRent: 0, listings: [
+  { id: "n429", name: "银城东苑菱香苑 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.026421, lng: 118.847178, avgRent: 0, listings: [
     { id: "n444", title: "合租·银城东苑菱香苑 4居室 北卧", rent: 1230, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "银城东苑菱香苑 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781939735920/c5140f99c8f6200fb365285ce845217d.jpg.250x182.jpg", "img://room/3122", "img://room/3123"],
       landlordName: "张伟", landlordPhone: "13810932768", landlordWechat: "张伟444",
       description: "房源位于银城东苑菱香苑 4居室 北卧，东，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-03-13", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n430", name: "睦荣公寓 南京站店 整租1居 独卫无中介费  特惠房 开间", district: "其他", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
+  { id: "n430", name: "睦荣公寓 南京站店", district: "其他区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
     { id: "n445", title: "独栋·睦荣公寓 南京站店 整租1居 独卫无中介费  特惠房 开间", rent: 980, area: 18, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "睦荣公寓 南京站店 整租1居 独卫无中介费  特惠房 开间",
       images: ["https://image1.ljcdn.com/rent-user-avatar/35595f11-f282-45b5-a39b-b1675f703a8b.250x182.jpg", "img://room/3129", "img://room/3130"],
       landlordName: "吴敏", landlordPhone: "15820763712", landlordWechat: "吴敏445",
       description: "房源位于睦荣公寓 南京站店 整租1居 独卫无中介费  特惠房 开间，朝向好，楼层适中。1室0厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居"], listedDate: "2026-06-14", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n431", name: "亿立方公寓 红山路店 毕业季限时特惠房 开间", district: "其他", city: "nanjing", lat: 32.09696527301639, lng: 118.77854512972345, avgRent: 0, listings: [
+  { id: "n431", name: "亿立方公寓 红山路店 毕业季限时特惠房", district: "其他区", city: "nanjing", lat: 32.09696527301639, lng: 118.77854512972345, avgRent: 0, listings: [
     { id: "n446", title: "独栋·亿立方公寓 红山路店 毕业季限时特惠房 开间", rent: 1250, area: 20, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "亿立方公寓 红山路店 毕业季限时特惠房 开间",
       images: ["https://image1.ljcdn.com/wanjia/1926def6da201952b2eaa9dbece6e5f6-1697790836722/46a12dca59d1b92f1ccc8807668c7e16.jpg.250x182.jpg", "img://room/3136", "img://room/3137"],
       landlordName: "陈静", landlordPhone: "15096287218",
       description: "房源位于亿立方公寓 红山路店 毕业季限时特惠房 开间，朝向好，楼层适中。1室0厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "精装修"], listedDate: "2026-04-01", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n432", name: "乐荷公寓 乐荷钟灵街 特价房，无服务费无中介费 1室1厅", district: "其他", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n432", name: "乐荷公寓 乐荷钟灵街 特价房，无服务费无中介费", district: "其他区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n447", title: "独栋·乐荷公寓 乐荷钟灵街 特价房，无服务费无中介费 1室1厅", rent: 1150, area: 17, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "乐荷公寓 乐荷钟灵街 特价房，无服务费无中介费 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/4cb7ee54122dea6cd28c6f23f336b95a-1746613216539/0531fcc1d3b080ffecc883c835092f04.jpg.250x182.jpg", "img://room/3143", "img://room/3144"],
       landlordName: "吴敏", landlordPhone: "13976181682",
       description: "房源位于乐荷公寓 乐荷钟灵街 特价房，无服务费无中介费 1室1厅，朝向好，楼层适中。1室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "采光好", "随时看房"], listedDate: "2026-06-16", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n433", name: "锁金四村 3居室 北卧", district: "其他", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
+  { id: "n433", name: "锁金四村 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
     { id: "n448", title: "合租·锁金四村 3居室 北卧", rent: 1090, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "锁金四村 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779621100091/81dfdf38e6a38c5ef82dd18500732aa9.jpg.250x182.jpg", "img://room/3150", "img://room/3151"],
       landlordName: "杨磊", landlordPhone: "15861764731",
       description: "房源位于锁金四村 3居室 北卧，北，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好"], listedDate: "2026-03-26", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n434", name: "月苑四村 3居室 北卧", district: "其他", city: "nanjing", lat: 32.065540857976615, lng: 118.80682445644624, avgRent: 0, listings: [
+  { id: "n434", name: "月苑四村 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.065540857976615, lng: 118.80682445644624, avgRent: 0, listings: [
     { id: "n449", title: "合租·月苑四村 3居室 北卧", rent: 990, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "月苑四村 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780045836324/48f097784e53aa0fa86101ab061a79aa.jpg.250x182.jpg", "img://room/3157", "img://room/3158"],
       landlordName: "李强", landlordPhone: "13965257426",
       description: "房源位于月苑四村 3居室 北卧，北，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "安静宜居", "独立厨卫"], listedDate: "2026-05-13", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n435", name: "花园路70号 3居室 南卧", district: "其他", city: "nanjing", lat: 32.08298, lng: 118.81995, avgRent: 0, listings: [
+  { id: "n435", name: "花园路70号 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.08298, lng: 118.81995, avgRent: 0, listings: [
     { id: "n450", title: "合租·花园路70号 3居室 南卧", rent: 1430, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "花园路70号 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781951466038/a41a18d3188641ebf071815ebedf80cb.jpg.250x182.jpg", "img://room/3164", "img://room/3165"],
       landlordName: "赵娜", landlordPhone: "18848823621",
@@ -3128,1589 +3128,1589 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于中海玄武公馆D区 4居室 南卧，南，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "采光好"], listedDate: "2026-04-07", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n437", name: "花园路19号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.083341, lng: 118.823076, avgRent: 0, listings: [
+  { id: "n437", name: "花园路19号", district: "其他区", city: "nanjing", lat: 32.083341, lng: 118.823076, avgRent: 0, listings: [
     { id: "n452", title: "整租·花园路19号 2室1厅 南", rent: 2000, area: 61, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "花园路19号 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/b29e8418b05feca928e34425d4065a75.jpeg.250x182.jpg", "img://room/3178", "img://room/3179"],
       landlordName: "刘洋", landlordPhone: "15887178790",
       description: "房源位于花园路19号 2室1厅 南，南，楼层适中。2室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "近地铁"], listedDate: "2026-04-16", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n438", name: "锁金四村 2居室 北卧", district: "其他", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
+  { id: "n438", name: "锁金四村 2居室 北卧", district: "其他区", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
     { id: "n453", title: "合租·锁金四村 2居室 北卧", rent: 1230, area: 8, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "锁金四村 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1766825709392/9aa65036a139aa18e8040bc231dfca0a.jpg.250x182.jpg", "img://room/3185", "img://room/3186"],
       landlordName: "张伟", landlordPhone: "15883284543", landlordWechat: "张伟453",
       description: "房源位于锁金四村 2居室 北卧，北，楼层适中。2室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "采光好"], listedDate: "2026-04-15", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n439", name: "苏宁紫金嘉悦 1室1厅 东", district: "其他", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
+  { id: "n439", name: "苏宁紫金嘉悦", district: "其他区", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
     { id: "n454", title: "整租·苏宁紫金嘉悦 1室1厅 东", rent: 1450, area: 25, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "苏宁紫金嘉悦 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_vGsgjThWy.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3192", "img://room/3193"],
       landlordName: "刘洋", landlordPhone: "15098313073",
       description: "房源位于苏宁紫金嘉悦 1室1厅 东，东，楼层适中。1室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "近地铁", "南北通透", "独立厨卫"], listedDate: "2026-04-21", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n440", name: "北苑二村 2居室 南卧", district: "其他", city: "nanjing", lat: 32.100215, lng: 118.820112, avgRent: 0, listings: [
+  { id: "n440", name: "北苑二村 2居室 南卧", district: "其他区", city: "nanjing", lat: 32.100215, lng: 118.820112, avgRent: 0, listings: [
     { id: "n455", title: "合租·北苑二村 2居室 南卧", rent: 1290, area: 14, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "北苑二村 2居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1763975134251/fd886f9f7d517be0ace9050f2f91018c.jpg.250x182.jpg", "img://room/3199", "img://room/3200"],
       landlordName: "杨磊", landlordPhone: "13892312449",
       description: "房源位于北苑二村 2居室 南卧，北，楼层适中。2室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "近地铁", "随时看房"], listedDate: "2026-06-02", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n441", name: "阳光嘉园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.089679, lng: 118.819245, avgRent: 0, listings: [
+  { id: "n441", name: "阳光嘉园", district: "其他区", city: "nanjing", lat: 32.089679, lng: 118.819245, avgRent: 0, listings: [
     { id: "n456", title: "整租·阳光嘉园 3室2厅 南", rent: 4500, area: 116, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "阳光嘉园 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_7shZlBmwI.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3206", "img://room/3207"],
       landlordName: "黄明", landlordPhone: "13943748660", landlordWechat: "黄明456",
       description: "房源位于阳光嘉园 3室2厅 南，南，楼层适中。3室2厅户型，116平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "南北通透", "随时看房"], listedDate: "2026-03-05", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n442", name: "月苑二村 2居室 北卧", district: "其他", city: "nanjing", lat: 32.059664, lng: 118.737241, avgRent: 0, listings: [
+  { id: "n442", name: "月苑二村 2居室 北卧", district: "其他区", city: "nanjing", lat: 32.059664, lng: 118.737241, avgRent: 0, listings: [
     { id: "n457", title: "合租·月苑二村 2居室 北卧", rent: 1190, area: 11, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "月苑二村 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781249205096/c697a40c528936868dbb2cb30d98825b.jpg.250x182.jpg", "img://room/3213", "img://room/3214"],
       landlordName: "张伟", landlordPhone: "13872191459",
       description: "房源位于月苑二村 2居室 北卧，北，楼层适中。2室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透"], listedDate: "2026-06-23", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n443", name: "锁金四村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
+  { id: "n443", name: "锁金四村", district: "其他区", city: "nanjing", lat: 32.073054, lng: 118.816715, avgRent: 0, listings: [
     { id: "n458", title: "整租·锁金四村 2室1厅 南", rent: 3000, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "锁金四村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_SKBenChiN.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3220", "img://room/3221"],
       landlordName: "张伟", landlordPhone: "18617638354", landlordWechat: "张伟458",
       description: "房源位于锁金四村 2室1厅 南，南，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "安静宜居"], listedDate: "2026-03-09", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n444", name: "钟山山庄 4居室 北卧", district: "其他", city: "nanjing", lat: 32.079857, lng: 118.831396, avgRent: 0, listings: [
+  { id: "n444", name: "钟山山庄 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.079857, lng: 118.831396, avgRent: 0, listings: [
     { id: "n459", title: "合租·钟山山庄 4居室 北卧", rent: 990, area: 7, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "钟山山庄 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1769683734087/b8be9cb5df6a569e562b10408197c126.jpg.250x182.jpg", "img://room/3227", "img://room/3228"],
       landlordName: "杨磊", landlordPhone: "15055987456",
       description: "房源位于钟山山庄 4居室 北卧，北，楼层适中。4室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-04-11", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n445", name: "建发紫庐 4室1厅 南", district: "其他", city: "nanjing", lat: 32.087964, lng: 118.841692, avgRent: 0, listings: [
+  { id: "n445", name: "建发紫庐", district: "其他区", city: "nanjing", lat: 32.087964, lng: 118.841692, avgRent: 0, listings: [
     { id: "n460", title: "整租·建发紫庐 4室1厅 南", rent: 4800, area: 146, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "建发紫庐 4室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_g2hR6iyFO.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3234", "img://room/3235"],
       landlordName: "吴敏", landlordPhone: "13913516466", landlordWechat: "吴敏460",
       description: "房源位于建发紫庐 4室1厅 南，南，楼层适中。4室1厅户型，146平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "南北通透", "近地铁"], listedDate: "2026-04-02", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n446", name: "西大影壁 2室1厅 南", district: "其他", city: "nanjing", lat: 32.048043, lng: 118.801317, avgRent: 0, listings: [
+  { id: "n446", name: "西大影壁", district: "其他区", city: "nanjing", lat: 32.048043, lng: 118.801317, avgRent: 0, listings: [
     { id: "n461", title: "整租·西大影壁 2室1厅 南", rent: 4500, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "西大影壁 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wPWujaoAA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3241", "img://room/3242"],
       landlordName: "张伟", landlordPhone: "13836312043",
       description: "房源位于西大影壁 2室1厅 南，西，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "南北通透", "独立厨卫"], listedDate: "2026-04-06", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n447", name: "阳光嘉园 5居室 北卧", district: "其他", city: "nanjing", lat: 32.055942089934085, lng: 118.85415610157324, avgRent: 0, listings: [
+  { id: "n447", name: "阳光嘉园 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.055942089934085, lng: 118.85415610157324, avgRent: 0, listings: [
     { id: "n462", title: "合租·阳光嘉园 5居室 北卧", rent: 1090, area: 10, rooms: "5室1厅", floor: "楼层适中", direction: "北", community: "阳光嘉园 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779776263756/5b269ca91badccd355141df182cf37db.jpg.250x182.jpg", "img://room/3248", "img://room/3249"],
       landlordName: "李强", landlordPhone: "18685363391",
       description: "房源位于阳光嘉园 5居室 北卧，北，楼层适中。5室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-06-21", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n448", name: "曹后村邮局宿舍 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.041167, lng: 118.736637, avgRent: 0, listings: [
+  { id: "n448", name: "曹后村邮局宿舍", district: "其他区", city: "nanjing", lat: 32.041167, lng: 118.736637, avgRent: 0, listings: [
     { id: "n463", title: "整租·曹后村邮局宿舍 3室1厅 南/北", rent: 3500, area: 68, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "曹后村邮局宿舍 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_OEBkHFCsE.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3255", "img://room/3256"],
       landlordName: "杨磊", landlordPhone: "15029707692", landlordWechat: "杨磊463",
       description: "房源位于曹后村邮局宿舍 3室1厅 南/北，南，楼层适中。3室1厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-04-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n449", name: "花园路70号 3居室 北卧", district: "其他", city: "nanjing", lat: 32.08298, lng: 118.81995, avgRent: 0, listings: [
+  { id: "n449", name: "花园路70号 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.08298, lng: 118.81995, avgRent: 0, listings: [
     { id: "n464", title: "合租·花园路70号 3居室 北卧", rent: 1030, area: 7, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "花园路70号 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1774070854260/828598aa198fac831e5c25749beeb3c4.jpg.250x182.jpg", "img://room/3262", "img://room/3263"],
       landlordName: "杨磊", landlordPhone: "18659353847",
       description: "房源位于花园路70号 3居室 北卧，北，楼层适中。3室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-05-14", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n450", name: "板仓街78号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
+  { id: "n450", name: "板仓街78号", district: "其他区", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
     { id: "n465", title: "整租·板仓街78号 2室1厅 南/北", rent: 3000, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "板仓街78号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_YtzuDjEEG_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3269", "img://room/3270"],
       landlordName: "李强", landlordPhone: "13945316659", landlordWechat: "李强465",
       description: "房源位于板仓街78号 2室1厅 南/北，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-03-19", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n451", name: "板仓街49号 3居室 南卧", district: "其他", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
+  { id: "n451", name: "板仓街49号 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
     { id: "n466", title: "合租·板仓街49号 3居室 南卧", rent: 1460, area: 13, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "板仓街49号 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780725861906/c777058173fcc348bac3b2b2f15d3b90.jpg.250x182.jpg", "img://room/3276", "img://room/3277"],
       landlordName: "刘洋", landlordPhone: "18899146596", landlordWechat: "刘洋466",
       description: "房源位于板仓街49号 3居室 南卧，南，楼层适中。3室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房"], listedDate: "2026-04-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n452", name: "中央路（玄武） 3室1厅 南/北", district: "玄武区", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
+  { id: "n452", name: "中央路（玄武）", district: "玄武区", city: "nanjing", lat: 32.068044, lng: 118.779235, avgRent: 0, listings: [
     { id: "n467", title: "整租·中央路（玄武） 3室1厅 南/北", rent: 3300, area: 68, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "中央路（玄武） 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cyfrsQFKH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3283", "img://room/3284"],
       landlordName: "吴敏", landlordPhone: "13959192826",
       description: "房源位于中央路（玄武） 3室1厅 南/北，南，楼层适中。3室1厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫"], listedDate: "2026-06-04", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n453", name: "江苏农科院住宅小区 2居室 南卧", district: "其他", city: "nanjing", lat: 32.033737, lng: 118.868637, avgRent: 0, listings: [
+  { id: "n453", name: "江苏农科院住宅小区 2居室 南卧", district: "其他区", city: "nanjing", lat: 32.033737, lng: 118.868637, avgRent: 0, listings: [
     { id: "n468", title: "合租·江苏农科院住宅小区 2居室 南卧", rent: 1460, area: 11, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "江苏农科院住宅小区 2居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1771726770539/4703c7f1deedf37fcbf7ac0011b1788b.jpg.250x182.jpg", "img://room/3290", "img://room/3291"],
       landlordName: "黄明", landlordPhone: "15016572451",
       description: "房源位于江苏农科院住宅小区 2居室 南卧，南，楼层适中。2室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修", "拎包入住", "南北通透"], listedDate: "2026-03-22", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n454", name: "板仓街49号 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
+  { id: "n454", name: "板仓街49号", district: "其他区", city: "nanjing", lat: 32.069663, lng: 118.822086, avgRent: 0, listings: [
     { id: "n469", title: "整租·板仓街49号 2室2厅 南/北", rent: 2600, area: 61, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "板仓街49号 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_vaMho6vvn.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3297", "img://room/3298"],
       landlordName: "黄明", landlordPhone: "13922299148",
       description: "房源位于板仓街49号 2室2厅 南/北，南，楼层适中。2室2厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "采光好", "近地铁"], listedDate: "2026-04-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n455", name: "都市山庄 3居室 北卧", district: "其他", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
+  { id: "n455", name: "都市山庄 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
     { id: "n470", title: "合租·都市山庄 3居室 北卧", rent: 1330, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "都市山庄 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775718834281/346783ed274a25c463ad01e01b1e7096.jpg.250x182.jpg", "img://room/3304", "img://room/3305"],
       landlordName: "周杰", landlordPhone: "13814886039",
       description: "房源位于都市山庄 3居室 北卧，北，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-05-11", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n456", name: "樱铁村小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.086208, lng: 118.827586, avgRent: 0, listings: [
+  { id: "n456", name: "樱铁村小区", district: "其他区", city: "nanjing", lat: 32.086208, lng: 118.827586, avgRent: 0, listings: [
     { id: "n471", title: "整租·樱铁村小区 2室1厅 南/北", rent: 2200, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "樱铁村小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_fcaqEJErR_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3311", "img://room/3312"],
       landlordName: "陈静", landlordPhone: "13898180382",
       description: "房源位于樱铁村小区 2室1厅 南/北，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "拎包入住"], listedDate: "2026-03-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n457", name: "东郊美树苑 5居室 南卧", district: "其他", city: "nanjing", lat: 32.036281, lng: 118.84727, avgRent: 0, listings: [
+  { id: "n457", name: "东郊美树苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.036281, lng: 118.84727, avgRent: 0, listings: [
     { id: "n472", title: "合租·东郊美树苑 5居室 南卧", rent: 1460, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "东郊美树苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778068007306/34dc2fa4543c04eca58dfca9de7b06b2.jpg.250x182.jpg", "img://room/3318", "img://room/3319"],
       landlordName: "刘洋", landlordPhone: "18632489217", landlordWechat: "刘洋472",
       description: "房源位于东郊美树苑 5居室 南卧，东，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "精装修", "近地铁"], listedDate: "2026-04-04", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n458", name: "都市山庄 3居室 南卧", district: "其他", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
+  { id: "n458", name: "都市山庄 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
     { id: "n473", title: "合租·都市山庄 3居室 南卧", rent: 1230, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "都市山庄 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1760598507435/e294a0af93df5a4d6c6c021836d700be.jpg.250x182.jpg", "img://room/3325", "img://room/3326"],
       landlordName: "刘洋", landlordPhone: "18870188102",
       description: "房源位于都市山庄 3居室 南卧，南，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "随时看房", "拎包入住"], listedDate: "2026-06-22", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n459", name: "樱铁村小区 3居室 西卧", district: "其他", city: "nanjing", lat: 32.06693407196786, lng: 118.77808838034753, avgRent: 0, listings: [
+  { id: "n459", name: "樱铁村小区 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.06693407196786, lng: 118.77808838034753, avgRent: 0, listings: [
     { id: "n474", title: "合租·樱铁村小区 3居室 西卧", rent: 860, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "樱铁村小区 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1711865514907/234ac3a822f6fec8d03877f0e3d18b3b.jpg.250x182.jpg", "img://room/3332", "img://room/3333"],
       landlordName: "周杰", landlordPhone: "13962288206",
       description: "房源位于樱铁村小区 3居室 西卧，西，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "精装修", "近地铁"], listedDate: "2026-04-26", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n460", name: "墨香山庄 4居室 西卧", district: "其他", city: "nanjing", lat: 32.100419, lng: 118.835411, avgRent: 0, listings: [
+  { id: "n460", name: "墨香山庄 4居室 西卧", district: "其他区", city: "nanjing", lat: 32.100419, lng: 118.835411, avgRent: 0, listings: [
     { id: "n475", title: "合租·墨香山庄 4居室 西卧", rent: 1090, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "墨香山庄 4居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780382148596/c183d3535731b078adf2c70887786afd.jpg.250x182.jpg", "img://room/3339", "img://room/3340"],
       landlordName: "李强", landlordPhone: "18857371059", landlordWechat: "李强475",
       description: "房源位于墨香山庄 4居室 西卧，西，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "精装修", "独立厨卫"], listedDate: "2026-06-18", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n461", name: "南农大小区 4居室 南卧", district: "其他", city: "nanjing", lat: 32.0967450228611, lng: 118.85356328003454, avgRent: 0, listings: [
+  { id: "n461", name: "南农大小区 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.0967450228611, lng: 118.85356328003454, avgRent: 0, listings: [
     { id: "n476", title: "合租·南农大小区 4居室 南卧", rent: 1260, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "南农大小区 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782191926115/b5cf08af7519b7c18fad420f1d1dc825.jpg.250x182.jpg", "img://room/3346", "img://room/3347"],
       landlordName: "李强", landlordPhone: "18694986651", landlordWechat: "李强476",
       description: "房源位于南农大小区 4居室 南卧，南，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "精装修"], listedDate: "2026-05-20", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n462", name: "锁金村5号 2居室 北卧", district: "其他", city: "nanjing", lat: 32.059664, lng: 118.737241, avgRent: 0, listings: [
+  { id: "n462", name: "锁金村5号 2居室 北卧", district: "其他区", city: "nanjing", lat: 32.059664, lng: 118.737241, avgRent: 0, listings: [
     { id: "n477", title: "合租·锁金村5号 2居室 北卧", rent: 1330, area: 8, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "锁金村5号 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780307422584/433b0a382b1c7566863ab7ea8dd73fd8.jpg.250x182.jpg", "img://room/3353", "img://room/3354"],
       landlordName: "黄明", landlordPhone: "18643498592",
       description: "房源位于锁金村5号 2居室 北卧，北，楼层适中。2室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-03-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n463", name: "紫金华府A区 4居室 北卧", district: "其他", city: "nanjing", lat: 32.09954179527408, lng: 118.8034832940338, avgRent: 0, listings: [
+  { id: "n463", name: "紫金华府A区 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.09954179527408, lng: 118.8034832940338, avgRent: 0, listings: [
     { id: "n478", title: "合租·紫金华府A区 4居室 北卧", rent: 860, area: 7, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "紫金华府A区 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781572070637/f458429aff3dd6fb2177049b184cc719.jpg.250x182.jpg", "img://room/3360", "img://room/3361"],
       landlordName: "杨磊", landlordPhone: "13990238406",
       description: "房源位于紫金华府A区 4居室 北卧，北，楼层适中。4室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-03-01", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n464", name: "岗子村63号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.063945, lng: 118.81797, avgRent: 0, listings: [
+  { id: "n464", name: "岗子村63号", district: "其他区", city: "nanjing", lat: 32.063945, lng: 118.81797, avgRent: 0, listings: [
     { id: "n479", title: "整租·岗子村63号 2室1厅 南", rent: 2300, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "岗子村63号 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/00432dbf7c7d8a2a86a3557d59179cf7.jpeg.250x182.jpg", "img://room/3367", "img://room/3368"],
       landlordName: "周杰", landlordPhone: "18864446060",
       description: "房源位于岗子村63号 2室1厅 南，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "独立厨卫"], listedDate: "2026-05-05", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n465", name: "后宰门西村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
+  { id: "n465", name: "后宰门西村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
     { id: "n480", title: "合租·后宰门西村 4居室 南卧", rent: 1790, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "后宰门西村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780710541763/6bd0903c7e72e9fa5300521fe1538b18.jpg.250x182.jpg", "img://room/3374", "img://room/3375"],
       landlordName: "刘洋", landlordPhone: "15032263208", landlordWechat: "刘洋480",
       description: "房源位于后宰门西村 4居室 南卧，西，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "拎包入住"], listedDate: "2026-04-06", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n466", name: "紫金橄榄苑 2室2厅 南", district: "其他", city: "nanjing", lat: 32.089429, lng: 118.842628, avgRent: 0, listings: [
+  { id: "n466", name: "紫金橄榄苑", district: "其他区", city: "nanjing", lat: 32.089429, lng: 118.842628, avgRent: 0, listings: [
     { id: "n481", title: "整租·紫金橄榄苑 2室2厅 南", rent: 2500, area: 97, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "紫金橄榄苑 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_3vNtvPqMA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3381", "img://room/3382"],
       landlordName: "李强", landlordPhone: "13893251190", landlordWechat: "李强481",
       description: "房源位于紫金橄榄苑 2室2厅 南，南，楼层适中。2室2厅户型，97平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "南北通透"], listedDate: "2026-05-06", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n467", name: "康定里 3居室 南卧", district: "其他", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
+  { id: "n467", name: "康定里 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
     { id: "n482", title: "合租·康定里 3居室 南卧", rent: 1330, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "康定里 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1759633559420/9936e8318fbfe8561189c8b298071868.jpg.250x182.jpg", "img://room/3388", "img://room/3389"],
       landlordName: "赵娜", landlordPhone: "18884291746", landlordWechat: "赵娜482",
       description: "房源位于康定里 3居室 南卧，南，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-04-07", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n468", name: "仙鹤茗苑 5居室 南卧", district: "其他", city: "nanjing", lat: 32.088813, lng: 118.90203, avgRent: 0, listings: [
+  { id: "n468", name: "仙鹤茗苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.088813, lng: 118.90203, avgRent: 0, listings: [
     { id: "n483", title: "合租·仙鹤茗苑 5居室 南卧", rent: 1260, area: 14, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "仙鹤茗苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779770601533/730a03589a4b80dc93533c2ec7b18f8b.jpg.250x182.jpg", "img://room/3395", "img://room/3396"],
       landlordName: "吴敏", landlordPhone: "15083694929", landlordWechat: "吴敏483",
       description: "房源位于仙鹤茗苑 5居室 南卧，南，楼层适中。5室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "独立厨卫", "安静宜居"], listedDate: "2026-06-09", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n469", name: "阳光聚宝山庄 4居室 北卧", district: "其他", city: "nanjing", lat: 32.09451, lng: 118.862473, avgRent: 0, listings: [
+  { id: "n469", name: "阳光聚宝山庄 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.09451, lng: 118.862473, avgRent: 0, listings: [
     { id: "n484", title: "合租·阳光聚宝山庄 4居室 北卧", rent: 1060, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "阳光聚宝山庄 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782295233235/81b8fff1242728256b22b515af110b58.jpg.250x182.jpg", "img://room/3402", "img://room/3403"],
       landlordName: "周杰", landlordPhone: "18810082295",
       description: "房源位于阳光聚宝山庄 4居室 北卧，北，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "南北通透", "安静宜居"], listedDate: "2026-03-07", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n470", name: "紫金东郡 5居室 北卧", district: "其他", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
+  { id: "n470", name: "紫金东郡 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.082464, lng: 118.895848, avgRent: 0, listings: [
     { id: "n485", title: "合租·紫金东郡 5居室 北卧", rent: 1130, area: 9, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "紫金东郡 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779338880920/22e2c64e3e2921030d452d3eb04fba05.jpg.250x182.jpg", "img://room/3409", "img://room/3410"],
       landlordName: "陈静", landlordPhone: "13927629471",
       description: "房源位于紫金东郡 5居室 北卧，东，楼层适中。5室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "精装修"], listedDate: "2026-04-17", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n471", name: "太平北路130号 3室1厅 南", district: "其他", city: "nanjing", lat: 32.053944, lng: 118.797782, avgRent: 0, listings: [
+  { id: "n471", name: "太平北路130号", district: "其他区", city: "nanjing", lat: 32.053944, lng: 118.797782, avgRent: 0, listings: [
     { id: "n486", title: "整租·太平北路130号 3室1厅 南", rent: 3600, area: 65, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "太平北路130号 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xqiBIFf7u.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3416", "img://room/3417"],
       landlordName: "刘洋", landlordPhone: "18620821006",
       description: "房源位于太平北路130号 3室1厅 南，北，楼层适中。3室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "随时看房"], listedDate: "2026-06-16", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n472", name: "奥克斯钟山府 4居室 南卧", district: "其他", city: "nanjing", lat: 32.088957, lng: 118.907854, avgRent: 0, listings: [
+  { id: "n472", name: "奥克斯钟山府 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.088957, lng: 118.907854, avgRent: 0, listings: [
     { id: "n487", title: "合租·奥克斯钟山府 4居室 南卧", rent: 1730, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "奥克斯钟山府 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782304658154/34c6628fa4564e5c7104c985f5bd33fc.jpg.250x182.jpg", "img://room/3423", "img://room/3424"],
       landlordName: "吴敏", landlordPhone: "18621694173",
       description: "房源位于奥克斯钟山府 4居室 南卧，南，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "南北通透", "精装修"], listedDate: "2026-04-22", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n473", name: "东方城初阳园 5室3厅 南", district: "其他", city: "nanjing", lat: 32.086676, lng: 118.83392, avgRent: 0, listings: [
+  { id: "n473", name: "东方城初阳园", district: "其他区", city: "nanjing", lat: 32.086676, lng: 118.83392, avgRent: 0, listings: [
     { id: "n488", title: "整租·东方城初阳园 5室3厅 南", rent: 4500, area: 177, rooms: "5室3厅", floor: "楼层适中", direction: "东", community: "东方城初阳园 5室3厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_OYjPNrMZe.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3430", "img://room/3431"],
       landlordName: "周杰", landlordPhone: "15042682968",
       description: "房源位于东方城初阳园 5室3厅 南，东，楼层适中。5室3厅户型，177平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-05-05", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n474", name: "峨嵋公寓 1室1厅 南", district: "其他", city: "nanjing", lat: 32.045757, lng: 118.768865, avgRent: 0, listings: [
+  { id: "n474", name: "峨嵋公寓", district: "其他区", city: "nanjing", lat: 32.045757, lng: 118.768865, avgRent: 0, listings: [
     { id: "n489", title: "整租·峨嵋公寓 1室1厅 南", rent: 3000, area: 43, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "峨嵋公寓 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_sMQJVsngM.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3437", "img://room/3438"],
       landlordName: "王芳", landlordPhone: "18643201470", landlordWechat: "王芳489",
       description: "房源位于峨嵋公寓 1室1厅 南，南，楼层适中。1室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "拎包入住"], listedDate: "2026-04-01", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n475", name: "紫金华府C区 4居室 北卧", district: "其他", city: "nanjing", lat: 32.037799, lng: 118.883779, avgRent: 0, listings: [
+  { id: "n475", name: "紫金华府C区 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.037799, lng: 118.883779, avgRent: 0, listings: [
     { id: "n490", title: "合租·紫金华府C区 4居室 北卧", rent: 930, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "紫金华府C区 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1741854615720/fcca083731d7c02fd3da36990000a057.jpg.250x182.jpg", "img://room/3444", "img://room/3445"],
       landlordName: "王芳", landlordPhone: "15851813973",
       description: "房源位于紫金华府C区 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住"], listedDate: "2026-05-15", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n476", name: "兰园小区 2室2厅 南", district: "其他", city: "nanjing", lat: 32.054878, lng: 118.800725, avgRent: 0, listings: [
+  { id: "n476", name: "兰园小区", district: "其他区", city: "nanjing", lat: 32.054878, lng: 118.800725, avgRent: 0, listings: [
     { id: "n491", title: "整租·兰园小区 2室2厅 南", rent: 17800, area: 108, rooms: "2室2厅", floor: "楼层适中", direction: "北", community: "兰园小区 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_B1v4y1CE5.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3451", "img://room/3452"],
       landlordName: "陈静", landlordPhone: "18862248476", landlordWechat: "陈静491",
       description: "房源位于兰园小区 2室2厅 南，北，楼层适中。2室2厅户型，108平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "安静宜居"], listedDate: "2026-05-07", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n477", name: "北苑三村 3居室 北卧", district: "其他", city: "nanjing", lat: 31.968884, lng: 118.719848, avgRent: 0, listings: [
+  { id: "n477", name: "北苑三村 3居室 北卧", district: "其他区", city: "nanjing", lat: 31.968884, lng: 118.719848, avgRent: 0, listings: [
     { id: "n492", title: "合租·北苑三村 3居室 北卧", rent: 1060, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "北苑三村 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1768719012304/7d761a9d6877548d85a7453cc3cd749a.jpg.250x182.jpg", "img://room/3458", "img://room/3459"],
       landlordName: "陈静", landlordPhone: "13845434544", landlordWechat: "陈静492",
       description: "房源位于北苑三村 3居室 北卧，北，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "随时看房"], listedDate: "2026-06-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n478", name: "大石桥小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.054577, lng: 118.787964, avgRent: 0, listings: [
+  { id: "n478", name: "大石桥小区", district: "其他区", city: "nanjing", lat: 32.054577, lng: 118.787964, avgRent: 0, listings: [
     { id: "n493", title: "整租·大石桥小区 2室1厅 南", rent: 4200, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "大石桥小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_JP6FQlp8c.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3465", "img://room/3466"],
       landlordName: "陈静", landlordPhone: "18619532551", landlordWechat: "陈静493",
       description: "房源位于大石桥小区 2室1厅 南，南，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "近地铁", "随时看房"], listedDate: "2026-05-06", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n479", name: "孝陵卫179号 3居室 南卧", district: "其他", city: "nanjing", lat: 32.034524, lng: 118.858203, avgRent: 0, listings: [
+  { id: "n479", name: "孝陵卫179号 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.034524, lng: 118.858203, avgRent: 0, listings: [
     { id: "n494", title: "合租·孝陵卫179号 3居室 南卧", rent: 1490, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "孝陵卫179号 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782529436460/ab069ee3f52995cedbfc0bea3b07fbaf.jpg.250x182.jpg", "img://room/3472", "img://room/3473"],
       landlordName: "赵娜", landlordPhone: "13889943178",
       description: "房源位于孝陵卫179号 3居室 南卧，南，楼层适中。3室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "近地铁"], listedDate: "2026-05-20", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n480", name: "锁金五村 3室1厅 南", district: "其他", city: "nanjing", lat: 32.074262, lng: 118.819498, avgRent: 0, listings: [
+  { id: "n480", name: "锁金五村", district: "其他区", city: "nanjing", lat: 32.074262, lng: 118.819498, avgRent: 0, listings: [
     { id: "n495", title: "整租·锁金五村 3室1厅 南", rent: 2700, area: 67, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "锁金五村 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_GQlq8Ki3X_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3479", "img://room/3480"],
       landlordName: "黄明", landlordPhone: "18883830614",
       description: "房源位于锁金五村 3室1厅 南，南，楼层适中。3室1厅户型，67平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁"], listedDate: "2026-03-07", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n481", name: "北门桥小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.048613, lng: 118.788346, avgRent: 0, listings: [
+  { id: "n481", name: "北门桥小区", district: "其他区", city: "nanjing", lat: 32.048613, lng: 118.788346, avgRent: 0, listings: [
     { id: "n496", title: "整租·北门桥小区 2室1厅 南", rent: 4800, area: 71, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "北门桥小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BezM6nIEe.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3486", "img://room/3487"],
       landlordName: "张伟", landlordPhone: "18821492435", landlordWechat: "张伟496",
       description: "房源位于北门桥小区 2室1厅 南，北，楼层适中。2室1厅户型，71平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "近地铁"], listedDate: "2026-06-22", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n482", name: "仙鹤茗苑 3居室 南卧", district: "其他", city: "nanjing", lat: 32.088813, lng: 118.90203, avgRent: 0, listings: [
+  { id: "n482", name: "仙鹤茗苑 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.088813, lng: 118.90203, avgRent: 0, listings: [
     { id: "n497", title: "合租·仙鹤茗苑 3居室 南卧", rent: 1160, area: 7, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "仙鹤茗苑 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778556974630/c48d87a575010e22cc2dd883359b7396.jpg.250x182.jpg", "img://room/3493", "img://room/3494"],
       landlordName: "陈静", landlordPhone: "15857964859", landlordWechat: "陈静497",
       description: "房源位于仙鹤茗苑 3居室 南卧，南，楼层适中。3室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-05-06", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n483", name: "仙居雅苑 5居室 南卧", district: "其他", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
+  { id: "n483", name: "仙居雅苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
     { id: "n498", title: "合租·仙居雅苑 5居室 南卧", rent: 1030, area: 12, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "仙居雅苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782254546221/13bf0bd20560b70dfef656fb1de55c03.jpg.250x182.jpg", "img://room/3500", "img://room/3501"],
       landlordName: "黄明", landlordPhone: "18869904897", landlordWechat: "黄明498",
       description: "房源位于仙居雅苑 5居室 南卧，南，楼层适中。5室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透", "随时看房", "精装修"], listedDate: "2026-04-02", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n484", name: "花园路7号 4居室 北卧", district: "其他", city: "nanjing", lat: 32.080765, lng: 118.825002, avgRent: 0, listings: [
+  { id: "n484", name: "花园路7号 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.080765, lng: 118.825002, avgRent: 0, listings: [
     { id: "n499", title: "合租·花园路7号 4居室 北卧", rent: 1030, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "花园路7号 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782606812549/7b93f9031c481ca555a5111e386b5565.jpg.250x182.jpg", "img://room/3507", "img://room/3508"],
       landlordName: "杨磊", landlordPhone: "13941050820", landlordWechat: "杨磊499",
       description: "房源位于花园路7号 4居室 北卧，北，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-06-27", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n485", name: "赞成湖畔居 4居室 西卧", district: "其他", city: "nanjing", lat: 32.082138, lng: 118.804608, avgRent: 0, listings: [
+  { id: "n485", name: "赞成湖畔居 4居室 西卧", district: "其他区", city: "nanjing", lat: 32.082138, lng: 118.804608, avgRent: 0, listings: [
     { id: "n500", title: "合租·赞成湖畔居 4居室 西卧", rent: 1290, area: 16, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "赞成湖畔居 4居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778569286444/b457c131b8e3f6d4254928a02f69cf9e.jpg.250x182.jpg", "img://room/3514", "img://room/3515"],
       landlordName: "杨磊", landlordPhone: "15032602799",
       description: "房源位于赞成湖畔居 4居室 西卧，西，楼层适中。4室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "精装修", "独立厨卫"], listedDate: "2026-05-14", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n486", name: "阳光聚宝山庄 4居室 南卧", district: "其他", city: "nanjing", lat: 32.03837308657817, lng: 118.78405486900907, avgRent: 0, listings: [
+  { id: "n486", name: "阳光聚宝山庄 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.03837308657817, lng: 118.78405486900907, avgRent: 0, listings: [
     { id: "n501", title: "合租·阳光聚宝山庄 4居室 南卧", rent: 1730, area: 16, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "阳光聚宝山庄 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780497657336/bb9ed2ad361aa4a5aed66e9a59c5d477.jpg.250x182.jpg", "img://room/3521", "img://room/3522"],
       landlordName: "黄明", landlordPhone: "15844173993",
       description: "房源位于阳光聚宝山庄 4居室 南卧，南，楼层适中。4室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "近地铁"], listedDate: "2026-05-16", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n487", name: "东方城朝霞园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
+  { id: "n487", name: "东方城朝霞园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
     { id: "n502", title: "合租·东方城朝霞园 4居室 南卧", rent: 1430, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "东方城朝霞园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1750230715970/b67bc503de4dcfd5e242f54cd9b2d4cb.jpg.250x182.jpg", "img://room/3528", "img://room/3529"],
       landlordName: "吴敏", landlordPhone: "18656935732", landlordWechat: "吴敏502",
       description: "房源位于东方城朝霞园 4居室 南卧，东，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "安静宜居", "采光好"], listedDate: "2026-05-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n488", name: "红森公寓 3居室 东卧", district: "其他", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
+  { id: "n488", name: "红森公寓 3居室 东卧", district: "其他区", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
     { id: "n503", title: "合租·红森公寓 3居室 东卧", rent: 900, area: 15, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "红森公寓 3居室 东卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1716972222552/06bcd3b3c7a30c5754c5771410fdeb72.jpg.250x182.jpg", "img://room/3535", "img://room/3536"],
       landlordName: "杨磊", landlordPhone: "15810538495",
       description: "房源位于红森公寓 3居室 东卧，东，楼层适中。3室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "随时看房"], listedDate: "2026-06-15", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n489", name: "东郊美树苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.036281, lng: 118.84727, avgRent: 0, listings: [
+  { id: "n489", name: "东郊美树苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.036281, lng: 118.84727, avgRent: 0, listings: [
     { id: "n504", title: "合租·东郊美树苑 4居室 南卧", rent: 1500, area: 25, rooms: "4室2厅", floor: "楼层适中", direction: "东", community: "东郊美树苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1780886182335/0dd22947b94311a9f376283640913c69.jpg.250x182.jpg", "img://room/3542", "img://room/3543"],
       landlordName: "周杰", landlordPhone: "15070332019", landlordWechat: "周杰504",
       description: "房源位于东郊美树苑 4居室 南卧，东，楼层适中。4室2厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居"], listedDate: "2026-05-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n490", name: "廖家巷小区 1室1厅 东南", district: "其他", city: "nanjing", lat: 32.085207, lng: 118.785035, avgRent: 0, listings: [
+  { id: "n490", name: "廖家巷小区", district: "其他区", city: "nanjing", lat: 32.085207, lng: 118.785035, avgRent: 0, listings: [
     { id: "n505", title: "整租·廖家巷小区 1室1厅 东南", rent: 2200, area: 39, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "廖家巷小区 1室1厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_RMpib8CSp.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3549", "img://room/3550"],
       landlordName: "吴敏", landlordPhone: "15874884879",
       description: "房源位于廖家巷小区 1室1厅 东南，东，楼层适中。1室1厅户型，39平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "南北通透", "采光好"], listedDate: "2026-05-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n491", name: "美林墅 4居室 南卧", district: "其他", city: "nanjing", lat: 32.099514086150634, lng: 118.79978208895992, avgRent: 0, listings: [
+  { id: "n491", name: "美林墅 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.099514086150634, lng: 118.79978208895992, avgRent: 0, listings: [
     { id: "n506", title: "合租·美林墅 4居室 南卧", rent: 900, area: 22, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "美林墅 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1683692432880/f48e088b35308f7e18d6296ebaa7eb30.jpg.250x182.jpg", "img://room/3556", "img://room/3557"],
       landlordName: "周杰", landlordPhone: "18874742393",
       description: "房源位于美林墅 4居室 南卧，南，楼层适中。4室1厅户型，22平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-04-17", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n492", name: "月新花园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.056183, lng: 118.812039, avgRent: 0, listings: [
+  { id: "n492", name: "月新花园", district: "其他区", city: "nanjing", lat: 32.056183, lng: 118.812039, avgRent: 0, listings: [
     { id: "n507", title: "整租·月新花园 3室1厅 南", rent: 4500, area: 73, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "月新花园 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3563", "img://room/3564"],
       landlordName: "周杰", landlordPhone: "15815423893", landlordWechat: "周杰507",
       description: "房源位于月新花园 3室1厅 南，北，楼层适中。3室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "近地铁"], listedDate: "2026-06-13", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n493", name: "佛心桥 4居室 西卧", district: "其他", city: "nanjing", lat: 32.050823, lng: 118.818873, avgRent: 0, listings: [
+  { id: "n493", name: "佛心桥 4居室 西卧", district: "其他区", city: "nanjing", lat: 32.050823, lng: 118.818873, avgRent: 0, listings: [
     { id: "n508", title: "合租·佛心桥 4居室 西卧", rent: 650, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "佛心桥 4居室 西卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1750386517992/df70ac97e9d4cedfd413c7a30f7f87bf.jpg.250x182.jpg", "img://room/3570", "img://room/3571"],
       landlordName: "李强", landlordPhone: "15099447800", landlordWechat: "李强508",
       description: "房源位于佛心桥 4居室 西卧，西，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "拎包入住", "安静宜居"], listedDate: "2026-04-18", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n494", name: "红旗新村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.051857, lng: 118.800272, avgRent: 0, listings: [
+  { id: "n494", name: "红旗新村", district: "其他区", city: "nanjing", lat: 32.051857, lng: 118.800272, avgRent: 0, listings: [
     { id: "n509", title: "整租·红旗新村 2室1厅 南", rent: 4500, area: 69, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "红旗新村 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3577", "img://room/3578"],
       landlordName: "吴敏", landlordPhone: "13862536290",
       description: "房源位于红旗新村 2室1厅 南，南，楼层适中。2室1厅户型，69平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "随时看房", "精装修"], listedDate: "2026-05-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n495", name: "卓越SOHO 5居室 南卧", district: "其他", city: "nanjing", lat: 31.675416, lng: 119.048543, avgRent: 0, listings: [
+  { id: "n495", name: "卓越SOHO 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.675416, lng: 119.048543, avgRent: 0, listings: [
     { id: "n510", title: "合租·卓越SOHO 5居室 南卧", rent: 850, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "卓越SOHO 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1776819638812/4e1cfbfc1fbf2c19dfe004c5b9a9cdb9.jpg.250x182.jpg", "img://room/3584", "img://room/3585"],
       landlordName: "王芳", landlordPhone: "18866633768",
       description: "房源位于卓越SOHO 5居室 南卧，南，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "独立厨卫", "精装修"], listedDate: "2026-05-18", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n496", name: "凯润金城 1室0厅 东", district: "其他", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
+  { id: "n496", name: "凯润金城", district: "其他区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
     { id: "n511", title: "整租·凯润金城 1室0厅 东", rent: 800, area: 14, rooms: "1室0厅", floor: "楼层适中", direction: "东", community: "凯润金城 1室0厅 东",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3591", "img://room/3592"],
       landlordName: "李强", landlordPhone: "18873673799", landlordWechat: "李强511",
       description: "房源位于凯润金城 1室0厅 东，东，楼层适中。1室0厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-03-16", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n497", name: "红森公寓 3居室 南卧", district: "其他", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
+  { id: "n497", name: "红森公寓 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.093391, lng: 118.808304, avgRent: 0, listings: [
     { id: "n512", title: "合租·红森公寓 3居室 南卧", rent: 1050, area: 20, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "红森公寓 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1709531931891/71833ed3b690d405359c4ffdc1fc1d4c.jpg.250x182.jpg", "img://room/3598", "img://room/3599"],
       landlordName: "李强", landlordPhone: "15049655591",
       description: "房源位于红森公寓 3居室 南卧，南，楼层适中。3室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "独立厨卫"], listedDate: "2026-03-27", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n498", name: "阳光聚宝山庄 0室0厅 南", district: "其他", city: "nanjing", lat: 32.09451, lng: 118.862473, avgRent: 0, listings: [
+  { id: "n498", name: "阳光聚宝山庄", district: "其他区", city: "nanjing", lat: 32.09451, lng: 118.862473, avgRent: 0, listings: [
     { id: "n513", title: "整租·阳光聚宝山庄 0室0厅 南", rent: 300, area: 15, rooms: "0室0厅", floor: "楼层适中", direction: "南", community: "阳光聚宝山庄 0室0厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3605", "img://room/3606"],
       landlordName: "王芳", landlordPhone: "18615087768", landlordWechat: "王芳513",
       description: "房源位于阳光聚宝山庄 0室0厅 南，南，楼层适中。0室0厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住"], listedDate: "2026-05-05", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n499", name: "天颂花园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.032486361565134, lng: 118.74159887038815, avgRent: 0, listings: [
+  { id: "n499", name: "天颂花园", district: "其他区", city: "nanjing", lat: 32.032486361565134, lng: 118.74159887038815, avgRent: 0, listings: [
     { id: "n514", title: "整租·天颂花园 3室2厅 南", rent: 6000, area: 112, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "天颂花园 3室2厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3612", "img://room/3613"],
       landlordName: "李强", landlordPhone: "18874692714",
       description: "房源位于天颂花园 3室2厅 南，南，楼层适中。3室2厅户型，112平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "拎包入住"], listedDate: "2026-06-25", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n500", name: "国展中央花园 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.081837, lng: 118.785359, avgRent: 0, listings: [
+  { id: "n500", name: "国展中央花园", district: "其他区", city: "nanjing", lat: 32.081837, lng: 118.785359, avgRent: 0, listings: [
     { id: "n515", title: "整租·国展中央花园 3室2厅 南/北", rent: 7000, area: 115, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "国展中央花园 3室2厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3619", "img://room/3620"],
       landlordName: "杨磊", landlordPhone: "13957799816", landlordWechat: "杨磊515",
       description: "房源位于国展中央花园 3室2厅 南/北，南，楼层适中。3室2厅户型，115平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好"], listedDate: "2026-04-20", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n501", name: "康定里 4居室 北卧", district: "其他", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
+  { id: "n501", name: "康定里 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
     { id: "n516", title: "合租·康定里 4居室 北卧", rent: 1130, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "康定里 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1749889844271/5eae656a0521af5031e10a7ce43009c1.jpg.250x182.jpg", "img://room/3626", "img://room/3627"],
       landlordName: "吴敏", landlordPhone: "13973889692", landlordWechat: "吴敏516",
       description: "房源位于康定里 4居室 北卧，北，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-06-10", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n502", name: "珠江路(玄武) 3室1厅 南/北", district: "玄武区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
+  { id: "n502", name: "珠江路(玄武)", district: "玄武区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
     { id: "n517", title: "整租·珠江路(玄武) 3室1厅 南/北", rent: 3650, area: 72, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "珠江路(玄武) 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_SdIUm06Id_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3633", "img://room/3634"],
       landlordName: "张伟", landlordPhone: "13835810077", landlordWechat: "张伟517",
       description: "房源位于珠江路(玄武) 3室1厅 南/北，南，楼层适中。3室1厅户型，72平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "近地铁"], listedDate: "2026-06-03", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n503", name: "北苑二村 1室1厅 南/北", district: "其他", city: "nanjing", lat: 32.102463, lng: 118.820381, avgRent: 0, listings: [
+  { id: "n503", name: "北苑二村", district: "其他区", city: "nanjing", lat: 32.102463, lng: 118.820381, avgRent: 0, listings: [
     { id: "n518", title: "整租·北苑二村 1室1厅 南/北", rent: 1700, area: 44, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "北苑二村 1室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0jmXbuHT7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3640", "img://room/3641"],
       landlordName: "黄明", landlordPhone: "13858075348",
       description: "房源位于北苑二村 1室1厅 南/北，北，楼层适中。1室1厅户型，44平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "精装修"], listedDate: "2026-03-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n504", name: "康定里 3居室 北卧", district: "其他", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
+  { id: "n504", name: "康定里 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
     { id: "n519", title: "合租·康定里 3居室 北卧", rent: 930, area: 7, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "康定里 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775114815324/5ce7248ce677dd2b5684fa189c7d9fbf.jpg.250x182.jpg", "img://room/3647", "img://room/3648"],
       landlordName: "杨磊", landlordPhone: "18691681488",
       description: "房源位于康定里 3居室 北卧，北，楼层适中。3室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "精装修", "采光好"], listedDate: "2026-05-19", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n505", name: "仙居雅苑 5居室 北卧", district: "其他", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
+  { id: "n505", name: "仙居雅苑 5居室 北卧", district: "其他区", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
     { id: "n520", title: "合租·仙居雅苑 5居室 北卧", rent: 730, area: 6, rooms: "5室1厅", floor: "楼层适中", direction: "北", community: "仙居雅苑 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780034638939/7addec3067383087bfafaf1a4e970ea8.jpg.250x182.jpg", "img://room/3654", "img://room/3655"],
       landlordName: "张伟", landlordPhone: "15032819625", landlordWechat: "张伟520",
       description: "房源位于仙居雅苑 5居室 北卧，北，楼层适中。5室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "近地铁"], listedDate: "2026-05-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n506", name: "银城东苑揽翠苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.026778, lng: 118.845696, avgRent: 0, listings: [
+  { id: "n506", name: "银城东苑揽翠苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.026778, lng: 118.845696, avgRent: 0, listings: [
     { id: "n521", title: "合租·银城东苑揽翠苑 4居室 南卧", rent: 1390, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "银城东苑揽翠苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1762911023871/a44adcb446cab25a3715824df0a33459.jpg.250x182.jpg", "img://room/3661", "img://room/3662"],
       landlordName: "李强", landlordPhone: "18698201421", landlordWechat: "李强521",
       description: "房源位于银城东苑揽翠苑 4居室 南卧，东，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "采光好", "南北通透"], listedDate: "2026-03-15", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n507", name: "百子亭后 3居室 北卧", district: "其他", city: "nanjing", lat: 32.067099, lng: 118.787079, avgRent: 0, listings: [
+  { id: "n507", name: "百子亭后 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.067099, lng: 118.787079, avgRent: 0, listings: [
     { id: "n522", title: "合租·百子亭后 3居室 北卧", rent: 1190, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "百子亭后 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778825784563/54d53e53b8d6c15733280da6a40fa919.jpg.250x182.jpg", "img://room/3668", "img://room/3669"],
       landlordName: "黄明", landlordPhone: "15052277741", landlordWechat: "黄明522",
       description: "房源位于百子亭后 3居室 北卧，北，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "安静宜居", "精装修"], listedDate: "2026-03-14", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n508", name: "柚米 南京铁北红山路柚米社区 三个月起租，无物业费服务费、常发广场旁公寓直租 精装修 地铁1/3号线双轨交通 1室1厅", district: "其他", city: "nanjing", lat: 32.0677314948888, lng: 118.72630487606992, avgRent: 0, listings: [
+  { id: "n508", name: "柚米 南京铁北红山路柚米社区 三个月起租，无物业费服务费、常发广场旁公寓直租 精装修 地铁1/3号线双轨交通", district: "其他区", city: "nanjing", lat: 32.0677314948888, lng: 118.72630487606992, avgRent: 0, listings: [
     { id: "n523", title: "独栋·柚米 南京铁北红山路柚米社区 三个月起租，无物业费服务费、常发广场旁公寓直", rent: 1883, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 三个月起租，无物业费服务费、常发广场旁公寓直租 精装修 地铁1/3号线双轨交通 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1704364392654/2c845ed185b69503ce4a546d069a6479.jpg.250x182.jpg", "img://room/3675", "img://room/3676"],
       landlordName: "刘洋", landlordPhone: "13868418320",
       description: "房源位于柚米 南京铁北红山路柚米社区 三个月起租，无物业费服务费、常发广场旁公寓直租 精装修 地铁1/3号线双轨交通 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "安静宜居", "采光好"], listedDate: "2026-06-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n509", name: "兰园小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.054878, lng: 118.800725, avgRent: 0, listings: [
+  { id: "n509", name: "兰园小区", district: "其他区", city: "nanjing", lat: 32.054878, lng: 118.800725, avgRent: 0, listings: [
     { id: "n524", title: "整租·兰园小区 2室1厅 南", rent: 5250, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "兰园小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/bfdde8638ed013b7ba2bd03b749421d2.jpeg.250x182.jpg", "img://room/3682", "img://room/3683"],
       landlordName: "赵娜", landlordPhone: "15844036009", landlordWechat: "赵娜524",
       description: "房源位于兰园小区 2室1厅 南，北，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住"], listedDate: "2026-03-19", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n510", name: "大石桥小区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.054577, lng: 118.787964, avgRent: 0, listings: [
+  { id: "n510", name: "大石桥小区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.054577, lng: 118.787964, avgRent: 0, listings: [
     { id: "n525", title: "合租·大石桥小区 3居室 南卧", rent: 1530, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "大石桥小区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782202389198/59792b9351d9f73022ae2c89fa5663c7.jpg.250x182.jpg", "img://room/3689", "img://room/3690"],
       landlordName: "张伟", landlordPhone: "13822793960",
       description: "房源位于大石桥小区 3居室 南卧，南，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居"], listedDate: "2026-04-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n511", name: "文德里小区 3居室 西卧", district: "其他", city: "nanjing", lat: 32.049609, lng: 118.798478, avgRent: 0, listings: [
+  { id: "n511", name: "文德里小区 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.049609, lng: 118.798478, avgRent: 0, listings: [
     { id: "n526", title: "合租·文德里小区 3居室 西卧", rent: 1330, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "文德里小区 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778550131175/c07ec0237111ed6c860f986c006937ef.jpg.250x182.jpg", "img://room/3696", "img://room/3697"],
       landlordName: "陈静", landlordPhone: "15864497522", landlordWechat: "陈静526",
       description: "房源位于文德里小区 3居室 西卧，西，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透"], listedDate: "2026-06-13", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n512", name: "进香河33号 3居室 南卧", district: "其他", city: "nanjing", lat: 32.057409, lng: 118.789495, avgRent: 0, listings: [
+  { id: "n512", name: "进香河33号 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.057409, lng: 118.789495, avgRent: 0, listings: [
     { id: "n527", title: "合租·进香河33号 3居室 南卧", rent: 1790, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "进香河33号 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1776988951048/624abfb6a93c08c63ac80f89bf42c708.jpg.250x182.jpg", "img://room/3703", "img://room/3704"],
       landlordName: "王芳", landlordPhone: "13823431001",
       description: "房源位于进香河33号 3居室 南卧，南，楼层适中。3室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "安静宜居", "精装修"], listedDate: "2026-04-07", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n513", name: "无庶小区 3室1厅 南", district: "其他", city: "nanjing", lat: 32.069625, lng: 118.815925, avgRent: 0, listings: [
+  { id: "n513", name: "无庶小区", district: "其他区", city: "nanjing", lat: 32.069625, lng: 118.815925, avgRent: 0, listings: [
     { id: "n528", title: "整租·无庶小区 3室1厅 南", rent: 7000, area: 198, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "无庶小区 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_iW8IpoSSK.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3710", "img://room/3711"],
       landlordName: "陈静", landlordPhone: "18697842761",
       description: "房源位于无庶小区 3室1厅 南，南，楼层适中。3室1厅户型，198平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "采光好"], listedDate: "2026-06-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n514", name: "盛和家园 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.03219, lng: 118.89074, avgRent: 0, listings: [
+  { id: "n514", name: "盛和家园", district: "其他区", city: "nanjing", lat: 32.03219, lng: 118.89074, avgRent: 0, listings: [
     { id: "n529", title: "整租·盛和家园 3室1厅 南/北", rent: 2100, area: 91, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "盛和家园 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_6RP4puDlE.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3717", "img://room/3718"],
       landlordName: "杨磊", landlordPhone: "15851444017",
       description: "房源位于盛和家园 3室1厅 南/北，南，楼层适中。3室1厅户型，91平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "安静宜居"], listedDate: "2026-03-26", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n515", name: "居安里 1室1厅 东", district: "其他", city: "nanjing", lat: 32.050836, lng: 118.788715, avgRent: 0, listings: [
+  { id: "n515", name: "居安里", district: "其他区", city: "nanjing", lat: 32.050836, lng: 118.788715, avgRent: 0, listings: [
     { id: "n530", title: "整租·居安里 1室1厅 东", rent: 3000, area: 60, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "居安里 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8DivdLF4N.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3724", "img://room/3725"],
       landlordName: "王芳", landlordPhone: "18879114709",
       description: "房源位于居安里 1室1厅 东，东，楼层适中。1室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "随时看房", "精装修"], listedDate: "2026-05-25", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n516", name: "碑亭巷 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
+  { id: "n516", name: "碑亭巷", district: "其他区", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
     { id: "n531", title: "整租·碑亭巷 3室1厅 南/北", rent: 4800, area: 70, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "碑亭巷 3室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3731", "img://room/3732"],
       landlordName: "周杰", landlordPhone: "15824319279", landlordWechat: "周杰531",
       description: "房源位于碑亭巷 3室1厅 南/北，南，楼层适中。3室1厅户型，70平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "南北通透", "近地铁"], listedDate: "2026-05-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n517", name: "中海玄武公馆B区 3室2厅 南", district: "玄武区", city: "nanjing", lat: 32.097856, lng: 118.822321, avgRent: 0, listings: [
+  { id: "n517", name: "中海玄武公馆B区", district: "玄武区", city: "nanjing", lat: 32.097856, lng: 118.822321, avgRent: 0, listings: [
     { id: "n532", title: "整租·中海玄武公馆B区 3室2厅 南", rent: 5850, area: 126, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "中海玄武公馆B区 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_1wFPbZmgN.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3738", "img://room/3739"],
       landlordName: "黄明", landlordPhone: "13835194565",
       description: "房源位于中海玄武公馆B区 3室2厅 南，南，楼层适中。3室2厅户型，126平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-06-25", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n518", name: "颐和家园尚玄 3室2厅 南", district: "其他", city: "nanjing", lat: 32.098154, lng: 118.814622, avgRent: 0, listings: [
+  { id: "n518", name: "颐和家园尚玄", district: "其他区", city: "nanjing", lat: 32.098154, lng: 118.814622, avgRent: 0, listings: [
     { id: "n533", title: "整租·颐和家园尚玄 3室2厅 南", rent: 5100, area: 129, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "颐和家园尚玄 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ahRRk8Fa9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3745", "img://room/3746"],
       landlordName: "张伟", landlordPhone: "15852846460", landlordWechat: "张伟533",
       description: "房源位于颐和家园尚玄 3室2厅 南，南，楼层适中。3室2厅户型，129平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-04-21", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n519", name: "南林二村 3室1厅 南", district: "其他", city: "nanjing", lat: 32.072729, lng: 118.8146, avgRent: 0, listings: [
+  { id: "n519", name: "南林二村", district: "其他区", city: "nanjing", lat: 32.072729, lng: 118.8146, avgRent: 0, listings: [
     { id: "n534", title: "整租·南林二村 3室1厅 南", rent: 3800, area: 73, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "南林二村 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_stMsicVhb.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3752", "img://room/3753"],
       landlordName: "黄明", landlordPhone: "18824616400", landlordWechat: "黄明534",
       description: "房源位于南林二村 3室1厅 南，南，楼层适中。3室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-06-23", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n520", name: "锁金村80号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.074646, lng: 118.812353, avgRent: 0, listings: [
+  { id: "n520", name: "锁金村80号", district: "其他区", city: "nanjing", lat: 32.074646, lng: 118.812353, avgRent: 0, listings: [
     { id: "n535", title: "整租·锁金村80号 2室1厅 南/北", rent: 2500, area: 49, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "锁金村80号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_aplK9P9uA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3759", "img://room/3760"],
       landlordName: "李强", landlordPhone: "13833591937",
       description: "房源位于锁金村80号 2室1厅 南/北，南，楼层适中。2室1厅户型，49平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透"], listedDate: "2026-04-02", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n521", name: "北苑之星 4居室 北卧", district: "其他", city: "nanjing", lat: 32.100928, lng: 118.822411, avgRent: 0, listings: [
+  { id: "n521", name: "北苑之星 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.100928, lng: 118.822411, avgRent: 0, listings: [
     { id: "n536", title: "合租·北苑之星 4居室 北卧", rent: 990, area: 10, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "北苑之星 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778925641970/fefc7f2edb1e85533066b912bfce39bd.jpg.250x182.jpg", "img://room/3766", "img://room/3767"],
       landlordName: "周杰", landlordPhone: "13873959039", landlordWechat: "周杰536",
       description: "房源位于北苑之星 4居室 北卧，北，楼层适中。4室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-03-26", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n522", name: "北门桥小区 3室2厅 东/北", district: "其他", city: "nanjing", lat: 32.048613, lng: 118.788346, avgRent: 0, listings: [
+  { id: "n522", name: "北门桥小区", district: "其他区", city: "nanjing", lat: 32.048613, lng: 118.788346, avgRent: 0, listings: [
     { id: "n537", title: "整租·北门桥小区 3室2厅 东/北", rent: 5500, area: 95, rooms: "3室2厅", floor: "楼层适中", direction: "北", community: "北门桥小区 3室2厅 东/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_KKhXBvl6k.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3773", "img://room/3774"],
       landlordName: "陈静", landlordPhone: "13894266572", landlordWechat: "陈静537",
       description: "房源位于北门桥小区 3室2厅 东/北，北，楼层适中。3室2厅户型，95平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "拎包入住"], listedDate: "2026-05-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n523", name: "佛心桥 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.050823, lng: 118.818873, avgRent: 0, listings: [
+  { id: "n523", name: "佛心桥", district: "其他区", city: "nanjing", lat: 32.050823, lng: 118.818873, avgRent: 0, listings: [
     { id: "n538", title: "整租·佛心桥 2室1厅 南/北", rent: 3400, area: 78, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "佛心桥 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/007b9ed6-0d07-4c35-a162-a4c872abb594.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3780", "img://room/3781"],
       landlordName: "吴敏", landlordPhone: "15074490256",
       description: "房源位于佛心桥 2室1厅 南/北，南，楼层适中。2室1厅户型，78平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "独立厨卫"], listedDate: "2026-04-15", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n524", name: "富贵园公寓 3室1厅 南", district: "其他", city: "nanjing", lat: 32.0508, lng: 118.824669, avgRent: 0, listings: [
+  { id: "n524", name: "富贵园公寓", district: "其他区", city: "nanjing", lat: 32.0508, lng: 118.824669, avgRent: 0, listings: [
     { id: "n539", title: "整租·富贵园公寓 3室1厅 南", rent: 2300, area: 90, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "富贵园公寓 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3787", "img://room/3788"],
       landlordName: "吴敏", landlordPhone: "18865476663",
       description: "房源位于富贵园公寓 3室1厅 南，南，楼层适中。3室1厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "随时看房"], listedDate: "2026-05-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n525", name: "木马公寓 1室1厅 北", district: "其他", city: "nanjing", lat: 32.051651, lng: 118.787921, avgRent: 0, listings: [
+  { id: "n525", name: "木马公寓", district: "其他区", city: "nanjing", lat: 32.051651, lng: 118.787921, avgRent: 0, listings: [
     { id: "n540", title: "整租·木马公寓 1室1厅 北", rent: 2300, area: 27, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "木马公寓 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Ef5ufA6Xe.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3794", "img://room/3795"],
       landlordName: "刘洋", landlordPhone: "13965568783",
       description: "房源位于木马公寓 1室1厅 北，北，楼层适中。1室1厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "随时看房"], listedDate: "2026-04-25", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n526", name: "新世界中心 3室2厅 西北", district: "其他", city: "nanjing", lat: 32.031323451128074, lng: 118.82290613681482, avgRent: 0, listings: [
+  { id: "n526", name: "新世界中心", district: "其他区", city: "nanjing", lat: 32.031323451128074, lng: 118.82290613681482, avgRent: 0, listings: [
     { id: "n541", title: "整租·新世界中心 3室2厅 西北", rent: 10000, area: 245, rooms: "3室2厅", floor: "楼层适中", direction: "西", community: "新世界中心 3室2厅 西北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Rywjm5CqA.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3801", "img://room/3802"],
       landlordName: "吴敏", landlordPhone: "15838252433", landlordWechat: "吴敏541",
       description: "房源位于新世界中心 3室2厅 西北，西，楼层适中。3室2厅户型，245平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "精装修"], listedDate: "2026-04-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n527", name: "樱铁村小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.086208, lng: 118.827586, avgRent: 0, listings: [
+  { id: "n527", name: "樱铁村小区", district: "其他区", city: "nanjing", lat: 32.086208, lng: 118.827586, avgRent: 0, listings: [
     { id: "n542", title: "整租·樱铁村小区 2室1厅 南", rent: 1500, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "樱铁村小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_a70rvwQsH.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3808", "img://room/3809"],
       landlordName: "刘洋", landlordPhone: "15024923837",
       description: "房源位于樱铁村小区 2室1厅 南，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居"], listedDate: "2026-04-12", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n528", name: "兴贤佳园修贤苑 3室1厅 南", district: "其他", city: "nanjing", lat: 32.103206, lng: 118.835994, avgRent: 0, listings: [
+  { id: "n528", name: "兴贤佳园修贤苑", district: "其他区", city: "nanjing", lat: 32.103206, lng: 118.835994, avgRent: 0, listings: [
     { id: "n543", title: "整租·兴贤佳园修贤苑 3室1厅 南", rent: 2500, area: 82, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "兴贤佳园修贤苑 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Tg3TANQGY.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3815", "img://room/3816"],
       landlordName: "李强", landlordPhone: "18685389599", landlordWechat: "李强543",
       description: "房源位于兴贤佳园修贤苑 3室1厅 南，南，楼层适中。3室1厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "拎包入住"], listedDate: "2026-05-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n529", name: "黄埔花园 3室2厅 南", district: "其他", city: "nanjing", lat: 32.042515, lng: 118.812553, avgRent: 0, listings: [
+  { id: "n529", name: "黄埔花园", district: "其他区", city: "nanjing", lat: 32.042515, lng: 118.812553, avgRent: 0, listings: [
     { id: "n544", title: "整租·黄埔花园 3室2厅 南", rent: 5500, area: 114, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "黄埔花园 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_CuQMrQG1w.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3822", "img://room/3823"],
       landlordName: "吴敏", landlordPhone: "13923407050",
       description: "房源位于黄埔花园 3室2厅 南，南，楼层适中。3室2厅户型，114平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-06-16", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n530", name: "东大影壁 2室1厅 南", district: "其他", city: "nanjing", lat: 32.047755, lng: 118.802764, avgRent: 0, listings: [
+  { id: "n530", name: "东大影壁", district: "其他区", city: "nanjing", lat: 32.047755, lng: 118.802764, avgRent: 0, listings: [
     { id: "n545", title: "整租·东大影壁 2室1厅 南", rent: 3600, area: 47, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东大影壁 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3829", "img://room/3830"],
       landlordName: "张伟", landlordPhone: "13946674643",
       description: "房源位于东大影壁 2室1厅 南，东，楼层适中。2室1厅户型，47平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "安静宜居"], listedDate: "2026-06-03", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n531", name: "胜利村100号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.020898, lng: 118.850162, avgRent: 0, listings: [
+  { id: "n531", name: "胜利村100号", district: "其他区", city: "nanjing", lat: 32.020898, lng: 118.850162, avgRent: 0, listings: [
     { id: "n546", title: "整租·胜利村100号 2室1厅 南", rent: 2100, area: 51, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "胜利村100号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_lMnuO2Nbq.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3836", "img://room/3837"],
       landlordName: "赵娜", landlordPhone: "18640905533", landlordWechat: "赵娜546",
       description: "房源位于胜利村100号 2室1厅 南，南，楼层适中。2室1厅户型，51平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "拎包入住"], listedDate: "2026-06-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n532", name: "紫藤苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.016675, lng: 118.762272, avgRent: 0, listings: [
+  { id: "n532", name: "紫藤苑", district: "其他区", city: "nanjing", lat: 32.016675, lng: 118.762272, avgRent: 0, listings: [
     { id: "n547", title: "整租·紫藤苑 2室1厅 南", rent: 1530, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "紫藤苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_u1HxYYRWK_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3843", "img://room/3844"],
       landlordName: "黄明", landlordPhone: "13914141226",
       description: "房源位于紫藤苑 2室1厅 南，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁"], listedDate: "2026-06-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n533", name: "鱼市街小区 3居室 北卧", district: "其他", city: "nanjing", lat: 32.050701, lng: 118.788152, avgRent: 0, listings: [
+  { id: "n533", name: "鱼市街小区 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.050701, lng: 118.788152, avgRent: 0, listings: [
     { id: "n548", title: "合租·鱼市街小区 3居室 北卧", rent: 1690, area: 13, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "鱼市街小区 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780393173651/1925bb529ffb0cf7123860b70a267e7e.jpg.250x182.jpg", "img://room/3850", "img://room/3851"],
       landlordName: "周杰", landlordPhone: "13968417850", landlordWechat: "周杰548",
       description: "房源位于鱼市街小区 3居室 北卧，北，楼层适中。3室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "采光好", "安静宜居"], listedDate: "2026-04-05", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n534", name: "半山花园 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.041236, lng: 118.827186, avgRent: 0, listings: [
+  { id: "n534", name: "半山花园", district: "其他区", city: "nanjing", lat: 32.041236, lng: 118.827186, avgRent: 0, listings: [
     { id: "n549", title: "整租·半山花园 3室2厅 南/北", rent: 3900, area: 96, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "半山花园 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_dBKVnADPe.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3857", "img://room/3858"],
       landlordName: "张伟", landlordPhone: "13955798072",
       description: "房源位于半山花园 3室2厅 南/北，南，楼层适中。3室2厅户型，96平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住", "安静宜居", "近地铁"], listedDate: "2026-04-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n535", name: "尖角营小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.055922, lng: 118.786511, avgRent: 0, listings: [
+  { id: "n535", name: "尖角营小区", district: "其他区", city: "nanjing", lat: 32.055922, lng: 118.786511, avgRent: 0, listings: [
     { id: "n550", title: "整租·尖角营小区 2室1厅 南/北", rent: 3300, area: 66, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "尖角营小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NeWPx70in.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3864", "img://room/3865"],
       landlordName: "陈静", landlordPhone: "18894999956",
       description: "房源位于尖角营小区 2室1厅 南/北，南，楼层适中。2室1厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "采光好"], listedDate: "2026-06-09", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n536", name: "居安里 2居室 北卧", district: "其他", city: "nanjing", lat: 32.050836, lng: 118.788715, avgRent: 0, listings: [
+  { id: "n536", name: "居安里 2居室 北卧", district: "其他区", city: "nanjing", lat: 32.050836, lng: 118.788715, avgRent: 0, listings: [
     { id: "n551", title: "合租·居安里 2居室 北卧", rent: 1460, area: 7, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "居安里 2居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781168127905/1ddcd866fd6fe76ce3fff9e7fd9710c8.jpg.250x182.jpg", "img://room/3871", "img://room/3872"],
       landlordName: "吴敏", landlordPhone: "15888784298", landlordWechat: "吴敏551",
       description: "房源位于居安里 2居室 北卧，北，楼层适中。2室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "精装修", "采光好"], listedDate: "2026-05-21", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n537", name: "峨嵋新村 3室1厅 东南", district: "其他", city: "nanjing", lat: 38.029267, lng: 114.624034, avgRent: 0, listings: [
+  { id: "n537", name: "峨嵋新村", district: "其他区", city: "nanjing", lat: 38.029267, lng: 114.624034, avgRent: 0, listings: [
     { id: "n552", title: "整租·峨嵋新村 3室1厅 东南", rent: 5500, area: 63, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "峨嵋新村 3室1厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kKwvfBDEf.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3878", "img://room/3879"],
       landlordName: "黄明", landlordPhone: "15032520102", landlordWechat: "黄明552",
       description: "房源位于峨嵋新村 3室1厅 东南，东，楼层适中。3室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "采光好"], listedDate: "2026-03-14", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n538", name: "东大宿舍 2室1厅 南", district: "其他", city: "nanjing", lat: 32.092459, lng: 118.966495, avgRent: 0, listings: [
+  { id: "n538", name: "东大宿舍", district: "其他区", city: "nanjing", lat: 32.092459, lng: 118.966495, avgRent: 0, listings: [
     { id: "n553", title: "整租·东大宿舍 2室1厅 南", rent: 4100, area: 62, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "东大宿舍 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NuDmBuAWN.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3885", "img://room/3886"],
       landlordName: "周杰", landlordPhone: "13933399549",
       description: "房源位于东大宿舍 2室1厅 南，东，楼层适中。2室1厅户型，62平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "精装修"], listedDate: "2026-03-28", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n539", name: "丹凤新寓 3居室 南卧", district: "其他", city: "nanjing", lat: 32.053031, lng: 118.788336, avgRent: 0, listings: [
+  { id: "n539", name: "丹凤新寓 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.053031, lng: 118.788336, avgRent: 0, listings: [
     { id: "n554", title: "合租·丹凤新寓 3居室 南卧", rent: 1460, area: 7, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "丹凤新寓 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781329106585/d9d080090ceb2db42e6475db88adafc8.jpg.250x182.jpg", "img://room/3892", "img://room/3893"],
       landlordName: "赵娜", landlordPhone: "15044921874",
       description: "房源位于丹凤新寓 3居室 南卧，南，楼层适中。3室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-06-13", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n540", name: "竺桥 2室1厅 南", district: "其他", city: "nanjing", lat: 32.045706, lng: 118.804556, avgRent: 0, listings: [
+  { id: "n540", name: "竺桥", district: "其他区", city: "nanjing", lat: 32.045706, lng: 118.804556, avgRent: 0, listings: [
     { id: "n555", title: "整租·竺桥 2室1厅 南", rent: 3400, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "竺桥 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_oIibWLiNp.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3899", "img://room/3900"],
       landlordName: "刘洋", landlordPhone: "15848674882", landlordWechat: "刘洋555",
       description: "房源位于竺桥 2室1厅 南，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "采光好"], listedDate: "2026-04-03", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n541", name: "晏公庙新村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.031897, lng: 118.862859, avgRent: 0, listings: [
+  { id: "n541", name: "晏公庙新村", district: "其他区", city: "nanjing", lat: 32.031897, lng: 118.862859, avgRent: 0, listings: [
     { id: "n556", title: "整租·晏公庙新村 2室1厅 南/北", rent: 2500, area: 36, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "晏公庙新村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NFohTcyoQ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3906", "img://room/3907"],
       landlordName: "杨磊", landlordPhone: "18865992450",
       description: "房源位于晏公庙新村 2室1厅 南/北，南，楼层适中。2室1厅户型，36平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好"], listedDate: "2026-04-17", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n542", name: "都市公社 1室1厅 西南", district: "其他", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
+  { id: "n542", name: "都市公社", district: "其他区", city: "nanjing", lat: 32.036972, lng: 118.852899, avgRent: 0, listings: [
     { id: "n557", title: "整租·都市公社 1室1厅 西南", rent: 2600, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "都市公社 1室1厅 西南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/3913", "img://room/3914"],
       landlordName: "杨磊", landlordPhone: "18844167771", landlordWechat: "杨磊557",
       description: "房源位于都市公社 1室1厅 西南，西，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-04-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n543", name: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/可月租/押一付一/无中介费 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n543", name: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/可月租/押一付一/无中介费", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n558", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 拎包入住/可月租/押一付一/无中介费 ", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 拎包入住/可月租/押一付一/无中介费 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1763793957039/d107b94c3fc5461dcbe49861ed81c3d8.png.250x182.jpg", "img://room/3920", "img://room/3921"],
       landlordName: "周杰", landlordPhone: "13976695286",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 拎包入住/可月租/押一付一/无中介费 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "安静宜居"], listedDate: "2026-06-09", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n544", name: "徐庄东南青年汇 徐庄青年广场一社区 独立阳台房，班车直达地铁站，徐庄软件园 1室1厅", district: "其他", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
+  { id: "n544", name: "徐庄东南青年汇 徐庄青年广场一社区 独立阳台房，班车直达地铁站，徐庄软件园", district: "其他区", city: "nanjing", lat: 32.101987, lng: 118.884075, avgRent: 0, listings: [
     { id: "n559", title: "独栋·徐庄东南青年汇 徐庄青年广场一社区 独立阳台房，班车直达地铁站，徐庄软件园", rent: 1740, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "徐庄东南青年汇 徐庄青年广场一社区 独立阳台房，班车直达地铁站，徐庄软件园 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7983dfc604e1d51fcc03c86089d18266-1771913220853/98afb8bd59f8e5b4b4aca154bbfff220.jpg.250x182.jpg", "img://room/3927", "img://room/3928"],
       landlordName: "陈静", landlordPhone: "15075135509",
       description: "房源位于徐庄东南青年汇 徐庄青年广场一社区 独立阳台房，班车直达地铁站，徐庄软件园 1室1厅，朝向好，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫"], listedDate: "2026-06-04", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n545", name: "柳营100号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.042784, lng: 118.876597, avgRent: 0, listings: [
+  { id: "n545", name: "柳营100号", district: "其他区", city: "nanjing", lat: 32.042784, lng: 118.876597, avgRent: 0, listings: [
     { id: "n560", title: "整租·柳营100号 2室1厅 南/北", rent: 2600, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "柳营100号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/4a3db189-984a-49d9-94fa-aa102a131080.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3934", "img://room/3935"],
       landlordName: "吴敏", landlordPhone: "18854120487",
       description: "房源位于柳营100号 2室1厅 南/北，南，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-03-06", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n546", name: "珑润华府 3室2厅 南", district: "其他", city: "nanjing", lat: 32.091049, lng: 118.822204, avgRent: 0, listings: [
+  { id: "n546", name: "珑润华府", district: "其他区", city: "nanjing", lat: 32.091049, lng: 118.822204, avgRent: 0, listings: [
     { id: "n561", title: "整租·珑润华府 3室2厅 南", rent: 5000, area: 107, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "珑润华府 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BGG0FQydV.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3941", "img://room/3942"],
       landlordName: "李强", landlordPhone: "18653271102",
       description: "房源位于珑润华府 3室2厅 南，南，楼层适中。3室2厅户型，107平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "随时看房", "独立厨卫"], listedDate: "2026-03-10", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n547", name: "后宰门西村 3居室 南卧", district: "其他", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
+  { id: "n547", name: "后宰门西村 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.047453, lng: 118.818221, avgRent: 0, listings: [
     { id: "n562", title: "合租·后宰门西村 3居室 南卧", rent: 1415, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "西", community: "后宰门西村 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778075917048/5e353b9deb35749e129256c8b390b386.jpg.250x182.jpg", "img://room/3948", "img://room/3949"],
       landlordName: "刘洋", landlordPhone: "15084682470", landlordWechat: "刘洋562",
       description: "房源位于后宰门西村 3居室 南卧，西，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "近地铁", "安静宜居"], listedDate: "2026-06-15", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n548", name: "东大影壁 3室1厅 南/西北", district: "其他", city: "nanjing", lat: 32.047755, lng: 118.802764, avgRent: 0, listings: [
+  { id: "n548", name: "东大影壁", district: "其他区", city: "nanjing", lat: 32.047755, lng: 118.802764, avgRent: 0, listings: [
     { id: "n563", title: "整租·东大影壁 3室1厅 南/西北", rent: 4300, area: 65, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "东大影壁 3室1厅 南/西北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_XclgZDYa7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3955", "img://room/3956"],
       landlordName: "李强", landlordPhone: "15099653072",
       description: "房源位于东大影壁 3室1厅 南/西北，东，楼层适中。3室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "南北通透", "随时看房"], listedDate: "2026-06-28", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n549", name: "御湖国际 1室0厅 东北", district: "其他", city: "nanjing", lat: 32.080051, lng: 118.806363, avgRent: 0, listings: [
+  { id: "n549", name: "御湖国际", district: "其他区", city: "nanjing", lat: 32.080051, lng: 118.806363, avgRent: 0, listings: [
     { id: "n564", title: "整租·御湖国际 1室0厅 东北", rent: 1890, area: 25, rooms: "1室0厅", floor: "楼层适中", direction: "东", community: "御湖国际 1室0厅 东北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_RihJngBrd.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3962", "img://room/3963"],
       landlordName: "陈静", landlordPhone: "15877857735", landlordWechat: "陈静564",
       description: "房源位于御湖国际 1室0厅 东北，东，楼层适中。1室0厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房", "拎包入住", "精装修"], listedDate: "2026-04-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n550", name: "黄埔花园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.03938635815385, lng: 118.76306055430335, avgRent: 0, listings: [
+  { id: "n550", name: "黄埔花园", district: "其他区", city: "nanjing", lat: 32.03938635815385, lng: 118.76306055430335, avgRent: 0, listings: [
     { id: "n565", title: "整租·黄埔花园 3室1厅 南", rent: 6000, area: 122, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "黄埔花园 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BexCygoa1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3969", "img://room/3970"],
       landlordName: "赵娜", landlordPhone: "15898365014",
       description: "房源位于黄埔花园 3室1厅 南，南，楼层适中。3室1厅户型，122平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透"], listedDate: "2026-04-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n551", name: "盛和家园南区 3室1厅 北", district: "其他", city: "nanjing", lat: 32.03219, lng: 118.89074, avgRent: 0, listings: [
+  { id: "n551", name: "盛和家园南区", district: "其他区", city: "nanjing", lat: 32.03219, lng: 118.89074, avgRent: 0, listings: [
     { id: "n566", title: "整租·盛和家园南区 3室1厅 北", rent: 2200, area: 89, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "盛和家园南区 3室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Vsckz6mH5.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3976", "img://room/3977"],
       landlordName: "周杰", landlordPhone: "18647671173", landlordWechat: "周杰566",
       description: "房源位于盛和家园南区 3室1厅 北，南，楼层适中。3室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "随时看房", "独立厨卫"], listedDate: "2026-04-18", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n552", name: "康定里 2室1厅 南", district: "其他", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
+  { id: "n552", name: "康定里", district: "其他区", city: "nanjing", lat: 32.019667, lng: 118.849941, avgRent: 0, listings: [
     { id: "n567", title: "整租·康定里 2室1厅 南", rent: 2300, area: 44, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "康定里 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0dziAb13s.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3983", "img://room/3984"],
       landlordName: "刘洋", landlordPhone: "18818296841", landlordWechat: "刘洋567",
       description: "房源位于康定里 2室1厅 南，南，楼层适中。2室1厅户型，44平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "采光好", "安静宜居"], listedDate: "2026-04-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n553", name: "招商局中心 1室1厅 北", district: "其他", city: "nanjing", lat: 32.094566, lng: 118.822824, avgRent: 0, listings: [
+  { id: "n553", name: "招商局中心", district: "其他区", city: "nanjing", lat: 32.094566, lng: 118.822824, avgRent: 0, listings: [
     { id: "n568", title: "整租·招商局中心 1室1厅 北", rent: 2900, area: 58, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "招商局中心 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wLiEDU68D.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3990", "img://room/3991"],
       landlordName: "黄明", landlordPhone: "13971474591", landlordWechat: "黄明568",
       description: "房源位于招商局中心 1室1厅 北，北，楼层适中。1室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-06-22", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n554", name: "丹凤新寓 2室1厅 南", district: "其他", city: "nanjing", lat: 32.053031, lng: 118.788336, avgRent: 0, listings: [
+  { id: "n554", name: "丹凤新寓", district: "其他区", city: "nanjing", lat: 32.053031, lng: 118.788336, avgRent: 0, listings: [
     { id: "n569", title: "整租·丹凤新寓 2室1厅 南", rent: 3000, area: 72, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "丹凤新寓 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_7cELbXodL_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/3997", "img://room/3998"],
       landlordName: "周杰", landlordPhone: "13917155560",
       description: "房源位于丹凤新寓 2室1厅 南，南，楼层适中。2室1厅户型，72平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透"], listedDate: "2026-06-23", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n555", name: "亿立方公寓 红山路店 可短租/押一付一/好停车 开间", district: "其他", city: "nanjing", lat: 32.080575, lng: 118.766875, avgRent: 0, listings: [
+  { id: "n555", name: "亿立方公寓 红山路店 可短租/押一付一/好停车", district: "其他区", city: "nanjing", lat: 32.080575, lng: 118.766875, avgRent: 0, listings: [
     { id: "n570", title: "独栋·亿立方公寓 红山路店 可短租/押一付一/好停车 开间", rent: 1200, area: 15, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "亿立方公寓 红山路店 可短租/押一付一/好停车 开间",
       images: ["https://image1.ljcdn.com/wanjia/1926def6da201952b2eaa9dbece6e5f6-1715941522072/30e62fddc14c05988b44e7c02788e187.jpg.250x182.jpg", "img://room/4004", "img://room/4005"],
       landlordName: "李强", landlordPhone: "13842952754",
       description: "房源位于亿立方公寓 红山路店 可短租/押一付一/好停车 开间，朝向好，楼层适中。1室0厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "随时看房", "采光好"], listedDate: "2026-04-27", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n556", name: "成贤街 3室1厅 南", district: "其他", city: "nanjing", lat: 32.133109, lng: 118.836553, avgRent: 0, listings: [
+  { id: "n556", name: "成贤街", district: "其他区", city: "nanjing", lat: 32.133109, lng: 118.836553, avgRent: 0, listings: [
     { id: "n571", title: "整租·成贤街 3室1厅 南", rent: 4805, area: 64, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "成贤街 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Hc0RCS2bf.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4011", "img://room/4012"],
       landlordName: "张伟", landlordPhone: "15828036058", landlordWechat: "张伟571",
       description: "房源位于成贤街 3室1厅 南，南，楼层适中。3室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居"], listedDate: "2026-06-26", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n557", name: "樱驼花园承乐园 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.083779, lng: 118.831082, avgRent: 0, listings: [
+  { id: "n557", name: "樱驼花园承乐园", district: "其他区", city: "nanjing", lat: 32.083779, lng: 118.831082, avgRent: 0, listings: [
     { id: "n572", title: "整租·樱驼花园承乐园 3室1厅 南/北", rent: 2700, area: 90, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "樱驼花园承乐园 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_XHTxkZXKf.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4018", "img://room/4019"],
       landlordName: "陈静", landlordPhone: "18626015018",
       description: "房源位于樱驼花园承乐园 3室1厅 南/北，南，楼层适中。3室1厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-06-13", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n558", name: "阳光聚宝山庄 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.094375, lng: 118.869525, avgRent: 0, listings: [
+  { id: "n558", name: "阳光聚宝山庄", district: "其他区", city: "nanjing", lat: 32.094375, lng: 118.869525, avgRent: 0, listings: [
     { id: "n573", title: "整租·阳光聚宝山庄 3室2厅 南/北", rent: 4000, area: 145, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "阳光聚宝山庄 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_2dDUv121h.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4025", "img://room/4026"],
       landlordName: "杨磊", landlordPhone: "18622350060",
       description: "房源位于阳光聚宝山庄 3室2厅 南/北，南，楼层适中。3室2厅户型，145平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透"], listedDate: "2026-03-08", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n559", name: "柚米 南京铁北红山路柚米社区 近南京火车站/红山动物园旁，三个月起租，精装家电齐全，近1/3号线双地铁，生活便利 1室1厅", district: "其他", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
+  { id: "n559", name: "柚米 南京铁北红山路柚米社区 近南京火车站/红山动物园旁，三个月起租，精装家电齐全，近1/3号线双地铁，生活便利", district: "其他区", city: "nanjing", lat: 32.052653, lng: 118.891474, avgRent: 0, listings: [
     { id: "n574", title: "独栋·柚米 南京铁北红山路柚米社区 近南京火车站/红山动物园旁，三个月起租，精装", rent: 1883, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 近南京火车站/红山动物园旁，三个月起租，精装家电齐全，近1/3号线双地铁，生活便利 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1773800151886/62bf1edb36141f114521ec4bb4175579.jpg.250x182.jpg", "img://room/4032", "img://room/4033"],
       landlordName: "王芳", landlordPhone: "13975744400", landlordWechat: "王芳574",
       description: "房源位于柚米 南京铁北红山路柚米社区 近南京火车站/红山动物园旁，三个月起租，精装家电齐全，近1/3号线双地铁，生活便利 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "拎包入住"], listedDate: "2026-05-06", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n560", name: "如意里 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.047154, lng: 118.793375, avgRent: 0, listings: [
+  { id: "n560", name: "如意里", district: "其他区", city: "nanjing", lat: 32.047154, lng: 118.793375, avgRent: 0, listings: [
     { id: "n575", title: "整租·如意里 2室1厅 南/北", rent: 3500, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "如意里 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_lM4ax0S3g_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4039", "img://room/4040"],
       landlordName: "周杰", landlordPhone: "18610801764", landlordWechat: "周杰575",
       description: "房源位于如意里 2室1厅 南/北，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-03-28", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n561", name: "后宰门街 2室1厅 南", district: "其他", city: "nanjing", lat: 32.044777, lng: 118.82204, avgRent: 0, listings: [
+  { id: "n561", name: "后宰门街", district: "其他区", city: "nanjing", lat: 32.044777, lng: 118.82204, avgRent: 0, listings: [
     { id: "n576", title: "整租·后宰门街 2室1厅 南", rent: 1400, area: 60, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "后宰门街 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_GhJtvrAwp.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4046", "img://room/4047"],
       landlordName: "黄明", landlordPhone: "13892409496",
       description: "房源位于后宰门街 2室1厅 南，南，楼层适中。2室1厅户型，60平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "独立厨卫", "安静宜居"], listedDate: "2026-03-17", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n562", name: "花红园 3室1厅 南", district: "其他", city: "nanjing", lat: 31.935211, lng: 118.842597, avgRent: 0, listings: [
+  { id: "n562", name: "花红园", district: "其他区", city: "nanjing", lat: 31.935211, lng: 118.842597, avgRent: 0, listings: [
     { id: "n577", title: "整租·花红园 3室1厅 南", rent: 3600, area: 63, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "花红园 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_FNe3wLUnW.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4053", "img://room/4054"],
       landlordName: "刘洋", landlordPhone: "18612468014", landlordWechat: "刘洋577",
       description: "房源位于花红园 3室1厅 南，南，楼层适中。3室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-06-12", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n563", name: "紫萝苑 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.100405, lng: 118.832116, avgRent: 0, listings: [
+  { id: "n563", name: "紫萝苑", district: "其他区", city: "nanjing", lat: 32.100405, lng: 118.832116, avgRent: 0, listings: [
     { id: "n578", title: "整租·紫萝苑 3室2厅 南/北", rent: 2800, area: 139, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "紫萝苑 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8fdkYAINZ_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4060", "img://room/4061"],
       landlordName: "陈静", landlordPhone: "18663186198", landlordWechat: "陈静578",
       description: "房源位于紫萝苑 3室2厅 南/北，南，楼层适中。3室2厅户型，139平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "拎包入住", "安静宜居"], listedDate: "2026-03-24", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n564", name: "仙居雅苑 4室1厅 南", district: "其他", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
+  { id: "n564", name: "仙居雅苑", district: "其他区", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
     { id: "n579", title: "整租·仙居雅苑 4室1厅 南", rent: 2200, area: 73, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "仙居雅苑 4室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cABUkoRfP.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4067", "img://room/4068"],
       landlordName: "张伟", landlordPhone: "15012186638", landlordWechat: "张伟579",
       description: "房源位于仙居雅苑 4室1厅 南，南，楼层适中。4室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住"], listedDate: "2026-06-04", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n565", name: "仙居雅苑 3室2厅 复式 南", district: "其他", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
+  { id: "n565", name: "仙居雅苑", district: "其他区", city: "nanjing", lat: 32.091688, lng: 118.896666, avgRent: 0, listings: [
     { id: "n580", title: "整租·仙居雅苑 3室2厅 复式 南", rent: 3200, area: 73, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "仙居雅苑 3室2厅 复式 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_xBOtgLwJV_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4074", "img://room/4075"],
       landlordName: "周杰", landlordPhone: "13827427148", landlordWechat: "周杰580",
       description: "房源位于仙居雅苑 3室2厅 复式 南，南，楼层适中。3室2厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居"], listedDate: "2026-05-14", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n566", name: "漫领域 鼓楼店 阳光独卫、国企直租无中介、可月付 1室1厅", district: "鼓楼区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n566", name: "漫领域 鼓楼店 阳光独卫、国企直租无中介、可月付", district: "鼓楼区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n581", title: "独栋·漫领域 鼓楼店 阳光独卫、国企直租无中介、可月付 1室1厅", rent: 2500, area: 28, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "漫领域 鼓楼店 阳光独卫、国企直租无中介、可月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/fca344998fffd1464be75e686b1c6cbb-1745919777823/7ba1f9149ba09a7dd3dca2d25e608859.jpg.250x182.jpg", "img://room/4081", "img://room/4082"],
       landlordName: "王芳", landlordPhone: "18893472799", landlordWechat: "王芳581",
       description: "房源位于漫领域 鼓楼店 阳光独卫、国企直租无中介、可月付 1室1厅，朝向好，楼层适中。1室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "精装修", "近地铁"], listedDate: "2026-06-06", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n567", name: "凯润金城 1室1厅 北", district: "其他", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
+  { id: "n567", name: "凯润金城", district: "其他区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
     { id: "n582", title: "整租·凯润金城 1室1厅 北", rent: 4500, area: 48, rooms: "1室1厅", floor: "楼层适中", direction: "北", community: "凯润金城 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_N4AP7oV28.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4088", "img://room/4089"],
       landlordName: "王芳", landlordPhone: "15833061000", landlordWechat: "王芳582",
       description: "房源位于凯润金城 1室1厅 北，北，楼层适中。1室1厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住", "随时看房"], listedDate: "2026-03-16", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n568", name: "漫领域 鼓楼店 特价房、国企直租无中介，可短租月付 1室1厅", district: "鼓楼区", city: "nanjing", lat: 32.133179, lng: 118.983628, avgRent: 0, listings: [
+  { id: "n568", name: "漫领域 鼓楼店 特价房、国企直租无中介，可短租月付", district: "鼓楼区", city: "nanjing", lat: 32.133179, lng: 118.983628, avgRent: 0, listings: [
     { id: "n583", title: "独栋·漫领域 鼓楼店 特价房、国企直租无中介，可短租月付 1室1厅", rent: 1750, area: 20, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "漫领域 鼓楼店 特价房、国企直租无中介，可短租月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/fca344998fffd1464be75e686b1c6cbb-1745920212881/2572117f8deb7d28175f95e88910be8a.jpg.250x182.jpg", "img://room/4095", "img://room/4096"],
       landlordName: "陈静", landlordPhone: "18843961391", landlordWechat: "陈静583",
       description: "房源位于漫领域 鼓楼店 特价房、国企直租无中介，可短租月付 1室1厅，朝向好，楼层适中。1室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "独立厨卫", "近地铁"], listedDate: "2026-04-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n569", name: "花园路 4室1厅 南", district: "其他", city: "nanjing", lat: 32.024452, lng: 118.804444, avgRent: 0, listings: [
+  { id: "n569", name: "花园路", district: "其他区", city: "nanjing", lat: 32.024452, lng: 118.804444, avgRent: 0, listings: [
     { id: "n584", title: "整租·花园路 4室1厅 南", rent: 3800, area: 116, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "花园路 4室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_S3HevCZyD_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4102", "img://room/4103"],
       landlordName: "李强", landlordPhone: "13863749023",
       description: "房源位于花园路 4室1厅 南，南，楼层适中。4室1厅户型，116平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居"], listedDate: "2026-04-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n570", name: "珠江路648号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
+  { id: "n570", name: "珠江路648号", district: "其他区", city: "nanjing", lat: 32.047268, lng: 118.785556, avgRent: 0, listings: [
     { id: "n585", title: "整租·珠江路648号 2室1厅 南", rent: 5400, area: 106, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "珠江路648号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/fb27eda1101cee0837101ac429871116-052.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4109", "img://room/4110"],
       landlordName: "黄明", landlordPhone: "15012785726",
       description: "房源位于珠江路648号 2室1厅 南，南，楼层适中。2室1厅户型，106平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "独立厨卫"], listedDate: "2026-04-18", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n571", name: "后宰门街 3室1厅 南", district: "其他", city: "nanjing", lat: 32.044777, lng: 118.82204, avgRent: 0, listings: [
+  { id: "n571", name: "后宰门街", district: "其他区", city: "nanjing", lat: 32.044777, lng: 118.82204, avgRent: 0, listings: [
     { id: "n586", title: "整租·后宰门街 3室1厅 南", rent: 3300, area: 71, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "后宰门街 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Mkn6OYe69_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4116", "img://room/4117"],
       landlordName: "张伟", landlordPhone: "18616248038", landlordWechat: "张伟586",
       description: "房源位于后宰门街 3室1厅 南，南，楼层适中。3室1厅户型，71平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房"], listedDate: "2026-05-24", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n572", name: "韶山路小区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.02226851863391, lng: 118.73962972237122, avgRent: 0, listings: [
+  { id: "n572", name: "韶山路小区", district: "其他区", city: "nanjing", lat: 32.02226851863391, lng: 118.73962972237122, avgRent: 0, listings: [
     { id: "n587", title: "整租·韶山路小区 1室1厅 南", rent: 1500, area: 25, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "韶山路小区 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_S9dEuWhJ7.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4123", "img://room/4124"],
       landlordName: "陈静", landlordPhone: "13860649334",
       description: "房源位于韶山路小区 1室1厅 南，南，楼层适中。1室1厅户型，25平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "安静宜居", "独立厨卫"], listedDate: "2026-06-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n573", name: "中南魔力月光 1室1厅 北", district: "其他", city: "nanjing", lat: 32.03088, lng: 118.89131, avgRent: 0, listings: [
+  { id: "n573", name: "中南魔力月光", district: "其他区", city: "nanjing", lat: 32.03088, lng: 118.89131, avgRent: 0, listings: [
     { id: "n588", title: "整租·中南魔力月光 1室1厅 北", rent: 1650, area: 73, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "中南魔力月光 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_oJ50BkB35.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4130", "img://room/4131"],
       landlordName: "黄明", landlordPhone: "13998366145", landlordWechat: "黄明588",
       description: "房源位于中南魔力月光 1室1厅 北，南，楼层适中。1室1厅户型，73平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "南北通透"], listedDate: "2026-04-08", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n574", name: "柚米 南京铁北红山路柚米社区 【大学生毕业生租房有礼】整租大一室 民用水电可做饭 押一付一 1室1厅", district: "其他", city: "nanjing", lat: 31.957697, lng: 118.735077, avgRent: 0, listings: [
+  { id: "n574", name: "柚米 南京铁北红山路柚米社区 【大学生毕业生租房有礼】整租大一室 民用水电可做饭 押一付一", district: "其他区", city: "nanjing", lat: 31.957697, lng: 118.735077, avgRent: 0, listings: [
     { id: "n589", title: "独栋·柚米 南京铁北红山路柚米社区 【大学生毕业生租房有礼】整租大一室 民用水电", rent: 2643, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "柚米 南京铁北红山路柚米社区 【大学生毕业生租房有礼】整租大一室 民用水电可做饭 押一付一 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/7bfd4d4067c7ef2e266dd03457f6ff07-1708420122745/fe2659c2aa5fd83c67f0d0997f25af94.JPG.250x182.jpg", "img://room/4137", "img://room/4138"],
       landlordName: "杨磊", landlordPhone: "13977593680", landlordWechat: "杨磊589",
       description: "房源位于柚米 南京铁北红山路柚米社区 【大学生毕业生租房有礼】整租大一室 民用水电可做饭 押一付一 1室1厅，朝向好，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修"], listedDate: "2026-05-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n575", name: "红庙小区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.083554, lng: 118.76281, avgRent: 0, listings: [
+  { id: "n575", name: "红庙小区", district: "其他区", city: "nanjing", lat: 32.083554, lng: 118.76281, avgRent: 0, listings: [
     { id: "n590", title: "整租·红庙小区 1室1厅 南", rent: 2800, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "红庙小区 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ABrFzgAOn_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4144", "img://room/4145"],
       landlordName: "黄明", landlordPhone: "15877778022",
       description: "房源位于红庙小区 1室1厅 南，南，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "采光好", "独立厨卫"], listedDate: "2026-05-08", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n576", name: "台城花园 2室1厅 南", district: "其他", city: "nanjing", lat: 32.062711, lng: 118.794514, avgRent: 0, listings: [
+  { id: "n576", name: "台城花园", district: "其他区", city: "nanjing", lat: 32.062711, lng: 118.794514, avgRent: 0, listings: [
     { id: "n591", title: "整租·台城花园 2室1厅 南", rent: 6000, area: 72, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "台城花园 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_U861bsQJW_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4151", "img://room/4152"],
       landlordName: "王芳", landlordPhone: "13995949894", landlordWechat: "王芳591",
       description: "房源位于台城花园 2室1厅 南，南，楼层适中。2室1厅户型，72平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好"], listedDate: "2026-05-06", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n577", name: "鸿信清新家园 2室2厅 南", district: "其他", city: "nanjing", lat: 32.020867, lng: 118.860589, avgRent: 0, listings: [
+  { id: "n577", name: "鸿信清新家园", district: "其他区", city: "nanjing", lat: 32.020867, lng: 118.860589, avgRent: 0, listings: [
     { id: "n592", title: "整租·鸿信清新家园 2室2厅 南", rent: 2500, area: 90, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "鸿信清新家园 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0q4m5G38a.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4158", "img://room/4159"],
       landlordName: "刘洋", landlordPhone: "13951658276",
       description: "房源位于鸿信清新家园 2室2厅 南，南，楼层适中。2室2厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "独立厨卫", "南北通透"], listedDate: "2026-05-21", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n578", name: "雅居乐花园 2室1厅 北", district: "其他", city: "nanjing", lat: 32.08207914461107, lng: 118.75488873831681, avgRent: 0, listings: [
+  { id: "n578", name: "雅居乐花园", district: "其他区", city: "nanjing", lat: 32.08207914461107, lng: 118.75488873831681, avgRent: 0, listings: [
     { id: "n593", title: "整租·雅居乐花园 2室1厅 北", rent: 3300, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "雅居乐花园 2室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_pvdWD4119.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4165", "img://room/4166"],
       landlordName: "黄明", landlordPhone: "18670812645", landlordWechat: "黄明593",
       description: "房源位于雅居乐花园 2室1厅 北，北，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "独立厨卫", "采光好"], listedDate: "2026-04-15", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n579", name: "复地宴南都活力广场 1室1厅 东", district: "其他", city: "nanjing", lat: 31.982931, lng: 118.805202, avgRent: 0, listings: [
+  { id: "n579", name: "复地宴南都活力广场", district: "其他区", city: "nanjing", lat: 31.982931, lng: 118.805202, avgRent: 0, listings: [
     { id: "n594", title: "整租·复地宴南都活力广场 1室1厅 东", rent: 2600, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都活力广场 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_uudrAidtI_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4172", "img://room/4173"],
       landlordName: "黄明", landlordPhone: "15033986797",
       description: "房源位于复地宴南都活力广场 1室1厅 东，南，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "近地铁", "南北通透"], listedDate: "2026-05-21", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n580", name: "泊寓 新门西旗舰社区 【超长租期优惠房源】近万象天地夫子庙新街口商圈丨无中介费丨押一付一  可开票 1室1厅", district: "其他", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
+  { id: "n580", name: "泊寓 新门西旗舰社区 【超长租期优惠房源】近万象天地夫子庙新街口商圈丨无中介费丨押一付一  可开票", district: "其他区", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
     { id: "n595", title: "独栋·泊寓 新门西旗舰社区 【超长租期优惠房源】近万象天地夫子庙新街口商圈丨无中", rent: 2160, area: 20, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 新门西旗舰社区 【超长租期优惠房源】近万象天地夫子庙新街口商圈丨无中介费丨押一付一  可开票 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1775892387897/87189aa46112f46861484b831522fc9d.jpg.250x182.jpg", "img://room/4179", "img://room/4180"],
       landlordName: "杨磊", landlordPhone: "13994624003",
       description: "房源位于泊寓 新门西旗舰社区 【超长租期优惠房源】近万象天地夫子庙新街口商圈丨无中介费丨押一付一  可开票 1室1厅，朝向好，楼层适中。1室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "独立厨卫", "安静宜居"], listedDate: "2026-04-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n581", name: "银城东岳府 4室2厅 南", district: "其他", city: "nanjing", lat: 32.020008, lng: 118.842014, avgRent: 0, listings: [
+  { id: "n581", name: "银城东岳府", district: "其他区", city: "nanjing", lat: 32.020008, lng: 118.842014, avgRent: 0, listings: [
     { id: "n596", title: "整租·银城东岳府 4室2厅 南", rent: 7500, area: 141, rooms: "4室2厅", floor: "楼层适中", direction: "东", community: "银城东岳府 4室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_aFNm6f7eh.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4186", "img://room/4187"],
       landlordName: "张伟", landlordPhone: "15015900628", landlordWechat: "张伟596",
       description: "房源位于银城东岳府 4室2厅 南，东，楼层适中。4室2厅户型，141平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "安静宜居"], listedDate: "2026-06-23", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n582", name: "融寓 三条巷店 【特价特价】 央企品牌 可长租可短租可开票电梯房独立单室套 1室1厅", district: "其他", city: "nanjing", lat: 32.01886, lng: 118.791321, avgRent: 0, listings: [
+  { id: "n582", name: "融寓 三条巷店 【特价特价】 央企品牌 可长租可短租可开票电梯房独立单室套", district: "其他区", city: "nanjing", lat: 32.01886, lng: 118.791321, avgRent: 0, listings: [
     { id: "n597", title: "独栋·融寓 三条巷店 【特价特价】 央企品牌 可长租可短租可开票电梯房独立单室套", rent: 3270, area: 27, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 三条巷店 【特价特价】 央企品牌 可长租可短租可开票电梯房独立单室套 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1778833053142/04543fb4962e2b0906b521bdb9ceae00.jpg.250x182.jpg", "img://room/4193", "img://room/4194"],
       landlordName: "陈静", landlordPhone: "18663547084",
       description: "房源位于融寓 三条巷店 【特价特价】 央企品牌 可长租可短租可开票电梯房独立单室套 1室1厅，朝向好，楼层适中。1室1厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁", "安静宜居"], listedDate: "2026-05-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n583", name: "小杨村小区 2室1厅 西", district: "其他", city: "nanjing", lat: 32.034806, lng: 118.797608, avgRent: 0, listings: [
+  { id: "n583", name: "小杨村小区", district: "其他区", city: "nanjing", lat: 32.034806, lng: 118.797608, avgRent: 0, listings: [
     { id: "n598", title: "整租·小杨村小区 2室1厅 西", rent: 2700, area: 47, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "小杨村小区 2室1厅 西",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_tovKesvre_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4200", "img://room/4201"],
       landlordName: "李强", landlordPhone: "13912117313",
       description: "房源位于小杨村小区 2室1厅 西，西，楼层适中。2室1厅户型，47平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居"], listedDate: "2026-04-05", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n584", name: "融寓 后标营店 【限时优惠】月付  短租一口价 除水电无其他费用 近南农南理南航 1室1厅", district: "其他", city: "nanjing", lat: 32.129833, lng: 118.975652, avgRent: 0, listings: [
+  { id: "n584", name: "融寓 后标营店 【限时优惠】月付  短租一口价 除水电无其他费用 近南农南理南航", district: "其他区", city: "nanjing", lat: 32.129833, lng: 118.975652, avgRent: 0, listings: [
     { id: "n599", title: "独栋·融寓 后标营店 【限时优惠】月付  短租一口价 除水电无其他费用 近南农南", rent: 2170, area: 29, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 后标营店 【限时优惠】月付  短租一口价 除水电无其他费用 近南农南理南航 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1735790507947/a86522df39d9aa04c3d7d80e4ea6f881.jpg.250x182.jpg", "img://room/4207", "img://room/4208"],
       landlordName: "杨磊", landlordPhone: "18683594048",
       description: "房源位于融寓 后标营店 【限时优惠】月付  短租一口价 除水电无其他费用 近南农南理南航 1室1厅，朝向好，楼层适中。1室1厅户型，29平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "随时看房"], listedDate: "2026-06-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n585", name: "华著兰庭南区 3室2厅 南", district: "其他", city: "nanjing", lat: 31.999025, lng: 118.813025, avgRent: 0, listings: [
+  { id: "n585", name: "华著兰庭南区", district: "其他区", city: "nanjing", lat: 31.999025, lng: 118.813025, avgRent: 0, listings: [
     { id: "n600", title: "整租·华著兰庭南区 3室2厅 南", rent: 6000, area: 100, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "华著兰庭南区 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_mD9qLz1DN.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4214", "img://room/4215"],
       landlordName: "陈静", landlordPhone: "13899322769",
       description: "房源位于华著兰庭南区 3室2厅 南，南，楼层适中。3室2厅户型，100平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "近地铁", "随时看房"], listedDate: "2026-04-15", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n586", name: "莫愁路 1室1厅 南", district: "其他", city: "nanjing", lat: 32.031236, lng: 118.772423, avgRent: 0, listings: [
+  { id: "n586", name: "莫愁路", district: "其他区", city: "nanjing", lat: 32.031236, lng: 118.772423, avgRent: 0, listings: [
     { id: "n601", title: "整租·莫愁路 1室1厅 南", rent: 2400, area: 37, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "莫愁路 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_psFeMEZWv.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4221", "img://room/4222"],
       landlordName: "王芳", landlordPhone: "15827753762", landlordWechat: "王芳601",
       description: "房源位于莫愁路 1室1厅 南，南，楼层适中。1室1厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "随时看房"], listedDate: "2026-06-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n587", name: "苏宁雅悦 1室1厅 东", district: "其他", city: "nanjing", lat: 32.036696, lng: 118.786727, avgRent: 0, listings: [
+  { id: "n587", name: "苏宁雅悦", district: "其他区", city: "nanjing", lat: 32.036696, lng: 118.786727, avgRent: 0, listings: [
     { id: "n602", title: "整租·苏宁雅悦 1室1厅 东", rent: 4800, area: 61, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "苏宁雅悦 1室1厅 东",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_WcPJA5y8d.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4228", "img://room/4229"],
       landlordName: "刘洋", landlordPhone: "18880948665",
       description: "房源位于苏宁雅悦 1室1厅 东，东，楼层适中。1室1厅户型，61平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "近地铁"], listedDate: "2026-06-04", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n588", name: "泊寓 新门西旗舰社区 【毕业季限时秒杀】安静边户丨方便停车丨周边配套齐全 1室1厅", district: "其他", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
+  { id: "n588", name: "泊寓 新门西旗舰社区 【毕业季限时秒杀】安静边户丨方便停车丨周边配套齐全", district: "其他区", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
     { id: "n603", title: "独栋·泊寓 新门西旗舰社区 【毕业季限时秒杀】安静边户丨方便停车丨周边配套齐全 ", rent: 2850, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 新门西旗舰社区 【毕业季限时秒杀】安静边户丨方便停车丨周边配套齐全 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1780987911039/0eaa9c89a8e158e89832052200c56619.jpg.250x182.jpg", "img://room/4235", "img://room/4236"],
       landlordName: "李强", landlordPhone: "18839174800", landlordWechat: "李强603",
       description: "房源位于泊寓 新门西旗舰社区 【毕业季限时秒杀】安静边户丨方便停车丨周边配套齐全 1室1厅，朝向好，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住"], listedDate: "2026-03-21", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n589", name: "华盛园 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.057735464860464, lng: 118.8527712142165, avgRent: 0, listings: [
+  { id: "n589", name: "华盛园", district: "其他区", city: "nanjing", lat: 32.057735464860464, lng: 118.8527712142165, avgRent: 0, listings: [
     { id: "n604", title: "整租·华盛园 3室1厅 南/北", rent: 3500, area: 82, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "华盛园 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_iGN3iR1l2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4242", "img://room/4243"],
       landlordName: "张伟", landlordPhone: "15867689328", landlordWechat: "张伟604",
       description: "房源位于华盛园 3室1厅 南/北，南，楼层适中。3室1厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-04-17", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n590", name: "泊寓 新门西旗舰社区 【店长推荐】万科品牌公寓 温馨复试  近新街口 水游城等商圈  押一付一 方便停车 1室1厅", district: "其他", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
+  { id: "n590", name: "泊寓 新门西旗舰社区 【店长推荐】万科品牌公寓 温馨复试  近新街口 水游城等商圈  押一付一 方便停车", district: "其他区", city: "nanjing", lat: 32.145926, lng: 118.736504, avgRent: 0, listings: [
     { id: "n605", title: "独栋·泊寓 新门西旗舰社区 【店长推荐】万科品牌公寓 温馨复试  近新街口 水游", rent: 3800, area: 45, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "泊寓 新门西旗舰社区 【店长推荐】万科品牌公寓 温馨复试  近新街口 水游城等商圈  押一付一 方便停车 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/dc24360c287f47048b7e08caa00628fd-1773817902182/6d3a0ae14bc2c097732dd8b9549915dc.jpg.250x182.jpg", "img://room/4249", "img://room/4250"],
       landlordName: "刘洋", landlordPhone: "15815592583", landlordWechat: "刘洋605",
       description: "房源位于泊寓 新门西旗舰社区 【店长推荐】万科品牌公寓 温馨复试  近新街口 水游城等商圈  押一付一 方便停车 1室1厅，朝向好，楼层适中。1室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "采光好", "南北通透"], listedDate: "2026-04-26", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n591", name: "登隆巷 2室1厅 南", district: "其他", city: "nanjing", lat: 32.037751, lng: 118.782604, avgRent: 0, listings: [
+  { id: "n591", name: "登隆巷", district: "其他区", city: "nanjing", lat: 32.037751, lng: 118.782604, avgRent: 0, listings: [
     { id: "n606", title: "整租·登隆巷 2室1厅 南", rent: 2100, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "登隆巷 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_iDwgSJ4kb.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4256", "img://room/4257"],
       landlordName: "王芳", landlordPhone: "15898024336",
       description: "房源位于登隆巷 2室1厅 南，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "采光好"], listedDate: "2026-03-01", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n592", name: "融寓 三条巷店 【特价特价】新街口大行宫 近军总八一医院 公寓直租无中介 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n592", name: "融寓 三条巷店 【特价特价】新街口大行宫 近军总八一医院 公寓直租无中介", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n607", title: "独栋·融寓 三条巷店 【特价特价】新街口大行宫 近军总八一医院 公寓直租无中介 ", rent: 3270, area: 27, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 三条巷店 【特价特价】新街口大行宫 近军总八一医院 公寓直租无中介 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1775544116098/27b25d57ab36030af419c5c823fd3152.jpg.250x182.jpg", "img://room/4263", "img://room/4264"],
       landlordName: "刘洋", landlordPhone: "15056747422", landlordWechat: "刘洋607",
       description: "房源位于融寓 三条巷店 【特价特价】新街口大行宫 近军总八一医院 公寓直租无中介 1室1厅，朝向好，楼层适中。1室1厅户型，27平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "安静宜居", "独立厨卫"], listedDate: "2026-06-24", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n593", name: "融寓 后标营店 [热门户型] 月付  一口价 除水电无其他费用 近南农南理南航 1室1厅", district: "其他", city: "nanjing", lat: 32.129833, lng: 118.975652, avgRent: 0, listings: [
+  { id: "n593", name: "融寓 后标营店 [热门户型] 月付  一口价 除水电无其他费用 近南农南理南航", district: "其他区", city: "nanjing", lat: 32.129833, lng: 118.975652, avgRent: 0, listings: [
     { id: "n608", title: "独栋·融寓 后标营店 [热门户型] 月付  一口价 除水电无其他费用 近南农南理", rent: 2290, area: 31, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "融寓 后标营店 [热门户型] 月付  一口价 除水电无其他费用 近南农南理南航 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/b5f7053c020a1b1bedc693ccd6acae9f-1685521140640/a86522df39d9aa04c3d7d80e4ea6f881.jpg.250x182.jpg", "img://room/4270", "img://room/4271"],
       landlordName: "张伟", landlordPhone: "18675104698", landlordWechat: "张伟608",
       description: "房源位于融寓 后标营店 [热门户型] 月付  一口价 除水电无其他费用 近南农南理南航 1室1厅，朝向好，楼层适中。1室1厅户型，31平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "安静宜居"], listedDate: "2026-05-20", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n594", name: "东南青年汇 银龙店 拎包入住/可月租/押一付一/无中介511 1室1厅", district: "其他", city: "nanjing", lat: 32.098347, lng: 118.741547, avgRent: 0, listings: [
+  { id: "n594", name: "东南青年汇 银龙店 拎包入住/可月租/押一付一/无中介511", district: "其他区", city: "nanjing", lat: 32.098347, lng: 118.741547, avgRent: 0, listings: [
     { id: "n609", title: "独栋·东南青年汇 银龙店 拎包入住/可月租/押一付一/无中介511 1室1厅", rent: 1950, area: 32, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 拎包入住/可月租/押一付一/无中介511 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1752646192311/62c272ac762e7a8448d95cf063cabbf0.jpg.250x182.jpg", "img://room/4277", "img://room/4278"],
       landlordName: "陈静", landlordPhone: "18686250078",
       description: "房源位于东南青年汇 银龙店 拎包入住/可月租/押一付一/无中介511 1室1厅，朝向好，楼层适中。1室1厅户型，32平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "精装修"], listedDate: "2026-04-21", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n595", name: "东南青年汇 银龙店 新年特惠租期可长可短 1室1厅", district: "其他", city: "nanjing", lat: 32.062395, lng: 118.648649, avgRent: 0, listings: [
+  { id: "n595", name: "东南青年汇 银龙店 新年特惠租期可长可短", district: "其他区", city: "nanjing", lat: 32.062395, lng: 118.648649, avgRent: 0, listings: [
     { id: "n610", title: "独栋·东南青年汇 银龙店 新年特惠租期可长可短 1室1厅", rent: 1600, area: 26, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 新年特惠租期可长可短 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1751521504707/156005c5baf40ff51a327f1c34f2975b.jpg.250x182.jpg", "img://room/4284", "img://room/4285"],
       landlordName: "陈静", landlordPhone: "15884481604", landlordWechat: "陈静610",
       description: "房源位于东南青年汇 银龙店 新年特惠租期可长可短 1室1厅，朝向好，楼层适中。1室1厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "精装修"], listedDate: "2026-03-11", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n596", name: "东南青年汇 银龙店 配套成熟拎包入住/长租优惠509 1室1厅", district: "其他", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
+  { id: "n596", name: "东南青年汇 银龙店 配套成熟拎包入住/长租优惠509", district: "其他区", city: "nanjing", lat: 31.961409, lng: 118.819008, avgRent: 0, listings: [
     { id: "n611", title: "独栋·东南青年汇 银龙店 配套成熟拎包入住/长租优惠509 1室1厅", rent: 1950, area: 37, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 配套成熟拎包入住/长租优惠509 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1752646321117/2c08885c10b6206b1b475d2b524b3791.jpg.250x182.jpg", "img://room/4291", "img://room/4292"],
       landlordName: "周杰", landlordPhone: "15028775707", landlordWechat: "周杰611",
       description: "房源位于东南青年汇 银龙店 配套成熟拎包入住/长租优惠509 1室1厅，朝向好，楼层适中。1室1厅户型，37平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "南北通透"], listedDate: "2026-03-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n597", name: "华盛园 3室1厅 南", district: "其他", city: "nanjing", lat: 32.034982267367575, lng: 118.82827072157401, avgRent: 0, listings: [
+  { id: "n597", name: "华盛园", district: "其他区", city: "nanjing", lat: 32.034982267367575, lng: 118.82827072157401, avgRent: 0, listings: [
     { id: "n612", title: "整租·华盛园 3室1厅 南", rent: 2730, area: 75, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "华盛园 3室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/9b038498-2ace-4753-9d5c-5017bc126ec3.jpg.250x182.jpg", "img://room/4298", "img://room/4299"],
       landlordName: "刘洋", landlordPhone: "18691006133", landlordWechat: "刘洋612",
       description: "房源位于华盛园 3室1厅 南，南，楼层适中。3室1厅户型，75平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "安静宜居"], listedDate: "2026-05-22", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n598", name: "良城美景家园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.007609, lng: 118.804954, avgRent: 0, listings: [
+  { id: "n598", name: "良城美景家园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.007609, lng: 118.804954, avgRent: 0, listings: [
     { id: "n613", title: "合租·良城美景家园 4居室 北卧", rent: 1190, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "良城美景家园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782388623264/ae34d5b7f7d9decc66002d41b8502b6a.jpg.250x182.jpg", "img://room/4305", "img://room/4306"],
       landlordName: "周杰", landlordPhone: "18892760704", landlordWechat: "周杰613",
       description: "房源位于良城美景家园 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-05-08", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n599", name: "蓝旗新村 1室1厅 南/北", district: "其他", city: "nanjing", lat: 32.025365, lng: 118.818177, avgRent: 0, listings: [
+  { id: "n599", name: "蓝旗新村", district: "其他区", city: "nanjing", lat: 32.025365, lng: 118.818177, avgRent: 0, listings: [
     { id: "n614", title: "整租·蓝旗新村 1室1厅 南/北", rent: 2000, area: 40, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "蓝旗新村 1室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/b236655973bb425f23fb47664674bb50.jpeg.250x182.jpg", "img://room/4312", "img://room/4313"],
       landlordName: "吴敏", landlordPhone: "15852047815",
       description: "房源位于蓝旗新村 1室1厅 南/北，南，楼层适中。1室1厅户型，40平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修"], listedDate: "2026-05-18", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n600", name: "绿国万象都荟 2居室 西卧", district: "其他", city: "nanjing", lat: 32.043691, lng: 118.917698, avgRent: 0, listings: [
+  { id: "n600", name: "绿国万象都荟 2居室 西卧", district: "其他区", city: "nanjing", lat: 32.043691, lng: 118.917698, avgRent: 0, listings: [
     { id: "n615", title: "合租·绿国万象都荟 2居室 西卧", rent: 1990, area: 16, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "绿国万象都荟 2居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1776766065256/6f85f9d16e2c080aed91a03b2263e52f.jpg.250x182.jpg", "img://room/4319", "img://room/4320"],
       landlordName: "周杰", landlordPhone: "15890914586",
       description: "房源位于绿国万象都荟 2居室 西卧，西，楼层适中。2室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫"], listedDate: "2026-06-13", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n601", name: "海福巷 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
+  { id: "n601", name: "海福巷", district: "其他区", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
     { id: "n616", title: "整租·海福巷 2室1厅 南/北", rent: 2200, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "海福巷 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_b4Uhv9U2c_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4326", "img://room/4327"],
       landlordName: "吴敏", landlordPhone: "18871468549",
       description: "房源位于海福巷 2室1厅 南/北，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "近地铁", "拎包入住"], listedDate: "2026-06-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n602", name: "四方新村五村 4居室 南卧", district: "其他", city: "nanjing", lat: 32.015437, lng: 118.839347, avgRent: 0, listings: [
+  { id: "n602", name: "四方新村五村 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.015437, lng: 118.839347, avgRent: 0, listings: [
     { id: "n617", title: "合租·四方新村五村 4居室 南卧", rent: 860, area: 6, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "四方新村五村 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778977645903/773e696d5cf7b3fa39b345fc4b72b571.jpg.250x182.jpg", "img://room/4333", "img://room/4334"],
       landlordName: "赵娜", landlordPhone: "15855738333",
       description: "房源位于四方新村五村 4居室 南卧，南，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "近地铁", "采光好"], listedDate: "2026-04-12", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n603", name: "风光里小区三期 3室1厅 南/北", district: "其他", city: "nanjing", lat: 31.997196, lng: 118.805301, avgRent: 0, listings: [
+  { id: "n603", name: "风光里小区三期", district: "其他区", city: "nanjing", lat: 31.997196, lng: 118.805301, avgRent: 0, listings: [
     { id: "n618", title: "整租·风光里小区三期 3室1厅 南/北", rent: 4000, area: 86, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "风光里小区三期 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_lSoAMHkXz.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4340", "img://room/4341"],
       landlordName: "吴敏", landlordPhone: "13899874635",
       description: "房源位于风光里小区三期 3室1厅 南/北，南，楼层适中。3室1厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "精装修"], listedDate: "2026-05-03", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n604", name: "金墙花苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.000371, lng: 118.79308, avgRent: 0, listings: [
+  { id: "n604", name: "金墙花苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.000371, lng: 118.79308, avgRent: 0, listings: [
     { id: "n619", title: "合租·金墙花苑 4居室 南卧", rent: 1000, area: 12, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "金墙花苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1683462092903/702acd7fbea2daa40d2fa265ff2e5241.jpg.250x182.jpg", "img://room/4347", "img://room/4348"],
       landlordName: "杨磊", landlordPhone: "15859207375",
       description: "房源位于金墙花苑 4居室 南卧，南，楼层适中。4室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "拎包入住"], listedDate: "2026-03-20", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n605", name: "戎泰山庄 1室1厅 南", district: "其他", city: "nanjing", lat: 32.026848680406175, lng: 118.75979139776403, avgRent: 0, listings: [
+  { id: "n605", name: "戎泰山庄", district: "其他区", city: "nanjing", lat: 32.026848680406175, lng: 118.75979139776403, avgRent: 0, listings: [
     { id: "n620", title: "整租·戎泰山庄 1室1厅 南", rent: 2000, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "戎泰山庄 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/f9227b60-fab4-4d2b-8776-caebd6ffd94f.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4354", "img://room/4355"],
       landlordName: "张伟", landlordPhone: "15854523647", landlordWechat: "张伟620",
       description: "房源位于戎泰山庄 1室1厅 南，南，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修", "拎包入住", "随时看房"], listedDate: "2026-05-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n606", name: "玉带园 3居室 南卧", district: "其他", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
+  { id: "n606", name: "玉带园 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
     { id: "n621", title: "合租·玉带园 3居室 南卧", rent: 1390, area: 9, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "玉带园 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778220658771/606efbecc329061a3d71e78f32fbe723.jpg.250x182.jpg", "img://room/4361", "img://room/4362"],
       landlordName: "陈静", landlordPhone: "15837171348",
       description: "房源位于玉带园 3居室 南卧，南，楼层适中。3室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "采光好", "拎包入住"], listedDate: "2026-06-11", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n607", name: "建康大厦 3室1厅 东/北", district: "其他", city: "nanjing", lat: 32.02517, lng: 118.795784, avgRent: 0, listings: [
+  { id: "n607", name: "建康大厦", district: "其他区", city: "nanjing", lat: 32.02517, lng: 118.795784, avgRent: 0, listings: [
     { id: "n622", title: "整租·建康大厦 3室1厅 东/北", rent: 5100, area: 98, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "建康大厦 3室1厅 东/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_SlQ8v46P2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4368", "img://room/4369"],
       landlordName: "吴敏", landlordPhone: "18892665177",
       description: "房源位于建康大厦 3室1厅 东/北，东，楼层适中。3室1厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居", "随时看房"], listedDate: "2026-04-01", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n608", name: "长乐路 3居室 北卧", district: "其他", city: "nanjing", lat: 32.013469, lng: 118.795227, avgRent: 0, listings: [
+  { id: "n608", name: "长乐路 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.013469, lng: 118.795227, avgRent: 0, listings: [
     { id: "n623", title: "合租·长乐路 3居室 北卧", rent: 1230, area: 9, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "长乐路 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781688884935/3bab248f6c01e4b43338cdb099eb2713.jpg.250x182.jpg", "img://room/4375", "img://room/4376"],
       landlordName: "周杰", landlordPhone: "18637301241",
       description: "房源位于长乐路 3居室 北卧，北，楼层适中。3室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住"], listedDate: "2026-04-20", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n609", name: "银龙花园一期北区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.008899, lng: 118.857637, avgRent: 0, listings: [
+  { id: "n609", name: "银龙花园一期北区", district: "其他区", city: "nanjing", lat: 32.008899, lng: 118.857637, avgRent: 0, listings: [
     { id: "n624", title: "整租·银龙花园一期北区 2室1厅 南", rent: 2400, area: 85, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "银龙花园一期北区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_3ruMYVWPD.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4382", "img://room/4383"],
       landlordName: "黄明", landlordPhone: "18841225096",
       description: "房源位于银龙花园一期北区 2室1厅 南，北，楼层适中。2室1厅户型，85平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "安静宜居", "独立厨卫"], listedDate: "2026-06-18", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n610", name: "玉带园 2居室 南卧", district: "其他", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
+  { id: "n610", name: "玉带园 2居室 南卧", district: "其他区", city: "nanjing", lat: 32.024498, lng: 118.777655, avgRent: 0, listings: [
     { id: "n625", title: "合租·玉带园 2居室 南卧", rent: 1860, area: 13, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "玉带园 2居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778220653398/174bf2bd1c7851bd1e31c288001e561d.jpg.250x182.jpg", "img://room/4389", "img://room/4390"],
       landlordName: "刘洋", landlordPhone: "15833405158", landlordWechat: "刘洋625",
       description: "房源位于玉带园 2居室 南卧，南，楼层适中。2室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "安静宜居", "采光好"], listedDate: "2026-06-15", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n611", name: "华著兰庭北区 4室2厅 南/北", district: "其他", city: "nanjing", lat: 32.000625, lng: 118.811625, avgRent: 0, listings: [
+  { id: "n611", name: "华著兰庭北区", district: "其他区", city: "nanjing", lat: 32.000625, lng: 118.811625, avgRent: 0, listings: [
     { id: "n626", title: "整租·华著兰庭北区 4室2厅 南/北", rent: 9000, area: 172, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "华著兰庭北区 4室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_wQ0hMQC6v_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4396", "img://room/4397"],
       landlordName: "黄明", landlordPhone: "13836068925", landlordWechat: "黄明626",
       description: "房源位于华著兰庭北区 4室2厅 南/北，南，楼层适中。4室2厅户型，172平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "采光好"], listedDate: "2026-06-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n612", name: "几家公寓 新街口店 （复式)无窗新风系统限时特价！新街口/可开票/申请补贴/可月付 1室1厅", district: "其他", city: "nanjing", lat: 31.978018, lng: 118.790112, avgRent: 0, listings: [
+  { id: "n612", name: "几家公寓 新街口店 （复式)无窗新风系统限时特价！新街口/可开票/申请补贴/可月付", district: "其他区", city: "nanjing", lat: 31.978018, lng: 118.790112, avgRent: 0, listings: [
     { id: "n627", title: "独栋·几家公寓 新街口店 （复式)无窗新风系统限时特价！新街口/可开票/申请补贴", rent: 2990, area: 28, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "几家公寓 新街口店 （复式)无窗新风系统限时特价！新街口/可开票/申请补贴/可月付 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f339aed7c7ff72414e0b24353f516ed6-1781514487719/ea20ca62846215c727a0710f2cdc1c45.jpg.250x182.jpg", "img://room/4403", "img://room/4404"],
       landlordName: "周杰", landlordPhone: "15063244184", landlordWechat: "周杰627",
       description: "房源位于几家公寓 新街口店 （复式)无窗新风系统限时特价！新街口/可开票/申请补贴/可月付 1室1厅，朝向好，楼层适中。1室1厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "安静宜居"], listedDate: "2026-03-04", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n613", name: "银龙雅苑 2室1厅 南/西北", district: "其他", city: "nanjing", lat: 32.004577, lng: 118.845071, avgRent: 0, listings: [
+  { id: "n613", name: "银龙雅苑", district: "其他区", city: "nanjing", lat: 32.004577, lng: 118.845071, avgRent: 0, listings: [
     { id: "n628", title: "整租·银龙雅苑 2室1厅 南/西北", rent: 2800, area: 70, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "银龙雅苑 2室1厅 南/西北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ISg7mkrXz.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4410", "img://room/4411"],
       landlordName: "周杰", landlordPhone: "15054044690", landlordWechat: "周杰628",
       description: "房源位于银龙雅苑 2室1厅 南/西北，南，楼层适中。2室1厅户型，70平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房"], listedDate: "2026-03-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n614", name: "未来域公寓 太平南路店 波普风格D 开间", district: "其他", city: "nanjing", lat: 32.015304, lng: 118.758383, avgRent: 0, listings: [
+  { id: "n614", name: "未来域公寓 太平南路店 波普风格D", district: "其他区", city: "nanjing", lat: 32.015304, lng: 118.758383, avgRent: 0, listings: [
     { id: "n629", title: "独栋·未来域公寓 太平南路店 波普风格D 开间", rent: 2350, area: 28, rooms: "1室0厅", floor: "楼层适中", direction: "朝向好", community: "未来域公寓 太平南路店 波普风格D 开间",
       images: ["https://image1.ljcdn.com/wanjia/3c132b41fc832d406d44fb6dba5b3d71-1720335792282/34c7a0e6d56c0451f8d193a78589a897.jpg.250x182.jpg", "img://room/4417", "img://room/4418"],
       landlordName: "黄明", landlordPhone: "18886355799", landlordWechat: "黄明629",
       description: "房源位于未来域公寓 太平南路店 波普风格D 开间，朝向好，楼层适中。1室0厅户型，28平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "精装修", "南北通透"], listedDate: "2026-06-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n615", name: "火瓦巷26-3号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.031536, lng: 118.790349, avgRent: 0, listings: [
+  { id: "n615", name: "火瓦巷26-3号", district: "其他区", city: "nanjing", lat: 32.031536, lng: 118.790349, avgRent: 0, listings: [
     { id: "n630", title: "整租·火瓦巷26-3号 2室1厅 南/北", rent: 2600, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "火瓦巷26-3号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NonXJvzL9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4424", "img://room/4425"],
       landlordName: "刘洋", landlordPhone: "15096015372",
       description: "房源位于火瓦巷26-3号 2室1厅 南/北，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "近地铁"], listedDate: "2026-05-02", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n616", name: "天地花园东区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.023789, lng: 118.832219, avgRent: 0, listings: [
+  { id: "n616", name: "天地花园东区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.023789, lng: 118.832219, avgRent: 0, listings: [
     { id: "n631", title: "合租·天地花园东区 3居室 南卧", rent: 1560, area: 11, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "天地花园东区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779623103384/6c255add3af84a1fddcb8ccc4fae2794.jpg.250x182.jpg", "img://room/4431", "img://room/4432"],
       landlordName: "李强", landlordPhone: "13940841857", landlordWechat: "李强631",
       description: "房源位于天地花园东区 3居室 南卧，东，楼层适中。3室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "拎包入住"], listedDate: "2026-03-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n617", name: "汇景家园景富苑 2室1厅 南", district: "其他", city: "nanjing", lat: 31.985621, lng: 118.812543, avgRent: 0, listings: [
+  { id: "n617", name: "汇景家园景富苑", district: "其他区", city: "nanjing", lat: 31.985621, lng: 118.812543, avgRent: 0, listings: [
     { id: "n632", title: "整租·汇景家园景富苑 2室1厅 南", rent: 2600, area: 56, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "汇景家园景富苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_MKKjIymJW.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4438", "img://room/4439"],
       landlordName: "赵娜", landlordPhone: "13940060717", landlordWechat: "赵娜632",
       description: "房源位于汇景家园景富苑 2室1厅 南，南，楼层适中。2室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-05-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n618", name: "良城美景家园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.007609, lng: 118.804954, avgRent: 0, listings: [
+  { id: "n618", name: "良城美景家园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.007609, lng: 118.804954, avgRent: 0, listings: [
     { id: "n633", title: "合租·良城美景家园 4居室 南卧", rent: 1190, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "良城美景家园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781950798502/a20b8092b9b8d22896c05f368fc4d663.jpg.250x182.jpg", "img://room/4445", "img://room/4446"],
       landlordName: "黄明", landlordPhone: "13833253039", landlordWechat: "黄明633",
       description: "房源位于良城美景家园 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "南北通透", "安静宜居"], listedDate: "2026-03-09", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n619", name: "万达江南明珠 3室2厅 南", district: "其他", city: "nanjing", lat: 32.03114696606839, lng: 118.7596851675553, avgRent: 0, listings: [
+  { id: "n619", name: "万达江南明珠", district: "其他区", city: "nanjing", lat: 32.03114696606839, lng: 118.7596851675553, avgRent: 0, listings: [
     { id: "n634", title: "整租·万达江南明珠 3室2厅 南", rent: 4500, area: 116, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "万达江南明珠 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_E557ULLEu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4452", "img://room/4453"],
       landlordName: "吴敏", landlordPhone: "18664830978", landlordWechat: "吴敏634",
       description: "房源位于万达江南明珠 3室2厅 南，南，楼层适中。3室2厅户型，116平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住"], listedDate: "2026-05-28", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n620", name: "西华东村社区 4居室 北卧", district: "其他", city: "nanjing", lat: 32.038595, lng: 118.807784, avgRent: 0, listings: [
+  { id: "n620", name: "西华东村社区 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.038595, lng: 118.807784, avgRent: 0, listings: [
     { id: "n635", title: "合租·西华东村社区 4居室 北卧", rent: 1160, area: 6, rooms: "4室1厅", floor: "楼层适中", direction: "西", community: "西华东村社区 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780222991897/20af17c1bd551df6d1d297de53b7ad82.jpg.250x182.jpg", "img://room/4459", "img://room/4460"],
       landlordName: "刘洋", landlordPhone: "18615515820", landlordWechat: "刘洋635",
       description: "房源位于西华东村社区 4居室 北卧，西，楼层适中。4室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-04-13", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n621", name: "来凤里 3居室 北卧", district: "其他", city: "nanjing", lat: 32.022545, lng: 118.771569, avgRent: 0, listings: [
+  { id: "n621", name: "来凤里 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.022545, lng: 118.771569, avgRent: 0, listings: [
     { id: "n636", title: "合租·来凤里 3居室 北卧", rent: 1190, area: 11, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "来凤里 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779764757332/4752c3d8252a5a149bbd7736bbd94cc1.jpg.250x182.jpg", "img://room/4466", "img://room/4467"],
       landlordName: "李强", landlordPhone: "13932672183", landlordWechat: "李强636",
       description: "房源位于来凤里 3居室 北卧，北，楼层适中。3室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "随时看房"], listedDate: "2026-06-26", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n622", name: "御道嘉庭 4居室 北卧", district: "其他", city: "nanjing", lat: 32.026141, lng: 118.811746, avgRent: 0, listings: [
+  { id: "n622", name: "御道嘉庭 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.026141, lng: 118.811746, avgRent: 0, listings: [
     { id: "n637", title: "合租·御道嘉庭 4居室 北卧", rent: 1590, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "御道嘉庭 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1756488373224/2b8da282b8982c14fdc7a60663929fbd.jpg.250x182.jpg", "img://room/4473", "img://room/4474"],
       landlordName: "吴敏", landlordPhone: "15064083390", landlordWechat: "吴敏637",
       description: "房源位于御道嘉庭 4居室 北卧，北，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透"], listedDate: "2026-03-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n623", name: "扇骨里小区 2居室 南卧", district: "其他", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
+  { id: "n623", name: "扇骨里小区 2居室 南卧", district: "其他区", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
     { id: "n638", title: "合租·扇骨里小区 2居室 南卧", rent: 1590, area: 16, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "扇骨里小区 2居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778805724363/7f6742a841122c51e52cbea497e5e6d2.jpg.250x182.jpg", "img://room/4480", "img://room/4481"],
       landlordName: "周杰", landlordPhone: "18873549649", landlordWechat: "周杰638",
       description: "房源位于扇骨里小区 2居室 南卧，南，楼层适中。2室1厅户型，16平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "拎包入住", "采光好"], listedDate: "2026-05-26", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n624", name: "御道嘉庭 4居室 南卧", district: "其他", city: "nanjing", lat: 32.026141, lng: 118.811746, avgRent: 0, listings: [
+  { id: "n624", name: "御道嘉庭 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.026141, lng: 118.811746, avgRent: 0, listings: [
     { id: "n639", title: "合租·御道嘉庭 4居室 南卧", rent: 1460, area: 12, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "御道嘉庭 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780813841598/997ce403fd230036981d45066f523da9.jpg.250x182.jpg", "img://room/4487", "img://room/4488"],
       landlordName: "李强", landlordPhone: "15883711209",
       description: "房源位于御道嘉庭 4居室 南卧，南，楼层适中。4室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "独立厨卫"], listedDate: "2026-04-14", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n625", name: "老虎头 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.009485, lng: 118.792614, avgRent: 0, listings: [
+  { id: "n625", name: "老虎头", district: "其他区", city: "nanjing", lat: 32.009485, lng: 118.792614, avgRent: 0, listings: [
     { id: "n640", title: "整租·老虎头 3室2厅 南/北", rent: 2800, area: 77, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "老虎头 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_kGyComVJs.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4494", "img://room/4495"],
       landlordName: "张伟", landlordPhone: "15026286505", landlordWechat: "张伟640",
       description: "房源位于老虎头 3室2厅 南/北，南，楼层适中。3室2厅户型，77平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "采光好", "精装修"], listedDate: "2026-03-28", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n626", name: "复地宴南都活力广场 1室1厅 西南", district: "其他", city: "nanjing", lat: 32.06461146164687, lng: 118.81709582066432, avgRent: 0, listings: [
+  { id: "n626", name: "复地宴南都活力广场", district: "其他区", city: "nanjing", lat: 32.06461146164687, lng: 118.81709582066432, avgRent: 0, listings: [
     { id: "n641", title: "整租·复地宴南都活力广场 1室1厅 西南", rent: 2800, area: 52, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都活力广场 1室1厅 西南",
       images: ["https://image1.ljcdn.com/lease-image/house/6232a84d96294ec3c1db9ee9b4a90af4.jpeg.250x182.jpg", "img://room/4501", "img://room/4502"],
       landlordName: "陈静", landlordPhone: "18887411500",
       description: "房源位于复地宴南都活力广场 1室1厅 西南，南，楼层适中。1室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-05-21", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n627", name: "曙光新村小区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.036014, lng: 118.815959, avgRent: 0, listings: [
+  { id: "n627", name: "曙光新村小区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.036014, lng: 118.815959, avgRent: 0, listings: [
     { id: "n642", title: "合租·曙光新村小区 3居室 南卧", rent: 1360, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "曙光新村小区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1756442121020/ce1155a3c78056b481727ba4d9fcff3d.jpg.250x182.jpg", "img://room/4508", "img://room/4509"],
       landlordName: "杨磊", landlordPhone: "15039050827", landlordWechat: "杨磊642",
       description: "房源位于曙光新村小区 3居室 南卧，南，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫"], listedDate: "2026-05-11", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n628", name: "石榴新村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.034964, lng: 118.779469, avgRent: 0, listings: [
+  { id: "n628", name: "石榴新村", district: "其他区", city: "nanjing", lat: 32.034964, lng: 118.779469, avgRent: 0, listings: [
     { id: "n643", title: "整租·石榴新村 2室1厅 南/北", rent: 2100, area: 39, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "石榴新村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/0832cb5c3fe671b363439637dead8d0e.jpeg.250x182.jpg", "img://room/4515", "img://room/4516"],
       landlordName: "周杰", landlordPhone: "15090101532", landlordWechat: "周杰643",
       description: "房源位于石榴新村 2室1厅 南/北，南，楼层适中。2室1厅户型，39平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "采光好"], listedDate: "2026-04-12", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n629", name: "海月花园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.035323, lng: 118.832457, avgRent: 0, listings: [
+  { id: "n629", name: "海月花园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.035323, lng: 118.832457, avgRent: 0, listings: [
     { id: "n644", title: "合租·海月花园 5居室 南卧", rent: 1860, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "海月花园 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778980131335/57b492ba6895a13685be3497f317155a.jpg.250x182.jpg", "img://room/4522", "img://room/4523"],
       landlordName: "赵娜", landlordPhone: "18637742062", landlordWechat: "赵娜644",
       description: "房源位于海月花园 5居室 南卧，南，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住"], listedDate: "2026-05-24", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n630", name: "祠堂巷 2室1厅 西南", district: "其他", city: "nanjing", lat: 32.040189, lng: 118.791911, avgRent: 0, listings: [
+  { id: "n630", name: "祠堂巷", district: "其他区", city: "nanjing", lat: 32.040189, lng: 118.791911, avgRent: 0, listings: [
     { id: "n645", title: "整租·祠堂巷 2室1厅 西南", rent: 3200, area: 48, rooms: "2室1厅", floor: "楼层适中", direction: "西", community: "祠堂巷 2室1厅 西南",
       images: ["https://image1.ljcdn.com/110000-inspection/bd7391f1-0737-47e2-ac62-34b8ec779829_1000.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4529", "img://room/4530"],
       landlordName: "黄明", landlordPhone: "15882976719",
       description: "房源位于祠堂巷 2室1厅 西南，西，楼层适中。2室1厅户型，48平米。交通便利，生活配套齐全。",
       tags: ["采光好", "拎包入住"], listedDate: "2026-05-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n631", name: "梅花山庄湖畔之星 4居室 南卧", district: "其他", city: "nanjing", lat: 32.030718, lng: 118.831827, avgRent: 0, listings: [
+  { id: "n631", name: "梅花山庄湖畔之星 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.030718, lng: 118.831827, avgRent: 0, listings: [
     { id: "n646", title: "合租·梅花山庄湖畔之星 4居室 南卧", rent: 1190, area: 7, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "梅花山庄湖畔之星 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782475983210/dc4b7d1e787a8e1f84f21837574cbd84.jpg.250x182.jpg", "img://room/4536", "img://room/4537"],
       landlordName: "赵娜", landlordPhone: "13913292954", landlordWechat: "赵娜646",
       description: "房源位于梅花山庄湖畔之星 4居室 南卧，南，楼层适中。4室1厅户型，7平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "安静宜居", "独立厨卫"], listedDate: "2026-05-03", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n632", name: "万达江南明珠 4室1厅 南", district: "其他", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
+  { id: "n632", name: "万达江南明珠", district: "其他区", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
     { id: "n647", title: "整租·万达江南明珠 4室1厅 南", rent: 4500, area: 125, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "万达江南明珠 4室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8NnXQhwt8.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4543", "img://room/4544"],
       landlordName: "赵娜", landlordPhone: "15057849590", landlordWechat: "赵娜647",
       description: "房源位于万达江南明珠 4室1厅 南，南，楼层适中。4室1厅户型，125平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "拎包入住", "南北通透"], listedDate: "2026-03-28", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n633", name: "汇景家园汇美苑 3居室 南卧", district: "其他", city: "nanjing", lat: 32.09750725169493, lng: 118.853031814631, avgRent: 0, listings: [
+  { id: "n633", name: "汇景家园汇美苑 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.09750725169493, lng: 118.853031814631, avgRent: 0, listings: [
     { id: "n648", title: "合租·汇景家园汇美苑 3居室 南卧", rent: 1482, area: 24, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "汇景家园汇美苑 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1773552420887/6f3c0627affd90d5c5e8c693e9bf90ad.jpg.250x182.jpg", "img://room/4550", "img://room/4551"],
       landlordName: "周杰", landlordPhone: "18686193378", landlordWechat: "周杰648",
       description: "房源位于汇景家园汇美苑 3居室 南卧，南，楼层适中。3室1厅户型，24平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "独立厨卫"], listedDate: "2026-04-07", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n634", name: "尚书巷 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.02788, lng: 118.806383, avgRent: 0, listings: [
+  { id: "n634", name: "尚书巷", district: "其他区", city: "nanjing", lat: 32.02788, lng: 118.806383, avgRent: 0, listings: [
     { id: "n649", title: "整租·尚书巷 2室1厅 南/北", rent: 2800, area: 52, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "尚书巷 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_qyXRMSLw5_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4557", "img://room/4558"],
       landlordName: "王芳", landlordPhone: "18672490630", landlordWechat: "王芳649",
       description: "房源位于尚书巷 2室1厅 南/北，南，楼层适中。2室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁"], listedDate: "2026-06-08", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n635", name: "迎春苑 4居室 南卧", district: "其他", city: "nanjing", lat: 32.096185621960174, lng: 118.84830913249016, avgRent: 0, listings: [
+  { id: "n635", name: "迎春苑 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.096185621960174, lng: 118.84830913249016, avgRent: 0, listings: [
     { id: "n650", title: "合租·迎春苑 4居室 南卧", rent: 1690, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "迎春苑 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778394446338/521db9ae8023ab91410453c3857f5763.jpg.250x182.jpg", "img://room/4564", "img://room/4565"],
       landlordName: "吴敏", landlordPhone: "13943528705", landlordWechat: "吴敏650",
       description: "房源位于迎春苑 4居室 南卧，南，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-05-10", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n636", name: "文昌宫 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.034569, lng: 118.798927, avgRent: 0, listings: [
+  { id: "n636", name: "文昌宫", district: "其他区", city: "nanjing", lat: 32.034569, lng: 118.798927, avgRent: 0, listings: [
     { id: "n651", title: "整租·文昌宫 3室1厅 南/北", rent: 4700, area: 67, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "文昌宫 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_3gIO0o1hn_2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4571", "img://room/4572"],
       landlordName: "陈静", landlordPhone: "15819236509", landlordWechat: "陈静651",
       description: "房源位于文昌宫 3室1厅 南/北，南，楼层适中。3室1厅户型，67平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "随时看房", "独立厨卫", "精装修"], listedDate: "2026-04-22", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n637", name: "龙翔雅苑 4居室 东卧", district: "其他", city: "nanjing", lat: 31.997523, lng: 118.798545, avgRent: 0, listings: [
+  { id: "n637", name: "龙翔雅苑 4居室 东卧", district: "其他区", city: "nanjing", lat: 31.997523, lng: 118.798545, avgRent: 0, listings: [
     { id: "n652", title: "合租·龙翔雅苑 4居室 东卧", rent: 1090, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "东", community: "龙翔雅苑 4居室 东卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1778927253906/8bbf18faddefde0521344b39dc982759.jpg.250x182.jpg", "img://room/4578", "img://room/4579"],
       landlordName: "张伟", landlordPhone: "18684129601",
       description: "房源位于龙翔雅苑 4居室 东卧，东，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "安静宜居", "南北通透"], listedDate: "2026-03-07", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n638", name: "复地宴南都二期 4居室 南卧", district: "其他", city: "nanjing", lat: 31.982125, lng: 118.803925, avgRent: 0, listings: [
+  { id: "n638", name: "复地宴南都二期 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.982125, lng: 118.803925, avgRent: 0, listings: [
     { id: "n653", title: "合租·复地宴南都二期 4居室 南卧", rent: 1230, area: 11, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都二期 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1773737912357/86963849a5ca450e5f82ba5f8b703c2a.jpg.250x182.jpg", "img://room/4585", "img://room/4586"],
       landlordName: "陈静", landlordPhone: "15063883137",
       description: "房源位于复地宴南都二期 4居室 南卧，南，楼层适中。4室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "采光好", "安静宜居"], listedDate: "2026-03-23", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n639", name: "陶李王巷 3室1厅 东南", district: "其他", city: "nanjing", lat: 32.038363, lng: 118.769141, avgRent: 0, listings: [
+  { id: "n639", name: "陶李王巷", district: "其他区", city: "nanjing", lat: 32.038363, lng: 118.769141, avgRent: 0, listings: [
     { id: "n654", title: "整租·陶李王巷 3室1厅 东南", rent: 3800, area: 58, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "陶李王巷 3室1厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_FNnrtdZsy_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4592", "img://room/4593"],
       landlordName: "杨磊", landlordPhone: "13898315383", landlordWechat: "杨磊654",
       description: "房源位于陶李王巷 3室1厅 东南，东，楼层适中。3室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "安静宜居"], listedDate: "2026-06-07", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n640", name: "春天家园 5居室 北卧", district: "其他", city: "nanjing", lat: 31.991472, lng: 118.800215, avgRent: 0, listings: [
+  { id: "n640", name: "春天家园 5居室 北卧", district: "其他区", city: "nanjing", lat: 31.991472, lng: 118.800215, avgRent: 0, listings: [
     { id: "n655", title: "合租·春天家园 5居室 北卧", rent: 990, area: 8, rooms: "5室1厅", floor: "楼层适中", direction: "北", community: "春天家园 5居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780063895343/7bb6fa4a9446eda09ad55d6999022870.jpg.250x182.jpg", "img://room/4599", "img://room/4600"],
       landlordName: "周杰", landlordPhone: "15039562552", landlordWechat: "周杰655",
       description: "房源位于春天家园 5居室 北卧，北，楼层适中。5室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "拎包入住"], listedDate: "2026-04-14", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n641", name: "紫杨佳园北区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.012833, lng: 118.853283, avgRent: 0, listings: [
+  { id: "n641", name: "紫杨佳园北区", district: "其他区", city: "nanjing", lat: 32.012833, lng: 118.853283, avgRent: 0, listings: [
     { id: "n656", title: "整租·紫杨佳园北区 2室1厅 南/北", rent: 2800, area: 83, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "紫杨佳园北区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_kFBLZi4Rn.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4606", "img://room/4607"],
       landlordName: "陈静", landlordPhone: "18818536640",
       description: "房源位于紫杨佳园北区 2室1厅 南/北，北，楼层适中。2室1厅户型，83平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "采光好", "精装修"], listedDate: "2026-04-01", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n642", name: "丽景华庭 4居室 南卧", district: "其他", city: "nanjing", lat: 31.994163, lng: 118.804461, avgRent: 0, listings: [
+  { id: "n642", name: "丽景华庭 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.994163, lng: 118.804461, avgRent: 0, listings: [
     { id: "n657", title: "合租·丽景华庭 4居室 南卧", rent: 1490, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "丽景华庭 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1772519116844/fd3aff044a2e1fb36f7b3a1c5da743fb.jpg.250x182.jpg", "img://room/4613", "img://room/4614"],
       landlordName: "黄明", landlordPhone: "15026342255", landlordWechat: "黄明657",
       description: "房源位于丽景华庭 4居室 南卧，南，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "采光好"], listedDate: "2026-06-24", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n643", name: "卫桥新村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.038677, lng: 118.838343, avgRent: 0, listings: [
+  { id: "n643", name: "卫桥新村", district: "其他区", city: "nanjing", lat: 32.038677, lng: 118.838343, avgRent: 0, listings: [
     { id: "n658", title: "整租·卫桥新村 2室1厅 南", rent: 2500, area: 67, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "卫桥新村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_ZvycaPrnd.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4620", "img://room/4621"],
       landlordName: "黄明", landlordPhone: "15816659317", landlordWechat: "黄明658",
       description: "房源位于卫桥新村 2室1厅 南，南，楼层适中。2室1厅户型，67平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修"], listedDate: "2026-05-19", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n644", name: "龙翔鸣翠苑 5居室 南卧", district: "其他", city: "nanjing", lat: 31.996089, lng: 118.798252, avgRent: 0, listings: [
+  { id: "n644", name: "龙翔鸣翠苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 31.996089, lng: 118.798252, avgRent: 0, listings: [
     { id: "n659", title: "合租·龙翔鸣翠苑 5居室 南卧", rent: 1230, area: 13, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "龙翔鸣翠苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1770899890188/e32f9c820675db49330fe5f9eed8949e.jpg.250x182.jpg", "img://room/4627", "img://room/4628"],
       landlordName: "周杰", landlordPhone: "13953008020",
       description: "房源位于龙翔鸣翠苑 5居室 南卧，南，楼层适中。5室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-05-22", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n645", name: "扇骨里小区 3室1厅 南", district: "其他", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
+  { id: "n645", name: "扇骨里小区", district: "其他区", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
     { id: "n660", title: "整租·扇骨里小区 3室1厅 南", rent: 3000, area: 59, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "扇骨里小区 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_C8J9dnmlS.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4634", "img://room/4635"],
       landlordName: "李强", landlordPhone: "15837336136", landlordWechat: "李强660",
       description: "房源位于扇骨里小区 3室1厅 南，南，楼层适中。3室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "精装修"], listedDate: "2026-05-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n646", name: "汇景家园汇美苑 3居室 北卧", district: "其他", city: "nanjing", lat: 31.981176, lng: 118.809226, avgRent: 0, listings: [
+  { id: "n646", name: "汇景家园汇美苑 3居室 北卧", district: "其他区", city: "nanjing", lat: 31.981176, lng: 118.809226, avgRent: 0, listings: [
     { id: "n661", title: "合租·汇景家园汇美苑 3居室 北卧", rent: 930, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "汇景家园汇美苑 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779146683431/7163fbbd03b565c1c27283ae282d3dd3.jpg.250x182.jpg", "img://room/4641", "img://room/4642"],
       landlordName: "李强", landlordPhone: "15849750880",
       description: "房源位于汇景家园汇美苑 3居室 北卧，南，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "随时看房"], listedDate: "2026-05-13", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n647", name: "复地宴南都一期 4居室 南卧", district: "其他", city: "nanjing", lat: 31.982162, lng: 118.806768, avgRent: 0, listings: [
+  { id: "n647", name: "复地宴南都一期 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.982162, lng: 118.806768, avgRent: 0, listings: [
     { id: "n662", title: "合租·复地宴南都一期 4居室 南卧", rent: 1660, area: 14, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都一期 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779870906770/77e0095e2f17a940041245485e32ecf3.jpg.250x182.jpg", "img://room/4648", "img://room/4649"],
       landlordName: "刘洋", landlordPhone: "18621671579",
       description: "房源位于复地宴南都一期 4居室 南卧，南，楼层适中。4室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁"], listedDate: "2026-05-08", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n648", name: "紫杨佳园北区 3居室 西卧", district: "其他", city: "nanjing", lat: 32.014017, lng: 118.85228, avgRent: 0, listings: [
+  { id: "n648", name: "紫杨佳园北区 3居室 西卧", district: "其他区", city: "nanjing", lat: 32.014017, lng: 118.85228, avgRent: 0, listings: [
     { id: "n663", title: "合租·紫杨佳园北区 3居室 西卧", rent: 760, area: 6, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "紫杨佳园北区 3居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1781593217613/9fabca6d2bf505f8bd45e97ff809ab24.jpg.250x182.jpg", "img://room/4655", "img://room/4656"],
       landlordName: "吴敏", landlordPhone: "13974648039",
       description: "房源位于紫杨佳园北区 3居室 西卧，北，楼层适中。3室1厅户型，6平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-04-05", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n649", name: "黄埔鑫园 4居室 北卧", district: "其他", city: "nanjing", lat: 32.018649, lng: 118.817634, avgRent: 0, listings: [
+  { id: "n649", name: "黄埔鑫园 4居室 北卧", district: "其他区", city: "nanjing", lat: 32.018649, lng: 118.817634, avgRent: 0, listings: [
     { id: "n664", title: "合租·黄埔鑫园 4居室 北卧", rent: 1090, area: 8, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "黄埔鑫园 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782186718791/05167951d1f2c9876b8fb5b45bd19312.jpg.250x182.jpg", "img://room/4662", "img://room/4663"],
       landlordName: "赵娜", landlordPhone: "13925197726",
       description: "房源位于黄埔鑫园 4居室 北卧，北，楼层适中。4室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修"], listedDate: "2026-05-10", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n650", name: "世茂君望墅 4居室 北卧", district: "其他", city: "nanjing", lat: 31.755536, lng: 117.192728, avgRent: 0, listings: [
+  { id: "n650", name: "世茂君望墅 4居室 北卧", district: "其他区", city: "nanjing", lat: 31.755536, lng: 117.192728, avgRent: 0, listings: [
     { id: "n665", title: "合租·世茂君望墅 4居室 北卧", rent: 1030, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "北", community: "世茂君望墅 4居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1779501410676/1ce40cf5f77a866657cb1f2927f350c3.jpg.250x182.jpg", "img://room/4669", "img://room/4670"],
       landlordName: "刘洋", landlordPhone: "18673812519", landlordWechat: "刘洋665",
       description: "房源位于世茂君望墅 4居室 北卧，北，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["采光好", "随时看房", "南北通透"], listedDate: "2026-05-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n651", name: "汇景家园汇幸苑 3居室 北卧", district: "其他", city: "nanjing", lat: 31.982531, lng: 118.81156, avgRent: 0, listings: [
+  { id: "n651", name: "汇景家园汇幸苑 3居室 北卧", district: "其他区", city: "nanjing", lat: 31.982531, lng: 118.81156, avgRent: 0, listings: [
     { id: "n666", title: "合租·汇景家园汇幸苑 3居室 北卧", rent: 890, area: 8, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "汇景家园汇幸苑 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775567676528/9ac5f8e1480398dbd0834b037d1080ac.jpg.250x182.jpg", "img://room/4676", "img://room/4677"],
       landlordName: "陈静", landlordPhone: "15893971806", landlordWechat: "陈静666",
       description: "房源位于汇景家园汇幸苑 3居室 北卧，南，楼层适中。3室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-05-04", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n652", name: "陶李王巷 2室1厅 南", district: "其他", city: "nanjing", lat: 32.04717897995112, lng: 118.82139653375442, avgRent: 0, listings: [
+  { id: "n652", name: "陶李王巷", district: "其他区", city: "nanjing", lat: 32.04717897995112, lng: 118.82139653375442, avgRent: 0, listings: [
     { id: "n667", title: "整租·陶李王巷 2室1厅 南", rent: 2500, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "陶李王巷 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/14857e54db226e63ba9121af75f2fa82.jpeg.250x182.jpg", "img://room/4683", "img://room/4684"],
       landlordName: "刘洋", landlordPhone: "15015611497",
       description: "房源位于陶李王巷 2室1厅 南，南，楼层适中。2室1厅户型，57平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁"], listedDate: "2026-05-21", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n653", name: "万达新村 2室2厅 南", district: "其他", city: "nanjing", lat: 32.017833, lng: 118.854549, avgRent: 0, listings: [
+  { id: "n653", name: "万达新村", district: "其他区", city: "nanjing", lat: 32.017833, lng: 118.854549, avgRent: 0, listings: [
     { id: "n668", title: "整租·万达新村 2室2厅 南", rent: 2000, area: 66, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "万达新村 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/b49168ef82d96cb93c6998b779ed477e-010.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4690", "img://room/4691"],
       landlordName: "黄明", landlordPhone: "18846541171",
       description: "房源位于万达新村 2室2厅 南，南，楼层适中。2室2厅户型，66平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "南北通透", "采光好", "随时看房"], listedDate: "2026-05-12", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n654", name: "后标营50号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.03028, lng: 118.824899, avgRent: 0, listings: [
+  { id: "n654", name: "后标营50号", district: "其他区", city: "nanjing", lat: 32.03028, lng: 118.824899, avgRent: 0, listings: [
     { id: "n669", title: "整租·后标营50号 2室1厅 南/北", rent: 2250, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "后标营50号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/6d7ebbbdd3b9f79415187efe64c6e2b5.jpeg.250x182.jpg", "img://room/4697", "img://room/4698"],
       landlordName: "李强", landlordPhone: "18642931025",
       description: "房源位于后标营50号 2室1厅 南/北，南，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "精装修", "采光好"], listedDate: "2026-03-26", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n655", name: "瑞阳街1号 1室1厅 南/北", district: "其他", city: "nanjing", lat: 32.030843, lng: 118.81435, avgRent: 0, listings: [
+  { id: "n655", name: "瑞阳街1号", district: "其他区", city: "nanjing", lat: 32.030843, lng: 118.81435, avgRent: 0, listings: [
     { id: "n670", title: "整租·瑞阳街1号 1室1厅 南/北", rent: 3200, area: 58, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "瑞阳街1号 1室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Df3puOrgh.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4704", "img://room/4705"],
       landlordName: "陈静", landlordPhone: "18887349484",
       description: "房源位于瑞阳街1号 1室1厅 南/北，南，楼层适中。1室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "精装修", "安静宜居"], listedDate: "2026-03-17", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n656", name: "万达江南明珠 4室2厅 南", district: "其他", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
+  { id: "n656", name: "万达江南明珠", district: "其他区", city: "nanjing", lat: 32.012654, lng: 118.839671, avgRent: 0, listings: [
     { id: "n671", title: "整租·万达江南明珠 4室2厅 南", rent: 4800, area: 142, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "万达江南明珠 4室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_agN3iYm8l.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4711", "img://room/4712"],
       landlordName: "张伟", landlordPhone: "18645967717",
       description: "房源位于万达江南明珠 4室2厅 南，南，楼层适中。4室2厅户型，142平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住"], listedDate: "2026-06-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n657", name: "双桥门 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.00603, lng: 118.793495, avgRent: 0, listings: [
+  { id: "n657", name: "双桥门", district: "其他区", city: "nanjing", lat: 32.00603, lng: 118.793495, avgRent: 0, listings: [
     { id: "n672", title: "整租·双桥门 3室2厅 南/北", rent: 6000, area: 106, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "双桥门 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_7nLEgWkvS.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4718", "img://room/4719"],
       landlordName: "陈静", landlordPhone: "18811551278",
       description: "房源位于双桥门 3室2厅 南/北，南，楼层适中。3室2厅户型，106平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "拎包入住", "近地铁"], listedDate: "2026-05-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n658", name: "御道街30号 4居室 南卧", district: "其他", city: "nanjing", lat: 32.033432, lng: 118.815798, avgRent: 0, listings: [
+  { id: "n658", name: "御道街30号 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.033432, lng: 118.815798, avgRent: 0, listings: [
     { id: "n673", title: "合租·御道街30号 4居室 南卧", rent: 1530, area: 17, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "御道街30号 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780984713560/51e7e21521beaa2857a335393b3a8c31.jpg.250x182.jpg", "img://room/4725", "img://room/4726"],
       landlordName: "李强", landlordPhone: "18693121803",
       description: "房源位于御道街30号 4居室 南卧，南，楼层适中。4室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "拎包入住"], listedDate: "2026-04-23", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n659", name: "扇骨里小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
+  { id: "n659", name: "扇骨里小区", district: "其他区", city: "nanjing", lat: 32.021067, lng: 118.804734, avgRent: 0, listings: [
     { id: "n674", title: "整租·扇骨里小区 2室1厅 南", rent: 2800, area: 47, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "扇骨里小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_Kf5WpCvxX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4732", "img://room/4733"],
       landlordName: "黄明", landlordPhone: "13841790550",
       description: "房源位于扇骨里小区 2室1厅 南，南，楼层适中。2室1厅户型，47平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫", "安静宜居"], listedDate: "2026-06-20", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n660", name: "霞光里小区 4居室 南卧", district: "其他", city: "nanjing", lat: 31.999889, lng: 118.803865, avgRent: 0, listings: [
+  { id: "n660", name: "霞光里小区 4居室 南卧", district: "其他区", city: "nanjing", lat: 31.999889, lng: 118.803865, avgRent: 0, listings: [
     { id: "n675", title: "合租·霞光里小区 4居室 南卧", rent: 1190, area: 13, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "霞光里小区 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1767015403583/d409564117cb64ae1f1f2dd3509a5f54.jpg.250x182.jpg", "img://room/4739", "img://room/4740"],
       landlordName: "陈静", landlordPhone: "13871956149",
       description: "房源位于霞光里小区 4居室 南卧，南，楼层适中。4室1厅户型，13平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透", "随时看房", "采光好"], listedDate: "2026-04-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n661", name: "黄鹂新村 2室1厅 南", district: "其他", city: "nanjing", lat: 29.850674, lng: 121.568834, avgRent: 0, listings: [
+  { id: "n661", name: "黄鹂新村", district: "其他区", city: "nanjing", lat: 29.850674, lng: 121.568834, avgRent: 0, listings: [
     { id: "n676", title: "整租·黄鹂新村 2室1厅 南", rent: 3200, area: 50, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "黄鹂新村 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_DDKq6npGr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4746", "img://room/4747"],
       landlordName: "李强", landlordPhone: "13922685541", landlordWechat: "李强676",
       description: "房源位于黄鹂新村 2室1厅 南，南，楼层适中。2室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "随时看房", "精装修"], listedDate: "2026-04-16", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n662", name: "万达紫金明珠 3居室 北卧", district: "其他", city: "nanjing", lat: 32.09459537807645, lng: 118.76200593622428, avgRent: 0, listings: [
+  { id: "n662", name: "万达紫金明珠 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.09459537807645, lng: 118.76200593622428, avgRent: 0, listings: [
     { id: "n677", title: "合租·万达紫金明珠 3居室 北卧", rent: 990, area: 9, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "万达紫金明珠 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775880968264/15ea84cbf186ea5d46b396e46365e8ed.jpg.250x182.jpg", "img://room/4753", "img://room/4754"],
       landlordName: "刘洋", landlordPhone: "18842925645",
       description: "房源位于万达紫金明珠 3居室 北卧，北，楼层适中。3室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住"], listedDate: "2026-04-23", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n663", name: "大光路50号 2室1厅 南", district: "其他", city: "nanjing", lat: 32.024927, lng: 118.810511, avgRent: 0, listings: [
+  { id: "n663", name: "大光路50号", district: "其他区", city: "nanjing", lat: 32.024927, lng: 118.810511, avgRent: 0, listings: [
     { id: "n678", title: "整租·大光路50号 2室1厅 南", rent: 2500, area: 57, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "大光路50号 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/c179b570-c706-4ab8-8f16-442656e8122b.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4760", "img://room/4761"],
       landlordName: "黄明", landlordPhone: "13966934833", landlordWechat: "黄明678",
@@ -4724,721 +4724,721 @@ export const nanjingCommunities: Community[] = [
       description: "房源位于秦淮教师公寓 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好", "独立厨卫", "拎包入住"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n665", name: "豆腐坊 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.018082, lng: 118.769564, avgRent: 0, listings: [
+  { id: "n665", name: "豆腐坊", district: "其他区", city: "nanjing", lat: 32.018082, lng: 118.769564, avgRent: 0, listings: [
     { id: "n680", title: "整租·豆腐坊 2室1厅 南/北", rent: 3700, area: 62, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "豆腐坊 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_8LExgWkEl.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4774", "img://room/4775"],
       landlordName: "李强", landlordPhone: "18611106926",
       description: "房源位于豆腐坊 2室1厅 南/北，南，楼层适中。2室1厅户型，62平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫"], listedDate: "2026-06-09", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n666", name: "紫杨佳园北区 3居室 南卧", district: "其他", city: "nanjing", lat: 32.014017, lng: 118.85228, avgRent: 0, listings: [
+  { id: "n666", name: "紫杨佳园北区 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.014017, lng: 118.85228, avgRent: 0, listings: [
     { id: "n681", title: "合租·紫杨佳园北区 3居室 南卧", rent: 1060, area: 11, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "紫杨佳园北区 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1777955941380/f5c06473b9724be4555dcab008bda125.jpg.250x182.jpg", "img://room/4781", "img://room/4782"],
       landlordName: "李强", landlordPhone: "13962938564",
       description: "房源位于紫杨佳园北区 3居室 南卧，北，楼层适中。3室1厅户型，11平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居"], listedDate: "2026-06-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n667", name: "红花地 2室1厅 南", district: "其他", city: "nanjing", lat: 32.036039, lng: 118.794285, avgRent: 0, listings: [
+  { id: "n667", name: "红花地", district: "其他区", city: "nanjing", lat: 32.036039, lng: 118.794285, avgRent: 0, listings: [
     { id: "n682", title: "整租·红花地 2室1厅 南", rent: 3400, area: 52, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "红花地 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_zgEATLmMn.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4788", "img://room/4789"],
       landlordName: "李强", landlordPhone: "18890486674", landlordWechat: "李强682",
       description: "房源位于红花地 2室1厅 南，南，楼层适中。2室1厅户型，52平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修", "采光好"], listedDate: "2026-06-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n668", name: "枫丹白露白露新寓 4居室 南卧", district: "其他", city: "nanjing", lat: 32.017802, lng: 118.80327, avgRent: 0, listings: [
+  { id: "n668", name: "枫丹白露白露新寓 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.017802, lng: 118.80327, avgRent: 0, listings: [
     { id: "n683", title: "合租·枫丹白露白露新寓 4居室 南卧", rent: 1360, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "枫丹白露白露新寓 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1767928314382/ff05538b37c0ba3b66107e1007a30f56.jpg.250x182.jpg", "img://room/4795", "img://room/4796"],
       landlordName: "杨磊", landlordPhone: "18856659186", landlordWechat: "杨磊683",
       description: "房源位于枫丹白露白露新寓 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "南北通透", "安静宜居"], listedDate: "2026-04-07", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n669", name: "王府园小区 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.026072, lng: 118.787334, avgRent: 0, listings: [
+  { id: "n669", name: "王府园小区", district: "其他区", city: "nanjing", lat: 32.026072, lng: 118.787334, avgRent: 0, listings: [
     { id: "n684", title: "整租·王府园小区 2室1厅 南/北", rent: 3200, area: 42, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "王府园小区 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_NNGg8YaUB.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4802", "img://room/4803"],
       landlordName: "周杰", landlordPhone: "15837096960", landlordWechat: "周杰684",
       description: "房源位于王府园小区 2室1厅 南/北，南，楼层适中。2室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "精装修", "南北通透"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n670", name: "枫丹白露枫丹花园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.017527, lng: 118.800935, avgRent: 0, listings: [
+  { id: "n670", name: "枫丹白露枫丹花园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.017527, lng: 118.800935, avgRent: 0, listings: [
     { id: "n685", title: "合租·枫丹白露枫丹花园 5居室 南卧", rent: 2330, area: 14, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "枫丹白露枫丹花园 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1694110602658/5db94e2e899a2978cc567982601a9081.jpg.250x182.jpg", "img://room/4809", "img://room/4810"],
       landlordName: "杨磊", landlordPhone: "18684231599", landlordWechat: "杨磊685",
       description: "房源位于枫丹白露枫丹花园 5居室 南卧，南，楼层适中。5室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫"], listedDate: "2026-04-22", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n671", name: "银龙花园三期 4居室 南卧", district: "其他", city: "nanjing", lat: 32.004594, lng: 118.86034, avgRent: 0, listings: [
+  { id: "n671", name: "银龙花园三期 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.004594, lng: 118.86034, avgRent: 0, listings: [
     { id: "n686", title: "合租·银龙花园三期 4居室 南卧", rent: 1230, area: 19, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "银龙花园三期 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782523269782/890f5f32e92df0ba600ce9621453f3c4.jpg.250x182.jpg", "img://room/4816", "img://room/4817"],
       landlordName: "黄明", landlordPhone: "13950097153",
       description: "房源位于银龙花园三期 4居室 南卧，南，楼层适中。4室1厅户型，19平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "近地铁"], listedDate: "2026-05-05", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n672", name: "万达紫金明珠 4居室 南卧", district: "其他", city: "nanjing", lat: 32.01572, lng: 118.85949, avgRent: 0, listings: [
+  { id: "n672", name: "万达紫金明珠 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.01572, lng: 118.85949, avgRent: 0, listings: [
     { id: "n687", title: "合租·万达紫金明珠 4居室 南卧", rent: 1130, area: 9, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "万达紫金明珠 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1694143553385/13eae5b27884364a4942cc1b4893b806.jpg.250x182.jpg", "img://room/4823", "img://room/4824"],
       landlordName: "杨磊", landlordPhone: "18699918716", landlordWechat: "杨磊687",
       description: "房源位于万达紫金明珠 4居室 南卧，南，楼层适中。4室1厅户型，9平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "精装修"], listedDate: "2026-05-20", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n673", name: "绿国万象都荟 2居室 东卧", district: "其他", city: "nanjing", lat: 32.159153, lng: 118.694886, avgRent: 0, listings: [
+  { id: "n673", name: "绿国万象都荟 2居室 东卧", district: "其他区", city: "nanjing", lat: 32.159153, lng: 118.694886, avgRent: 0, listings: [
     { id: "n688", title: "合租·绿国万象都荟 2居室 东卧", rent: 2190, area: 15, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "绿国万象都荟 2居室 东卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782553224811/33d2699b4f242f7722db2367030811f8.jpg.250x182.jpg", "img://room/4830", "img://room/4831"],
       landlordName: "黄明", landlordPhone: "15052679529", landlordWechat: "黄明688",
       description: "房源位于绿国万象都荟 2居室 东卧，东，楼层适中。2室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["精装修", "近地铁", "采光好", "独立厨卫"], listedDate: "2026-03-17", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n674", name: "御水湾花园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.015387, lng: 118.816812, avgRent: 0, listings: [
+  { id: "n674", name: "御水湾花园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.015387, lng: 118.816812, avgRent: 0, listings: [
     { id: "n689", title: "合租·御水湾花园 4居室 南卧", rent: 1430, area: 15, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "御水湾花园 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782026759547/23aa363ecc92e3b516b91bcf7ac575b9.jpg.250x182.jpg", "img://room/4837", "img://room/4838"],
       landlordName: "张伟", landlordPhone: "15893293535",
       description: "房源位于御水湾花园 4居室 南卧，南，楼层适中。4室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-03-14", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n675", name: "黄埔鑫园 5居室 南卧", district: "其他", city: "nanjing", lat: 32.018649, lng: 118.817634, avgRent: 0, listings: [
+  { id: "n675", name: "黄埔鑫园 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.018649, lng: 118.817634, avgRent: 0, listings: [
     { id: "n690", title: "合租·黄埔鑫园 5居室 南卧", rent: 1890, area: 14, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "黄埔鑫园 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780063888957/bad93120b0f69ee60af2d76895c04df1.jpg.250x182.jpg", "img://room/4844", "img://room/4845"],
       landlordName: "黄明", landlordPhone: "18632773347",
       description: "房源位于黄埔鑫园 5居室 南卧，南，楼层适中。5室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "拎包入住"], listedDate: "2026-06-02", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n676", name: "复地宴南都活力广场 1室1厅 北", district: "其他", city: "nanjing", lat: 31.982931, lng: 118.805202, avgRent: 0, listings: [
+  { id: "n676", name: "复地宴南都活力广场", district: "其他区", city: "nanjing", lat: 31.982931, lng: 118.805202, avgRent: 0, listings: [
     { id: "n691", title: "整租·复地宴南都活力广场 1室1厅 北", rent: 2300, area: 39, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都活力广场 1室1厅 北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_vTBcEcUix.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4851", "img://room/4852"],
       landlordName: "杨磊", landlordPhone: "18838508255", landlordWechat: "杨磊691",
       description: "房源位于复地宴南都活力广场 1室1厅 北，南，楼层适中。1室1厅户型，39平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "南北通透", "采光好"], listedDate: "2026-06-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n677", name: "东南花苑 5居室 南卧", district: "其他", city: "nanjing", lat: 32.009705, lng: 118.813949, avgRent: 0, listings: [
+  { id: "n677", name: "东南花苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.009705, lng: 118.813949, avgRent: 0, listings: [
     { id: "n692", title: "合租·东南花苑 5居室 南卧", rent: 950, area: 20, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "东南花苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1731463155560/414ce518afd7c46650fd64d0099b6093.jpg.250x182.jpg", "img://room/4858", "img://room/4859"],
       landlordName: "刘洋", landlordPhone: "18858611507", landlordWechat: "刘洋692",
       description: "房源位于东南花苑 5居室 南卧，东，楼层适中。5室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好"], listedDate: "2026-03-09", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n678", name: "秣陵路 2室1厅 南", district: "其他", city: "nanjing", lat: 32.036668, lng: 118.776108, avgRent: 0, listings: [
+  { id: "n678", name: "秣陵路", district: "其他区", city: "nanjing", lat: 32.036668, lng: 118.776108, avgRent: 0, listings: [
     { id: "n693", title: "整租·秣陵路 2室1厅 南", rent: 3200, area: 54, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "秣陵路 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/ae2829194f5d3d2b9b25f529f2d1a5aa.jpeg.250x182.jpg", "img://room/4865", "img://room/4866"],
       landlordName: "周杰", landlordPhone: "15075339997", landlordWechat: "周杰693",
       description: "房源位于秣陵路 2室1厅 南，南，楼层适中。2室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "南北通透", "独立厨卫"], listedDate: "2026-06-01", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n679", name: "银龙花园二期 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.001714, lng: 118.85101, avgRent: 0, listings: [
+  { id: "n679", name: "银龙花园二期", district: "其他区", city: "nanjing", lat: 32.001714, lng: 118.85101, avgRent: 0, listings: [
     { id: "n694", title: "整租·银龙花园二期 2室1厅 南/北", rent: 2200, area: 71, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "银龙花园二期 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/82c220718f346ab463f156f75f76072e.jpeg.250x182.jpg", "img://room/4872", "img://room/4873"],
       landlordName: "刘洋", landlordPhone: "18657256448", landlordWechat: "刘洋694",
       description: "房源位于银龙花园二期 2室1厅 南/北，南，楼层适中。2室1厅户型，71平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "安静宜居", "采光好"], listedDate: "2026-06-03", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n680", name: "堂子街 3居室 北卧", district: "其他", city: "nanjing", lat: 32.036667, lng: 118.77104, avgRent: 0, listings: [
+  { id: "n680", name: "堂子街 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.036667, lng: 118.77104, avgRent: 0, listings: [
     { id: "n695", title: "合租·堂子街 3居室 北卧", rent: 1200, area: 10, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "堂子街 3居室 北卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1776222167234/ed0c6a9f8a685f6d4513929bfb9dee5b.jpg.250x182.jpg", "img://room/4879", "img://room/4880"],
       landlordName: "黄明", landlordPhone: "18624907706", landlordWechat: "黄明695",
       description: "房源位于堂子街 3居室 北卧，北，楼层适中。3室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "精装修", "拎包入住"], listedDate: "2026-06-26", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n681", name: "大王府巷 3居室 南卧", district: "其他", city: "nanjing", lat: 32.024643, lng: 118.78807, avgRent: 0, listings: [
+  { id: "n681", name: "大王府巷 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.024643, lng: 118.78807, avgRent: 0, listings: [
     { id: "n696", title: "合租·大王府巷 3居室 南卧", rent: 1200, area: 18, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "大王府巷 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/1add00576f45b8d5b3e679911be1a55c-1780282848239/a45a26b9f0fa563e75726c4f98e12806.jpg.250x182.jpg", "img://room/4886", "img://room/4887"],
       landlordName: "陈静", landlordPhone: "15839903772", landlordWechat: "陈静696",
       description: "房源位于大王府巷 3居室 南卧，南，楼层适中。3室1厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "采光好"], listedDate: "2026-05-12", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n682", name: "鸿福苑 3居室 复式 南卧", district: "其他", city: "nanjing", lat: 32.027786, lng: 118.81167, avgRent: 0, listings: [
+  { id: "n682", name: "鸿福苑 3居室 复式 南卧", district: "其他区", city: "nanjing", lat: 32.027786, lng: 118.81167, avgRent: 0, listings: [
     { id: "n697", title: "合租·鸿福苑 3居室 复式 南卧", rent: 1200, area: 20, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "鸿福苑 3居室 复式 南卧",
       images: ["https://image1.ljcdn.com/wanjia/9d09e952c6e6dfdc8f6a3610cbde1e82-1683792559048/715e6c0cbde74cd8aa279ea21e802814.jpg.250x182.jpg", "img://room/4893", "img://room/4894"],
       landlordName: "杨磊", landlordPhone: "15076883775", landlordWechat: "杨磊697",
       description: "房源位于鸿福苑 3居室 复式 南卧，南，楼层适中。3室1厅户型，20平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房"], listedDate: "2026-04-20", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n683", name: "九龙盛世园 4居室 南卧", district: "其他", city: "nanjing", lat: 32.012458, lng: 118.811277, avgRent: 0, listings: [
+  { id: "n683", name: "九龙盛世园 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.012458, lng: 118.811277, avgRent: 0, listings: [
     { id: "n698", title: "合租·九龙盛世园 4居室 南卧", rent: 1300, area: 26, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "九龙盛世园 4居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1732755738095/d33b234839320388b05f629521c593e6.jpg.250x182.jpg", "img://room/4900", "img://room/4901"],
       landlordName: "周杰", landlordPhone: "15812793866", landlordWechat: "周杰698",
       description: "房源位于九龙盛世园 4居室 南卧，南，楼层适中。4室1厅户型，26平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修"], listedDate: "2026-05-10", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n684", name: "武定新村 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.01134, lng: 118.80484, avgRent: 0, listings: [
+  { id: "n684", name: "武定新村", district: "其他区", city: "nanjing", lat: 32.01134, lng: 118.80484, avgRent: 0, listings: [
     { id: "n699", title: "整租·武定新村 2室1厅 南/北", rent: 2800, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "武定新村 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_PCkQVEcqX.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4907", "img://room/4908"],
       landlordName: "黄明", landlordPhone: "18647826045",
       description: "房源位于武定新村 2室1厅 南/北，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "独立厨卫"], listedDate: "2026-03-04", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n685", name: "龙翔雅苑 5居室 复式 南卧", district: "其他", city: "nanjing", lat: 31.996089, lng: 118.798252, avgRent: 0, listings: [
+  { id: "n685", name: "龙翔雅苑 5居室 复式 南卧", district: "其他区", city: "nanjing", lat: 31.996089, lng: 118.798252, avgRent: 0, listings: [
     { id: "n700", title: "合租·龙翔雅苑 5居室 复式 南卧", rent: 980, area: 18, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "龙翔雅苑 5居室 复式 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1775615219887/27064f2025783f71aa2c7e8e146379a3.jpg.250x182.jpg", "img://room/4914", "img://room/4915"],
       landlordName: "刘洋", landlordPhone: "13971965931",
       description: "房源位于龙翔雅苑 5居室 复式 南卧，南，楼层适中。5室1厅户型，18平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "南北通透"], listedDate: "2026-03-04", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n686", name: "马路街 2室1厅 东南/南", district: "其他", city: "nanjing", lat: 32.041348, lng: 118.900306, avgRent: 0, listings: [
+  { id: "n686", name: "马路街", district: "其他区", city: "nanjing", lat: 32.041348, lng: 118.900306, avgRent: 0, listings: [
     { id: "n701", title: "整租·马路街 2室1厅 东南/南", rent: 3000, area: 46, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "马路街 2室1厅 东南/南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_obQIZn4pw.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4921", "img://room/4922"],
       landlordName: "黄明", landlordPhone: "15047452706", landlordWechat: "黄明701",
       description: "房源位于马路街 2室1厅 东南/南，东，楼层适中。2室1厅户型，46平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "安静宜居", "拎包入住"], listedDate: "2026-05-21", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n687", name: "西方巷 5居室 南卧", district: "其他", city: "nanjing", lat: 32.03221, lng: 118.787717, avgRent: 0, listings: [
+  { id: "n687", name: "西方巷 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.03221, lng: 118.787717, avgRent: 0, listings: [
     { id: "n702", title: "合租·西方巷 5居室 南卧", rent: 1200, area: 14, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "西方巷 5居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1781775438467/5cc237570781527d6e5ebecc74c4ac2c.jpg.250x182.jpg", "img://room/4928", "img://room/4929"],
       landlordName: "李强", landlordPhone: "15879777202", landlordWechat: "李强702",
       description: "房源位于西方巷 5居室 南卧，西，楼层适中。5室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "随时看房"], listedDate: "2026-03-17", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n688", name: "二十八所(南) 2室1厅 南", district: "其他", city: "nanjing", lat: 32.033993, lng: 118.83734, avgRent: 0, listings: [
+  { id: "n688", name: "二十八所(南)", district: "其他区", city: "nanjing", lat: 32.033993, lng: 118.83734, avgRent: 0, listings: [
     { id: "n703", title: "整租·二十八所(南) 2室1厅 南", rent: 2800, area: 53, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "二十八所(南) 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/25d6b4f0-08b7-4b97-bcc6-52ebd41ee850_1000.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4935", "img://room/4936"],
       landlordName: "周杰", landlordPhone: "15832360550", landlordWechat: "周杰703",
       description: "房源位于二十八所(南) 2室1厅 南，南，楼层适中。2室1厅户型，53平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "南北通透", "安静宜居"], listedDate: "2026-05-19", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n689", name: "春光里 3居室 南卧", district: "其他", city: "nanjing", lat: 31.998273, lng: 118.800943, avgRent: 0, listings: [
+  { id: "n689", name: "春光里 3居室 南卧", district: "其他区", city: "nanjing", lat: 31.998273, lng: 118.800943, avgRent: 0, listings: [
     { id: "n704", title: "合租·春光里 3居室 南卧", rent: 1200, area: 17, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "春光里 3居室 南卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1778294968433/40d44462daa0acaa39c01afeac112946.jpg.250x182.jpg", "img://room/4942", "img://room/4943"],
       landlordName: "陈静", landlordPhone: "15816513862",
       description: "房源位于春光里 3居室 南卧，南，楼层适中。3室1厅户型，17平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "拎包入住", "独立厨卫"], listedDate: "2026-04-10", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n690", name: "御道街30号 3室1厅 南", district: "其他", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
+  { id: "n690", name: "御道街30号", district: "其他区", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
     { id: "n705", title: "整租·御道街30号 3室1厅 南", rent: 4800, area: 82, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "御道街30号 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_pQcKNiHhp.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4949", "img://room/4950"],
       landlordName: "张伟", landlordPhone: "13823441301",
       description: "房源位于御道街30号 3室1厅 南，南，楼层适中。3室1厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "独立厨卫", "南北通透"], listedDate: "2026-03-07", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n691", name: "西方巷 5居室 东卧", district: "其他", city: "nanjing", lat: 32.032659, lng: 118.788049, avgRent: 0, listings: [
+  { id: "n691", name: "西方巷 5居室 东卧", district: "其他区", city: "nanjing", lat: 32.032659, lng: 118.788049, avgRent: 0, listings: [
     { id: "n706", title: "合租·西方巷 5居室 东卧", rent: 650, area: 8, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "西方巷 5居室 东卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1782364289278/6bb8dd39b3abedb13b92ebcf33ba1559.jpg.250x182.jpg", "img://room/4956", "img://room/4957"],
       landlordName: "杨磊", landlordPhone: "13962178287", landlordWechat: "杨磊706",
       description: "房源位于西方巷 5居室 东卧，西，楼层适中。5室1厅户型，8平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-05-10", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n692", name: "御道街60号 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
+  { id: "n692", name: "御道街60号", district: "其他区", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
     { id: "n707", title: "整租·御道街60号 2室1厅 南/北", rent: 2800, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "御道街60号 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_duorI33vw.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/4963", "img://room/4964"],
       landlordName: "张伟", landlordPhone: "13943950624",
       description: "房源位于御道街60号 2室1厅 南/北，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["采光好", "近地铁", "精装修"], listedDate: "2026-05-22", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n693", name: "海福巷 3居室 南卧", district: "其他", city: "nanjing", lat: 32.020008, lng: 118.842014, avgRent: 0, listings: [
+  { id: "n693", name: "海福巷 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.020008, lng: 118.842014, avgRent: 0, listings: [
     { id: "n708", title: "合租·海福巷 3居室 南卧", rent: 1230, area: 12, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "海福巷 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775023511950/df6e750c8765c7539873553215d13d14.jpg.250x182.jpg", "img://room/4970", "img://room/4971"],
       landlordName: "陈静", landlordPhone: "15875970982", landlordWechat: "陈静708",
       description: "房源位于海福巷 3居室 南卧，南，楼层适中。3室1厅户型，12平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "采光好"], listedDate: "2026-06-28", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n694", name: "三金福邸 4居室 南卧", district: "其他", city: "nanjing", lat: 32.016317, lng: 118.835752, avgRent: 0, listings: [
+  { id: "n694", name: "三金福邸 4居室 南卧", district: "其他区", city: "nanjing", lat: 32.016317, lng: 118.835752, avgRent: 0, listings: [
     { id: "n709", title: "合租·三金福邸 4居室 南卧", rent: 1430, area: 15, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "三金福邸 4居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1775520827724/525dc0cec3c087bc03eb1da681e94a8e.jpg.250x182.jpg", "img://room/4977", "img://room/4978"],
       landlordName: "周杰", landlordPhone: "18864703625", landlordWechat: "周杰709",
       description: "房源位于三金福邸 4居室 南卧，南，楼层适中。4室2厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "采光好", "随时看房"], listedDate: "2026-04-19", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n695", name: "三金福邸 5居室 南卧", district: "其他", city: "nanjing", lat: 32.016317, lng: 118.835752, avgRent: 0, listings: [
+  { id: "n695", name: "三金福邸 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.016317, lng: 118.835752, avgRent: 0, listings: [
     { id: "n710", title: "合租·三金福邸 5居室 南卧", rent: 1590, area: 32, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "三金福邸 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782114526455/129e6657a3de91bca00c3430f0cc7b22.jpg.250x182.jpg", "img://room/4984", "img://room/4985"],
       landlordName: "吴敏", landlordPhone: "18620198361", landlordWechat: "吴敏710",
       description: "房源位于三金福邸 5居室 南卧，南，楼层适中。5室1厅户型，32平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-06-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n696", name: "双桥门 3居室 北卧", district: "其他", city: "nanjing", lat: 32.00603, lng: 118.793495, avgRent: 0, listings: [
+  { id: "n696", name: "双桥门 3居室 北卧", district: "其他区", city: "nanjing", lat: 32.00603, lng: 118.793495, avgRent: 0, listings: [
     { id: "n711", title: "合租·双桥门 3居室 北卧", rent: 1330, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "双桥门 3居室 北卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1703402148682/b0fb679f219bbba89e5a1a210a7ec099.jpg.250x182.jpg", "img://room/4991", "img://room/4992"],
       landlordName: "周杰", landlordPhone: "13816920917", landlordWechat: "周杰711",
       description: "房源位于双桥门 3居室 北卧，北，楼层适中。3室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "精装修", "安静宜居"], listedDate: "2026-03-07", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n697", name: "东南青年汇 银龙店 政府保租房/无中介费706 1室1厅", district: "其他", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
+  { id: "n697", name: "东南青年汇 银龙店 政府保租房/无中介费706", district: "其他区", city: "nanjing", lat: 32.046574, lng: 118.895039, avgRent: 0, listings: [
     { id: "n712", title: "独栋·东南青年汇 银龙店 政府保租房/无中介费706 1室1厅", rent: 1620, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "朝向好", community: "东南青年汇 银龙店 政府保租房/无中介费706 1室1厅",
       images: ["https://image1.ljcdn.com/wanjia/f6d9752eecaa4245979a0d5285e80003-1752647277094/488472237c72d9572dab664e3040e82e.jpg.250x182.jpg", "img://room/4998", "img://room/4999"],
       landlordName: "陈静", landlordPhone: "18682758225",
       description: "房源位于东南青年汇 银龙店 政府保租房/无中介费706 1室1厅，朝向好，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "拎包入住", "随时看房"], listedDate: "2026-05-02", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n698", name: "复地宴南都活力广场 1室1厅 西", district: "其他", city: "nanjing", lat: 32.05298667983469, lng: 118.73789585187197, avgRent: 0, listings: [
+  { id: "n698", name: "复地宴南都活力广场", district: "其他区", city: "nanjing", lat: 32.05298667983469, lng: 118.73789585187197, avgRent: 0, listings: [
     { id: "n713", title: "整租·复地宴南都活力广场 1室1厅 西", rent: 3390, area: 67, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "复地宴南都活力广场 1室1厅 西",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780568350393/c735d6a21acc6f52635bab84d7e7a75e.jpg.250x182.jpg", "img://room/5005", "img://room/5006"],
       landlordName: "吴敏", landlordPhone: "15871052584",
       description: "房源位于复地宴南都活力广场 1室1厅 西，南，楼层适中。1室1厅户型，67平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透"], listedDate: "2026-06-19", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n699", name: "庆盛园 1室1厅 南", district: "其他", city: "nanjing", lat: 32.01963, lng: 118.852191, avgRent: 0, listings: [
+  { id: "n699", name: "庆盛园", district: "其他区", city: "nanjing", lat: 32.01963, lng: 118.852191, avgRent: 0, listings: [
     { id: "n714", title: "整租·庆盛园 1室1厅 南", rent: 2330, area: 44, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "庆盛园 1室1厅 南",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1782276055589/561720cec65c66195a416188b3c2b659.jpg.250x182.jpg", "img://room/5012", "img://room/5013"],
       landlordName: "吴敏", landlordPhone: "15869244343",
       description: "房源位于庆盛园 1室1厅 南，南，楼层适中。1室1厅户型，44平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "南北通透", "拎包入住"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n700", name: "弓箭坊小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.023608, lng: 118.779186, avgRent: 0, listings: [
+  { id: "n700", name: "弓箭坊小区", district: "其他区", city: "nanjing", lat: 32.023608, lng: 118.779186, avgRent: 0, listings: [
     { id: "n715", title: "整租·弓箭坊小区 2室1厅 南", rent: 3200, area: 63, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "弓箭坊小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/94d507b8b672c3ce17eba15cdf26cf0f.jpeg.250x182.jpg", "img://room/5019", "img://room/5020"],
       landlordName: "黄明", landlordPhone: "18635852574", landlordWechat: "黄明715",
       description: "房源位于弓箭坊小区 2室1厅 南，南，楼层适中。2室1厅户型，63平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "采光好"], listedDate: "2026-06-12", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n701", name: "韩家苑小区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.031036, lng: 118.770691, avgRent: 0, listings: [
+  { id: "n701", name: "韩家苑小区", district: "其他区", city: "nanjing", lat: 32.031036, lng: 118.770691, avgRent: 0, listings: [
     { id: "n716", title: "整租·韩家苑小区 1室1厅 南", rent: 2200, area: 30, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "韩家苑小区 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/2e2b877d6f7e7dfb53e299cf34bc8845.jpeg.250x182.jpg", "img://room/5026", "img://room/5027"],
       landlordName: "杨磊", landlordPhone: "18858618068",
       description: "房源位于韩家苑小区 1室1厅 南，南，楼层适中。1室1厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "近地铁"], listedDate: "2026-06-24", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n702", name: "洪武公寓 3室1厅 南", district: "其他", city: "nanjing", lat: 32.031453, lng: 118.788171, avgRent: 0, listings: [
+  { id: "n702", name: "洪武公寓", district: "其他区", city: "nanjing", lat: 32.031453, lng: 118.788171, avgRent: 0, listings: [
     { id: "n717", title: "整租·洪武公寓 3室1厅 南", rent: 5000, area: 92, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "洪武公寓 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_frKn3PsfO.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5033", "img://room/5034"],
       landlordName: "张伟", landlordPhone: "15814513561",
       description: "房源位于洪武公寓 3室1厅 南，南，楼层适中。3室1厅户型，92平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "精装修", "随时看房"], listedDate: "2026-03-16", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n703", name: "王府大街 1室0厅 南", district: "其他", city: "nanjing", lat: 32.037084, lng: 118.779061, avgRent: 0, listings: [
+  { id: "n703", name: "王府大街", district: "其他区", city: "nanjing", lat: 32.037084, lng: 118.779061, avgRent: 0, listings: [
     { id: "n718", title: "整租·王府大街 1室0厅 南", rent: 2000, area: 30, rooms: "1室0厅", floor: "楼层适中", direction: "南", community: "王府大街 1室0厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5040", "img://room/5041"],
       landlordName: "陈静", landlordPhone: "15074934392",
       description: "房源位于王府大街 1室0厅 南，南，楼层适中。1室0厅户型，30平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫", "拎包入住"], listedDate: "2026-04-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n704", name: "绒庄新村 2室1厅 东/南", district: "其他", city: "nanjing", lat: 32.029472, lng: 118.781186, avgRent: 0, listings: [
+  { id: "n704", name: "绒庄新村", district: "其他区", city: "nanjing", lat: 32.029472, lng: 118.781186, avgRent: 0, listings: [
     { id: "n719", title: "整租·绒庄新村 2室1厅 东/南", rent: 2700, area: 71, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "绒庄新村 2室1厅 东/南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5047", "img://room/5048"],
       landlordName: "吴敏", landlordPhone: "18621439587", landlordWechat: "吴敏719",
       description: "房源位于绒庄新村 2室1厅 东/南，东，楼层适中。2室1厅户型，71平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住", "独立厨卫", "精装修"], listedDate: "2026-06-24", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n705", name: "汇景家园汇福苑 2室1厅 南", district: "其他", city: "nanjing", lat: 31.98365, lng: 118.810759, avgRent: 0, listings: [
+  { id: "n705", name: "汇景家园汇福苑", district: "其他区", city: "nanjing", lat: 31.98365, lng: 118.810759, avgRent: 0, listings: [
     { id: "n720", title: "整租·汇景家园汇福苑 2室1厅 南", rent: 2700, area: 64, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "汇景家园汇福苑 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5054", "img://room/5055"],
       landlordName: "王芳", landlordPhone: "18637916922", landlordWechat: "王芳720",
       description: "房源位于汇景家园汇福苑 2室1厅 南，南，楼层适中。2室1厅户型，64平米。交通便利，生活配套齐全。",
       tags: ["精装修", "独立厨卫", "安静宜居", "拎包入住"], listedDate: "2026-05-12", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n706", name: "怡水嘉园 5居室 东/北卧", district: "其他", city: "nanjing", lat: 32.010703, lng: 118.823186, avgRent: 0, listings: [
+  { id: "n706", name: "怡水嘉园 5居室 东/北卧", district: "其他区", city: "nanjing", lat: 32.010703, lng: 118.823186, avgRent: 0, listings: [
     { id: "n721", title: "合租·怡水嘉园 5居室 东/北卧", rent: 800, area: 10, rooms: "5室1厅", floor: "楼层适中", direction: "东", community: "怡水嘉园 5居室 东/北卧",
       images: ["https://image1.ljcdn.com/wanjia/653c2f4f4289c622b11a08da6dfdc5ad-1750474638399/88711f5b1b7c4577390c8887d2b0fd3a.jpg.250x182.jpg", "img://room/5061", "img://room/5062"],
       landlordName: "黄明", landlordPhone: "13893814228", landlordWechat: "黄明721",
       description: "房源位于怡水嘉园 5居室 东/北卧，东，楼层适中。5室1厅户型，10平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居", "南北通透"], listedDate: "2026-03-17", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n707", name: "天安恒隆花园 1室1厅 南", district: "其他", city: "nanjing", lat: 32.027481, lng: 118.77653, avgRent: 0, listings: [
+  { id: "n707", name: "天安恒隆花园", district: "其他区", city: "nanjing", lat: 32.027481, lng: 118.77653, avgRent: 0, listings: [
     { id: "n722", title: "整租·天安恒隆花园 1室1厅 南", rent: 2900, area: 50, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "天安恒隆花园 1室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5068", "img://room/5069"],
       landlordName: "黄明", landlordPhone: "13966557787",
       description: "房源位于天安恒隆花园 1室1厅 南，南，楼层适中。1室1厅户型，50平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居"], listedDate: "2026-03-19", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n708", name: "富民坊 3居室 南卧", district: "其他", city: "nanjing", lat: 32.033994, lng: 118.78273, avgRent: 0, listings: [
+  { id: "n708", name: "富民坊 3居室 南卧", district: "其他区", city: "nanjing", lat: 32.033994, lng: 118.78273, avgRent: 0, listings: [
     { id: "n723", title: "合租·富民坊 3居室 南卧", rent: 1590, area: 14, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "富民坊 3居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1780468719615/0e60b306a88fdf3cfb25bdebbc9b141e.jpg.250x182.jpg", "img://room/5075", "img://room/5076"],
       landlordName: "张伟", landlordPhone: "18867144221",
       description: "房源位于富民坊 3居室 南卧，南，楼层适中。3室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-03-10", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n709", name: "标营2号 3室1厅 南", district: "其他", city: "nanjing", lat: 32.070388, lng: 118.758781, avgRent: 0, listings: [
+  { id: "n709", name: "标营2号", district: "其他区", city: "nanjing", lat: 32.070388, lng: 118.758781, avgRent: 0, listings: [
     { id: "n724", title: "整租·标营2号 3室1厅 南", rent: 4800, area: 145, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "标营2号 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5082", "img://room/5083"],
       landlordName: "李强", landlordPhone: "15066947615", landlordWechat: "李强724",
       description: "房源位于标营2号 3室1厅 南，南，楼层适中。3室1厅户型，145平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "精装修"], listedDate: "2026-05-14", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n710", name: "御道街30号 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
+  { id: "n710", name: "御道街30号", district: "其他区", city: "nanjing", lat: 32.038513, lng: 118.815795, avgRent: 0, listings: [
     { id: "n725", title: "整租·御道街30号 3室1厅 南/北", rent: 3800, area: 78, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "御道街30号 3室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5089", "img://room/5090"],
       landlordName: "杨磊", landlordPhone: "15857835477",
       description: "房源位于御道街30号 3室1厅 南/北，南，楼层适中。3室1厅户型，78平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "精装修"], listedDate: "2026-06-26", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n711", name: "晨光新苑 3室1厅 南/北", district: "其他", city: "nanjing", lat: 31.968884, lng: 118.719848, avgRent: 0, listings: [
+  { id: "n711", name: "晨光新苑", district: "其他区", city: "nanjing", lat: 31.968884, lng: 118.719848, avgRent: 0, listings: [
     { id: "n726", title: "整租·晨光新苑 3室1厅 南/北", rent: 3510, area: 109, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "晨光新苑 3室1厅 南/北",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5096", "img://room/5097"],
       landlordName: "刘洋", landlordPhone: "18872138222", landlordWechat: "刘洋726",
       description: "房源位于晨光新苑 3室1厅 南/北，南，楼层适中。3室1厅户型，109平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房"], listedDate: "2026-03-05", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n712", name: "赞成领尚 1室1厅 南", district: "其他", city: "nanjing", lat: 32.004583, lng: 118.79974, avgRent: 0, listings: [
+  { id: "n712", name: "赞成领尚", district: "其他区", city: "nanjing", lat: 32.004583, lng: 118.79974, avgRent: 0, listings: [
     { id: "n727", title: "整租·赞成领尚 1室1厅 南", rent: 2400, area: 41, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "赞成领尚 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_GmnlSJJrH_1.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5103", "img://room/5104"],
       landlordName: "吴敏", landlordPhone: "15859223419", landlordWechat: "吴敏727",
       description: "房源位于赞成领尚 1室1厅 南，南，楼层适中。1室1厅户型，41平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁", "拎包入住"], listedDate: "2026-06-08", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n713", name: "大香炉 3室1厅 南", district: "其他", city: "nanjing", lat: 32.033318, lng: 118.782083, avgRent: 0, listings: [
+  { id: "n713", name: "大香炉", district: "其他区", city: "nanjing", lat: 32.033318, lng: 118.782083, avgRent: 0, listings: [
     { id: "n728", title: "整租·大香炉 3室1厅 南", rent: 4600, area: 68, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "大香炉 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5110", "img://room/5111"],
       landlordName: "吴敏", landlordPhone: "15835372254",
       description: "房源位于大香炉 3室1厅 南，南，楼层适中。3室1厅户型，68平米。交通便利，生活配套齐全。",
       tags: ["采光好", "独立厨卫"], listedDate: "2026-03-09", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n714", name: "琵琶小区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.017193, lng: 118.7903, avgRent: 0, listings: [
+  { id: "n714", name: "琵琶小区", district: "其他区", city: "nanjing", lat: 32.017193, lng: 118.7903, avgRent: 0, listings: [
     { id: "n729", title: "整租·琵琶小区 1室1厅 南", rent: 2600, area: 36, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "琵琶小区 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/8b15e8527d654ed489b4ffd0bce7d4d2.jpeg.250x182.jpg", "img://room/5117", "img://room/5118"],
       landlordName: "赵娜", landlordPhone: "15022194098",
       description: "房源位于琵琶小区 1室1厅 南，南，楼层适中。1室1厅户型，36平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "采光好", "随时看房"], listedDate: "2026-03-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n715", name: "康美里小区 2室1厅 南", district: "其他", city: "nanjing", lat: 32.005962, lng: 118.807654, avgRent: 0, listings: [
+  { id: "n715", name: "康美里小区", district: "其他区", city: "nanjing", lat: 32.005962, lng: 118.807654, avgRent: 0, listings: [
     { id: "n730", title: "整租·康美里小区 2室1厅 南", rent: 2400, area: 59, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "康美里小区 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/8dfc68d7-373f-43a4-9624-6093f4b4ad96.jpg.250x182.jpg", "img://room/5124", "img://room/5125"],
       landlordName: "杨磊", landlordPhone: "15835659278",
       description: "房源位于康美里小区 2室1厅 南，南，楼层适中。2室1厅户型，59平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "近地铁", "南北通透"], listedDate: "2026-03-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n716", name: "五十五所西华门宿舍区 1室1厅 南", district: "其他", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
+  { id: "n716", name: "五十五所西华门宿舍区", district: "其他区", city: "nanjing", lat: 32.074248, lng: 118.760797, avgRent: 0, listings: [
     { id: "n731", title: "整租·五十五所西华门宿舍区 1室1厅 南", rent: 2600, area: 54, rooms: "1室1厅", floor: "楼层适中", direction: "西", community: "五十五所西华门宿舍区 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/b977d716fd0ee00ae79ba6fa607f5089.jpeg.250x182.jpg", "img://room/5131", "img://room/5132"],
       landlordName: "杨磊", landlordPhone: "15014549979",
       description: "房源位于五十五所西华门宿舍区 1室1厅 南，西，楼层适中。1室1厅户型，54平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "随时看房", "拎包入住"], listedDate: "2026-03-24", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n717", name: "二十八所(南) 3室2厅 南/北", district: "其他", city: "nanjing", lat: 32.033993, lng: 118.83734, avgRent: 0, listings: [
+  { id: "n717", name: "二十八所(南)", district: "其他区", city: "nanjing", lat: 32.033993, lng: 118.83734, avgRent: 0, listings: [
     { id: "n732", title: "整租·二十八所(南) 3室2厅 南/北", rent: 4000, area: 99, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "二十八所(南) 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_piQMWxy1C.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5138", "img://room/5139"],
       landlordName: "杨磊", landlordPhone: "18855187517", landlordWechat: "杨磊732",
       description: "房源位于二十八所(南) 3室2厅 南/北，南，楼层适中。3室2厅户型，99平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫", "拎包入住", "南北通透"], listedDate: "2026-06-27", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n718", name: "王府园小区 3室1厅 南", district: "其他", city: "nanjing", lat: 32.026072, lng: 118.787334, avgRent: 0, listings: [
+  { id: "n718", name: "王府园小区", district: "其他区", city: "nanjing", lat: 32.026072, lng: 118.787334, avgRent: 0, listings: [
     { id: "n733", title: "整租·王府园小区 3室1厅 南", rent: 3000, area: 56, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "王府园小区 3室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5145", "img://room/5146"],
       landlordName: "杨磊", landlordPhone: "13910804973", landlordWechat: "杨磊733",
       description: "房源位于王府园小区 3室1厅 南，南，楼层适中。3室1厅户型，56平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住", "随时看房", "南北通透"], listedDate: "2026-03-05", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n719", name: "尚书村 2室1厅 东/西", district: "其他", city: "nanjing", lat: 32.028129, lng: 118.807055, avgRent: 0, listings: [
+  { id: "n719", name: "尚书村", district: "其他区", city: "nanjing", lat: 32.028129, lng: 118.807055, avgRent: 0, listings: [
     { id: "n734", title: "整租·尚书村 2室1厅 东/西", rent: 2500, area: 58, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "尚书村 2室1厅 东/西",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5152", "img://room/5153"],
       landlordName: "李强", landlordPhone: "15032440179",
       description: "房源位于尚书村 2室1厅 东/西，东，楼层适中。2室1厅户型，58平米。交通便利，生活配套齐全。",
       tags: ["精装修", "安静宜居", "独立厨卫"], listedDate: "2026-03-23", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n720", name: "瑞金新村 2室1厅 南", district: "其他", city: "nanjing", lat: 32.030313, lng: 118.81204, avgRent: 0, listings: [
+  { id: "n720", name: "瑞金新村", district: "其他区", city: "nanjing", lat: 32.030313, lng: 118.81204, avgRent: 0, listings: [
     { id: "n735", title: "整租·瑞金新村 2室1厅 南", rent: 2800, area: 45, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "瑞金新村 2室1厅 南",
       images: ["https://s1.ljcdn.com/matrix_pc/dist/pc/src/resource/default/250-182_1.png?_v=20260425100231567", "img://room/5159", "img://room/5160"],
       landlordName: "陈静", landlordPhone: "15045792782",
       description: "房源位于瑞金新村 2室1厅 南，南，楼层适中。2室1厅户型，45平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "拎包入住"], listedDate: "2026-03-15", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n721", name: "华欧德邑花园 1室1厅 东南", district: "其他", city: "nanjing", lat: 32.333081, lng: 118.817947, avgRent: 0, listings: [
+  { id: "n721", name: "华欧德邑花园", district: "其他区", city: "nanjing", lat: 32.333081, lng: 118.817947, avgRent: 0, listings: [
     { id: "n736", title: "整租·华欧德邑花园 1室1厅 东南", rent: 840, area: 43, rooms: "1室1厅", floor: "楼层适中", direction: "东", community: "华欧德邑花园 1室1厅 东南",
       images: ["https://image1.ljcdn.com/lease-image/house/250c2e9b-0b40-4665-bfad-0e5de97b7948.jpg.250x182.jpg", "img://room/5166", "img://room/5167"],
       landlordName: "李强", landlordPhone: "13923552385",
       description: "房源位于华欧德邑花园 1室1厅 东南，东，楼层适中。1室1厅户型，43平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "采光好", "南北通透"], listedDate: "2026-05-04", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n722", name: "润禾里公寓 社区店 国企直租、0中介、可短租可月付、包物业宽带、宠物友好、带地暖中央空调 3室2厅", district: "其他", city: "nanjing", lat: 31.980554, lng: 118.807194, avgRent: 0, listings: [
+  { id: "n722", name: "润禾里公寓 社区店 国企直租、0中介、可短租可月付、包物业宽带、宠物友好、带地暖中央空调", district: "其他区", city: "nanjing", lat: 31.980554, lng: 118.807194, avgRent: 0, listings: [
     { id: "n737", title: "独栋·润禾里公寓 社区店 国企直租、0中介、可短租可月付、包物业宽带、宠物友好、", rent: 1674, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 国企直租、0中介、可短租可月付、包物业宽带、宠物友好、带地暖中央空调 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1772259260523/085741eed564f7c57e4d617e1c6075ad.jpg.250x182.jpg", "img://room/5173", "img://room/5174"],
       landlordName: "赵娜", landlordPhone: "18810393801", landlordWechat: "赵娜737",
       description: "房源位于润禾里公寓 社区店 国企直租、0中介、可短租可月付、包物业宽带、宠物友好、带地暖中央空调 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "独立厨卫"], listedDate: "2026-05-06", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n723", name: "荣盛阿尔卡迪亚 3室1厅 东南", district: "其他", city: "nanjing", lat: 32.06085604308436, lng: 118.78490033291992, avgRent: 0, listings: [
+  { id: "n723", name: "荣盛阿尔卡迪亚", district: "其他区", city: "nanjing", lat: 32.06085604308436, lng: 118.78490033291992, avgRent: 0, listings: [
     { id: "n738", title: "整租·荣盛阿尔卡迪亚 3室1厅 东南", rent: 1150, area: 113, rooms: "3室1厅", floor: "楼层适中", direction: "东", community: "荣盛阿尔卡迪亚 3室1厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_QcrwmjNCm.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5180", "img://room/5181"],
       landlordName: "王芳", landlordPhone: "13977842872",
       description: "房源位于荣盛阿尔卡迪亚 3室1厅 东南，东，楼层适中。3室1厅户型，113平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "随时看房"], listedDate: "2026-04-13", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n724", name: "润禾里公寓 社区店 精装三居、0中介、包物业宽带、租期灵活、带地暖中央空调、拎包入住、随时看房 3室2厅", district: "其他", city: "nanjing", lat: 30.672566, lng: 104.134174, avgRent: 0, listings: [
+  { id: "n724", name: "润禾里公寓 社区店 精装三居、0中介、包物业宽带、租期灵活、带地暖中央空调、拎包入住、随时看房", district: "其他区", city: "nanjing", lat: 30.672566, lng: 104.134174, avgRent: 0, listings: [
     { id: "n739", title: "独栋·润禾里公寓 社区店 精装三居、0中介、包物业宽带、租期灵活、带地暖中央空调", rent: 1666, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 精装三居、0中介、包物业宽带、租期灵活、带地暖中央空调、拎包入住、随时看房 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1772261151500/9a07c76cb3608e2c90894195ed9fb196.jpg.250x182.jpg", "img://room/5187", "img://room/5188"],
       landlordName: "吴敏", landlordPhone: "18633623191", landlordWechat: "吴敏739",
       description: "房源位于润禾里公寓 社区店 精装三居、0中介、包物业宽带、租期灵活、带地暖中央空调、拎包入住、随时看房 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "拎包入住", "精装修"], listedDate: "2026-06-24", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n725", name: "荣城东苑 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.317744, lng: 118.845322, avgRent: 0, listings: [
+  { id: "n725", name: "荣城东苑", district: "其他区", city: "nanjing", lat: 32.317744, lng: 118.845322, avgRent: 0, listings: [
     { id: "n740", title: "整租·荣城东苑 3室1厅 南/北", rent: 1100, area: 98, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "荣城东苑 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_ZMJUePO0X.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5194", "img://room/5195"],
       landlordName: "刘洋", landlordPhone: "15067408050",
       description: "房源位于荣城东苑 3室1厅 南/北，南，楼层适中。3室1厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-06-22", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n726", name: "润禾里公寓 社区店 0中介、精装三居、包物业宽带、采光通透、租期灵活、家电齐全、拎包即住、管家服务 3室2厅", district: "其他", city: "nanjing", lat: 32.140743, lng: 118.826805, avgRent: 0, listings: [
+  { id: "n726", name: "润禾里公寓 社区店 0中介、精装三居、包物业宽带、采光通透、租期灵活、家电齐全、拎包即住、管家服务", district: "其他区", city: "nanjing", lat: 32.140743, lng: 118.826805, avgRent: 0, listings: [
     { id: "n741", title: "独栋·润禾里公寓 社区店 0中介、精装三居、包物业宽带、采光通透、租期灵活、家电", rent: 1584, area: 89, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 0中介、精装三居、包物业宽带、采光通透、租期灵活、家电齐全、拎包即住、管家服务 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1755481471998/4dca7c818e9f120d013d088daf441509.jpg.250x182.jpg", "img://room/5201", "img://room/5202"],
       landlordName: "黄明", landlordPhone: "15075533586", landlordWechat: "黄明741",
       description: "房源位于润禾里公寓 社区店 0中介、精装三居、包物业宽带、采光通透、租期灵活、家电齐全、拎包即住、管家服务 3室2厅，朝向好，楼层适中。3室2厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修"], listedDate: "2026-03-17", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n727", name: "荣城熙苑 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
+  { id: "n727", name: "荣城熙苑", district: "其他区", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
     { id: "n742", title: "整租·荣城熙苑 3室1厅 南/北", rent: 1300, area: 89, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "荣城熙苑 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0exUIg7qF.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5208", "img://room/5209"],
       landlordName: "黄明", landlordPhone: "13861761820",
       description: "房源位于荣城熙苑 3室1厅 南/北，南，楼层适中。3室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "南北通透"], listedDate: "2026-03-09", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n728", name: "润禾里公寓 社区店 国企新店、包物业宽带、0中介、可短租可月付、管家服务、拎包入住 3室2厅", district: "其他", city: "nanjing", lat: 32.136957, lng: 118.82938, avgRent: 0, listings: [
+  { id: "n728", name: "润禾里公寓 社区店 国企新店、包物业宽带、0中介、可短租可月付、管家服务、拎包入住", district: "其他区", city: "nanjing", lat: 32.136957, lng: 118.82938, avgRent: 0, listings: [
     { id: "n743", title: "独栋·润禾里公寓 社区店 国企新店、包物业宽带、0中介、可短租可月付、管家服务、", rent: 1573, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 国企新店、包物业宽带、0中介、可短租可月付、管家服务、拎包入住 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1775024925852/046047ee481bbcb36a40330575bd4c4a.jpg.250x182.jpg", "img://room/5215", "img://room/5216"],
       landlordName: "周杰", landlordPhone: "13948901235",
       description: "房源位于润禾里公寓 社区店 国企新店、包物业宽带、0中介、可短租可月付、管家服务、拎包入住 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "精装修"], listedDate: "2026-04-25", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n729", name: "蒋湾花园B区 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.309214, lng: 118.822745, avgRent: 0, listings: [
+  { id: "n729", name: "蒋湾花园B区", district: "其他区", city: "nanjing", lat: 32.309214, lng: 118.822745, avgRent: 0, listings: [
     { id: "n744", title: "整租·蒋湾花园B区 2室2厅 南/北", rent: 1300, area: 86, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "蒋湾花园B区 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_cj9rwNjQD.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5222", "img://room/5223"],
       landlordName: "王芳", landlordPhone: "18851472712",
       description: "房源位于蒋湾花园B区 2室2厅 南/北，南，楼层适中。2室2厅户型，86平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "独立厨卫", "南北通透"], listedDate: "2026-06-04", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n730", name: "润禾里公寓 社区店 新店开业、0中介、包物业宽带、可短租可月付、精装大三居、免费公区健身房、管家服务 3室2厅", district: "其他", city: "nanjing", lat: 32.05440463449625, lng: 118.81911824566626, avgRent: 0, listings: [
+  { id: "n730", name: "润禾里公寓 社区店 新店开业、0中介、包物业宽带、可短租可月付、精装大三居、免费公区健身房、管家服务", district: "其他区", city: "nanjing", lat: 32.05440463449625, lng: 118.81911824566626, avgRent: 0, listings: [
     { id: "n745", title: "独栋·润禾里公寓 社区店 新店开业、0中介、包物业宽带、可短租可月付、精装大三居", rent: 1558, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 新店开业、0中介、包物业宽带、可短租可月付、精装大三居、免费公区健身房、管家服务 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1775023705971/d668391a842d033d645eb4b8fac49115.jpg.250x182.jpg", "img://room/5229", "img://room/5230"],
       landlordName: "陈静", landlordPhone: "15090545090", landlordWechat: "陈静745",
       description: "房源位于润禾里公寓 社区店 新店开业、0中介、包物业宽带、可短租可月付、精装大三居、免费公区健身房、管家服务 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "采光好", "近地铁", "拎包入住"], listedDate: "2026-03-26", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n731", name: "恒丰世家 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.230796, lng: 118.7513, avgRent: 0, listings: [
+  { id: "n731", name: "恒丰世家", district: "其他区", city: "nanjing", lat: 32.230796, lng: 118.7513, avgRent: 0, listings: [
     { id: "n746", title: "整租·恒丰世家 2室2厅 南/北", rent: 1600, area: 84, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "恒丰世家 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_f9QYDi8nr.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5236", "img://room/5237"],
       landlordName: "张伟", landlordPhone: "18661576518",
       description: "房源位于恒丰世家 2室2厅 南/北，南，楼层适中。2室2厅户型，84平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "随时看房", "南北通透"], listedDate: "2026-06-20", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n732", name: "润禾里公寓 社区店 精装住宅、0中介、包物业宽带、可短租、家电齐全、拎包入住 3室2厅", district: "其他", city: "nanjing", lat: 32.140743, lng: 118.826805, avgRent: 0, listings: [
+  { id: "n732", name: "润禾里公寓 社区店 精装住宅、0中介、包物业宽带、可短租、家电齐全、拎包入住", district: "其他区", city: "nanjing", lat: 32.140743, lng: 118.826805, avgRent: 0, listings: [
     { id: "n747", title: "独栋·润禾里公寓 社区店 精装住宅、0中介、包物业宽带、可短租、家电齐全、拎包入", rent: 1604, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 精装住宅、0中介、包物业宽带、可短租、家电齐全、拎包入住 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1772177537832/a098a7de3ac92fae0b658c89d1fc481f.jpg.250x182.jpg", "img://room/5243", "img://room/5244"],
       landlordName: "吴敏", landlordPhone: "18673214498",
       description: "房源位于润禾里公寓 社区店 精装住宅、0中介、包物业宽带、可短租、家电齐全、拎包入住 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "安静宜居"], listedDate: "2026-06-13", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n733", name: "福基旭东新城 2室1厅 南", district: "其他", city: "nanjing", lat: 32.227275, lng: 118.743275, avgRent: 0, listings: [
+  { id: "n733", name: "福基旭东新城", district: "其他区", city: "nanjing", lat: 32.227275, lng: 118.743275, avgRent: 0, listings: [
     { id: "n748", title: "整租·福基旭东新城 2室1厅 南", rent: 1400, area: 89, rooms: "2室1厅", floor: "楼层适中", direction: "东", community: "福基旭东新城 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BCyzhzqwQ.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5250", "img://room/5251"],
       landlordName: "杨磊", landlordPhone: "18692677316", landlordWechat: "杨磊748",
       description: "房源位于福基旭东新城 2室1厅 南，东，楼层适中。2室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "拎包入住"], listedDate: "2026-04-04", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n734", name: "润禾里公寓 社区店 国企直租、精装三居、租期灵活、0中介、包物业宽带、拎包入住 3室2厅", district: "其他", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
+  { id: "n734", name: "润禾里公寓 社区店 国企直租、精装三居、租期灵活、0中介、包物业宽带、拎包入住", district: "其他区", city: "nanjing", lat: 31.882949, lng: 118.796206, avgRent: 0, listings: [
     { id: "n749", title: "独栋·润禾里公寓 社区店 国企直租、精装三居、租期灵活、0中介、包物业宽带、拎包", rent: 1597, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "朝向好", community: "润禾里公寓 社区店 国企直租、精装三居、租期灵活、0中介、包物业宽带、拎包入住 3室2厅",
       images: ["https://image1.ljcdn.com/wanjia/5153479cbdc0b6c97b368b6b306b6f4b-1775024376222/d668391a842d033d645eb4b8fac49115.jpg.250x182.jpg", "img://room/5257", "img://room/5258"],
       landlordName: "王芳", landlordPhone: "13966758457", landlordWechat: "王芳749",
       description: "房源位于润禾里公寓 社区店 国企直租、精装三居、租期灵活、0中介、包物业宽带、拎包入住 3室2厅，朝向好，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["精装修", "拎包入住"], listedDate: "2026-05-27", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n735", name: "冠城大通四期梅苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.311774, lng: 118.819155, avgRent: 0, listings: [
+  { id: "n735", name: "冠城大通四期梅苑", district: "其他区", city: "nanjing", lat: 32.311774, lng: 118.819155, avgRent: 0, listings: [
     { id: "n750", title: "整租·冠城大通四期梅苑 2室1厅 南", rent: 1200, area: 74, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "冠城大通四期梅苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_BARyZMyol.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5264", "img://room/5265"],
       landlordName: "陈静", landlordPhone: "18687961112", landlordWechat: "陈静750",
       description: "房源位于冠城大通四期梅苑 2室1厅 南，南，楼层适中。2室1厅户型，74平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "独立厨卫", "近地铁", "采光好"], listedDate: "2026-04-23", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n736", name: "山居花园兰苑 5居室 西卧", district: "其他", city: "nanjing", lat: 32.205739, lng: 118.737567, avgRent: 0, listings: [
+  { id: "n736", name: "山居花园兰苑 5居室 西卧", district: "其他区", city: "nanjing", lat: 32.205739, lng: 118.737567, avgRent: 0, listings: [
     { id: "n751", title: "合租·山居花园兰苑 5居室 西卧", rent: 890, area: 15, rooms: "5室1厅", floor: "楼层适中", direction: "西", community: "山居花园兰苑 5居室 西卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1755325281267/ab6216311315f2ed5bd8f307cc19e232.jpg.250x182.jpg", "img://room/5271", "img://room/5272"],
       landlordName: "刘洋", landlordPhone: "18837221916", landlordWechat: "刘洋751",
       description: "房源位于山居花园兰苑 5居室 西卧，西，楼层适中。5室1厅户型，15平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居", "近地铁", "随时看房"], listedDate: "2026-04-16", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n737", name: "景河苑 4室2厅 南", district: "其他", city: "nanjing", lat: 32.249683, lng: 118.737086, avgRent: 0, listings: [
+  { id: "n737", name: "景河苑", district: "其他区", city: "nanjing", lat: 32.249683, lng: 118.737086, avgRent: 0, listings: [
     { id: "n752", title: "整租·景河苑 4室2厅 南", rent: 1350, area: 123, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "景河苑 4室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_C4aPm8NY2.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5278", "img://room/5279"],
       landlordName: "李强", landlordPhone: "15846191214", landlordWechat: "李强752",
       description: "房源位于景河苑 4室2厅 南，南，楼层适中。4室2厅户型，123平米。交通便利，生活配套齐全。",
       tags: ["采光好", "精装修", "近地铁", "南北通透"], listedDate: "2026-04-04", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n738", name: "山居花园兰苑 5居室 南卧", district: "其他", city: "nanjing", lat: 32.205739, lng: 118.737567, avgRent: 0, listings: [
+  { id: "n738", name: "山居花园兰苑 5居室 南卧", district: "其他区", city: "nanjing", lat: 32.205739, lng: 118.737567, avgRent: 0, listings: [
     { id: "n753", title: "合租·山居花园兰苑 5居室 南卧", rent: 1060, area: 14, rooms: "5室1厅", floor: "楼层适中", direction: "南", community: "山居花园兰苑 5居室 南卧",
       images: ["https://image1.ljcdn.com/rent-house-1/img/e38dbc49b0e2fc1c054d0289fe9dde48-1758539193912/3fff215091f5d4c693f33fadad9a5cbe.jpg.250x182.jpg", "img://room/5285", "img://room/5286"],
       landlordName: "赵娜", landlordPhone: "18638635612", landlordWechat: "赵娜753",
       description: "房源位于山居花园兰苑 5居室 南卧，南，楼层适中。5室1厅户型，14平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "独立厨卫"], listedDate: "2026-03-15", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n739", name: "荣盛国际广场 1室1厅 南", district: "其他", city: "nanjing", lat: 32.09642621824127, lng: 118.77364497826994, avgRent: 0, listings: [
+  { id: "n739", name: "荣盛国际广场", district: "其他区", city: "nanjing", lat: 32.09642621824127, lng: 118.77364497826994, avgRent: 0, listings: [
     { id: "n754", title: "整租·荣盛国际广场 1室1厅 南", rent: 1200, area: 42, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "荣盛国际广场 1室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_k7Nca3WNa.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5292", "img://room/5293"],
       landlordName: "吴敏", landlordPhone: "18839838609", landlordWechat: "吴敏754",
       description: "房源位于荣盛国际广场 1室1厅 南，南，楼层适中。1室1厅户型，42平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透"], listedDate: "2026-03-17", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n740", name: "仁锦苑 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.221525, lng: 118.726183, avgRent: 0, listings: [
+  { id: "n740", name: "仁锦苑", district: "其他区", city: "nanjing", lat: 32.221525, lng: 118.726183, avgRent: 0, listings: [
     { id: "n755", title: "整租·仁锦苑 2室1厅 南/北", rent: 1150, area: 65, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "仁锦苑 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_4iGaVWdbC.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5299", "img://room/5300"],
       landlordName: "李强", landlordPhone: "15020514602", landlordWechat: "李强755",
       description: "房源位于仁锦苑 2室1厅 南/北，南，楼层适中。2室1厅户型，65平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "精装修"], listedDate: "2026-03-24", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n741", name: "荣盛阿尔卡迪亚 3室1厅 南", district: "其他", city: "nanjing", lat: 32.064075378643196, lng: 118.8440571719148, avgRent: 0, listings: [
+  { id: "n741", name: "荣盛阿尔卡迪亚", district: "其他区", city: "nanjing", lat: 32.064075378643196, lng: 118.8440571719148, avgRent: 0, listings: [
     { id: "n756", title: "整租·荣盛阿尔卡迪亚 3室1厅 南", rent: 1450, area: 107, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "荣盛阿尔卡迪亚 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_pnIxWHjvu.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5306", "img://room/5307"],
       landlordName: "陈静", landlordPhone: "15868568535",
       description: "房源位于荣盛阿尔卡迪亚 3室1厅 南，南，楼层适中。3室1厅户型，107平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "独立厨卫", "精装修"], listedDate: "2026-06-28", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n742", name: "荣盛文承熙苑 2室1厅 南", district: "其他", city: "nanjing", lat: 32.244572, lng: 118.736202, avgRent: 0, listings: [
+  { id: "n742", name: "荣盛文承熙苑", district: "其他区", city: "nanjing", lat: 32.244572, lng: 118.736202, avgRent: 0, listings: [
     { id: "n757", title: "整租·荣盛文承熙苑 2室1厅 南", rent: 1500, area: 78, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "荣盛文承熙苑 2室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_vAlkqPfgO.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5313", "img://room/5314"],
       landlordName: "杨磊", landlordPhone: "15099422703", landlordWechat: "杨磊757",
       description: "房源位于荣盛文承熙苑 2室1厅 南，南，楼层适中。2室1厅户型，78平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "南北通透", "独立厨卫"], listedDate: "2026-06-11", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n743", name: "芳庭潘园 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.218976, lng: 118.728939, avgRent: 0, listings: [
+  { id: "n743", name: "芳庭潘园", district: "其他区", city: "nanjing", lat: 32.218976, lng: 118.728939, avgRent: 0, listings: [
     { id: "n758", title: "整租·芳庭潘园 3室1厅 南/北", rent: 1000, area: 91, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "芳庭潘园 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/aecd1905395b3d6b2380c17f8684bf9c.jpeg.250x182.jpg", "img://room/5320", "img://room/5321"],
       landlordName: "赵娜", landlordPhone: "18614083158", landlordWechat: "赵娜758",
       description: "房源位于芳庭潘园 3室1厅 南/北，南，楼层适中。3室1厅户型，91平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "拎包入住", "采光好"], listedDate: "2026-04-13", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n744", name: "文馨花苑 3室1厅 南/北", district: "其他", city: "nanjing", lat: 32.333625, lng: 118.826339, avgRent: 0, listings: [
+  { id: "n744", name: "文馨花苑", district: "其他区", city: "nanjing", lat: 32.333625, lng: 118.826339, avgRent: 0, listings: [
     { id: "n759", title: "整租·文馨花苑 3室1厅 南/北", rent: 900, area: 98, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "文馨花苑 3室1厅 南/北",
       images: ["https://image1.ljcdn.com/lease-image/house/3b39ff72-dbbd-4ec3-8816-07aefdb978c6.jpg.250x182.jpg", "img://room/5327", "img://room/5328"],
       landlordName: "陈静", landlordPhone: "13995300705",
       description: "房源位于文馨花苑 3室1厅 南/北，南，楼层适中。3室1厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["采光好", "安静宜居", "随时看房"], listedDate: "2026-06-10", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n745", name: "新华六村 2室2厅 南/北", district: "其他", city: "nanjing", lat: 32.222442, lng: 118.74387, avgRent: 0, listings: [
+  { id: "n745", name: "新华六村", district: "其他区", city: "nanjing", lat: 32.222442, lng: 118.74387, avgRent: 0, listings: [
     { id: "n760", title: "整租·新华六村 2室2厅 南/北", rent: 900, area: 55, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "新华六村 2室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_7D5MusUCG.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5334", "img://room/5335"],
       landlordName: "张伟", landlordPhone: "13920035780",
       description: "房源位于新华六村 2室2厅 南/北，南，楼层适中。2室2厅户型，55平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居"], listedDate: "2026-06-22", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n746", name: "荣城熙苑 2室2厅 南", district: "其他", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
+  { id: "n746", name: "荣城熙苑", district: "其他区", city: "nanjing", lat: 32.315041, lng: 118.841161, avgRent: 0, listings: [
     { id: "n761", title: "整租·荣城熙苑 2室2厅 南", rent: 1200, area: 83, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "荣城熙苑 2室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/c485bc98-b068-490d-af29-e3802b362fb4.jpg.250x182.jpg", "img://room/5341", "img://room/5342"],
       landlordName: "张伟", landlordPhone: "15060199337", landlordWechat: "张伟761",
       description: "房源位于荣城熙苑 2室2厅 南，南，楼层适中。2室2厅户型，83平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好", "精装修", "南北通透"], listedDate: "2026-03-11", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n747", name: "桥西苑 2室1厅 南/北", district: "其他", city: "nanjing", lat: 32.329645, lng: 118.840159, avgRent: 0, listings: [
+  { id: "n747", name: "桥西苑", district: "其他区", city: "nanjing", lat: 32.329645, lng: 118.840159, avgRent: 0, listings: [
     { id: "n762", title: "整租·桥西苑 2室1厅 南/北", rent: 1260, area: 87, rooms: "2室1厅", floor: "楼层适中", direction: "南", community: "桥西苑 2室1厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/17652030730_kJA5DNjmz.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5348", "img://room/5349"],
       landlordName: "刘洋", landlordPhone: "13827695821", landlordWechat: "刘洋762",
       description: "房源位于桥西苑 2室1厅 南/北，南，楼层适中。2室1厅户型，87平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "近地铁", "独立厨卫", "安静宜居"], listedDate: "2026-06-20", isElevator: true, decoration: "精装" },
   ]},
-  { id: "n748", name: "保利观棠和府 3室2厅 南", district: "其他", city: "nanjing", lat: 32.30692, lng: 118.815083, avgRent: 0, listings: [
+  { id: "n748", name: "保利观棠和府", district: "其他区", city: "nanjing", lat: 32.30692, lng: 118.815083, avgRent: 0, listings: [
     { id: "n763", title: "整租·保利观棠和府 3室2厅 南", rent: 1600, area: 102, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "保利观棠和府 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_B1dsFSpHM.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5355", "img://room/5356"],
       landlordName: "杨磊", landlordPhone: "13937932855", landlordWechat: "杨磊763",
       description: "房源位于保利观棠和府 3室2厅 南，南，楼层适中。3室2厅户型，102平米。交通便利，生活配套齐全。",
       tags: ["拎包入住", "安静宜居", "南北通透", "采光好"], listedDate: "2026-05-04", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n749", name: "亚东同城逸境 3室1厅 南", district: "其他", city: "nanjing", lat: 31.68099, lng: 119.045122, avgRent: 0, listings: [
+  { id: "n749", name: "亚东同城逸境", district: "其他区", city: "nanjing", lat: 31.68099, lng: 119.045122, avgRent: 0, listings: [
     { id: "n764", title: "整租·亚东同城逸境 3室1厅 南", rent: 1300, area: 119, rooms: "3室1厅", floor: "楼层适中", direction: "北", community: "亚东同城逸境 3室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/03a3558eed7ad257684607feda203a84.jpeg.250x182.jpg", "img://room/5362", "img://room/5363"],
       landlordName: "陈静", landlordPhone: "13874875148",
       description: "房源位于亚东同城逸境 3室1厅 南，北，楼层适中。3室1厅户型，119平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "采光好", "随时看房"], listedDate: "2026-03-08", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n750", name: "金东城世家一期 2室1厅 南", district: "其他", city: "nanjing", lat: 31.674376, lng: 119.042003, avgRent: 0, listings: [
+  { id: "n750", name: "金东城世家一期", district: "其他区", city: "nanjing", lat: 31.674376, lng: 119.042003, avgRent: 0, listings: [
     { id: "n765", title: "整租·金东城世家一期 2室1厅 南", rent: 1000, area: 89, rooms: "2室1厅", floor: "楼层适中", direction: "北", community: "金东城世家一期 2室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/b909820dc4ba93c8ed7bd355c9298d64.jpeg.250x182.jpg", "img://room/5369", "img://room/5370"],
       landlordName: "张伟", landlordPhone: "13995464516", landlordWechat: "张伟765",
       description: "房源位于金东城世家一期 2室1厅 南，北，楼层适中。2室1厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "南北通透", "独立厨卫", "精装修"], listedDate: "2026-04-08", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n751", name: "空港新都孔雀城 3室1厅 南", district: "其他", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
+  { id: "n751", name: "空港新都孔雀城", district: "其他区", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
     { id: "n766", title: "整租·空港新都孔雀城 3室1厅 南", rent: 1045, area: 105, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "空港新都孔雀城 3室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/83c41221e1d28cd3b8b163bf9a010d00.jpeg.250x182.jpg", "img://room/5376", "img://room/5377"],
       landlordName: "吴敏", landlordPhone: "15887310220", landlordWechat: "吴敏766",
       description: "房源位于空港新都孔雀城 3室1厅 南，南，楼层适中。3室1厅户型，105平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "安静宜居"], listedDate: "2026-03-28", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n752", name: "南方新城A区 3室2厅 南", district: "其他", city: "nanjing", lat: 29.539643, lng: 106.480846, avgRent: 0, listings: [
+  { id: "n752", name: "南方新城A区", district: "其他区", city: "nanjing", lat: 29.539643, lng: 106.480846, avgRent: 0, listings: [
     { id: "n767", title: "整租·南方新城A区 3室2厅 南", rent: 1000, area: 130, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "南方新城A区 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/5353e0e400ec958cc8be141c50accf3b.jpeg.250x182.jpg", "img://room/5383", "img://room/5384"],
       landlordName: "陈静", landlordPhone: "18645728699",
       description: "房源位于南方新城A区 3室2厅 南，南，楼层适中。3室2厅户型，130平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "近地铁"], listedDate: "2026-06-25", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n753", name: "空港新都孔雀城 3室2厅 南", district: "其他", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
+  { id: "n753", name: "空港新都孔雀城", district: "其他区", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
     { id: "n768", title: "整租·空港新都孔雀城 3室2厅 南", rent: 1100, area: 88, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "空港新都孔雀城 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_TwfkJuqkx.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5390", "img://room/5391"],
       landlordName: "陈静", landlordPhone: "15010988516", landlordWechat: "陈静768",
       description: "房源位于空港新都孔雀城 3室2厅 南，南，楼层适中。3室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "随时看房"], listedDate: "2026-03-14", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n754", name: "空港新都孔雀城月鹭府 3室1厅 南", district: "其他", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
+  { id: "n754", name: "空港新都孔雀城月鹭府", district: "其他区", city: "nanjing", lat: 31.726677, lng: 118.992461, avgRent: 0, listings: [
     { id: "n769", title: "整租·空港新都孔雀城月鹭府 3室1厅 南", rent: 1100, area: 108, rooms: "3室1厅", floor: "楼层适中", direction: "南", community: "空港新都孔雀城月鹭府 3室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_uBAwZolO9.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5397", "img://room/5398"],
       landlordName: "李强", landlordPhone: "13930902492", landlordWechat: "李强769",
       description: "房源位于空港新都孔雀城月鹭府 3室1厅 南，南，楼层适中。3室1厅户型，108平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "精装修", "南北通透", "采光好"], listedDate: "2026-03-19", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n755", name: "水岸康城 2室2厅 南", district: "其他", city: "nanjing", lat: 32.175786, lng: 120.061723, avgRent: 0, listings: [
+  { id: "n755", name: "水岸康城", district: "其他区", city: "nanjing", lat: 32.175786, lng: 120.061723, avgRent: 0, listings: [
     { id: "n770", title: "整租·水岸康城 2室2厅 南", rent: 1200, area: 88, rooms: "2室2厅", floor: "楼层适中", direction: "南", community: "水岸康城 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_UiZAK0k2O.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5404", "img://room/5405"],
       landlordName: "赵娜", landlordPhone: "13869733045", landlordWechat: "赵娜770",
       description: "房源位于水岸康城 2室2厅 南，南，楼层适中。2室2厅户型，88平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "采光好"], listedDate: "2026-03-21", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n756", name: "恒大金碧天下湖光苑 4室2厅 南", district: "其他", city: "nanjing", lat: 31.69176, lng: 119.058051, avgRent: 0, listings: [
+  { id: "n756", name: "恒大金碧天下湖光苑", district: "其他区", city: "nanjing", lat: 31.69176, lng: 119.058051, avgRent: 0, listings: [
     { id: "n771", title: "整租·恒大金碧天下湖光苑 4室2厅 南", rent: 1100, area: 149, rooms: "4室2厅", floor: "楼层适中", direction: "南", community: "恒大金碧天下湖光苑 4室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_0qDSXgJY3.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5411", "img://room/5412"],
       landlordName: "吴敏", landlordPhone: "18664987697",
       description: "房源位于恒大金碧天下湖光苑 4室2厅 南，南，楼层适中。4室2厅户型，149平米。交通便利，生活配套齐全。",
       tags: ["安静宜居", "精装修", "独立厨卫", "采光好"], listedDate: "2026-03-20", isElevator: false, decoration: "豪装" },
   ]},
-  { id: "n757", name: "水岸康城 1室1厅 南", district: "其他", city: "nanjing", lat: 32.175786, lng: 120.061723, avgRent: 0, listings: [
+  { id: "n757", name: "水岸康城", district: "其他区", city: "nanjing", lat: 32.175786, lng: 120.061723, avgRent: 0, listings: [
     { id: "n772", title: "整租·水岸康城 1室1厅 南", rent: 1100, area: 82, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "水岸康城 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/dcaa19f20328c16df570f9e64acc0ce1.jpeg.250x182.jpg", "img://room/5418", "img://room/5419"],
       landlordName: "张伟", landlordPhone: "13890356293",
       description: "房源位于水岸康城 1室1厅 南，南，楼层适中。1室1厅户型，82平米。交通便利，生活配套齐全。",
       tags: ["精装修", "南北通透", "安静宜居", "随时看房"], listedDate: "2026-03-19", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n758", name: "中山首府 4室1厅 南", district: "其他", city: "nanjing", lat: 31.628853, lng: 119.038188, avgRent: 0, listings: [
+  { id: "n758", name: "中山首府", district: "其他区", city: "nanjing", lat: 31.628853, lng: 119.038188, avgRent: 0, listings: [
     { id: "n773", title: "整租·中山首府 4室1厅 南", rent: 550, area: 125, rooms: "4室1厅", floor: "楼层适中", direction: "南", community: "中山首府 4室1厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/56c0594a083c05cbb3e23009d25cd7c8-054.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5425", "img://room/5426"],
       landlordName: "周杰", landlordPhone: "13972447582", landlordWechat: "周杰773",
       description: "房源位于中山首府 4室1厅 南，南，楼层适中。4室1厅户型，125平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "采光好", "拎包入住"], listedDate: "2026-04-25", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n759", name: "创维乐活城 2室2厅 南", district: "其他", city: "nanjing", lat: 31.689355, lng: 119.012776, avgRent: 0, listings: [
+  { id: "n759", name: "创维乐活城", district: "其他区", city: "nanjing", lat: 31.689355, lng: 119.012776, avgRent: 0, listings: [
     { id: "n774", title: "整租·创维乐活城 2室2厅 南", rent: 900, area: 84, rooms: "2室2厅", floor: "楼层适中", direction: "北", community: "创维乐活城 2室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_AYgNjECvS.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5432", "img://room/5433"],
       landlordName: "赵娜", landlordPhone: "13822034354", landlordWechat: "赵娜774",
       description: "房源位于创维乐活城 2室2厅 南，北，楼层适中。2室2厅户型，84平米。交通便利，生活配套齐全。",
       tags: ["近地铁", "拎包入住"], listedDate: "2026-05-24", isElevator: false, decoration: "精装" },
   ]},
-  { id: "n760", name: "亚东同城逸境 3室2厅 南/北", district: "其他", city: "nanjing", lat: 31.68099, lng: 119.045122, avgRent: 0, listings: [
+  { id: "n760", name: "亚东同城逸境", district: "其他区", city: "nanjing", lat: 31.68099, lng: 119.045122, avgRent: 0, listings: [
     { id: "n775", title: "整租·亚东同城逸境 3室2厅 南/北", rent: 1200, area: 90, rooms: "3室2厅", floor: "楼层适中", direction: "北", community: "亚东同城逸境 3室2厅 南/北",
       images: ["https://image1.ljcdn.com/110000-inspection/d196b45461d6bcbb2b09af2bf0d73608-075.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5439", "img://room/5440"],
       landlordName: "赵娜", landlordPhone: "18884215888",
       description: "房源位于亚东同城逸境 3室2厅 南/北，北，楼层适中。3室2厅户型，90平米。交通便利，生活配套齐全。",
       tags: ["随时看房", "精装修", "采光好"], listedDate: "2026-03-21", isElevator: true, decoration: "中装" },
   ]},
-  { id: "n761", name: "溧水万达公寓 1室1厅 南", district: "溧水区", city: "nanjing", lat: 32.070554641595194, lng: 118.72248618429869, avgRent: 0, listings: [
+  { id: "n761", name: "溧水万达公寓", district: "溧水区", city: "nanjing", lat: 32.070554641595194, lng: 118.72248618429869, avgRent: 0, listings: [
     { id: "n776", title: "整租·溧水万达公寓 1室1厅 南", rent: 1046, area: 38, rooms: "1室1厅", floor: "楼层适中", direction: "南", community: "溧水万达公寓 1室1厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/17f7f3aa2f0bb773fb962531243c7a51.jpeg.250x182.jpg", "img://room/5446", "img://room/5447"],
       landlordName: "吴敏", landlordPhone: "18843055528", landlordWechat: "吴敏776",
       description: "房源位于溧水万达公寓 1室1厅 南，南，楼层适中。1室1厅户型，38平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "安静宜居"], listedDate: "2026-04-12", isElevator: false, decoration: "简装" },
   ]},
-  { id: "n762", name: "德信建发玖熙府 3室2厅 南", district: "其他", city: "nanjing", lat: 31.873014, lng: 118.779745, avgRent: 0, listings: [
+  { id: "n762", name: "德信建发玖熙府", district: "其他区", city: "nanjing", lat: 31.873014, lng: 118.779745, avgRent: 0, listings: [
     { id: "n777", title: "整租·德信建发玖熙府 3室2厅 南", rent: 1500, area: 108, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "德信建发玖熙府 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc1_jlx87N3un.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5453", "img://room/5454"],
       landlordName: "李强", landlordPhone: "18652423528",
       description: "房源位于德信建发玖熙府 3室2厅 南，南，楼层适中。3室2厅户型，108平米。交通便利，生活配套齐全。",
       tags: ["独立厨卫", "南北通透", "采光好"], listedDate: "2026-06-18", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n763", name: "时光悦府B区 3室2厅 南", district: "其他", city: "nanjing", lat: 31.631345, lng: 118.902919, avgRent: 0, listings: [
+  { id: "n763", name: "时光悦府B区", district: "其他区", city: "nanjing", lat: 31.631345, lng: 118.902919, avgRent: 0, listings: [
     { id: "n778", title: "整租·时光悦府B区 3室2厅 南", rent: 1500, area: 105, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "时光悦府B区 3室2厅 南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_H9mm25klh.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5460", "img://room/5461"],
       landlordName: "刘洋", landlordPhone: "18832898131", landlordWechat: "刘洋778",
       description: "房源位于时光悦府B区 3室2厅 南，南，楼层适中。3室2厅户型，105平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房"], listedDate: "2026-04-08", isElevator: false, decoration: "中装" },
   ]},
-  { id: "n764", name: "银城孔雀城荟见未来 3室2厅 南", district: "其他", city: "nanjing", lat: 31.724626, lng: 118.993641, avgRent: 0, listings: [
+  { id: "n764", name: "银城孔雀城荟见未来", district: "其他区", city: "nanjing", lat: 31.724626, lng: 118.993641, avgRent: 0, listings: [
     { id: "n779", title: "整租·银城孔雀城荟见未来 3室2厅 南", rent: 1500, area: 98, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "银城孔雀城荟见未来 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/d2fad3e92966f6264be0a9868c3192b0.jpeg.250x182.jpg", "img://room/5467", "img://room/5468"],
       landlordName: "陈静", landlordPhone: "13947771028",
       description: "房源位于银城孔雀城荟见未来 3室2厅 南，南，楼层适中。3室2厅户型，98平米。交通便利，生活配套齐全。",
       tags: ["南北通透", "拎包入住", "近地铁"], listedDate: "2026-06-09", isElevator: true, decoration: "简装" },
   ]},
-  { id: "n765", name: "碧桂园S1秦淮世家 3室2厅 南", district: "秦淮区", city: "nanjing", lat: 31.646154, lng: 118.905692, avgRent: 0, listings: [
+  { id: "n765", name: "碧桂园S1秦淮世家", district: "秦淮区", city: "nanjing", lat: 31.646154, lng: 118.905692, avgRent: 0, listings: [
     { id: "n780", title: "整租·碧桂园S1秦淮世家 3室2厅 南", rent: 1200, area: 105, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "碧桂园S1秦淮世家 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/1c9d6cbaa47b4e9d5015542eabb110c1.jpeg.250x182.jpg", "img://room/5474", "img://room/5475"],
       landlordName: "李强", landlordPhone: "13852853761", landlordWechat: "李强780",
       description: "房源位于碧桂园S1秦淮世家 3室2厅 南，南，楼层适中。3室2厅户型，105平米。交通便利，生活配套齐全。",
       tags: ["精装修", "随时看房", "拎包入住"], listedDate: "2026-06-10", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n766", name: "万科城棕榈苑 3室2厅 南", district: "其他", city: "nanjing", lat: 31.64154, lng: 119.050724, avgRent: 0, listings: [
+  { id: "n766", name: "万科城棕榈苑", district: "其他区", city: "nanjing", lat: 31.64154, lng: 119.050724, avgRent: 0, listings: [
     { id: "n781", title: "整租·万科城棕榈苑 3室2厅 南", rent: 1300, area: 89, rooms: "3室2厅", floor: "楼层适中", direction: "南", community: "万科城棕榈苑 3室2厅 南",
       images: ["https://image1.ljcdn.com/lease-image/house/8f909ab05b26f45f9d29ca352edd6a3a.jpeg.250x182.jpg", "img://room/5481", "img://room/5482"],
       landlordName: "李强", landlordPhone: "18612379324", landlordWechat: "李强781",
       description: "房源位于万科城棕榈苑 3室2厅 南，南，楼层适中。3室2厅户型，89平米。交通便利，生活配套齐全。",
       tags: ["精装修", "采光好", "拎包入住"], listedDate: "2026-04-22", isElevator: true, decoration: "豪装" },
   ]},
-  { id: "n767", name: "创维文汇苑 3室2厅 东南", district: "其他", city: "nanjing", lat: 31.68961, lng: 119.014576, avgRent: 0, listings: [
+  { id: "n767", name: "创维文汇苑", district: "其他区", city: "nanjing", lat: 31.68961, lng: 119.014576, avgRent: 0, listings: [
     { id: "n782", title: "整租·创维文汇苑 3室2厅 东南", rent: 1300, area: 106, rooms: "3室2厅", floor: "楼层适中", direction: "北", community: "创维文汇苑 3室2厅 东南",
       images: ["https://image1.ljcdn.com/110000-inspection/pc0_pFck0czHB.jpg!m_fill,w_250,h_182,l_flianjia_black,o_auto", "img://room/5488", "img://room/5489"],
       landlordName: "黄明", landlordPhone: "18899836905",
