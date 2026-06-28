@@ -45,18 +45,8 @@ function clusterCommunities(
   rentType: RentType,
   zoom: number
 ): { c: Community; count: number; avg: number; isCluster: boolean }[] {
-  if (zoom >= 12) {
-    // No clustering at high zoom
-    return communities.map((c) => ({
-      c,
-      count: 1,
-      avg: getFilteredAvg(c, roomType, rentType),
-      isCluster: false,
-    }));
-  }
-
-  // Grid cell size based on zoom level
-  const cellDeg = zoom <= 10 ? 0.045 : 0.025;
+  // Adaptive cell size: zoom 8=0.15deg, 12=0.015deg, 16=0.003deg
+  const cellDeg = Math.max(0.002, 0.08 / Math.pow(1.6, zoom - 8));
 
   const grid = new Map<string, { communities: Community[]; sumLat: number; sumLng: number; totalAvg: number; count: number }>();
 
@@ -199,7 +189,7 @@ export default function RentMap({
     if (company) {
       const cm = new AMap.Marker({
         position: new AMap.LngLat(company.lng, company.lat),
-        content: ['<div style="background:#2563eb;color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;white-space:nowrap;box-shadow:0 3px 12px rgba(37,99,235,0.5);border:3px solid #fff;transform:translate(-50%,-100%);cursor:pointer;">',
+        content: ['<div style="background:#2563eb;color:#fff;font-size:12px;font-weight:700;padding:6px 12px;border-radius:8px;white-space:nowrap;box-shadow:0 1px 4px rgba(37,99,235,0.3);border:3px solid #fff;transform:translate(-50%,-100%);cursor:pointer;">',
           "\u516c\u53f8: ", company.name,
         '</div>'].join(""),
         zIndex: 200,
@@ -219,9 +209,9 @@ export default function RentMap({
       const isRecommended = recommendedIds.includes(c.id);
       const size = isSelected ? 46 : isRecommended ? 40 : isCluster ? 44 : 34;
 
-      let borderStyle = isCluster ? "2px dashed rgba(255,255,255,0.9)" : "2px solid rgba(255,255,255,0.8)";
+      let borderStyle = "2px solid rgba(255,255,255,0.7)";
       let zIndex = 10;
-      let bgStyle = isCluster ? "background:linear-gradient(135deg," + color + "," + color + "cc);" : "background:" + color + ";";
+      let bgStyle = "";
 
       if (isSelected) { borderStyle = "3px solid #1d4ed8"; zIndex = 100; }
       else if (isRecommended) { borderStyle = "3px solid #f59e0b"; zIndex = 50; }
@@ -229,24 +219,21 @@ export default function RentMap({
       const fontSize = isSelected || isRecommended ? 12 : isCluster ? 11 : 11;
       const label = avg > 0 ? (isCluster ? "\u2248" + (avg / 1000).toFixed(1) + "k" : (avg / 1000).toFixed(1) + "k") : "\u65e0\u6570\u636e";
 
-      const marker = new AMap.Marker({
+      const marker = new AMap.Text({
         position: new AMap.LngLat(c.lng, c.lat),
-        content: '<div style="' +
-          bgStyle +
-          'color:#fff;' +
-          'font-size:' + fontSize + 'px;' +
-          'font-weight:600;' +
-          'padding:4px 8px;' +
-          'border-radius:6px;' +
-          'white-space:nowrap;' +
-          'box-shadow:0 2px 8px rgba(0,0,0,0.25);' +
-          'border:' + borderStyle + ';' +
-          'transform:translate(-50%,-100%);' +
-          'cursor:pointer;' +
-          'min-width:' + size + 'px;' +
-          'text-align:center;' +
-        '">' + label + '</div>',
-        offset: new AMap.Pixel(0, 0),
+        text: label,
+        style: {
+          "background-color": color,
+          "color": "#fff",
+          "font-size": fontSize + "px",
+          "font-weight": "600",
+          "padding": "3px 6px",
+          "border": borderStyle,
+          "border-radius": "3px",
+          "white-space": "nowrap",
+          "text-align": "center",
+        },
+        offset: new AMap.Pixel(0, -2),
         zIndex,
       });
 
